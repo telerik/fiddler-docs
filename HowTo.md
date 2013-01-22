@@ -46,6 +46,6 @@ FiddlerObject.UI.lvSessions.AddBoundColumn("Reason", 50, "@request.X-Download-In
 3. Drag the DO_NOT_TRUST_FiddlerRoot certificate to the Trusted Root Certification Authorities folder
 
 
-![FirstCertImage](~/images/FiddlerHowToCertificates)  
+![FirstCertImage](images/FiddlerHowToCertificates)  
 You can make a similar configuration change for Firefox and other clients that do not use the Windows Certificate store; use the appropriate Options dialog in the browser.  
-![SecondCertImage](~/images/FiddlerHowToOptionsCertificate)
+![SecondCertImage](images/FiddlerHowToOptionsCertificate)
