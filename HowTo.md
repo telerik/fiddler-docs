@@ -1,3 +1,10 @@
+---
+title: Fiddler How-Tos
+slug: howto
+tags: How-To
+publish: true
+---
+
 <!-- http://fiddler2.com/Fiddler/help/howto.asp -->
 
 #Fiddler How-Tos
