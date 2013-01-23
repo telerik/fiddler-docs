@@ -1,5 +1,12 @@
 <!-- http://fiddler2.com/Fiddler/Dev/FrameworkTarget.asp -->
 
+---
+title: Building Extension Assemblies
+slug: buildingextensionassemblies
+tags: Extensions
+publish: true
+---
+
 #Building Extension assemblies to run in both Fiddler v2 and v4
 
 If you want your extension Assembly to run in both Fiddler2 and Fiddler4, build it for .NET Framework v2 and avoid taking any dependencies on any classes that were removed or moved in the later version of the Framework. (The only instance I'm aware of is the Microsoft JScript.NET code compiler, whose classes were moved around a bit).
