@@ -1,5 +1,13 @@
 <!-- http://fiddler2.com/Fiddler/dev/IFiddlerExtension.asp -->
 
+---
+title: Extending Fiddler with .NET Code
+slug: extendingfiddler
+tags: Extending-Fiddler
+publish: true
+---
+
+
 #Extending Fiddler with .NET Code
 
 ###Introduction

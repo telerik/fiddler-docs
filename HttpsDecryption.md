@@ -1,5 +1,13 @@
 <!-- http://fiddler2.com/Fiddler/help/httpsdecryption.asp -->
 
+---
+title: HTTPS-protected traffic
+slug: httpstraffic
+tags: https
+publish: true
+---
+
+
 #Decrypting HTTPS-protected traffic
 
 ##Introduction
@@ -13,16 +21,16 @@ Enable the traffic decryption option by clicking **Tools > Fiddler Options > HTT
 
 Fiddler's certificate is not trusted by your web browser (since Fiddler is not a Trusted Root Certification authority), and hence while Fiddler2 is intercepting your traffic, you'll see a HTTPS error message in your browser, like so:
 
-![blockedcert2](~images/blockedcert2.gif)
+![blockedcert2](images/blockedcert2.gif)
 
 **Q:** Can I reconfigure my Windows client to trust the Fiddler root certificate to avoid error messages and enable logon to services like Passport?  
 **A:** Yes.  I recommend that you only make this configuration change on Test-only machines.
 
 1. When you tick the "Decrypt HTTPS Traffic" checkbox in Fiddler 2.2.9+, you will see the following prompt:  
-![HTTPSTrust1](~images/HTTP-Trust-1.png)
+![HTTPSTrust1](images/HTTP-Trust-1.png)
 
 2. If you click Yes, you will see the following prompt:  
-![CertTrustVista](~images/CertTrustVista.png)
+![CertTrustVista](images/CertTrustVista.png)
  
 3. If you click "Yes" then Windows will trust your Fiddler Root certificate and certificate warnings will be suppressed in any application which relies upon the Windows Certificate Store.
 
@@ -31,7 +39,7 @@ Fiddler's certificate is not trusted by your web browser (since Fiddler is not a
 
 In Firefox, click **Tools > Options....** Click the Advanced button at the top. Click the **Encryption** tab. Click **View Certificates**. Click the **Authorities** tab. Click **Import.** Pick the .CER file from your desktop. Check the "Trust this CA to identify web sites" checkbox.
 
-![ffimportui](~images/ffimportui.png)
+![ffimportui](images/ffimportui.png)
 
 **Q:** I seem to always get an endless loop of 401 Errors when visiting an internal server when HTTPS Decryption is enabled?  
 **A:** This may be related to the Extended Protection feature recently added to IIS. This feature binds authentication credentials to the HTTPS-channel; since Fiddler intercepts this channel, the credentials are no longer valid. See [this](http://blogs.msdn.com/b/fiddler/archive/2010/10/15/fiddler-https-decryption-and-channel-binding-token-authentication-problems.aspx) article for more information.
