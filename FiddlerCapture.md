@@ -1,5 +1,12 @@
 <!-- http://www.fiddlercap.com/FiddlerCap/ -->
 
+---
+title: Capturing Web Traffic Logs
+slug: capturingwebtrafficlogs
+tags: Web-Traffic
+publish: true
+---
+
 #Capturing web traffic logs
 
 ##Introduction
@@ -31,7 +38,7 @@ Note: FiddlerCap's installer is only in English, but FiddlerCap itself will rend
 ##Screenshot
 Here's a picture of the FiddlerCap user-interface while it's in "Capturing" mode.
 
-![fiddlerCap](http://www.fiddlercap.com/FiddlerCap/images/fiddlerCap.png)
+![fiddlerCap](images/fiddlerCap.png)
 
 ##Comments? 
 If you have a comment about the FiddlerCap tool, please click **Help > Send Feedback** inside FiddlerCap.
