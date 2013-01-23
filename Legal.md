@@ -1,5 +1,12 @@
 <!-- http://www.fiddler2.com/Fiddler/help/legal.asp -->
 
+---
+title: Legal Information
+slug: legalinformation
+tags: Legal
+publish: true
+---
+
 #Legal Information
 
 ##Fiddler License Agreement

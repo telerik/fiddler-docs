@@ -1,5 +1,13 @@
 <!-- http://fiddler2.com/Fiddler/dev/UsingCSharp.asp -->
 
+---
+title: Extending FiddlerScript using .NET
+slug: extendingfiddlerscriptusingdotnet
+tags: Script
+publish: true
+---
+
+
 Note: Prefer to write all of your code in .NET?  Use the [IAutoTamper interface](http://fiddler2.com/Fiddler/dev/IFiddlerExtension.asp) instead!
 
  

@@ -1,5 +1,13 @@
 <!-- http://www.fiddler2.com/Fiddler/dev/ScriptSamples.asp -->
 
+---
+title: Working with menus
+slug: workingwithmenus
+tags: Menus
+publish: true
+---
+
+
 #Working with menus
 
 ##Add context-menu item to open currently selected URLs using Firefox

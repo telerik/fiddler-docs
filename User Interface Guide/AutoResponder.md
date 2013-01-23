@@ -1,5 +1,12 @@
 <!-- http://fiddler2.com/Fiddler2/help/AutoResponder.asp -->
 
+---
+title: AutoResponder Reference
+slug: autoresponderreference
+tags: AutoResponder
+publish: true
+---
+
 #AutoResponder Reference
 
 Fiddler's AutoResponder tab allows you to return files from your local disk instead of transmitting the request to the server.

@@ -1,5 +1,13 @@
 <!-- http://fiddler2.com/Fiddler/help/keyboard.asp -->
 
+---
+title: Keyboard Reference
+slug: keyboardreference
+tags: Keyboard
+publish: true
+---
+
+
 #Keyboard Reference
 
 ##Keystrokes

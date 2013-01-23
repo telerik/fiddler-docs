@@ -1,5 +1,13 @@
 <!-- http://www.fiddler2.com/Fiddler/dev/ScriptSamples.asp -->
 
+---
+title: Modify Request or Response
+slug: modifyrequestorresponse
+tags: Request-Response
+publish: true
+---
+
+
 #Goal: Modify Request or Response
 
 ##Add a request header

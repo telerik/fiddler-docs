@@ -1,10 +1,18 @@
 <!-- http://fiddler2.com/Fiddler/help/quickexec.asp -->
 
+---
+title: QuickExec Reference
+slug: quickexecreference
+tags: QuickExec
+publish: true
+---
+
+
 #QuickExec Reference
 
 Fiddler's QuickExec box allows you to launch script-commands quickly.  [If you'd like, watch the demo video](http://fiddler2.com/fiddler/help/video/).
 
-![quickexec](http://fiddler2.com/Fiddler/help/images/quickexec.png)
+![quickexec](images/quickexec.png)
 
 ##Keyboard Hints
 

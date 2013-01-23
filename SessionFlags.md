@@ -1,5 +1,13 @@
 <!-- http://fiddler2.com/Fiddler/dev/SessionFlags.asp -->
 
+---
+title: Fiddler SessionFlags
+slug: fiddlersessionflags
+tags: Session
+publish: true
+---
+
+
 #Fiddler SessionFlags
 
 Each Session object in Fiddler contains a collection of string flags, in the Session.oFlags[] collection.  The flags control how the session is processed and displayed in the Fiddler session list.  Flags can be set by [FiddlerScript](http://fiddler2.com/Fiddler/dev/ScriptSamples.asp) or an [IFiddlerExtension](http://fiddler2.com/Fiddler/dev/IFiddlerExtension.asp).

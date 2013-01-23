@@ -1,5 +1,13 @@
 <!-- http://www.fiddler2.com/Fiddler/dev/ScriptSamples.asp -->
 
+---
+title: FiddlerScript CookBook
+slug: fiddlerscriptcookbook
+tags: Script
+publish: true
+---
+
+
 #FiddlerScript CookBook
 
 You can add a lot of power to Fiddler by updating its JScript.NET CustomRules.js file.  To add rules to Fiddler, choose **Customize Rules** on Fiddler's **Rules** menu.  Enter code inside the suggested function and save the file.  Fiddler will automatically reload the rules.

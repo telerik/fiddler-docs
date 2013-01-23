@@ -1,5 +1,12 @@
 <!-- http://www.fiddler2.com/Fiddler/dev/ScriptSamples.asp -->
 
+---
+title: Miscellaneous Rules
+slug: miscellaneousrules
+tags: Rules
+publish: true
+---
+
 #Miscellaneous rules
 
 ##Display in the "Custom Column" the time of the original request

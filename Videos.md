@@ -1,5 +1,12 @@
 <!-- http://www.fiddler2.com/fiddler/help/video/ -->
 
+---
+title: Fiddler Demonstration Videos
+slug: fiddlerdemonstrationvideos
+tags: Videos
+publish: true
+---
+
 #Fiddler Demonstration Videos
 
 Please right-click and "Save Target As" to download the video to your desktop.

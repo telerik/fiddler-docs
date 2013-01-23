@@ -1,5 +1,13 @@
 <!-- http://fiddler2.com/Fiddler2/help/Filters.asp -->
 
+---
+title: Filters Reference
+slug: filtersreference
+tags: Filters
+publish: true
+---
+
+
 #Filters Reference
 
 Fiddler's **Filters** tab allows you to easily filter and flag traffic displayed in the Fiddler UI, as well as perform some lightweight modifications.
@@ -15,7 +23,7 @@ Note: When the box is yellow, it means your changes have not yet been applied. C
 When configured to hide traffic to certain hosts, *Fiddler will still proxy traffic to those hosts,* but that traffic *will be hidden* from the Fiddler Session List. List multiple hosts using a semi-colon.
 
 Sample:  
-![FiltersReferenceImage](~/images/FiltersReferenceSample)
+![FiltersReferenceImage](images/FiltersReferenceSample)
 
 ###Client Process
 

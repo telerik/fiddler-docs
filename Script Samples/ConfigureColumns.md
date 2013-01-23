@@ -1,5 +1,13 @@
 <!-- http://fiddler2.com/Fiddler/help/configurecolumns.asp -->
 
+---
+title: Configuring Columns
+slug: configuringcolumns
+tags: Configuration
+publish: true
+---
+
+
 #Configuring Columns
 
 ##Column Reordering, Resizing, and Sorting

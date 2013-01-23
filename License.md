@@ -1,5 +1,12 @@
 <!-- http://www.fiddler2.com/Fiddler/help/license.asp -->
 
+---
+title: License Agreement
+slug: licenseagreement
+tags: License
+publish: true
+---
+
 #License Agreement
 
 **NOTE: The license terms contained in the Fiddler installer are definitive and supercede the terms below. 
