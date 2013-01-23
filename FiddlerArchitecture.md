@@ -1,5 +1,12 @@
 <!-- http://fiddler2.com/Fiddler/dev/FiddlerArchitecture.asp -->
 
+---
+title: Fiddler Architecture Info
+slug: fiddlerarchitectureinfo
+tags: Architecture
+publish: true
+---
+
 #Fiddler Architecture Info
 
 This page contains information about Fiddler's internal architecture which may be of interest for advanced users of Fiddler. Note that all information presented here is subject to change; expect that you will need to maintain your code if you use the functionality on this page.

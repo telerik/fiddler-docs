@@ -1,5 +1,12 @@
 <!-- http://fiddler2.com/fiddler/help/faq.asp -->
 
+---
+title: FAQ
+slug: faq
+tags: FAQ
+publish: true
+---
+
 #Frequently Asked Questions
 
  
@@ -26,8 +33,8 @@ Then, keep reading...
 **Q:** I see some traffic, but some traffic (e.g. from a specific program) seems to be missing?
 Do you have any Traffic Filters enabled?  Check in the **status bar**, the **Process Filter** in the toolbar, and the **Filters tab**. If you've written or set any Rules (see the menu) check those too.
 
-![SBFilter](~images/SBFilter.png) ![TBFilter](~images/TBFilter.png)  
-![FiltersTab](~images/filterstab.png)
+![SBFilter](images/SBFilter.png) ![TBFilter](images/TBFilter.png)  
+![FiltersTab](images/filterstab.png)
 
 In Fiddler v2.3.6.3 and later, you can click **Troubleshoot Filters...** on the Help menu. When you do so, traffic that would otherwise be hidden is instead shown in a strikethrough font. The **Comments** column will show which of Fiddler's filters was responsible for attempting to hide the traffic.
 
@@ -42,7 +49,7 @@ In Fiddler v2.3.6.3 and later, you can click **Troubleshoot Filters...** on the 
 
 Fiddler's certificate is not trusted by your web browser (since Fiddler is not a Trusted Root Certification authority), and hence while Fiddler2 is intercepting your traffic, you'll see a HTTPS error message in your browser, like so:
 
-![blockedcert](~images/blockedcert.png)
+![blockedcert](images/blockedcert.png)
 
 
 **Q:** Can I reconfigure my Windows client to trust the bogus root to avoid error messages and enable logon to services like Passport?  
@@ -52,11 +59,11 @@ Fiddler's certificate is not trusted by your web browser (since Fiddler is not a
 2. START > RUN > CERTMGR.MSC
 3. Drag the DO_NOT_TRUST_FiddlerRoot certificate to the Trusted Root Certification Authorities folder  
 
-![WindowsCertMgr](~images/WindowsCertMgr.jpg)
+![WindowsCertMgr](images/WindowsCertMgr.jpg)
 
 You can make a similar configuration change for Firefox and other clients that do not use the Windows Certificate store; use the appropriate Options dialog in the browser.  
 
-![FirefoxCertMgr](~images/FirefoxCertMgr.jpg)
+![FirefoxCertMgr](images/FirefoxCertMgr.jpg)
 
 **Q:** Does Fiddler2 demonstrate a flaw in HTTPS?  
 **A:** No.  HTTPS relies on certificates in order to secure web traffic.  Web browsers prevent man-in-the-middle attacks by relying upon Trusted Root Certification authorities to issue certificates that secure the traffic.  As designed, web browsers will show a warning when traffic is not protected by a certificate issued by a trusted root.
