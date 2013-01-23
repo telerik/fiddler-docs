@@ -1,3 +1,11 @@
+---
+title: Building Fiddler Inspectors
+slug: buildingfiddlerinspectors
+tags: Inspector
+publish: true
+---
+
+
 #Building Fiddler Inspectors
 
 Building custom Inspector objects for Fiddler is easy!  You can use any .NET language, although I'll present my examples in C#.

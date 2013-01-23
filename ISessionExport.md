@@ -1,5 +1,12 @@
 <!-- http://fiddler2.com/Fiddler/dev/ISessionExport.asp -->
 
+---
+title: Importers and Exporters Interface
+slug: importersandexportersinterface
+tags: Import-Export
+publish: true
+---
+
 #Importers and Exporters
 
 ###Introduction
