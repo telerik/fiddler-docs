@@ -1,3 +1,10 @@
+---
+title: Fiddler Credits
+slug: ciddlercredits
+tags: Credits
+publish: true
+---
+
 #Fiddler Credits
 
 Fiddler is a now maintained by Telerik, supported by feedback from many members of the [community](http://groups.google.com/group/httpfiddler/). Beyond the ~40K lines of C# code, Fiddler depends on the work of a number of other companies and individuals:

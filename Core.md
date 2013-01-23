@@ -1,10 +1,18 @@
 <!-- http://fiddler2.com/Fiddler/Core/ -->
 
+---
+title: Fiddler Core
+slug: fiddlercore
+tags: Core
+publish: true
+---
+
+
 #Introducing FiddlerCore
 
 *FiddlerCore* allows you to integrate HTTP/HTTPS traffic viewing and modification capabilities into your .NET application, without any of the Fiddler UI. 
 
-![FiddlerVsFiddlerCore](~/images/fiddler_vs_fiddlercore.png)
+![FiddlerVsFiddlerCore](images/fiddler_vs_fiddlercore.png)
 
 Learn how to develop with FiddlerCore by reading [the Wiki](http://fiddler.wikidot.com/fiddlercore). The install package contains a **.NET 2.0** and a **.NET 4.0** version of the FiddlerCore assembly.
 
