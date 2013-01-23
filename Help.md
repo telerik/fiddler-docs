@@ -1,5 +1,12 @@
 <!-- http://fiddler2.com/Fiddler/help/ -->
 
+---
+title: Fiddler Help
+slug: fiddlerhelp
+tags: Help
+publish: true
+---
+
 #Fiddler Help
 
 ##Getting Started

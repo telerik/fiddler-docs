@@ -1,5 +1,12 @@
 <!-- http://www.fiddler2.com/Fiddler/dev/ -->
 
+---
+title: Downloadable Developer Documentation
+slug: downloadabledeveloperdocumentation
+tags: Downloadable
+publish: true
+---
+
 # Downloadable Developer Documentation
 
 Documentation for FiddlerCore, which maps closely to Fiddler's API, can be [downloaded here](http://www.fiddler2.com/dl/FiddlerCoreDocsSetup.exe).
