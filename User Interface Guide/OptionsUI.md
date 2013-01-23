@@ -1,3 +1,10 @@
+---
+title: Options UI
+slug: options-ui
+tags: help
+publish: true
+---
+
 <!-- http://fiddler2.com/Fiddler/help/OptionsUI.asp -->
 
 #Fiddler Options
