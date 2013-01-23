@@ -1,5 +1,13 @@
 <!-- http://fiddler2.com/Fiddler/help/hookup.asp -->
 
+---
+title: Configuring Clients
+slug: configuringclients
+tags: Configure
+publish: true
+---
+
+
 #Configuring clients
 
 [Monitor RAS, VPN, or dialup connections?](http://fiddler2.com/Fiddler/help/hookup.asp#Q-VPN)
@@ -33,7 +41,7 @@ If they do not, they can be configured to use Fiddler by setting the appropriate
 ###Monitor RAS, VPN, or dialup connections
 Fiddler 2.2.0.3 and later introduces a new option which enables automatic monitoring of dialup or VPN connections:
 
-![MonitorAllConns](http://fiddler2.com/Fiddler/help/images/monitorAllConns.png)
+![MonitorAllConns](images/monitorAllConns.png)
 
 Otherwise, you'll need to set the Proxy Configuration manually. Set the proxy for your VPN/dialup connection as follows: 
 
@@ -43,7 +51,7 @@ Alternatively, you can set the "Use automatic configuration script" option as de
 
 Note: If you *always* have an active VPN or dialup connection, set the **HookConnectionNamed** registry value to the name of the Connection (e.g. "Dial-up Connection" in the above screenshot).  When you do this, Fiddler will hook this connection instead of the LAN connection.
 
-![hookconn](http://fiddler2.com/Fiddler/help/images/hookconn.png)
+![hookconn](images/hookconn.png)
 
 Note: IE will always use the proxy settings from any active VPN connection, without regard to whether or not that VPN connects to the Internet. 
 
@@ -201,7 +209,7 @@ You can capture traffic from any machine that supports a proxy, even if that mac
 (Restart Fiddler if this box wasn't already checked.)
 3. On the other machine (Mac/Unix/Windows) set the proxy settings to **WINBOX1:8888**.
 
-![remdbg](http://fiddler2.com/Fiddler/help/images/remdbg.jpg)
+![remdbg](images/remdbg.jpg)
 
 
 The second machine will now send its traffic through Fiddler running on WINBOX1. 
@@ -221,12 +229,12 @@ Every browser allows you to connect a proxy server; usually this is the Options 
 
 For instance, if you don't want to let [FiddlerHook](http://fiddler2.com/Fiddler2/addons/fiddlerhook/) do the job for you, you can manually configure Firefox to point at Fiddler. In Firefox, click **Tools > Options > Advanced > Network > Settings**, and adjust the settings like so:
 
-![ffAutoconfig](http://fiddler2.com/Fiddler/help/images/ffAutoconfig.jpg)
+![ffAutoconfig](images/ffAutoconfig.jpg)
 
 You can get the correct auto-configuration URL from Fiddler by clicking Tools / Fiddler Options / Connections, and clicking the "Copy Browser Proxy Configuration URL" link.
 
 
-![fidoptscopyurl](http://fiddler2.com/Fiddler/help/images/fidoptscopyurl.jpg)
+![fidoptscopyurl](images/fidoptscopyurl.jpg)
  
 
 ###Can Fiddler "chain" to an upstream proxy?
@@ -234,7 +242,7 @@ Yes, all current versions of Fiddler support chaining to upstream proxies (eithe
 
 So, you end up with an architecture like so: 
 
-![fiddlerplusproxy]( http://fiddler2.com/Fiddler/help/images/fiddlerplusproxy.gif)
+![fiddlerplusproxy](images/fiddlerplusproxy.gif)
 
 Note that Fiddler does not support upstream proxy configuration scripts that are accessed using the FILE:// protocol, only those accessed using the HTTP or HTTPS protocols (so far, no one seems to have hit this limitation in the last 6 years).
 
@@ -244,6 +252,6 @@ To see what proxy Fiddler will chain to by default:
 ####2. Inside IE, choose Tools | Internet Options | Connections.
 ####3. Click the "LAN Settings" button.
 ####4. On the dialog, examine the options: 
-![ieupstreamproxy](http://fiddler2.com/Fiddler/help/images/ieupstreamproxy.jpg)
+![ieupstreamproxy](images/ieupstreamproxy.jpg)
 ####5. After you restart Fiddler, choose Help | About Fiddler. 
 ####6. You should see the upstream proxy listed in the About box.
