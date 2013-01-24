@@ -1,11 +1,11 @@
-<!-- http://www.fiddler2.com/Fiddler/dev/ScriptSamples.asp -->
-
 ---
 title: Miscellaneous Rules
-slug: miscellaneousrules
-tags: Rules
+slug: miscellaneous-rules
+tags: Rules, scripting
 publish: true
 ---
+
+<!-- http://www.fiddler2.com/Fiddler/dev/ScriptSamples.asp -->
 
 #Miscellaneous rules
 

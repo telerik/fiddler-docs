@@ -1,11 +1,11 @@
-<!-- http://fiddler2.com/Fiddler2/addons/fiddlerhook/ -->
-
 ---
 title: FiddlerHook Help
-slug: fiddlerhookhelp
-tags: Help
+slug: fiddlerhook-help
+tags: fiddlerhook, addon
 publish: true
 ---
+
+<!-- http://fiddler2.com/Fiddler2/addons/fiddlerhook/ -->
 
 #FiddlerHook Help
 

@@ -1,11 +1,11 @@
-<!-- http://fiddler2.com/Fiddler/dev/FiddlerArchitecture.asp -->
-
 ---
 title: Fiddler Architecture Info
-slug: fiddlerarchitectureinfo
-tags: Architecture
+slug: fiddler-architecture-info
+tags: Architecture, advanced
 publish: true
 ---
+
+<!-- http://fiddler2.com/Fiddler/dev/FiddlerArchitecture.asp -->
 
 #Fiddler Architecture Info
 

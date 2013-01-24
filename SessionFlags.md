@@ -1,5 +1,3 @@
-<!-- http://fiddler2.com/Fiddler/dev/SessionFlags.asp -->
-
 ---
 title: Fiddler SessionFlags
 slug: fiddlersessionflags
@@ -7,6 +5,7 @@ tags: Session
 publish: true
 ---
 
+<!-- http://fiddler2.com/Fiddler/dev/SessionFlags.asp -->
 
 #Fiddler SessionFlags
 

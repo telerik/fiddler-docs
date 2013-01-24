@@ -1,12 +1,11 @@
-<!-- http://fiddler2.com/Fiddler/help/configurecolumns.asp -->
-
 ---
 title: Configuring Columns
-slug: configuringcolumns
-tags: Configuration
+slug: configuring-columns
+tags: Configuration, scripting
 publish: true
 ---
 
+<!-- http://fiddler2.com/Fiddler/help/configurecolumns.asp -->
 
 #Configuring Columns
 

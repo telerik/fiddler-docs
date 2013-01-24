@@ -1,12 +1,11 @@
-<!-- http://fiddler2.com/Fiddler2/help/Filters.asp -->
-
 ---
 title: Filters Reference
-slug: filtersreference
-tags: Filters
+slug: filters-reference
+tags: Filters, reference
 publish: true
 ---
 
+<!-- http://fiddler2.com/Fiddler2/help/Filters.asp -->
 
 #Filters Reference
 

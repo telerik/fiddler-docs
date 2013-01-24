@@ -1,12 +1,11 @@
-<!-- http://fiddler2.com/Fiddler/Core/ -->
-
 ---
-title: Fiddler Core
-slug: fiddlercore
-tags: Core
+title: Introducing FiddlerCore
+slug: introducing-fiddlercore
+tags: FiddlerCore
 publish: true
 ---
 
+<!-- http://fiddler2.com/Fiddler/Core/ -->
 
 #Introducing FiddlerCore
 

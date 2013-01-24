@@ -1,12 +1,11 @@
-<!-- http://www.fiddler2.com/Fiddler/dev/ScriptSamples.asp -->
-
 ---
 title: Performance Testing
-slug: performancetesting
-tags: Performance
+slug: performance-testing
+tags: Performance-testing, scripting
 publish: true
 ---
 
+<!-- http://www.fiddler2.com/Fiddler/dev/ScriptSamples.asp -->
 
 #Performance-Testing
 

@@ -1,11 +1,11 @@
-<!-- http://www.fiddler2.com/Fiddler/help/legal.asp -->
-
 ---
 title: Legal Information
 slug: legalinformation
 tags: Legal
 publish: true
 ---
+
+<!-- http://www.fiddler2.com/Fiddler/help/legal.asp -->
 
 #Legal Information
 

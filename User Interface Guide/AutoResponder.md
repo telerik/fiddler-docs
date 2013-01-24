@@ -1,11 +1,11 @@
-<!-- http://fiddler2.com/Fiddler2/help/AutoResponder.asp -->
-
 ---
 title: AutoResponder Reference
-slug: autoresponderreference
-tags: AutoResponder
+slug: autoresponder-reference
+tags: AutoResponder, reference
 publish: true
 ---
+
+<!-- http://fiddler2.com/Fiddler2/help/AutoResponder.asp -->
 
 #AutoResponder Reference
 

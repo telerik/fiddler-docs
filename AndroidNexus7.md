@@ -1,7 +1,7 @@
 ---
 title: Configuring Android / Google Nexus 7
 slug: AndroidNexus7
-tags: Android
+tags: Configuration, Android, mobile
 publish: true
 ---
 

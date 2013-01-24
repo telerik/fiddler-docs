@@ -1,11 +1,11 @@
-<!-- http://www.fiddler2.com/Fiddler/help/license.asp -->
-
 ---
 title: License Agreement
 slug: licenseagreement
 tags: License
 publish: true
 ---
+
+<!-- http://www.fiddler2.com/Fiddler/help/license.asp -->
 
 #License Agreement
 

@@ -1,12 +1,11 @@
-<!-- http://www.fiddler2.com/Fiddler/dev/ScriptSamples.asp -->
-
 ---
 title: Modify Request or Response
-slug: modifyrequestorresponse
-tags: Request-Response
+slug: modify-request-or-response
+tags: Request-Response, scripting
 publish: true
 ---
 
+<!-- http://www.fiddler2.com/Fiddler/dev/ScriptSamples.asp -->
 
 #Goal: Modify Request or Response
 

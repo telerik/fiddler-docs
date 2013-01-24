@@ -1,5 +1,3 @@
-<!-- http://fiddler2.com/Fiddler/help/httpsdecryption.asp -->
-
 ---
 title: HTTPS-protected traffic
 slug: httpstraffic
@@ -7,6 +5,7 @@ tags: https
 publish: true
 ---
 
+<!-- http://fiddler2.com/Fiddler/help/httpsdecryption.asp -->
 
 #Decrypting HTTPS-protected traffic
 

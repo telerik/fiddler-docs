@@ -2,7 +2,7 @@
 
 ---
 title: Downloadable Developer Documentation
-slug: downloadabledeveloperdocumentation
+slug: downloadable-developer-documentation
 tags: Downloadable
 publish: true
 ---

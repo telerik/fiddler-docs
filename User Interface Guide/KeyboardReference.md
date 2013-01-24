@@ -1,12 +1,11 @@
-<!-- http://fiddler2.com/Fiddler/help/keyboard.asp -->
-
 ---
 title: Keyboard Reference
-slug: keyboardreference
-tags: Keyboard
+slug: keyboard-reference
+tags: Keyboard, reference
 publish: true
 ---
 
+<!-- http://fiddler2.com/Fiddler/help/keyboard.asp -->
 
 #Keyboard Reference
 

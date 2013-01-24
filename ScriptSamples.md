@@ -1,5 +1,3 @@
-<!-- http://www.fiddler2.com/Fiddler/dev/ScriptSamples.asp -->
-
 ---
 title: FiddlerScript CookBook
 slug: fiddlerscriptcookbook
@@ -7,6 +5,7 @@ tags: Script
 publish: true
 ---
 
+<!-- http://www.fiddler2.com/Fiddler/dev/ScriptSamples.asp -->
 
 #FiddlerScript CookBook
 

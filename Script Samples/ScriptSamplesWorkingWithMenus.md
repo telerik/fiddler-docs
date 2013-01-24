@@ -1,12 +1,11 @@
-<!-- http://www.fiddler2.com/Fiddler/dev/ScriptSamples.asp -->
-
 ---
 title: Working with menus
-slug: workingwithmenus
-tags: Menus
+slug: working-with-menus
+tags: Menus, scripting
 publish: true
 ---
 
+<!-- http://www.fiddler2.com/Fiddler/dev/ScriptSamples.asp -->
 
 #Working with menus
 

@@ -1,11 +1,11 @@
-<!-- http://fiddler2.com/Fiddler/Dev/FrameworkTarget.asp -->
-
 ---
 title: Building Extension Assemblies
-slug: buildingextensionassemblies
+slug: building-extension-assemblies
 tags: Extensions
 publish: true
 ---
+
+<!-- http://fiddler2.com/Fiddler/Dev/FrameworkTarget.asp -->
 
 #Building Extension assemblies to run in both Fiddler v2 and v4
 

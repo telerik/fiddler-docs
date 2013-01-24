@@ -1,5 +1,3 @@
-<!-- http://fiddler2.com/Fiddler/dev/IFiddlerExtension.asp -->
-
 ---
 title: Extending Fiddler with .NET Code
 slug: extendingfiddler
@@ -7,6 +5,7 @@ tags: Extending-Fiddler
 publish: true
 ---
 
+<!-- http://fiddler2.com/Fiddler/dev/IFiddlerExtension.asp -->
 
 #Extending Fiddler with .NET Code
 

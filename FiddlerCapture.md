@@ -1,11 +1,11 @@
-<!-- http://www.fiddlercap.com/FiddlerCap/ -->
-
 ---
 title: Capturing Web Traffic Logs
-slug: capturingwebtrafficlogs
-tags: Web-Traffic
+slug: capturing-web-traffic-logs
+tags: Web-Traffic, logging
 publish: true
 ---
+
+<!-- http://www.fiddlercap.com/FiddlerCap/ -->
 
 #Capturing web traffic logs
 

@@ -1,11 +1,11 @@
-<!-- http://www.fiddler2.com/fiddler/help/video/ -->
-
 ---
 title: Fiddler Demonstration Videos
 slug: fiddlerdemonstrationvideos
 tags: Videos
 publish: true
 ---
+
+<!-- http://www.fiddler2.com/fiddler/help/video/ -->
 
 #Fiddler Demonstration Videos
 

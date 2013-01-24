@@ -1,5 +1,3 @@
-<!-- http://www.fiddler2.com/Fiddler/help/reverseproxy.asp -->
-
 ---
 title: Using Fiddler as a Reverse Proxy
 slug: usingfiddlerasareverseproxy
@@ -7,6 +5,7 @@ tags: Proxy
 publish: true
 ---
 
+<!-- http://www.fiddler2.com/Fiddler/help/reverseproxy.asp -->
 
 #Using Fiddler as a Reverse Proxy
 

@@ -1,12 +1,11 @@
-<!-- http://fiddler2.com/Fiddler/help/hookup.asp -->
-
 ---
 title: Configuring Clients
-slug: configuringclients
-tags: Configure
+slug: configuring-clients
+tags: Configuration, help
 publish: true
 ---
 
+<!-- http://fiddler2.com/Fiddler/help/hookup.asp -->
 
 #Configuring clients
 

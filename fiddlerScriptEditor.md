@@ -1,11 +1,11 @@
-<!-- http://fiddler2.com/fiddler/fse.asp -->
-
 ---
 title: FiddlerScript Editor
-slug: fiddlerscripteditor
-tags: Script
+slug: fiddlerscript-editor
+tags: FiddlerScript
 publish: true
 ---
+
+<!-- http://fiddler2.com/fiddler/fse.asp -->
 
 #FiddlerScript Editor
 

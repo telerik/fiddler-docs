@@ -1,11 +1,11 @@
-<!-- http://fiddler2.com/Fiddler/help/ -->
-
 ---
 title: Fiddler Help
-slug: fiddlerhelp
-tags: Help
+slug: fiddler-help
+tags: help, resources
 publish: true
 ---
+
+<!-- http://fiddler2.com/Fiddler/help/ -->
 
 #Fiddler Help
 

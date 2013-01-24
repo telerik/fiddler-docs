@@ -1,5 +1,3 @@
-<!-- http://fiddler2.com/Fiddler/help/knownissues.asp -->
-
 ---
 title: Known Issues
 slug: knownissues
@@ -7,6 +5,7 @@ tags: Issues
 publish: true
 ---
 
+<!-- http://fiddler2.com/Fiddler/help/knownissues.asp -->
 
 #Known Issues
 

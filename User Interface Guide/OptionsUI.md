@@ -1,7 +1,7 @@
 ---
 title: Options UI
 slug: options-ui
-tags: help
+tags: help, configuration
 publish: true
 ---
 

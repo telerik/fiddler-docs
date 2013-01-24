@@ -1,3 +1,10 @@
+---
+title: Attaching client certificates
+slug: attaching-client-certificates
+tags: certificates
+publish: true
+---
+
 <!-- http://fiddler2.com/Fiddler/help/httpsclientcerts.asp -->
 
 #Attaching client certificates
