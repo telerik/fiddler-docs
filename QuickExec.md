@@ -1,5 +1,3 @@
-<!-- http://fiddler2.com/Fiddler/help/quickexec.asp -->
-
 ---
 title: QuickExec Reference
 slug: quickexecreference
@@ -7,6 +5,7 @@ tags: QuickExec
 publish: true
 ---
 
+<!-- http://fiddler2.com/Fiddler/help/quickexec.asp -->
 
 #QuickExec Reference
 

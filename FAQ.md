@@ -1,11 +1,11 @@
-<!-- http://fiddler2.com/fiddler/help/faq.asp -->
-
 ---
 title: Frequently Asked Questions
 slug: frequently-asked-questions
 tags: FAQ, howto
 publish: true
 ---
+
+<!-- http://fiddler2.com/fiddler/help/faq.asp -->
 
 #Frequently Asked Questions
 
