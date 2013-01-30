@@ -4,7 +4,7 @@ Configure Fiddler for Windows 8 Metro-style applications
 Follow two steps to configure Fiddler for Windows 8:
 
 + Create a Loopback Exemption
-+ Place Fiddler’s Root Certificate in the Machine’s Trusted Root Store
++ Place Fiddlerï¿½s Root Certificate in the Machineï¿½s Trusted Root Store
 
 Create a Loopback Exemption
 ---------------------------
@@ -16,7 +16,7 @@ Create a Loopback Exemption
 
 
 
-3.      Check the box next to each application that will send traffic to Fiddler.  This requires Administrator privileges.
+3.    Check the box next to each application that will send traffic to Fiddler.  This requires Administrator privileges.
 
       ![AppContainer Loopback Exemption Utility][3].
 
@@ -26,10 +26,10 @@ Now these applications can send traffic to Fiddler.
 
 * An alternative to using the AppContainer Loopback Exemption Utility is to [declare the privateNetworkClientServer permission][5].
 
-Place Fiddler’s Root Certificate in the machine's Trusted Root store
+Place Fiddlerï¿½s Root Certificate in the machine's Trusted Root store
 --------------------------------------------------------------------
 
-1.	Enable Fiddler HTTPS-decryption feature. A ‘Warning’ dialog appears. Click **Yes** to trust the Fiddler Root certificate.
+1.	Enable Fiddler HTTPS-decryption feature. A ï¿½Warningï¿½ dialog appears. Click **Yes** to trust the Fiddler Root certificate.
 
  ![Warning dialog][6]
 
