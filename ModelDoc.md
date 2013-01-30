@@ -47,7 +47,7 @@ Place Fiddler�s Root Certificate in the machine's Trusted Root store
 
 Fiddler is now ready to use in Windows 8.
 
-[1]: /images/AppContainerLoopbackExemptionUtility.png
+[1]: https://www.fiddler2.com/dl/EnableLoopbackUtility.exe
 [2]: /path/img1.jpg "Fiddler Tools menu"
 [3]: /path/img2.jpg "AppContainer Loopback Exemption Utility"
 [4]: http://stackoverflow.com/questions/13360309/using-fiddler-with-windows-store-unit-test
