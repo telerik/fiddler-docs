@@ -1,4 +1,13 @@
-﻿Configure Fiddler for Windows 8 Metro-style applications
+﻿---
+title: Configure Fiddler for Windows 8 Metro-style applications
+slug: Windows8Config
+tags: Configuration, Windows 8, Certificate, Metro, Loopback
+publish: true
+---
+
+<!-- http://fiddler2.com/Fiddler/help/AndroidNexus7.asp -->
+
+Configure Fiddler for Windows 8 Metro-style applications
 ========================================================
 
 Follow two steps to configure Fiddler for Windows 8:
