@@ -58,10 +58,10 @@ Fiddler is now ready to use in Windows 8.
 
 [1]: https://www.fiddler2.com/dl/EnableLoopbackUtility.exe
 [2]: ../images/ModelDoc/ToolsMenuLoopbackExemptions.png "Fiddler Tools menu"
-[3]: ../images/img2.jpg "AppContainer Loopback Exemption Utility"
+[3]: ../images/AppContainerLoopbackExemptionUtility.png "AppContainer Loopback Exemption Utility"
 [4]: http://stackoverflow.com/questions/13360309/using-fiddler-with-windows-store-unit-test
 [5]: http://msdn.microsoft.com/en-us/library/windows/apps/br211380
-[6]: /images/img3.jpg "Trust Fiddler Root certificate warning dialog" 
-[7]: /path/img4.jpg "Install Fiddler Root certificate security warning dialog"
-[8]: /path/img5.jpg "User Account Control dialog"
-[9]: /path/img6.jpg "TrustCert Confirmation dialog"
+[6]: ../images/WarningDialogTrustFiddlerRootCert.png "Trust Fiddler Root certificate warning dialog" 
+[7]: ../images/SecurityWarningInstallFiddlerRootCert.png "Install Fiddler Root certificate security warning dialog"
+[8]: ../images/UACDialog.png "User Account Control dialog"
+[9]: ../images/TrustCertConfirmDialog.png "TrustCert Confirmation dialog"
