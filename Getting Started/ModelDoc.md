@@ -1,4 +1,4 @@
----
+﻿---
 title: Configure Fiddler for Windows 8 Metro-style applications
 slug: Windows8Config
 tags: Configuration, Windows 8, Certificate, Metro, Loopback
@@ -13,7 +13,7 @@ Configure Fiddler for Windows 8 Metro-style applications
 Follow two steps to configure Fiddler for Windows 8:
 
 + Create a Loopback Exemption
-+ Place Fiddler?s Root Certificate in the Machine?s Trusted Root Store
++ Place Fiddler�s Root Certificate in the Machine�s Trusted Root Store
 
 Create a Loopback Exemption
 ---------------------------
@@ -35,10 +35,10 @@ Now these applications can send traffic to Fiddler.
 
 * An alternative to using the AppContainer Loopback Exemption Utility is to [declare the privateNetworkClientServer permission][5].
 
-Place Fiddler?s Root Certificate in the machine's Trusted Root store
+Place Fiddler�s Root Certificate in the machine's Trusted Root store
 --------------------------------------------------------------------
 
-1.	Enable Fiddler HTTPS-decryption feature. A ?Warning? dialog appears. Click **Yes** to trust the Fiddler Root certificate.
+1.	Enable Fiddler HTTPS-decryption feature. A �Warning� dialog appears. Click **Yes** to trust the Fiddler Root certificate.
 
  ![Warning dialog][6]
 
@@ -58,10 +58,10 @@ Fiddler is now ready to use in Windows 8.
 
 [1]: https://www.fiddler2.com/dl/EnableLoopbackUtility.exe
 [2]: ../images/ModelDoc/ToolsMenuLoopbackExemptions.png "Fiddler Tools menu"
-[3]: ../images/ModelDoc/AppContainerLoopbackExemptionUtility.png "AppContainer Loopback Exemption Utility"
+[3]: ../images/AppContainerLoopbackExemptionUtility.png "AppContainer Loopback Exemption Utility"
 [4]: http://stackoverflow.com/questions/13360309/using-fiddler-with-windows-store-unit-test
 [5]: http://msdn.microsoft.com/en-us/library/windows/apps/br211380
-[6]: ../images/ModelDoc/WarningDialogTrustFiddlerRootCert.png "Trust Fiddler Root certificate warning dialog" 
-[7]: ../images/ModelDoc/SecurityWarningInstallFiddlerRootCert.png "Install Fiddler Root certificate security warning dialog"
-[8]: ../images/ModelDoc/UACDialog.png "User Account Control dialog"
-[9]: ../images/ModelDoc/TrustCertConfirmDialog.png "TrustCert Confirmation dialog"
+[6]: ../images/WarningDialogTrustFiddlerRootCert.png "Trust Fiddler Root certificate warning dialog" 
+[7]: ../images/SecurityWarningInstallFiddlerRootCert.png "Install Fiddler Root certificate security warning dialog"
+[8]: ../images/UACDialog.png "User Account Control dialog"
+[9]: ../images/TrustCertConfirmDialog.png "TrustCert Confirmation dialog"
