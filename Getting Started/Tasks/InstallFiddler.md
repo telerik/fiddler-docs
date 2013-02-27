@@ -20,6 +20,19 @@ Install Fiddler
 
 2. Run the Fiddler Installer
 ----------------------------
+a. Select 'Run' from any Security Warning dialog.
+
+![Setup Security Warning][3]
+
+b. Agree to the License Agreement.
+
+![Agree to License Agreement][4]
+
+c. Select the install directory for Fiddler.
+
+![Select Install Directory][5]
+
+d. Click 'Close' when installation completes.
 
 ![Fiddler Setup Completed][6]
 
