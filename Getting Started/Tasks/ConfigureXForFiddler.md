@@ -21,20 +21,16 @@ Install Fiddler
 2. Run the Fiddler Installer
 ----------------------------
 
-![Setup Security Warning][3]
-
-![Agree to License Agreement][4]
-
-![Select Install Directory][5]
-
 ![Fiddler Setup Completed][6]
+
+**See Also:**
 
 [Configure your web browser to use Fiddler][7]
 
 [1]: ../../../install
 [2]: http://www.fiddlercap.com/FiddlerCap/
-[3]: "../../images/ConfigureFiddler/SetupSecurityWarning.png"
-[4]: "../../images/ConfigureFiddler/AgreetoLicenseAgreement.png"
-[5]: "../../images/ConfigureFiddler/SelectInstallDirectory.png"
-[6]: "../../images/ConfigureFiddler/FiddlerSetupCompleted.png"
+[3]: ../../images/ConfigureFiddler/SetupSecurityWarning.png
+[4]: ../../images/ConfigureFiddler/AgreetoLicenseAgreement.png
+[5]: ../../images/ConfigureFiddler/SelectInstallDirectory.png
+[6]: ../../images/ConfigureFiddler/FiddlerSetupCompleted.png
 [7]: ./ConfigureBrowser.md
