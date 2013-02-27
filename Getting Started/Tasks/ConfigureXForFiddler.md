@@ -1,38 +1,40 @@
 ---
 title: Using Fiddler
 slug: UsingFiddler
-tags: Getting Started, Fiddler, HTTP
+tags: Getting Started, Install Fiddler, Install
 publish: true
 ---
 
-Configure x for Fiddler
-=============
 
-Install Fiddler and configure your application and environment to use Fiddler.
+Install Fiddler
+===============
 
-1. Install Fiddler
--------------------
 [View the Fiddler System Requirements][1]
 
-**a. Download the Fiddler Installer**
+1. Download the Fiddler Installer
+---------------------------------
 
 +  [Download the full version of Fiddler][1]
 +  For web traffic capture only, [download FiddlerCap][2]
 
-**b. Run the Fiddler Installer**
 
-![Fiddler Setup Completed][3]
+2. Run the Fiddler Installer
+----------------------------
 
-2. Configure your Application to Use Fiddler
---------------------------------------------
+![Setup Security Warning][3]
 
-+ [Configure your web browser to use Fiddler][4]
+![Agree to License Agreement][4]
 
+![Select Install Directory][5]
 
-3. Configure your Environment to Use Fiddler
---------------------------------------------
+![Fiddler Setup Completed][6]
+
+[Configure your web browser to use Fiddler][7]
 
 [1]: ../../../install
 [2]: http://www.fiddlercap.com/FiddlerCap/
-[3]: ../../images/FiddlerSetupCompleted.png
-[4]: /ConfigureBrowser.md
+[3]: "../../images/ConfigureFiddler/SetupSecurityWarning.png"
+[4]: "../../images/ConfigureFiddler/AgreetoLicenseAgreement.png"
+[5]: "../../images/ConfigureFiddler/SelectInstallDirectory.png"
+[6]: "../../images/ConfigureFiddler/FiddlerSetupCompleted.png"
+[7]: ./ConfigureBrowser.md
