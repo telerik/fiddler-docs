@@ -8,8 +8,8 @@ publish: true
 Configure Fiddler to Decrypt HTTPS Traffic
 ==========================================
 
-To enable HTTPS traffic decryption:
------------------------------------
+Enable HTTPS traffic decryption:
+--------------------------------
 
 1. Click **Tools > Fiddler Options > HTTPS**
 
@@ -17,8 +17,8 @@ To enable HTTPS traffic decryption:
 
  ![Fiddler Options -- Decrypt HTTPS Traffic][1]
 
-To skip traffic decryption for a specific host
-----------------------------------------------
+Skip traffic decryption for a specific host
+-------------------------------------------
 
 1. Click **Tools > Fiddler Options > HTTPS**
 
@@ -26,8 +26,8 @@ To skip traffic decryption for a specific host
 
  ![Skip Decryption][2]
 
-To skip traffic decryption for an application:
-----------------------------------------------
+Skip traffic decryption for an application
+------------------------------------------
 
 Add a rule like this inside the OnBeforeRequest function*:
 
@@ -36,8 +36,8 @@ Add a rule like this inside the OnBeforeRequest function*:
 			oSession["x-no-decrypt"] = "boring process";
 		}      
 
-To decrypt traffic from one hostname only:
-------------------------------------------
+Decrypt traffic from one hostname only
+---------------------------------------
 
 Add a rule like this inside the OnBeforeRequest function*:
 
