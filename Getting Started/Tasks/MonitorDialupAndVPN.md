@@ -17,6 +17,6 @@ To monitor a VPN or dialup connection that is always active (instead of a LAN co
 
 Note: IE will always use the proxy settings from any active VPN connection, whether or not that VPN connects to the Internet.
 
-[1]: ../../images/MonitorAllConnections.png
+[1]: ../../images/MonitorDialupAndVPN/MonitorAllConnections.png
 [2]: /ConfigureOtherBrowsers.md
-[3]: ../../images/ConnectionName.png
+[3]: ../../images/MonitorDialupAndVPN/ConnectionName.png
