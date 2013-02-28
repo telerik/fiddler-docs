@@ -79,4 +79,4 @@ To find the correct auto-configuration URL from Fiddler:
 [2]: ../../images/ConfigureBrowsers/ImportCertificate.png
 [3]: ../../images/ConfigureBrowsers/TrustThisCAToIdentifyWebsites.png
 [4]: ../../images/ConfigureBrowsers/BrowserPAC.png
-[5]: ../../images/ConfigureBrowsers/CopyAutoCorrectURL.png
+[5]: ../../images/ConfigureBrowsers/CopyAutoCorrectURL.jpg
