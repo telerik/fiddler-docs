@@ -27,6 +27,6 @@ Decrypt HTTPS traffic from the Remote Machine
 Configure the remote machine to [trust the FiddlerRoot certificate][3].
 
  
-[1]: ../../images/AllowRemoteComputersToConnect.png
-[2]: ../../images/MonitorRemoteMachine.md/SetProxyAddress.jpg
+[1]: ../../images/MonitorRemoteMachine/AllowRemoteComputersToConnect.png
+[2]: ../../images/MonitorRemoteMachine/SetProxyAddress.jpg
 [3]: /TrustFiddlerRootCert.md
