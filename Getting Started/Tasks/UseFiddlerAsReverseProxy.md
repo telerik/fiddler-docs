@@ -64,4 +64,4 @@ Configure Fiddler to Listen to Client Application Target Port
 5. Configure Fiddler as a reverse proxy or write a FiddlerScript Rule to re-route traffic to the target server's new port (described above).
 
 [1]: ../../images/UseFiddlerAsReverseProxy/AllowRemoteComputersToConnect.png
-[2]: ../../images/UseFiddlerAsReverseProxy/FiddlerListensToPort.png
+[2]: ../../images/UseFiddlerAsReverseProxy/FiddlerListensOnPort.png
