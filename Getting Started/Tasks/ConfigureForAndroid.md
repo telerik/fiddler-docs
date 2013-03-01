@@ -81,10 +81,10 @@ Disable HTTPS Decryption
 
 To delete the FiddlerRoot certificate, tap **Trusted credentials > User** and delete the certificate.
 
-[1] ../../images/ConfigureForAndroid/OnlineTooltip.png
-[2] ../../images/ConfigureForAndroid/ModifyNetwork.png
-[3] ../../images/ConfigureForAndroid/ShowAdvancedOptions.png
-[4] ../../images/ConfigureForAndroid/ProxySettings.png
-[5] ../../images/ConfigureForAndroid/IPAddress.png
-[6] ../../images/ConfigureForAndroid/DownloadFiddlerRootCert.png
-[7] ../../images/ConfigureForAndroid/InstallFromStorage.png
+[1]: ../../images/ConfigureForAndroid/OnlineTooltip.png
+[2]: ../../images/ConfigureForAndroid/ModifyNetwork.png
+[3]: ../../images/ConfigureForAndroid/ShowAdvancedOptions.png
+[4]: ../../images/ConfigureForAndroid/ProxySettings.png
+[5]: ../../images/ConfigureForAndroid/IPAddress.png
+[6]: ../../images/ConfigureForAndroid/DownloadFiddlerRootCert.png
+[7]: ../../images/ConfigureForAndroid/InstallFromStorage.png
