@@ -47,5 +47,10 @@ Add a rule like this inside the OnBeforeRequest function*:
 			oSession["x-no-decrypt"] = "do not care."; 
 		}
 
+See also
+--------
+[Responding to requests with client certificates][3]
+
 [1]: ../../images/DecryptHTTPS/DecryptHTTPSTrafficOption.png
 [2]: ../../images/DecryptHTTPS/SkipDecryption.png
+[3]: /RespondWithClientCert.md
