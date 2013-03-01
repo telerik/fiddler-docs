@@ -28,4 +28,4 @@ You should now see the upstream proxy listed in the Fiddler **About** dialog.
 
 
 
-[1]: ../../images/ChainToUpstreamProxy/SetProxyAddress.png
+[1]: ../../images/ChainToUpstreamProxy/SetProxyAddress.jpg
