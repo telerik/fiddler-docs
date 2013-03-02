@@ -3,6 +3,7 @@ title: Configure Fiddler for Windows 8 Metro-style applications
 slug: Windows8Config
 tags: Configuration, Windows 8, Certificate, Metro, Loopback
 publish: true
+ordinal: 15
 ---
 
 <!-- http://fiddler2.com/Fiddler/help/AndroidNexus7.asp -->
@@ -54,7 +55,6 @@ Place Fiddler Root Certificate in the machine's Trusted Root store
 
  ![TrustCert Confirmation][9]
 
-Fiddler is now ready to use in Windows 8.
 
 [1]: https://www.fiddler2.com/dl/EnableLoopbackUtility.exe
 [2]: ../../images/ModelDoc/ToolsMenuLoopbackExemptions.png "Fiddler Tools menu"
