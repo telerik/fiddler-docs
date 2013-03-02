@@ -20,7 +20,7 @@ To use this method, the hostname for the request to reroute must be  127.0.0.1:8
 
 2. Close Fiddler.
 
-3. Start **REGEDIT**
+3. Start **REGEDIT**.
 
 4. Create a new DWORD named ReverseProxyForPort inside HKEY_CURRENT_USER\SOFTWARE\Microsoft\Fiddler2.
 
@@ -28,7 +28,7 @@ To use this method, the hostname for the request to reroute must be  127.0.0.1:8
 
 6. Restart Fiddler.
 
-7. Navigate your browser to http://127.0.0.1:8888
+7. In a browser, go to http://127.0.0.1:8888.
 
 Write a FiddlerScript Rule
 --------------------------
@@ -47,16 +47,16 @@ Write a FiddlerScript Rule
 
 		if (oSession.host.toLowerCase() == "webserver:8888") oSession.host = "webserver:80";
 
-5. On the client machine, navigate to http://webserver:8888
+5. Using a browser on the client machine, go to http://webserver:8888.
 
 Configure Fiddler to Listen to Client Application Target Port
 -------------------------------------------------------------
 
 1. Reconfigure your target server to listen on a different port. For example, if a web server runs on port 80, reconfigure it to run on port 81.  
 
-2. Click **Tools > Fiddler Options...**
+2. Click **Tools > Fiddler Options...**.
 
-3. Click **Connections**
+3. Click **Connections**.
 
 4. Type the client's target port number next to **Fiddler listens to port:**
 
