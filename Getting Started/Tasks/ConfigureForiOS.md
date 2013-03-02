@@ -32,11 +32,11 @@ Configure Fiddler
 Set the iOS Device Proxy
 ------------------------
 
-1. Choose **Settings > General > Network > Wi-Fi**.
+1. Tap **Settings > General > Network > Wi-Fi**.
 
-2. Open the settings for the Wi-Fi network.
+2. Tap the settings for the Wi-Fi network.
 
-3. Click the **Manual** option in the **HTTP Proxy** section. 
+3. Tap the **Manual** option in the **HTTP Proxy** section. 
 
 4. In the **Server** box, type the IP address or hostname of your Fiddler instance. 
 
@@ -55,9 +55,9 @@ Decrypt HTTPS Traffic from iOS Devices
 
 3. Restart Fiddler.
 
-4. Configure the device where Fiddler is installed to [trust Fiddler’s root certificate][4]
+4. Configure the device where Fiddler is installed to [trust Fiddlerï¿½s root certificate][4]
 
-5. On the iOS device, navigate to http://ipv4.fiddler:8888/ in a browser.
+5. On the iOS device, go to http://ipv4.fiddler:8888/ in a browser.
 
 6. From the bottom of the **Fiddler Echo Service** webpage, download the **FiddlerRoot certificate.**
 
@@ -78,7 +78,7 @@ Uninstall FiddlerRoot Certificate
 
 If you decide to uninstall the root certificate:
 
-1. Open the **Settings** app.
+1. Tap the **Settings** app.
 
 2. Tap **General**.
 
