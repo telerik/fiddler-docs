@@ -11,7 +11,7 @@ Monitor PocketPC
 Configure Fiddler
 -----------------
 
-1. On the Fiddler server (the machine where Fiddler is installed), [open port 8888 in Windows Firewall][1]
+1. On the Fiddler server (the machine where Fiddler is installed), [open port 8888 in Windows Firewall][1].
 
 2. Open **ActiveSync > Connection Settings...** 
 
