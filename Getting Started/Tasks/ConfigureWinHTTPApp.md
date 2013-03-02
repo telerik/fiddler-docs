@@ -3,6 +3,7 @@ title: Configure a WinHTTP Application to Use Fiddler
 slug: ConfigureWinHTTPApp
 tags: Configuration, WinHTTP, traffic
 publish: true
+ordinal: 9
 ---
 
 To configure a WinHTTP application to send web traffic to Fiddler, enter this command from the command line:
