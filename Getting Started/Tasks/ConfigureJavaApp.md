@@ -3,6 +3,7 @@ title: Configure a Java application to use Fiddler
 slug: ConfigureJavaApp
 tags: Configuration, Java app
 publish: true
+ordinal: 5
 ---
 
 To configure a Java application to send web traffic to Fiddler, set the proxy using **jre**:
