@@ -54,7 +54,7 @@ Decrypt HTTPS Traffic
 
 3. Under the security warning page, click **Continue to website (not recommended)**.
 
- ![CertificateWarning.png][7]
+ ![Certificate Warning][7]
 
 4. Go to **http://FIDDLERSERVER:8888/FiddlerRoot.cer**
 
@@ -89,7 +89,7 @@ See Also
 [3]: ../../images/MonitorWindowsPhone7/Settings.png
 [4]: ../../images/MonitorWindowsPhone7/Wifi.png
 [5]: ../../images/MonitorWindowsPhone7/EditNetwork.png
-[6]: ../../images/MonitorWindowsPhone7/MonitorPerformance.png
-[7]: ./DecryptHTTPS.md
+[6]: ./DecryptHTTPS.md
+[7]: ../../images/MonitorWindowsPhone7/CertificateWarning.png
 [8]: ../../images/MonitorWindowsPhone7/OpenCertificate.png
 [9]: ../../images/MonitorWindowsPhone7/InstallCertificate.png
