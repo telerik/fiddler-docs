@@ -3,6 +3,7 @@ title: Configure Fiddler for iOS
 slug: ConfigureForiOS
 tags: Configuration, iOS
 publish: true
+ordinal: 17
 ---
 
 Capture Traffic from iOS Device
