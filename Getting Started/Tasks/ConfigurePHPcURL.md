@@ -3,7 +3,7 @@ title: Configure a PHP/cURL application to use Fiddler
 slug: PHPcURL
 tags: Configuration, PHP, cURL
 publish: true
-ordinal: 4
+ordinal: 5
 ---
 
 Configure a PHP/cURL Application to Use Fiddler
