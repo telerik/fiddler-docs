@@ -3,7 +3,7 @@ title: Configure .NET applications
 slug: DotNETConfig
 tags: Configuration, .NET, Application
 publish: true
-ordinal: 4
+ordinal: 6
 ---
 
 Configure .NET Applications
