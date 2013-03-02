@@ -20,7 +20,7 @@ Configure Fiddler
 
 4. Start Fiddler.
 
-5. Click **Tools > Fiddler Options...**
+5. Click **Tools > Fiddler Options...**.
 
 6. Ensure "Allow remote clients to connect" is checked. 
 
