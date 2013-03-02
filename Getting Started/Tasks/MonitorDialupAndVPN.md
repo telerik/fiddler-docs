@@ -3,6 +3,7 @@ title: Monitor RAS, VPN, or Dialup Connections
 slug: MonitorDialupAndVPN
 tags: Configuration, VPN, RAS, Dialup
 publish: true
+ordinal: 10
 ---
 
 To monitor a dialup or VPN connection, open **Tools -> Fiddler Options...** and click **Monitor all connections**.
