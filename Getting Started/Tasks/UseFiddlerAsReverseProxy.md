@@ -12,7 +12,7 @@ Use Fiddler as a Reverse Proxy
 Configure Fiddler as Reverse Proxy
 ----------------------------------
 
-To use this method, the hostname for the request to reroute must be  127.0.0.1:8888, localhost:8888, [::1]:8888, or the machine's NETBIOS hostname on port 8888
+To use this method, the hostname for the request to reroute must be  **127.0.0.1:8888**, **localhost:8888**, **[::1]:8888**, or the machine's NETBIOS hostname on port **8888**.
 
 1. Click **Tools > Fiddler Options**. Ensure **Allow remote clients to connect** is checked. 
 
