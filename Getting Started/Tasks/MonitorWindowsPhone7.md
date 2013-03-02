@@ -3,6 +3,7 @@ title: Monitor Windows Phone 7
 slug: MonitorWindowsPhone7
 tags: Configuration, Windows Phone, Windows Phone 7
 publish: true
+ordinal: 19
 ---
 
 Monitor Windows Phone 7
