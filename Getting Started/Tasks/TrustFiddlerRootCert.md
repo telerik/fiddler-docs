@@ -3,6 +3,7 @@ title: Trust FiddlerRoot Certificate
 slug: TrustFiddlerRootCert
 tags: Configuration, FiddlerRoot, Certificate, Trust, Warning
 publish: true
+ordinal: 4
 ---
 
 Configure Windows Client to trust Fiddler Root Certificate
