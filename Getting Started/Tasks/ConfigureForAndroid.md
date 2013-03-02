@@ -3,6 +3,7 @@ title: Configure Fiddler for Android / Google Nexus 7
 slug: ConfigureForAndroid
 tags: Configuration, Android, Nexus 7
 publish: true
+ordinal: 18
 ---
 
 Configure Fiddler for Android / Google Nexus 7
@@ -11,7 +12,7 @@ Configure Fiddler for Android / Google Nexus 7
 Configure Fiddler
 -----------------
 
-1. Click **Tools > Fiddler Options > Connections**
+1. Click **Tools > Fiddler Options > Connections**.
 
 2. Ensure that the checkbox by **Allow remote computers to connect** is checked. 
 
@@ -47,7 +48,7 @@ Configure Nexus Device
 
 7. Tap **Save**.
 
-To verify this configuration, visit **http://ipv4.fiddler:8888/**. Chrome should display the **Fiddler Echo Service** webpage, and the traffic should appear in Fiddler.
+To verify this configuration, go to **http://ipv4.fiddler:8888/**. Chrome should display the **Fiddler Echo Service** webpage, and the traffic should appear in Fiddler.
 
 Disable the proxy
 -----------------
