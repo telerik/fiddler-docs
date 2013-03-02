@@ -3,6 +3,7 @@ title: Capture traffic from another machine
 slug: MonitorRemoteMachine
 tags: Configuration, Capture, Remote, Unix
 publish: true
+ordinal: 11
 ---
 
 Capture Traffic from Another Machine (Any OS)
