@@ -70,7 +70,7 @@ For example, in Firefox, click **Tools > Options > Advanced > Network > Settings
 
 To find the correct auto-configuration URL from Fiddler:
 
-1. Click **Tools > Fiddler Options > Connections**
+1. Click **Tools > Fiddler Options > Connections**.
 2. Clicking the **Copy Browser Proxy Configuration URL** link.
 
 ![Copy Auto-Correct URL][5]
