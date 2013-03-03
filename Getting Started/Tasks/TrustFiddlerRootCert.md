@@ -9,7 +9,7 @@ ordinal: 4
 Configure Windows Client to trust Fiddler Root Certificate
 ==========================================================
 
-1. [Enable HTTPS traffic decryption][1]
+1. [Enable HTTPS traffic decryption][1].
 
 2. Next to **Trust the Fiddler Root certificate?**, click **Yes**.
 
