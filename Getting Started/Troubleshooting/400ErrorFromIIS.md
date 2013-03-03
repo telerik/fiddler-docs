@@ -30,5 +30,4 @@ Solution: Replace **http://ipv.fiddler:2468** with **http://localhost.fiddler:24
 See also
 --------
 
-ipv4.fiddler:2468 vs. ipv.fiddler:2468*
 Capture traffic from localhost*
