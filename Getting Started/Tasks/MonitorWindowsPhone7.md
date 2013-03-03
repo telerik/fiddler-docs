@@ -83,7 +83,7 @@ After Fiddler monitoring is complete:
 
 See Also
 --------
-[Troubleshoot Windows Phone 7 Monitoring]*
+[No Windows Phone 7 traffic][10]
 
 [1]: ../../images/MonitorWindowsPhone7/AllowRemoteComputersToConnect.png
 [2]: ../../images/MonitorWindowsPhone7/WindowsSecurityAlert.png
@@ -94,3 +94,4 @@ See Also
 [7]: ../../images/MonitorWindowsPhone7/CertificateWarning.png
 [8]: ../../images/MonitorWindowsPhone7/OpenCertificate.png
 [9]: ../../images/MonitorWindowsPhone7/InstallCertificate.png
+[10]: ../Troubleshooting/NoWindowsPhone7Traffic.md
