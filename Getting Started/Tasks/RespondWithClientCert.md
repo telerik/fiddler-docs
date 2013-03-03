@@ -19,11 +19,11 @@ To specify a .CER file for Fiddler to return otherwise, place that .CER file in:
 
 To generate a .CER file:
 
-1. [Install the certificate in the Current User's Personal Certificate Store][1]
+1. [Install the certificate in the Current User's Personal Certificate Store][1].
 
-2. Right-click the certificate in **Personal Certificates Store**
+2. Right-click the certificate in **Personal Certificates Store**.
 
-3. Click **All Tasks > Export...**
+3. Click **All Tasks > Export...**.
 
 
 [1]: http://msdn.microsoft.com/en-us/library/windows/hardware/ff546307(v=vs.85).aspx
