@@ -49,7 +49,7 @@ Configure Windows Phone 7
 
 Decrypt HTTPS Traffic
 ---------------------
-1. [Configure Fiddler to decrypt HTTPS traffic][6]
+1. [Configure Fiddler to decrypt HTTPS traffic][6].
 
 2. On the Windows Phone 7, use Mobile IE to request an HTTPS protocol URL.
 
@@ -57,7 +57,7 @@ Decrypt HTTPS Traffic
 
  ![Certificate Warning][7]
 
-4. Go to **http://FIDDLERSERVER:8888/FiddlerRoot.cer**
+4. Go to **http://FIDDLERSERVER:8888/FiddlerRoot.cer**.
 
 5. Tap the icon labeled **Tap to open the file fiddlerroot.cer**.
 
