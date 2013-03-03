@@ -15,8 +15,8 @@ Install Fiddler
 1. Download the Fiddler Installer
 ---------------------------------
 
-+  [Download the full version of Fiddler][1]
-+  For web traffic capture only, [download FiddlerCap][2]
++  [Download the full version of Fiddler][1].
++  For web traffic capture only, [download FiddlerCap][2].
 
 
 2. Run the Fiddler Installer
