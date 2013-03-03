@@ -22,9 +22,9 @@ To use this method, the hostname for the request to reroute must be  **127.0.0.1
 
 3. Start **REGEDIT**.
 
-4. Create a new DWORD named ReverseProxyForPort inside HKEY_CURRENT_USER\SOFTWARE\Microsoft\Fiddler2.
+4. Create a new DWORD named **ReverseProxyForPort** inside **HKEY_CURRENT_USER\SOFTWARE\Microsoft\Fiddler2**.
 
-5. Set the DWORD to the local port where Fiddler will re-route inbound traffic (generally port 80 for a standard HTTP server).
+5. Set the DWORD to the local port where Fiddler will re-route inbound traffic (usually port **80** for a standard HTTP server).
 
 6. Restart Fiddler.
 
