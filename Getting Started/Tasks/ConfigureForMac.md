@@ -14,26 +14,26 @@ Virtualization products like VMWare Fusion or Parallels Desktop permit Fiddler t
 Configure the Virtual Machine
 -----------------------------
 
-1. Install Parallels
+1. Install Parallels.
 
 2. Set the Windows Virtual Machine **Hardware > Network 1 Type** to **Bridged Network** mode.
 
-3. Restart the Virtual Machine
+3. Restart the Virtual Machine.
 
 Configure Fiddler
 -----------------
 
-1. Install Fiddler on the Virtual Machine
+1. Install Fiddler on the Virtual Machine.
 
-2. Open Fiddler
+2. Open Fiddler.
 
-3. Click **Tools > Fiddler Options > Connections**
+3. Click **Tools > Fiddler Options > Connections**.
 
 4. Click the checkbox by **Allow remote computers to connect**. 
 
  ![Allow remote computers to connect][1]
 
-5. Restart Fiddler
+5. Restart Fiddler.
 
 6. Ensure your firewall allows incoming connections to the Fiddler process. 
 
@@ -44,11 +44,11 @@ Configure Mac
 
  ![Online Tooltip][2]
 
-2. Click the **Apple Menu**
+2. Click the **Apple Menu**.
 
 3. Click **System Preferences**. 
 
-4. Click the **Network** icon
+4. Click the **Network** icon.
 
 5. Click the **Advanced** button. 
 
@@ -59,7 +59,7 @@ Configure Mac
 Disable After Use
 -----------------
 
-After using Fiddler, return to the **OSX System Preferences** and disable the proxy settings
+After using Fiddler, return to the **OSX System Preferences** and disable the proxy settings.
 
 [1]: ../../images/ConfigureForMac/AllowRemoteComputersToConnect.png
 [2]: ../../images/ConfigureForMac/OnlineTooltip.png
