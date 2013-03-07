@@ -11,4 +11,4 @@ Get Fiddler traces from users
 
 Direct your users to download and use [FiddlerCap][1], a simplified version of Fiddler for trace capture only.
 
-[1] http://fiddlercap.com
+[1]: http://fiddlercap.com
