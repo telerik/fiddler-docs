@@ -18,4 +18,4 @@ To search through captured requests and responses:
 + Enter a [command][2] in the QuickExec box.
 
 [1]: ../../images/SearchSessions/FindSessions.png
-[2]: ../../Knowledge Base/QuickExec.md
+[2]: ../../KnowledgeBase/QuickExec.md
