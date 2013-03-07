@@ -15,8 +15,8 @@ Add Accept header and Download Initiator columns to **Web Sessions List**.
 1. Enable the 
 
 	FEATURE_DOWNLOAD_INITIATOR_HTTP_HEADER 
-
-Feature Control Key. 
+	
+ Feature Control Key. 
 
 2. Enter these commands in the QuickExec box:
 
@@ -30,7 +30,7 @@ Feature Control Key.
 4. Scroll to the static function Main() block , and add the following line within:
 
 	FiddlerObject.UI.lvSessions.AddBoundColumn("Accept", 50, "@request.Accept");
-	FiddlerObject.UI.lvSessions.AddBoundColumn("Reason", 50, “@request.X-Download-Initiator");
+	FiddlerObject.UI.lvSessions.AddBoundColumn("Reason", 50, ï¿½@request.X-Download-Initiator");
 
 See also
 --------
