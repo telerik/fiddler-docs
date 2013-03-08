@@ -9,6 +9,16 @@ ordinal: 6
 Search and Filter Sessions
 ==========================
 
+Sort Sessions
+----------------
+
+To sort the Session List based on the values in a particular column, click on that column's header.
+
+ ![Sort Sessions][1]
+ 
+Search Sessions
+---------------
+
 To search through captured requests and responses:
 
 + Click **Edit > Find Sessions...** and specify search options in the dialog.
@@ -17,5 +27,6 @@ To search through captured requests and responses:
 
 + Enter a [command][2] in the QuickExec box.
 
-[1]: ../../images/SearchSessions/FindSessions.png
-[2]: ../../KnowledgeBase/QuickExec.md
+[1]: ../../images/SearchSessions/SortSessions.png
+[2]: ../../images/SearchSessions/FindSessions.png
+[3]: ../../KnowledgeBase/QuickExec.md
