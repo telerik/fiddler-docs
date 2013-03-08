@@ -23,7 +23,7 @@ To search through captured requests and responses:
 
 + Click **Edit > Find Sessions...** and specify search options in the dialog.
 
- ![Find Sessions][1]
+ ![Find Sessions][2]
 
 + Enter a [command][2] in the QuickExec box.
 
