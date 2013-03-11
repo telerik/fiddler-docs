@@ -1,5 +1,5 @@
 ---
-title: Configure Browsers
+title: Configure Browsers for Fiddler
 slug: ConfigureBrowsers
 tags: Configuration, Configure, Browser, Firefox, https, manual
 publish: true
@@ -12,6 +12,8 @@ Configure Browsers
 IE, Chrome, Safari, and Opera
 -----------------------------
 + To capture traffic from most browsers, enable **File > Capture Traffic**. 
+
++ [Record traffic sent to **http://localhost** or **htp://127.0.0.1** from IE][6].
 
 + To capture traffic from **Opera**, start Fiddler before starting Opera.
 
@@ -81,3 +83,4 @@ To find the correct auto-configuration URL from Fiddler:
 [3]: ../../images/ConfigureBrowsers/TrustThisCAToIdentifyWebsites.png
 [4]: ../../images/ConfigureBrowsers/BrowserPAC.png
 [5]: ../../images/ConfigureBrowsers/CopyAutoCorrectURL.jpg
+[6]: ./MonitorTrafficToLocalhost.md
