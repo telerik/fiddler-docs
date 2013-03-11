@@ -98,7 +98,6 @@ Fiddler supports regular expression syntax for expressions which begin with **re
 * **http://www.example.com/Path1/query=example.Gif**
 * **http://www.example.com/Path1/query=example.bmp**
  	
-Got a great regular expression to share?  Please send it to me using the "Contact" link at the top-right side of this page!
 You can learn more about regular expressions [here](http://www.regular-expressions.info/quickstart.html).
 
 You can specify regular expression options (like case-sensitivity) by leading the expression with an appropriate declaration.  (?insx) works well; it turns on case-insensitivity, requires explicit capture groups, enables single-line syntax, and enables comments after the #character. [Learn more on MSDN](http://msdn.microsoft.com/en-us/library/yd1hzczs(VS.80).aspx).
