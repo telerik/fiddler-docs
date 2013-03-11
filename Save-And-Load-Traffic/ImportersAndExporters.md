@@ -18,8 +18,6 @@ Fiddler itself requires only that the user have **.NET Framework 2.0 SP1** insta
 
 You should also ensure your project targets **AnyCPU** to ensure that it works properly with [64bit Fiddler](http://fiddler.wikidot.com/bitness).
 
-Learn more about [Building assemblies to run in both Fiddler v2 and v4](http://fiddler2.com/Fiddler/dev/FrameworkTarget.asp)
-
 ###Debugging your Extensions
 * Extension developers should set the **fiddler.debug.extensions.showerrors** preference to **True** ensure that exceptions and other extension-related errors are not silently caught.
 
