@@ -18,6 +18,3 @@ Exporters Included by Default
 + Meddler Export
 + HTTP Archive Format 1.1
 + HTTP Archive Format 1.2
-+ Downloadable
-
-none, yet.  Soon: CSV format
