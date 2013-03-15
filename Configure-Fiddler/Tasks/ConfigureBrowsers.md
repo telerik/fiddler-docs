@@ -9,6 +9,11 @@ ordinal: 2
 Configure Browsers
 ==================
 
+Clear Cache
+-----------
+
+To ensure all requests are sent and captured, [clear your browser's cache][7] before beginning a capture.
+
 IE, Chrome, Safari, and Opera
 -----------------------------
 + To capture traffic from most browsers, enable **File > Capture Traffic**. 
@@ -84,3 +89,4 @@ To find the correct auto-configuration URL from Fiddler:
 [4]: ../../images/ConfigureBrowsers/BrowserPAC.png
 [5]: ../../images/ConfigureBrowsers/CopyAutoCorrectURL.jpg
 [6]: ./MonitorTrafficToLocalhost.md
+[7]: http://www.wikihow.com/Clear-Your-Browser's-Cache

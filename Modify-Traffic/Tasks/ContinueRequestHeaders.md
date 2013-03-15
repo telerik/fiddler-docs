@@ -6,6 +6,23 @@ publish: true
 ordinal: 3
 ---
 
-For how to reduce delays from 100-continue request headers by up to 350 ms, see [this blog post][1].
+Reduce Delays from Expect: 100-continue headers
+===============================================
 
-[1]: http://blogs.msdn.com/b/fiddler/archive/2011/11/05/http-expect-continue-delays-transmitting-post-bodies-by-up-to-350-milliseconds.aspx
+To have Fiddler return the 100-Continue header for a request:
+
+1. Click **Rules > Customize Rules...**.
+
+2. Add the following function inside the **Handlers** class:
+
+		static function OnPeekAtRequestHeaders(oSession: Session) {
+		   if (oSession.HTTPMethodIs("POST") && oSession.oRequest.headers.ExistsAndContains("Expect", "continue"))
+		   {
+			 if (null != oSession.oRequest.pipeClient)
+			 { 
+			   oSession["ui-backcolor"] = "lightyellow";
+			   oSession.oRequest.headers.Remove("Expect");
+			   oSession.oRequest.pipeClient.Send(System.Text.Encoding.ASCII.GetBytes("HTTP/1.1 100 Continue\r\nServer: Fiddler\r\n\r\n")); 
+			 } 
+		   }
+		}

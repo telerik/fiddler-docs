@@ -1,7 +1,7 @@
 ---
-title: Create custom importer or exporter
-slug: ImportersAndExporters
-tags: Save and Load Traffic, Import, Export, Importer, Exporter, ISessionImport, ISessionExport, Save
+title: Import and Export Default Formats
+slug: ImportExportDefault
+tags: Save and Load Traffic, Import, Export, Importer, Exporter, Save
 publish: true
 ordinal: 3
 ---
