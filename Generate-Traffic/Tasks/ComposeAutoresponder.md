@@ -1,12 +1,12 @@
 ---
-title: Replay Captured Traffic
-slug: ReplayAutoresponder.md
+title: Create traffic with custom matching rules
+slug: ComposeAutoresponder
 tags: Generate Traffic, Autoresponder, web sessions archive, replay
 publish: true
 ordinal: 3
 ---
 
-Replay Captured Traffic
+Create traffic with custom matching rules
 ==================================
 
 Enable Autoresponder
