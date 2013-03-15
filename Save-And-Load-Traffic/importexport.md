@@ -6,8 +6,8 @@ publish: true
 ordinal: 3
 ---
 
-Using Default Exporters
------------------------
+Export to Default Formats
+-------------------------
 
 To export traffic to **WCAT Script**, **VS Web Test Script**, [**Meddler Script**][1], **HTML5 AppCache Manifest**, [**HTTP Archive Format 1.1**][2], [**HTTP Archive Format 1.2**][3], or a **Raw File Dump**:
 
@@ -21,8 +21,8 @@ To export traffic to **WCAT Script**, **VS Web Test Script**, [**Meddler Script*
 
 4. Click **Next** to select the export file location.
 
-Using Default Importers
------------------------
+Import to Default Formats
+-------------------------
 
 To import traffic from **HTTP Archive JSON**, **HTTP Archive XML** (exported from [IE9 Developer Tools Network Tab][12]), or **Test Studio Load Test**:
 
