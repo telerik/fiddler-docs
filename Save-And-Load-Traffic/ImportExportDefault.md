@@ -19,4 +19,4 @@ To export traffic to **WCAT Script**, **VS Web Test Script**, **Meddler Export**
 
  ![Select Export Format][1]
 
-[1]: ../../images/ImportExportDefault/SelectExportFormat.png
+[1]: ../images/ImportExportDefault/SelectExportFormat.png
