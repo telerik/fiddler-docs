@@ -6,6 +6,9 @@ publish: true
 ordinal: 1
 ---
 
+Create a New Request
+====================
+
 The Composer allows you to craft custom requests to send to a server. You can either create a new request manually, or you can drag and drop a session from the Web Sessions list to create a new request based on the existing request.
 
 Modes
