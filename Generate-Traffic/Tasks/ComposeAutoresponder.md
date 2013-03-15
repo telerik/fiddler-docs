@@ -3,7 +3,7 @@ title: Create traffic with custom matching rules
 slug: ComposeAutoresponder
 tags: Generate Traffic, Autoresponder, web sessions archive, replay
 publish: true
-ordinal: 3
+ordinal: 2
 ---
 
 Create traffic with custom matching rules
