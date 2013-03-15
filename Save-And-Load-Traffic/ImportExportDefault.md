@@ -6,8 +6,8 @@ publish: true
 ordinal: 3
 ---
 
-Using Default Exporters
------------------------
+Export to Default Formats
+-------------------------
 
 To export traffic to **WCAT Script**, **VS Web Test Script**, [**Meddler Script**][1], **HTML5 AppCache Manifest**, [**HTTP Archive Format 1.1**][2], [**HTTP Archive Format 1.2**][3], or a **Raw File Dump**:
 
@@ -21,8 +21,8 @@ To export traffic to **WCAT Script**, **VS Web Test Script**, [**Meddler Script*
 
 4. Click **Next** to select the export file location.
 
-Using Default Importers
------------------------
+Import to Default Formats
+-------------------------
 
 To import traffic from **HTTP Archive JSON**, **HTTP Archive XML** (exported from [IE9 Developer Tools Network Tab][12]), or **Test Studio Load Test**:
 
@@ -48,8 +48,8 @@ To import traffic from **HTTP Archive JSON**, **HTTP Archive XML** (exported fro
 [1]: http://www.webdbg.com/meddler/
 [2]: http://groups.google.com/group/http-archive-specification/web/har-1-1-spec
 [3]: http://groups.google.com/group/http-archive-specification/web/har-1-2-spec
-[4]: ../../images/ImportExport/SelectExportFormat.png
+[4]: ../images/ImportExport/SelectExportFormat.png
 [5]: http://blogs.msdn.com/b/ie/archive/2010/04/22/ie9-developer-tools-network-tab.aspx
-[6]: ../../images/ImportExport/SelectImportFormat.png
-[7]: ../../images/ImportExport/AdjustAppCacheManifest.png
-[8]: ../../images/ImportExport/BaseURL.png
+[6]: ../images/ImportExport/SelectImportFormat.png
+[7]: ../images/ImportExport/AdjustAppCacheManifest.png
+[8]: ../images/ImportExport/BaseURL.png
