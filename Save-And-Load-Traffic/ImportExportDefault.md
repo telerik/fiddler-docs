@@ -20,6 +20,16 @@ To export traffic to **WCAT Script**, **VS Web Test Script**, [**Meddler Script*
  ![Select Export Format][4]
 
 4. Click **Next** to select the export file location.
+ 
+5. If exporting to **HTML5 AppCache Manifest**: Check any resources you wish to exclude from the CACHE section of the Manifest. These will be added to the NETWORK section of the Manifest.
+
+ ![Adjust AppCache Manifest][7]
+
+6. To specify a **Base URL** and convert the URLs to be relative to this URL, type this URL in the **Base URL:** field.
+
+ ![Base URL][8]
+
+7. Click **Save**. The AppCache Manifest appears in a text editor.
 
 Import to Default Formats
 -------------------------
@@ -34,15 +44,7 @@ To import traffic from **HTTP Archive JSON**, **HTTP Archive XML** (exported fro
 
 3. Click **Next**.
 
-4. If exporting to **HTML5 AppCache Manifest**: Check any resources you wish to exclude from the CACHE section of the Manifest. These will be added to the NETWORK section of the Manifest.
 
- ![Adjust AppCache Manifest][7]
-
-5. To specify a **Base URL** and convert the URLs to be relative to this URL, type this URL in the **Base URL:** field.
-
- ![Base URL][8]
-
-6. Click **Save**. The AppCache Manifest appears in a text editor.
 
 
 [1]: http://www.webdbg.com/meddler/
