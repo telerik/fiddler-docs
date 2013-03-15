@@ -14,7 +14,7 @@ Edit Rule
 
 1. Select a rule from the **Autoresponder** ruleset.
 
- [Select Rule][1]
+ ![Select Rule][1]
 
 2. At the bottom of the **Autoresponder** tab, under the **Rule Editor**:
 
