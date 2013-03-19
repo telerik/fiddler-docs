@@ -64,11 +64,11 @@ Sample Extension: Step by Step
 
 6. If your extension modifies Fiddler's UI:
 
-Right-click the project's References folder in the Solution Explorer again
-On the .NET tab, choose System.Windows.Forms.
-Click Ok to add the reference.
-In the Solution Explorer, right click the project.  Choose Properties.
-On the Build Events tab, add the following to the Post-build event command line:
+ + Right-click the project's References folder in the Solution Explorer again
+ + On the .NET tab, choose System.Windows.Forms.
+ + Click Ok to add the reference.
+ + In the Solution Explorer, right click the project.  Choose Properties.
+ + On the Build Events tab, add the following to the Post-build event command line:
 
     copy "$(TargetPath)" "%userprofile%\My Documents\Fiddler2\Scripts\$(TargetFilename)"
 
