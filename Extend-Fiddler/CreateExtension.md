@@ -84,16 +84,9 @@ Modify the default **class1.cs** (or create a new class) in your project as foll
 		  public void OnBeforeReturningError(Session oSession){}
 		}
 
-Load Extension in Fiddler
--------------------------
+[Compile and Load Your Extension in Fiddler][3]
+-----------------------------------------------
 
-1. Compile your project.
-
-2. Copy the assembly .DLL to the correct **Scripts** folder:
-
- + Use **\My Documents\Fiddler2\Scripts** to make the extension available to the current user.
- + Use **\Program Files\Fiddler2\Scripts** to make the extension available to all users on the machine.
-
-3. Restart Fiddler.
 
 [1]: ./Interfaces.md
+[2]: ./LoadExtension.md

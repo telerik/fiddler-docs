@@ -3,7 +3,7 @@ title: Add an Icon to Your Extension's Tab
 slug: AddIcon
 tags: Extend Fiddler, .NET, Extension, Icon
 publish: true
-ordinal: 4
+ordinal: 10
 ---
 
 Add an Icon to Your Extension's Tab
