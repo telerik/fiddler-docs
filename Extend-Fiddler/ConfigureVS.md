@@ -71,34 +71,36 @@ In the Solution Explorer, right click the project.  Choose Properties.
 On the Build Events tab, add the following to the Post-build event command line:
 
     copy "$(TargetPath)" "%userprofile%\My Documents\Fiddler2\Scripts\$(TargetFilename)"
+
 Modify the default class1.cs (or create a new class) in your project as follows:
-using System;
-using System.Windows.Forms;
-using Fiddler;
 
-[assembly: Fiddler.RequiredVersion("2.3.5.0")]
-
-public class Violin : IAutoTamper    // Ensure class is public, or Fiddler won't see it!
-{
-  string sUserAgent = "";
-
-  public Violin(){
-  /* NOTE: It's possible that Fiddler UI isn't fully loaded yet, so don't add any UI in the constructor.
-
-     But it's also possible that AutoTamper* methods are called before OnLoad (below), so be
-     sure any needed data structures are initialized to safe values here in this constructor */
-    
-     sUserAgent = "Violin";
-  }
-
-  public void OnLoad(){ /* Load your UI here */ }
-  public void OnBeforeUnload() { }
-
-  public void AutoTamperRequestBefore(Session oSession){
-    oSession.oRequest["User-Agent"] = sUserAgent;
-  }
-  public void AutoTamperRequestAfter(Session oSession){}
-  public void AutoTamperResponseBefore(Session oSession){}
-  public void AutoTamperResponseAfter(Session oSession){}
-  public void OnBeforeReturningError(Session oSession){}
-}
+	using System;
+	using System.Windows.Forms;
+	using Fiddler;
+	
+	[assembly: Fiddler.RequiredVersion("2.3.5.0")]
+	
+	public class Violin : IAutoTamper    // Ensure class is public, or Fiddler won't see it!
+	{
+	  string sUserAgent = "";
+	
+	  public Violin(){
+	  /* NOTE: It's possible that Fiddler UI isn't fully loaded yet, so don't add any UI in the constructor.
+	
+	     But it's also possible that AutoTamper* methods are called before OnLoad (below), so be
+	     sure any needed data structures are initialized to safe values here in this constructor */
+	    
+	     sUserAgent = "Violin";
+	  }
+	
+	  public void OnLoad(){ /* Load your UI here */ }
+	  public void OnBeforeUnload() { }
+	
+	  public void AutoTamperRequestBefore(Session oSession){
+	    oSession.oRequest["User-Agent"] = sUserAgent;
+	  }
+	  public void AutoTamperRequestAfter(Session oSession){}
+	  public void AutoTamperResponseBefore(Session oSession){}
+	  public void AutoTamperResponseAfter(Session oSession){}
+	  public void OnBeforeReturningError(Session oSession){}
+	}
