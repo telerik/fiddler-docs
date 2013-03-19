@@ -6,10 +6,10 @@ publish: true
 ordinal: 1
 ---
 
-Extend Fiddler with .NET Code
-=============================
+Configure Visual Studio
+=======================
 
-Use Fiddler's extensibility mechanisms to add to Fiddler's UI, automatically modify requests or responses, and create custom Inspectors that enable scenario-specific display and manual-modification of requests and responses.
+Configure Visual Studio to develop a Fiddler extension. Use Fiddler's extensibility mechanisms to add to Fiddler's UI, automatically modify requests or responses, and create custom Inspectors that enable scenario-specific display and manual-modification of requests and responses.
 
 Requirements
 ------------
