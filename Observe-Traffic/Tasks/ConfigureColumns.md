@@ -88,7 +88,10 @@ Call the AddBoundColumn() method in FiddlerScript
 
  The first parameter is the column name. The second parameter is the default width of the column. The third parameter is either a Fiddler Session Flag string, an @-prefixed-header name, or a JavaScript function that returns a string. 
  
- Or, call the **AddBoundColumn** method from an IFiddlerExtension, passing a **getColumnStringDelegate** as the third parameter.
+Call the AddBoundColumn method from an IFiddlerExtension
+--------------------------------------------------------
+
+Call the **AddBoundColumn** method from an [IFiddlerExtension], passing a **getColumnStringDelegate** as the third parameter.
 
 [1]: ../../images/ReorderColumns.png
 [2]: ../../images/ResizeColumns.png
