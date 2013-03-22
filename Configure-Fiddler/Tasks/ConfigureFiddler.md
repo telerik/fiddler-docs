@@ -19,7 +19,7 @@ The **Fiddler Server** is the machine on which Fiddler is installed. Some scenar
 
 + **Types of traffic**, like [decrypting HTTPS][3] and [authenticating with channel-binding tokens][19]
 + **Operating systems**, like [Windows 8][2] and [Mac OSX][4]
-+ **Network configurations**, like [monitoring a remote machine][14], [chaining to an upstream proxy][5], [using Fiddler as a Reverse Proxy][6], [monitoring local traffic][10] or [monitoring dialup and vpn connections][7]
++ **Network configurations**, like [monitoring a remote machine][14], [chaining to an upstream proxy][5], [using Fiddler as a Reverse Proxy][6], [monitoring local traffic][10] or [monitoring dial-up and VPN connections][7]
 
 Last, Configure the Client.
 ---------------------------
