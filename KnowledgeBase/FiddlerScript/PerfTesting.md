@@ -9,7 +9,7 @@ ordinal: 2
 Performance Testing
 ===================
 
-To test application performance, [add rules][1] using FiddlerScript to the OnBeforeResponse function (except where noted). For example:
+To test application performance, [add rules][1] using FiddlerScript to the **OnBeforeResponse** function (except where noted). For example:
 
 * * *
 
