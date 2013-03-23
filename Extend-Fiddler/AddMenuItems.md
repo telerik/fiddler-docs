@@ -3,7 +3,7 @@ title: Add Menu Items
 slug: AddMenuItems
 tags: Extend Fiddler, FiddlerScript, Extension, menu items
 publish: true
-ordinal: 13
+ordinal: 14
 ---
 
 Add Menu Items
