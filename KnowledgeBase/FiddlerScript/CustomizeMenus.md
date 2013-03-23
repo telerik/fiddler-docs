@@ -59,7 +59,7 @@ To customize menus in Fiddler, [add rules][1] using FiddlerScript with Global sc
 
 * * *
 
-**Same as previous, but with a default option pre-selected.**
+**Same as previous, but with a default option pre-selected**
 
 		RulesString("&SubMenuName", true) 
 		RulesStringValue(0,"Option1Name", "Option1Value")
