@@ -25,24 +25,24 @@ Add Custom Columns
 
 Use on of these methods:
 
-Use QuickExec to add a temporary column
----------------------------------------
++ **Use QuickExec to add a temporary column**
 
-Type this command in the QuickExec box:
+
+ Type this command in the QuickExec box:
 
 	cols add [Title] FlagName 
 
- ![QuickExec Command][3]
+  ![QuickExec Command][3]
 
-Columns added using QuickExec will be removed the next time Fiddler starts. For more QuickExec column commands, see the [QuickExec Reference][4].
+ Columns added using QuickExec will be removed the next time Fiddler starts. For more QuickExec column commands, see the [QuickExec Reference][4].
 
-[Customize rules with FiddlerScript][5]
-------------------------------------
++ [Customize rules with FiddlerScript][5]
 
-Call the AddBoundColumn method from an IFiddlerExtension
---------------------------------------------------------
 
-Call the **AddBoundColumn** method from an [IFiddlerExtension], passing a **getColumnStringDelegate** as the third parameter.
++ **Call the AddBoundColumn method from an IFiddlerExtension**
+
+
+ Call the **AddBoundColumn** method from an [IFiddlerExtension], passing a **getColumnStringDelegate** as the third parameter.
 
 [1]: ../../images/ConfigureColumns/ReorderColumns.png
 [2]: ../../images/ConfigureColumns/ResizeColumns.png
