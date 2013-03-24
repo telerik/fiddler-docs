@@ -60,8 +60,8 @@ Note: Fiddler's default rules are stored in **~/Program Files/Fiddler2/Scripts/S
 See Also
 --------
 
-[FiddlerScript Reference][1]
-[FiddlerScript Editor][2]
++ [FiddlerScript Reference][1]
++ [FiddlerScript Editor][2]
 
 [1]: ../KnowledgeBase/FiddlerScript/
 [2]: http://fiddler2.com/add-ons
