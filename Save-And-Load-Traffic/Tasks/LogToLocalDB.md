@@ -61,7 +61,6 @@ Log Sessions to Local Database
 
 
 + **Note**: To use the Database Objects in Fiddler 2.3.9 and below:
-
   1. Click **Tools > Fiddler Options > Extensions > Scripting**.
   2. Add **system.data** to the **References** list.
 
