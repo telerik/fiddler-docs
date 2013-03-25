@@ -20,7 +20,7 @@ Requirements
 + If targeting **.NET Framework 3.5**: Ensure user has **.NET Framework 3.5** installed.
 + If extending **64bit Fiddler**: Target **AnyCPU**.
 
-See [Build extension assemblies to run in both Fiddler 2 and 4][1]
+See [Build extension assemblies to run in both Fiddler 2 and 4][1].
 
 Debugging
 ---------
