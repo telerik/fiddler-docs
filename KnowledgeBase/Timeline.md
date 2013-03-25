@@ -47,5 +47,6 @@ What is streaming mode?
 Streaming mode ensures that HTTP responses are not buffered by Fiddler.  Buffering alters the waterfall diagram, as you can see below, where none of the images begin to download until their containing page completes. Learn more...
 
 ![Buffering Mode vs. Streaming Mode][2]
+
 [1] ../images/Timeline/TransferTimeline.png
 [2] ../images/Timeline/BufferingMode.png
