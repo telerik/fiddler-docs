@@ -48,5 +48,5 @@ Streaming mode ensures that HTTP responses are not buffered by Fiddler.  Bufferi
 
 ![Buffering Mode vs. Streaming Mode][2]
 
-[1] ../images/Timeline/TransferTimeline.png
-[2] ../images/Timeline/BufferingMode.png
+[1]: ../images/Timeline/TransferTimeline.png
+[2]: ../images/Timeline/BufferingMode.png
