@@ -67,53 +67,63 @@ Interacting with Sessions
 
 If you right-click one or more sessions, a context-menu appears:
 
-
+![Context Menu][26]
 
 Tip: You can add to this menu using the ContextAction feature of FiddlerScript.  Learn more...
 
-On the Copy menu:
+On the **Copy** menu:
 
- 
+![Copy Menu][27]
 
-Session - Copy the raw session(s) to the clipboard in plaintext and colorized HTML format
-Just URL - Copy the hostname + URL path
-Headers Only - Copy the request and response headers to the clipboard in plaintext and colorized HTML format
-Full Summary - Copy all columns in the session list to the clipboard in plaintext and HTML suitable for pasting into Excel
-Terse Summary - Copy the request URL and the response Status to the clipboard
-On the Save menu:
++ Session - Copy the raw session(s) to the clipboard in plaintext and colorized HTML format
++ Just URL - Copy the hostname + URL path
++ Headers Only - Copy the request and response headers to the clipboard in plaintext and colorized HTML format
++ Full Summary - Copy all columns in the session list to the clipboard in plaintext and HTML suitable for pasting into Excel
++ Terse Summary - Copy the request URL and the response Status to the clipboard
 
- 
+On the **Save** menu:
 
-Session > In ArchiveZIP - Creates a .SAZ archive containing all selected requests & responses, plus an index page. 
-Session - Create a text file containing the request followed by the response
-Headers Only - Create a text file containing the request and response headers
-Full Request - Create a text file containing the request headers and request body
-Request Body - Create a file containing the body of the request (generally HTTP POST data)
-Full Response - Create a text file containing the response headers and response body
-Response Body - Create a file contain the body of the response (often HTML or an image)
+![Save Menu][28]
+
++ **Session > In ArchiveZIP** - Creates a .SAZ archive containing all selected requests & responses, plus an index page. 
++ **Session** - Create a text file containing the request followed by the response
++ **Headers Only** - Create a text file containing the request and response headers
++ **Full Request** - Create a text file containing the request headers and request body
++ **Request Body** - Create a file containing the body of the request (generally HTTP POST data)
++ **Full Response** - Create a text file containing the response headers and response body
++ **Response Body** - Create a file contain the body of the response (often HTML or an image)
+
 AutoResponder
+-------------
 
 The AutoResponder tab allows you to return locally stored content instead of forwarding requests to the server.  Learn more...
 
 Inspectors
+----------
 
 The Inspectors tab allows you to view the contents of each request and response, in a variety of different formats.  You can develop custom Inspectors using .NET.
 
 Filters
+-------
 
 The Filters tab enables you to quickly filter out traffic that is not of interest. Learn more...
 
 Timeline
+--------
 
 The Timeline Tab shows the transfer timeline of selected HTTP Sessions. Learn more...
 
 QuickExec
+---------
 
 The QuickExec box below the session list allows you to execute commands and search your traffic. Learn more...
 
-
+![QuickExec Box][29]
 
 Request Composer
+----------------
+
+[QuickExec][1]
 
 The Request Composer allows you to craft custom requests to send to the server.  You can either create a new request manually, or you can drag and drop a session from the Web Sessions list to create a new request based on the existing request. Learn more...
 
@@ -142,3 +152,7 @@ The Request Composer allows you to craft custom requests to send to the server. 
 [23]: ../images/UIGuide/RequestClientCredentials.png
 [24]: ../images/UIGuide/ServerError.png
 [25]: ../images/UIGuide/SessionAborted.png
+[26]: ../images/UIGuide/ContextMenu.png
+[27]: ../images/UIGuide/CopyMenu.png
+[28]: ../images/UIGuide/SaveMenu.png
+[29]: ../images/UIGuide/QuickExec.png
