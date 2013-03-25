@@ -37,7 +37,7 @@ The default text coloring of the Session entries derives from the HTTP Status (r
 
 Each session is marked with an icon for quick reference:
 
-[Request Being Sent][2] 	Request is being sent to the server
+![Request Being Sent][2] 	Request is being sent to the server
 	 Response is being read from the server
 	 Request is paused at a breakpoint
 	 Response is paused at a breakpoint
