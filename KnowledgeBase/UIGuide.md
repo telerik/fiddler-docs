@@ -108,7 +108,7 @@ The Inspectors tab allows you to view the contents of each request and response,
 Filters
 -------
 
-The Filters tab enables you to quickly filter out traffic that is not of interest. 
+The [Filters tab][35] enables you to quickly filter out traffic that is not of interest. 
 
 Timeline
 --------
@@ -161,3 +161,4 @@ The [Request Composer][34] allows you to craft custom requests to send to the se
 [32]: ../Configure-Fiddler/Tasks/DecryptHTTPS.md
 [33]: ./FiddlerScript/PerfTesting.md
 [34]: ../Generate-Traffic/Tasks/CreateNewRequest.md
+[35]: ./Filters.md
