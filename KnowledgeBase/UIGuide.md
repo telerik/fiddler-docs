@@ -37,31 +37,34 @@ The default text coloring of the Session entries derives from the HTTP Status (r
 
 Each session is marked with an icon for quick reference:
 
-![Request Being Sent][2] 	Request is being sent to the server
-	 Response is being read from the server
-	 Request is paused at a breakpoint
-	 Response is paused at a breakpoint
-	 Request used HTTP HEAD method; response should have no body
-	Request used HTTP POST method
-	 Request used HTTP CONNECT method; this establishes a tunnel used for HTTPS traffic
-	Response was HTML
-	Response was an image
-	Response was a script
-	Response was Cascading Style Sheet
- 	Response was XML
-	Response was JSON
-	Response was an audio file
-	Response was a video file
-	Response was a Silverlight applet
-	Response was a Flash applet
-	Response was a font
-	Generic successful response
-	Response was HTTP/300,301,302,303 or 307 redirect
-	Response was HTTP/304: Use cached version
-	 Response was a request for client credentials
-	Response was a server error
-	 Session was aborted by the client, Fiddler, or the Server.
++ ![Request Being Sent][2] 	Request is being sent to the server
++ ![Response Being Read][3] Response is being read from the server
++ ![Request Paused][4] Request is paused at a breakpoint
++ ![Response Paused][5] Response is paused at a breakpoint
++ ![Request Used HEAD][6] Request used HTTP HEAD method; response should have no body
++ ![Request Used POST][7] Request used HTTP POST method
++ ![Request Used CONNECT][8] Request used HTTP CONNECT method; this establishes a tunnel used for HTTPS traffic
++ ![HTML][9] Response was HTML
++ ![Image][10] Response was an image
++ ![Script][11] Response was a script
++ ![CSS][12] Response was Cascading Style Sheet
++ ![XML][13] Response was XML
++ ![JSON][14] Response was JSON
++ ![Audio][15] Response was an audio file
++ ![Video][16] Response was a video file
++ ![Silverlight][17] Response was a Silverlight applet
++ ![Flash][18] Response was a Flash applet
++ ![Font][19] Response was a font
++ ![Successful][20] Generic successful response
++ ![Redirect][21] Response was HTTP/300,301,302,303 or 307 redirect
++ ![Use Cached][22] Response was HTTP/304: Use cached version
++ ![Request Client Credentials][23] Response was a request for client credentials
++ ![Server Error][24] Response was a server error
++ ![Session Aborted][25] Session was aborted by the client, Fiddler, or the Server.
+
 Interacting with Sessions
+-------------------------
+
 If you right-click one or more sessions, a context-menu appears:
 
 
@@ -116,3 +119,26 @@ The Request Composer allows you to craft custom requests to send to the server. 
 
 [1]: ../images/UIGuide/UIOverview.png
 [2]: ../images/UIGuide/RequestBeingSent.png
+[3]: ../images/UIGuide/RequestBeingRead.png
+[4]: ../images/UIGuide/RequestPaused.png
+[5]: ../images/UIGuide/ResponsePaused.png
+[6]: ../images/UIGuide/RequestUsedHEAD.png
+[7]: ../images/UIGuide/RequestUsedPost.png
+[8]: ../images/UIGuide/RequestUsedCONNECT.png
+[9]: ../images/UIGuide/HTML.png
+[10]: ../images/UIGuide/Image.png
+[11]: ../images/UIGuide/Script.PNG
+[12]: ../images/UIGuide/CSS.png
+[13]: ../images/UIGuide/XML.png
+[14]: ../images/UIGuide/JSON.png
+[15]: ../images/UIGuide/Audio.png
+[16]: ../images/UIGuide/Video.png
+[17]: ../images/UIGuide/Silverlight.png
+[18]: ../images/UIGuide/Flash.png
+[19]: ../images/UIGuide/Font.png
+[20]: ../images/UIGuide/Successful.png
+[21]: ../images/UIGuide/300.png
+[22]: ../images/UIGuide/304.png
+[23]: ../images/UIGuide/RequestClientCredentials.png
+[24]: ../images/UIGuide/ServerError.png
+[25]: ../images/UIGuide/SessionAborted.png
