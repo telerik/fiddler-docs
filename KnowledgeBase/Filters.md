@@ -76,4 +76,4 @@ Response Headers
 
 Using these options, you can add or remove HTTP response headers, and flag responses that contain certain headers.
 
-[1]: ../images/Filter/FilterToHosts.png
+[1]: ../images/Filters/FilterToHosts.png
