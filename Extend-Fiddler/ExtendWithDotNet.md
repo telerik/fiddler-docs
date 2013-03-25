@@ -20,6 +20,8 @@ Requirements
 + If targeting **.NET Framework 3.5**: Ensure user has **.NET Framework 3.5** installed.
 + If extending **64bit Fiddler**: Target **AnyCPU**.
 
+See [Build extension assemblies to run in both Fiddler 2 and 4][1]
+
 Debugging
 ---------
 
@@ -104,3 +106,5 @@ Modify the default class1.cs (or create a new class) in your project as follows:
 	  public void AutoTamperResponseAfter(Session oSession){}
 	  public void OnBeforeReturningError(Session oSession){}
 	}
+
+[1]: ./ExtensionsForv2Andv4.md
