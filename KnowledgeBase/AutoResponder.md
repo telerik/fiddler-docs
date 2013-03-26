@@ -3,6 +3,7 @@ title: AutoResponder Reference
 slug: autoresponder-reference
 tags: AutoResponder, reference
 publish: true
+ordinal: 9
 ---
 
 <!-- http://fiddler2.com/Fiddler2/help/AutoResponder.asp -->
