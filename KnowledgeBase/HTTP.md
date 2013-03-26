@@ -3,6 +3,7 @@ title: HTTP References
 slug: http-references
 tags: reference
 publish: true
+ordinal: 11
 ---
 
 <!-- http://www.fiddler2.com/Fiddler/help/http/ -->
