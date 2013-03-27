@@ -99,4 +99,4 @@ Call Extension When User Enters a QuickExec Command
 		public static string[] Parameterize(string sCommand)
 
 
-[1]: ../Observe-Traffic/SearchSessions
+[1]: ../KnowledgeBase/QuickExec
