@@ -48,7 +48,7 @@ Add Build Event
 
 		copy "$(TargetPath)" "%userprofile%\My Documents\Fiddler2\Scripts\$(TargetFilename)"
 
-Implement a [Fiddler Interface][2]
+Implement a Fiddler Interface
 ----------------------------------
 
 Modify the default **class1.cs** (or create a new class) in your project as follows:
@@ -83,6 +83,8 @@ Modify the default **class1.cs** (or create a new class) in your project as foll
 		  public void AutoTamperResponseAfter(Session oSession){}
 		  public void OnBeforeReturningError(Session oSession){}
 		}
+
+See [Fiddler Interfaces][1].
 
 Compile and Load Extension
 --------------------------
