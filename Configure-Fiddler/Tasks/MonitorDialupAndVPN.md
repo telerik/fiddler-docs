@@ -6,6 +6,9 @@ publish: true
 ordinal: 10
 ---
 
+Monitor RAS, VPN or Dialup Connections
+======================================
+
 To monitor a dialup or VPN connection, open **Tools -> Fiddler Options...** and click **Monitor all connections**.
 
 ![Monitor all connections][1]
