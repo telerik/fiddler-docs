@@ -27,13 +27,15 @@ Configure Firefox
 
 ![FiddlerHook Import][2]
 
++ Or, import the certificate manually:
+
  1. Click **Tools > Options... > Advanced > Encryption > View Certificates > Authorities > Import**. 
 
    ![Import Certificate][4]
 
  2. Select the **.CER** file from your desktop.
 
- 8. Click the checkbox next to **Trust this CA to identify web sites.**
+ 3. Click the checkbox next to **Trust this CA to identify web sites.**
 
   ![Trust this CA to identify web sites][3]
 
