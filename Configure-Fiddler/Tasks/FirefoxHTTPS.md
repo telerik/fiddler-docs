@@ -31,7 +31,7 @@ Configure Firefox
 
    ![Import Certificate][4]
 
- 7 Select the **.CER** file from your desktop.
+ 2. Select the **.CER** file from your desktop.
 
  8. Click the checkbox next to **Trust this CA to identify web sites.**
 
