@@ -33,7 +33,7 @@ ordinal: 6
 
 ##Connections
 * The **Fiddler listens on port** textbox controls which port Fiddler uses to listen for web traffic.
-* The **Copy Browser Proxy Config URL** link copies a proxy-configuration-script link that you can paste into a client's proxy configuration screen. This option is rarely useful, but learn more [here.](http://www.fiddler2.com/fiddler/help/hookup.asp#Q-NonIE)
+* The **Copy Browser Proxy Config URL** link copies a proxy-configuration-script link that you can paste into a client's proxy configuration screen. This option is rarely useful, but learn more [here.](../Configure-Fiddler/Tasks/ConfigureBrowsers)
 * **Allow remote computers to connect** controls whether or not Fiddler will accept HTTP requests from other computers.
 * **Reuse client connections** controls whether Fiddler will reuse HTTP client connections (keep-alive).
 * **Reuse connections to servers** controls whether Fiddler will reuse HTTP server connections (keep-alive).
