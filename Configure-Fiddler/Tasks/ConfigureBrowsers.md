@@ -26,7 +26,9 @@ Firefox
 -------
 
 + To capture HTTP traffic from **Firefox 4+**, either:
+
   + Click **Tools > Monitor with Fiddler > Use Fiddler automatically**, or
+
   + Click **Tools > Options > Advanced > Network > Settings > Use System Proxy Settings**. Or, install the FiddlerHook Help Firefox addon.
 
 + To capture HTTPS traffic from Firefox:
