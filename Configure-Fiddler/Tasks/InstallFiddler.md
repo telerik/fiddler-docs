@@ -47,4 +47,4 @@ d. Click 'Close' when installation completes.
 [4]: ../../images/ConfigureFiddler/AgreetoLicenseAgreement.png
 [5]: ../../images/ConfigureFiddler/SelectInstallDirectory.png
 [6]: ../../images/ConfigureFiddler/FiddlerSetupCompleted.png
-[7]: ./ConfigureBrowser
+[7]: ./ConfigureBrowsers
