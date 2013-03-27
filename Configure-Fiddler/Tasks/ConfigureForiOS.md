@@ -56,7 +56,7 @@ Decrypt HTTPS Traffic from iOS Devices
 
 3. Restart Fiddler.
 
-4. Configure the device where Fiddler is installed to [trust Fiddler�s root certificate][4].
+4. Configure the device where Fiddler is installed to [trust Fiddler root certificate][4].
 
 5. On the iOS device, go to http://ipv4.fiddler:8888/ in a browser.
 
