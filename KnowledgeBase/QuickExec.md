@@ -43,9 +43,9 @@ Select sessions where response size is greater than size bytes.
 
 	>40000 <-- Select responses over 40kb
 
+Also:
 
-
-**'<size'**
+	<size
 
 Select sessions where response size is less than size bytes.	
 
