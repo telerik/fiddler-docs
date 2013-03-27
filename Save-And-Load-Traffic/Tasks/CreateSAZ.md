@@ -7,7 +7,7 @@ ordinal: 1
 ---
 
 Create a Session Archive Zip (SAZ) Traffic archive
---------------------------------------------------
+==================================================
 
 1. Start Fiddler. 
 

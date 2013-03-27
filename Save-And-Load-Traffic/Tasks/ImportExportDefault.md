@@ -7,7 +7,7 @@ ordinal: 3
 ---
 
 Export to Default Formats
--------------------------
+=========================
 
 To export traffic to **WCAT Script**, **VS Web Test Script**, [**Meddler Script**][1], **HTML5 AppCache Manifest**, [**HTTP Archive Format 1.1**][2], [**HTTP Archive Format 1.2**][3], or a **Raw File Dump**:
 
