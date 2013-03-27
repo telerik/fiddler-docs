@@ -46,7 +46,7 @@ Within Fiddler, you can display the Accept header in the Session list as a colum
 
 		cols add @request.Accept
 
-This will add a column labelled **@request.Accept** and as each session is logged, the request�s Accept header, if any, will be listed. To add this column every time Fiddler starts, click Rules > Customize Rules. Scroll to the static function Main() block , and add the following line within:
+This will add a column labelled **@request.Accept** and as each session is logged, the request's Accept header, if any, will be listed. To add this column every time Fiddler starts, click Rules > Customize Rules. Scroll to the static function Main() block , and add the following line within:
 
 		FiddlerObject.UI.lvSessions.AddBoundColumn("Accept", 50, "@request.Accept");
 
