@@ -42,4 +42,4 @@ Crawl Sequential URLs
 		  }
 		}
 
-[1]: ../../ExtendFiddler/AddRules
+[1]: ../../Extend-Fiddler/AddRules
