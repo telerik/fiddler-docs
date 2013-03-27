@@ -18,7 +18,7 @@ Configure Fiddler
 
  3. Click the **Export Fiddler Root Certificate to Desktop** button.
  
-   ![Export Root Certificate to Desktop][1]
+   ![Export Root Certificate to Desktop][3]
 
 Configure Firefox
 -----------------
@@ -29,7 +29,7 @@ Configure Firefox
 
  1. Click **Tools > Options... > Advanced > Encryption > View Certificates > Authorities > Import**. 
 
-   ![Import Certificate][2]
+   ![Import Certificate][4]
 
  7 Select the **.CER** file from your desktop.
 
@@ -39,3 +39,5 @@ Configure Firefox
 
 [1]: ../../KnowledgeBase/FiddlerHook
 [2]: ../../images/FirefoxHTTPS/FiddlerHookImport.png
+[3]: ../../images/ConfigureBrowsers/ExportRootCertificateToDesktop.png
+[4]: ../../images/ConfigureBrowsers/ImportCertificate.png
