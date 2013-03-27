@@ -52,7 +52,6 @@ Log Sessions to Local Database
 
 		import System.Data.OleDb;
 
-----------------
 
 + **Note**: This example relies upon OLEDB 4.0 which is not available for 64bit processes. Either:
 
