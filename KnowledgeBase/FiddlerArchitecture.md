@@ -94,7 +94,7 @@ By default, Fiddler2 accepts SSLv2 SSLv3 and TLSv1 from the client, and offers S
 
 Note that this may be different than if Fiddler were not intercepting the connection.  If you want to see what algorithms would have been chosen had Fiddler not been involved, disable the Decrypt HTTPS Traffic feature using the Tools | Fiddler Options menu.
 
-Learn more about [HTTPS Decryption](http://fiddler2.com/fiddler/help/HTTPSDecryption.asp).
+Learn more about [HTTPS Decryption](../Configure-Fiddler/Tasks/DecryptHTTPS).
 
 ##Silent Installation
 Want a silent / unattended install?  Use the setup command line: **FiddlerSetup.exe /S**
