@@ -6,4 +6,6 @@ publish: true
 ordinal: 2
 ---
 
-Modify requests and responses by customizing Fiddler's rules with FiddlerScript.
+Modify requests and responses by [customizing Fiddler's rules with FiddlerScript][1].
+
+[1]: ../../Extend-Fiddler/AddRules
