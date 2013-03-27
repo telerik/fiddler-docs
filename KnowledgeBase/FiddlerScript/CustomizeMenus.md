@@ -11,7 +11,7 @@ Customize Menus
 
 To customize menus in Fiddler, [add rules][1] using FiddlerScript with Global scope. For example:
 
-* * *
+
 
 **Add context-menu item to open currently selected URLs using Firefox**
 
@@ -26,14 +26,14 @@ To customize menus in Fiddler, [add rules][1] using FiddlerScript with Global sc
 		  }
 		}
 
-* * *
+
 
 **Add a submenu to the Rules menu and create an option in it**
 
 		public static RulesOption("Non-Exclusive-Test", "User-Agent") 
 		var m_UANONRad: boolean = true; 
 
-* * *
+
 
 **To build submenus with mutually exclusive radio options**
 
@@ -46,7 +46,7 @@ To customize menus in Fiddler, [add rules][1] using FiddlerScript with Global sc
 		public static RulesOption("Spoof nothing", "User-Agent", true) 
 		var m_UANONE: boolean = true;
 
-* * *
+
 
 **To build a submenu with mutually exclusive radio options, that control a single string variable**
 (Offers a more compact syntax than the previous alternative)
@@ -57,7 +57,7 @@ To customize menus in Fiddler, [add rules][1] using FiddlerScript with Global sc
 		RulesStringValue(2,"&Custom...", "%CUSTOM%")
 		public static var sTheOptionValue: String = null;
 
-* * *
+
 
 **Same as previous, but with a default option pre-selected**
 
@@ -67,7 +67,7 @@ To customize menus in Fiddler, [add rules][1] using FiddlerScript with Global sc
 		RulesStringValue(2,"&Custom...", "%CUSTOM%")
 		public static var sTheOptionValue: String = null;
 
-* * *
+
 
 **Add a Tools menu option that resets the script**
 
@@ -78,7 +78,7 @@ To customize menus in Fiddler, [add rules][1] using FiddlerScript with Global sc
 			FiddlerObject.ReloadScript();
 		}
 
-* * *
+
 
 **Add a Tools menu option that clears all WinINET/IE cookies and cache files**
 
@@ -87,5 +87,5 @@ To customize menus in Fiddler, [add rules][1] using FiddlerScript with Global sc
 		  FiddlerObject.UI.actClearWinINETCookies(); 
 		}
 
-* * *
+
 [1]: ../../Extend-Fiddler/AddRules

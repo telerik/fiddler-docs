@@ -11,7 +11,7 @@ Pause Web Sessions
 
 To pause specific sessions, [add rules][1] using FiddlerScript to the **OnBeforeRequest** function (except where noted). For example:
 
-* * *
+
 
 **Pause all HTTP POSTs to allow hand-editing (the POST verb is often used for submitting forms)**
 
@@ -19,7 +19,7 @@ To pause specific sessions, [add rules][1] using FiddlerScript to the **OnBefore
 		  oSession["x-breakrequest"]="breaking for POST";
 		}
 
-* * *
+
 
 **Pause all HTTP POSTs that contain 'thekeyword'**
 
@@ -27,7 +27,7 @@ To pause specific sessions, [add rules][1] using FiddlerScript to the **OnBefore
 		oSession["x-breakrequest"] = "keyword";
 		}
 
-* * *
+
 
 **Pause a request for an XML file to allow hand-editing**
 
@@ -35,7 +35,7 @@ To pause specific sessions, [add rules][1] using FiddlerScript to the **OnBefore
 		 oSession["x-breakrequest"]="reason_XML"; 
 		}
 
-* * *
+
 
 **Pause a response containing JavaScript to allow hand-editing**
 (in **OnBeforeResponse**)
@@ -44,5 +44,5 @@ To pause specific sessions, [add rules][1] using FiddlerScript to the **OnBefore
 		 oSession["x-breakresponse"]="reason is JScript"; 
 		}
 
-* * *
+
 [1]: ../../Extend-Fiddler/AddRules

@@ -11,7 +11,7 @@ Performance Testing
 
 To test application performance, [add rules][1] using FiddlerScript to the **OnBeforeResponse** function (except where noted). For example:
 
-* * *
+
 
 **Simulate modem uploads** 
 (add to **OnBeforeRequest** function)
@@ -19,14 +19,14 @@ To test application performance, [add rules][1] using FiddlerScript to the **OnB
 		// Delay sends by 300ms per KB uploaded.
 		oSession["request-trickle-delay"] = "300";
 
-* * *
+
 
 **Simulate modem downloads**
 
 		// Delay receives by 150ms per KB downloaded.
 		oSession["response-trickle-delay"] = "150";
 
-* * *
+
 
 **Flag content which isn't set to cache on the client.**
 
@@ -38,19 +38,19 @@ To test application performance, [add rules][1] using FiddlerScript to the **OnB
 		oSession["ui-italic"]="true"; 
 		}
 
-* * *
+
 
 **Display in the "Custom Column" the number of milliseconds from the moment of the request until the last byte was received.**
 
 		oSession["ui-customcolumn"] = oSession["X-TTLB"];
 
-* * *
+
 
 **Display the # of milliseconds until the First Byte was received from the server, followed by the # of ms until the Last Byte.**
 
 		oSession["ui-customcolumn"] = "FB: " + oSession["X-TTFB"] + "; LB: " + oSession["X-TTLB"];
 
-* * *
+
 
 **Add a CopyTimers context menu item to the Session List**
 (Scope is **Global**)
@@ -80,6 +80,6 @@ To test application performance, [add rules][1] using FiddlerScript to the **OnB
 		  MessageBox.Show("Done.");
 		}
 
-* * *
+
 
 [1]: ../../Extend-Fiddler/AddRules

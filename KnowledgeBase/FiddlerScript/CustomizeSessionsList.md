@@ -11,20 +11,20 @@ Customize Web Sessions List
 
 To customize Fiddler's **Web Sessions List**, [add rules][1] using FiddlerScript to the **OnBeforeRequest** function (except where noted). For example:
 
-* * *
+
 
 **Display in the "Custom Column" the time of the original request**
 
 		oSession["ui-customcolumn"] += DateTime.Now.ToString("h:mm:ss.ffff ");
 
-* * *
+
 
 **Show any Set-Cookie headers in Custom column in Session list.**
 (in **OnBeforeResponse**)
 
 		oSession["ui-customcolumn"] = oSession.oResponse["Set-Cookie"];
 
-* * *
+
 
 **Mark any requests which send cookies in red, and show the value in the Custom column. Otherwise, mark request in green.**
 
@@ -36,7 +36,7 @@ To customize Fiddler's **Web Sessions List**, [add rules][1] using FiddlerScript
 		else
 		oSession["ui-color"]="green";
 
-* * *
+
 
 **Hide requests for .GIFs from the session list**
 
@@ -44,7 +44,7 @@ To customize Fiddler's **Web Sessions List**, [add rules][1] using FiddlerScript
 			oSession["ui-hide"]="hiding image requests";  //String value not important
 		}
 
-* * *
+
 
 **Hide completed responses which returned images**
 (in **OnBeforeResponse**)
@@ -53,7 +53,7 @@ To customize Fiddler's **Web Sessions List**, [add rules][1] using FiddlerScript
 			oSession["ui-hide"] = "hiding images"; // String value not important
 		}
 
-* * *
+
 
 **Hide requests to domains except those I care about**
 
@@ -61,7 +61,7 @@ To customize Fiddler's **Web Sessions List**, [add rules][1] using FiddlerScript
 			oSession["ui-hide"] = "hiding boring domains"; // String value not important
 		}
 
-* * *
+
 
 **Unhide any response which returned a 404**
 (in **OnBeforeResponse**)
@@ -70,7 +70,7 @@ To customize Fiddler's **Web Sessions List**, [add rules][1] using FiddlerScript
 			oSession.oFlags.Remove("ui-hide");
 		}
 
-* * *
+
 
 **Flag all pages in which the server sends a cookie**
 (in **OnBeforeResponse**)
@@ -82,7 +82,7 @@ To customize Fiddler's **Web Sessions List**, [add rules][1] using FiddlerScript
 		  oSession["ui-color"]="purple"; 
 		}
 
-* * *
+
 
 **Show redirection target Location in Session List**
 (In **OnBeforeResponse**)
@@ -91,7 +91,7 @@ To customize Fiddler's **Web Sessions List**, [add rules][1] using FiddlerScript
 			oSession["ui-customcolumn"] = oSession.oResponse["Location"];
 		}
 
-* * *
+
 
 **Add image size information in a column.**
 (**Global** scope)
@@ -113,7 +113,7 @@ Note: you must add System.drawing.dll inside **Tools > Fiddler Options > Extensi
 		 return String.Empty;
 		}
 
-* * *
+
 
 **Search all text responses for a list of strings and flag sessions**
 (in **OnBeforeRequest**)

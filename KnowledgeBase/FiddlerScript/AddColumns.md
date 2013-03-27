@@ -16,7 +16,7 @@ The BindUIColumn Attribute
 
 To fill a custom column, add a method labeled with the **BindUIColumn** attribute. Fiddler will run the method on each session to fill the custom column.  (To avoid exceptions, be sure that your method is robust and checks to ensure that objects exist before use!) For example:
 
-* * *
+
 
 **Fill custom column with session HTTP Method**
 
@@ -24,7 +24,7 @@ To fill a custom column, add a method labeled with the **BindUIColumn** attribut
 			   function CalcMethodCol(oS: Session){
 					  if (null != oS.oRequest) return oS.oRequest.headers.HTTPMethod; else return String.Empty; 
 			   }
-* * *
+
 
 **Fill custom column with time taken for session**
 
@@ -38,7 +38,7 @@ To fill a custom column, add a method labeled with the **BindUIColumn** attribut
 				 return sResult;
 			   }
 
-* * *
+
 
 There are four overloads for BindUIColumn that allow you to set the width, display order, and whether the column should be sorted numerically.
 
