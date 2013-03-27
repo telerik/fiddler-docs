@@ -18,7 +18,7 @@ Import a matching ruleset
 
  2. Select a **.saz** or **.farx** file.
 
- ![Import Ruleset][1]
+  ![Import Ruleset][1]
 
 + From **Windows Explorer**:
 
