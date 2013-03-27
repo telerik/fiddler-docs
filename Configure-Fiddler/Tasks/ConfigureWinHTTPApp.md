@@ -6,6 +6,9 @@ publish: true
 ordinal: 9
 ---
 
+Configure a WinHTTP Application to Use Fiddler
+==============================================
+
 To configure a WinHTTP application to send web traffic to Fiddler, enter this command from the command line:
 
 **Windows Vista or above** (Requires an Elevated/Admin command prompt):
