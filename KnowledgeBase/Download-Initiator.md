@@ -13,7 +13,7 @@ Proxy-based debuggers have a few key strengths -- chief among them is the abilit
 
 Having said that, Fiddler includes a number of features to help you understand context. First, Fiddler attempts to map inbound requests back to the process that issued them. For browsers like Internet Explorer 8, with its loosely-coupled process architecture, this often means that each browser tab sends traffic from an individual process. The process information is shown in the Process column in the [Web Sessions List][1], and FiddlerScript and extensions may access the Process Name and instance ID (PID) using the Session object flag named **X-PROCESSINFO**.
 
-Fiddler also uses the HTTP **Referer** header to help you [associate traffic][2]. Fiddler assumes that the parent session is the session is the most recent request to the URL specified in the selected session's Referer header. "Child requests" are those requests after the current request that have a Referer of the currently selected session�s URL. 
+Fiddler also uses the HTTP **Referer** header to help you [associate traffic][2]. Fiddler assumes that the parent session is the session is the most recent request to the URL specified in the selected session's Referer header. "Child requests" are those requests after the current request that have a Referer of the currently selected session's URL. 
 
 Internet Explorer 9 includes two new features that help add more context.
 
