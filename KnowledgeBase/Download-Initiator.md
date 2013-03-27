@@ -73,9 +73,9 @@ Then, when you load a page, you will see the initiator information:
 
 Interpretation of these tokens is as follows. First, there’s a token (e.g. image, script, html) indicating what type of content is being downloaded. Next, an indicator of which document object “owns” the download. Information about what element made the request is present, and in some cases, information about what the exact download trigger was. For instance “html tokenizer” means that the download request occurred during the parsing of HTML. “html lookahead” indicates that the [Lookahead parser] is making the request. On the other hand, “src property change” means that the download occurred because script changed the SRC property of an **img** tag.
 
-[1]: ../Observe-Traffic/Tasks/ViewSessionSummary.md
-[2]: ../Observe-Traffic/Tasks/ParentChild.md
+[1]: ../Observe-Traffic/Tasks/ViewSessionSummary
+[2]: ../Observe-Traffic/Tasks/ParentChild
 [3]: http://blogs.msdn.com/b/patricka/archive/2010/09/16/if-i-m-using-internet-explorer-9-beta-what-should-i-do-if-a-site-is-broken-or-hangs-or-crashes-etc.aspx
-[4]: ./QuickExec.md
+[4]: ./QuickExec
 [5]: ../images/Download-Initiator/Download-Initiator.png
 [6]: http://blogs.msdn.com/b/ieinternals/archive/2010/04/01/ie8-lookahead-downloader-fixed.aspx

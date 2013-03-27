@@ -66,4 +66,4 @@ See Also
 
 [1]: ../KnowledgeBase/FiddlerScript/
 [2]: http://fiddler2.com/add-ons
-[3]: ../KnowledgeBase/SessionFlags.md
+[3]: ../KnowledgeBase/SessionFlags

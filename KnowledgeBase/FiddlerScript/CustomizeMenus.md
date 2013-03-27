@@ -88,4 +88,4 @@ To customize menus in Fiddler, [add rules][1] using FiddlerScript with Global sc
 		}
 
 * * *
-[1]: ../../Extend-Fiddler/AddRules.md
+[1]: ../../Extend-Fiddler/AddRules

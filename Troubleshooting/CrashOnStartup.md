@@ -1,6 +1,6 @@
 ---
 title: Fiddler exits unexpectedly on startup
-slug: CrashOnStartup.md
+slug: CrashOnStartup
 tags: Troubleshooting, Fiddler has encountered a problem, crash, startup, .NET Framework
 publish: true
 ordinal: 5

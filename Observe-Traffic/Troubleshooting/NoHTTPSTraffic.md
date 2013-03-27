@@ -7,4 +7,4 @@ ordinal: 4
 ---
 
 **Q:** How do I see the HTTPS traffic-- I only see a "CONNECT" tunnel?  
-**A:** HTTPS Traffic decryption is disabled by default. Learn more about [decrypting HTTPS traffic with Fiddler2.](../../Configure-Fiddler/Tasks/DecryptHTTPS.md)
+**A:** HTTPS Traffic decryption is disabled by default. Learn more about [decrypting HTTPS traffic with Fiddler2.](../../Configure-Fiddler/Tasks/DecryptHTTPS)

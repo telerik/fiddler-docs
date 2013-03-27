@@ -18,5 +18,5 @@ Solution 2: [Create the Local Security Authority host name that can be reference
 Solution 3: [Disable the authentication loopback check][2]
 ----------------------------------------------------------
 
-[1]: ../Task/AuthenticateWithCBT.md
+[1]: ../Task/AuthenticateWithCBT
 [2]: http://support.microsoft.com/kb/926642

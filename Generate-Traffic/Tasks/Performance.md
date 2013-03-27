@@ -8,4 +8,4 @@ ordinal: 6
 
 [Use FiddlerScript to simulate traffic and display performance results][1].
 
-[1]: ../../KnowledgeBase/FiddlerScript/PerfTesting.md
+[1]: ../../KnowledgeBase/FiddlerScript/PerfTesting

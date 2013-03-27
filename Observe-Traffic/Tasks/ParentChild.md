@@ -1,6 +1,6 @@
 ---
 title: Select Parent or Child Session
-slug: ParentChild.md
+slug: ParentChild
 tags: Observe Traffic, Referer header, parent session, child session, find parent, find child
 publish: true
 ordinal: 8

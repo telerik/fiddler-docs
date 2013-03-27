@@ -66,4 +66,4 @@ HexView Inspector
 
 + CTRL+G - Goto byte
 
-[1]: ./QuickExec.md
+[1]: ./QuickExec

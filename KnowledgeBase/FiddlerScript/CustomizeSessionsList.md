@@ -135,4 +135,4 @@ Note: you must add System.drawing.dll inside **Tools > Fiddler Options > Extensi
 			}
 		}
 
-[1]: ../../Extend-Fiddler/AddRules.md
+[1]: ../../Extend-Fiddler/AddRules

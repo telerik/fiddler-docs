@@ -88,5 +88,5 @@ Modify the default **class1.cs** (or create a new class) in your project as foll
 -----------------------------------------------
 
 
-[1]: ./Interfaces.md
-[2]: ./LoadExtension.md
+[1]: ./Interfaces
+[2]: ./LoadExtension

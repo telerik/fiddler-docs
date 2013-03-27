@@ -33,4 +33,4 @@ Note: the name "Notify" is a standard Windows system sound entry.
 		if (oBodyString.Length > 0) FiddlerObject.alert(oBodyString);
 
 * * *
-[1]: ../../Extend-Fiddler/AddRules.md
+[1]: ../../Extend-Fiddler/AddRules

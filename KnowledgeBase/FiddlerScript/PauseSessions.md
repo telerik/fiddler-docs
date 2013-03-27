@@ -45,4 +45,4 @@ To pause specific sessions, [add rules][1] using FiddlerScript to the **OnBefore
 		}
 
 * * *
-[1]: ../../Extend-Fiddler/AddRules.md
+[1]: ../../Extend-Fiddler/AddRules

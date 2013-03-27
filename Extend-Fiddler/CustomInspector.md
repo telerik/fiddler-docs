@@ -37,5 +37,5 @@ Build a Custom Inspector
 
 7. [Compile and load your extension in Fiddler][2].
 
-[1]: ./CreateExtension.md
-[2]: ./LoadExtension.md
+[1]: ./CreateExtension
+[2]: ./LoadExtension

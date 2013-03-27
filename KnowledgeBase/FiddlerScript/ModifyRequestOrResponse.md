@@ -177,4 +177,4 @@ To make custom changes to web requests and responses, [add rules][1] to Fiddler'
 * * *
 
 
-[1]: ../../Extend-Fiddler/AddRules.md
+[1]: ../../Extend-Fiddler/AddRules

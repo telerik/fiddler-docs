@@ -1,6 +1,6 @@
 ---
 title: Import or Export Matching Rules
-slug: ImportExportAutoresponder.md
+slug: ImportExportAutoresponder
 tags: Generate Traffic, Autoresponder, import, .farx, .sazexport
 publish: true
 ordinal: 5

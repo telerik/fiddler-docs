@@ -57,4 +57,4 @@ To import traffic from **HTTP Archive JSON**, **HTTP Archive XML** (exported fro
 [6]: ../images/ImportExport/SelectImportFormat.png
 [7]: ../images/ImportExport/AdjustAppCacheManifest.png
 [8]: ../images/ImportExport/BaseURL.png
-[9]: ../../Extend-Fiddler/BuildImporterExporter.md
+[9]: ../../Extend-Fiddler/BuildImporterExporter

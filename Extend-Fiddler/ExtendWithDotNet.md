@@ -107,4 +107,4 @@ Modify the default class1.cs (or create a new class) in your project as follows:
 	  public void OnBeforeReturningError(Session oSession){}
 	}
 
-[1]: ./ExtensionsForv2Andv4.md
+[1]: ./ExtensionsForv2Andv4

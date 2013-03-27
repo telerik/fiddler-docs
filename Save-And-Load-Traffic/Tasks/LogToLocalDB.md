@@ -66,5 +66,5 @@ Log Sessions to Local Database
 
  In 2.3.9.1 and later, this reference will occur automatically.
 
-[1]: ../../Extend-Fiddler/AddRules.md
+[1]: ../../Extend-Fiddler/AddRules
 [2]: http://fiddler.wikidot.com/bitness

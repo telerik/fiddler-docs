@@ -51,4 +51,4 @@ To search for a target string on a series of successively named HTML pages (for 
 		}
 
 
-[1]: ../../Extend-Fiddler/AddRules.md
+[1]: ../../Extend-Fiddler/AddRules

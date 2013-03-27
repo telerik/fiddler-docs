@@ -88,6 +88,6 @@ See Also
 
 + [Build assemblies to run in both Fiddler v2 and v4][3]
 
-[1]: ./AddRules.md
+[1]: ./AddRules
 [2]: http://fiddler2.com/add-ons
-[3]: ./ExtensionsForv2Andv4.md
+[3]: ./ExtensionsForv2Andv4

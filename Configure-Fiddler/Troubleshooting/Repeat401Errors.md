@@ -14,4 +14,4 @@ When connecting to a server protected with channel-binding tokens (CBT), the ser
 Solution: [Configure Fiddler to authenticate to a CBT-protected server][1]
 --------------------------------------------------------------------------
 
-[1]: ../Tasks/AuthenticateWithCBT.md
+[1]: ../Tasks/AuthenticateWithCBT

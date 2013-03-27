@@ -245,6 +245,6 @@ Drop the request body from the session list after response is sent to the client
 * * *
 
 
-[1]: ../Extend-Fiddler/AddRules.md
-[2]: ../Extend-Fiddler/Interfaces.md
-[3]: ../Observe-Traffic/Tasks/ExamineWebTraffic.md
+[1]: ../Extend-Fiddler/AddRules
+[2]: ../Extend-Fiddler/Interfaces
+[3]: ../Observe-Traffic/Tasks/ExamineWebTraffic

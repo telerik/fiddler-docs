@@ -142,6 +142,6 @@ See Also
 --------
 
 [Build extension assemblies to run in both Fiddler 2 and 4][3]
-[1]: ./CreateExtension.md
-[2]: ./LoadExtension.md
-[3]: ./ExtensionsForv2Andv4.md
+[1]: ./CreateExtension
+[2]: ./LoadExtension
+[3]: ./ExtensionsForv2Andv4

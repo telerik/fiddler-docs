@@ -49,7 +49,7 @@ To view a waterfall diagram of the transfer timeline for one or more web session
 
  ![Timeline Tab][5]
 
-[1]: ./CaptureWebTraffic.md
+[1]: ./CaptureWebTraffic
 [2]: ../../images/ExamineWebTraffic/SessionsList.png
 [3]: ../../images/ExamineWebTraffic/Statistics.png
 [4]: ../../images/ExamineWebTraffic/Inspectors.png

@@ -1,6 +1,6 @@
 ---
 title: Modify Matching Rules
-slug: ModifyAutoresponder.md
+slug: ModifyAutoresponder
 tags: Generate Traffic, Autoresponder, replay
 publish: true
 ordinal: 4

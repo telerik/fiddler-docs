@@ -1,6 +1,6 @@
 ---
 title: Replay Captured Traffic
-slug: ReplayAutoresponder.md
+slug: ReplayAutoresponder
 tags: Generate Traffic, Autoresponder, web sessions archive, replay
 publish: true
 ordinal: 3

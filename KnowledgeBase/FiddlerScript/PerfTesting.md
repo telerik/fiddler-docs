@@ -82,4 +82,4 @@ To test application performance, [add rules][1] using FiddlerScript to the **OnB
 
 * * *
 
-[1]: ../../Extend-Fiddler/AddRules.md
+[1]: ../../Extend-Fiddler/AddRules

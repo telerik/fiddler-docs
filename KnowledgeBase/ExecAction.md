@@ -23,4 +23,4 @@ ExecAction sets **%ERRORLEVEL%** to
 + 1 if an incorrect (!= 1) number of arguments used
 + 2 if the Fiddler window could not be found.
 
-[1]: ./QuickExec.md
+[1]: ./QuickExec

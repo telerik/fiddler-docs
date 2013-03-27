@@ -156,9 +156,9 @@ The [Request Composer][34] allows you to craft custom requests to send to the se
 [27]: ../images/UIGuide/CopyMenu.png
 [28]: ../images/UIGuide/SaveMenu.png
 [29]: ../images/UIGuide/QuickExec.png
-[30]: ./FiddlerScript/AddColumns.md
+[30]: ./FiddlerScript/AddColumns
 [31]: ./FiddlerScript/ 
-[32]: ../Configure-Fiddler/Tasks/DecryptHTTPS.md
-[33]: ./FiddlerScript/PerfTesting.md
-[34]: ../Generate-Traffic/Tasks/CreateNewRequest.md
-[35]: ./Filters.md
+[32]: ../Configure-Fiddler/Tasks/DecryptHTTPS
+[33]: ./FiddlerScript/PerfTesting
+[34]: ../Generate-Traffic/Tasks/CreateNewRequest
+[35]: ./Filters

@@ -16,5 +16,5 @@ To view the Fiddler ID Number, result code, protocol, hostname, content type, UR
 
  ![Web Session List][2]
 
-[1]: ./CaptureWebTraffic.md
+[1]: ./CaptureWebTraffic
 [2]: ../../images/ViewSessionSummary/SessionsList.png

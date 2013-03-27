@@ -47,5 +47,5 @@ Use on of these methods:
 [1]: ../../images/ConfigureColumns/ReorderColumns.png
 [2]: ../../images/ConfigureColumns/ResizeColumns.png
 [3]: ../../images/ConfigureColumns/QuickExecCommand.png
-[4]: ../../KnowledgeBase/QuickExec.md
-[5]: ../../KnowledgeBase/FiddlerScript/AddColumns.md
+[4]: ../../KnowledgeBase/QuickExec
+[5]: ../../KnowledgeBase/FiddlerScript/AddColumns
