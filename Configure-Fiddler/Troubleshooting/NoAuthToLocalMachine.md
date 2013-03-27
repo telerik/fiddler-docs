@@ -9,14 +9,20 @@ ordinal: 7
 Problem: Website running on local machine with Fiddler running rejects credentials
 ----------------------------------------------------------------------------------
 
-Solution 1: [Configure Fiddler to Authenticate to Server][1]
-------------------------------------------------------------
+Solution 1:
+-----------
 
-Solution 2: [Create the Local Security Authority host name that can be referenced in an NTLM authentication request][2]
------------------------------------------------------------------------------------------------------------------------
+[Configure Fiddler to Authenticate to Server][1]
 
-Solution 3: [Disable the authentication loopback check][2]
-----------------------------------------------------------
+Solution 2: 
+-----------
+
+[Create the Local Security Authority host name that can be referenced in an NTLM authentication request][2]
+
+Solution 3:
+-----------
+
+[Disable the authentication loopback check][2]
 
 [1]: ../Task/AuthenticateWithCBT
 [2]: http://support.microsoft.com/kb/926642
