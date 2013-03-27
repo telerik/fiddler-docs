@@ -15,7 +15,7 @@ Import a matching ruleset
 
  2. Select a **.saz** or **.farx** file.
 
- [Import Ruleset][1]
+ ![Import Ruleset][1]
 
 + From **Windows Explorer**:
 
@@ -32,7 +32,7 @@ Export a matching ruleset
 
 2. Right-click the ruleset and select **Export all**..
 
- [Save ruleset][2]
+ ![Save ruleset][2]
 
 [1]: ../../images/ImportExportAutoresponder/ImportRuleset.png
 [2]: ../../images/ImportExportAutoresponder/SaveRuleset.png
