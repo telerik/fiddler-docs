@@ -11,19 +11,19 @@ Modifying a Request or Response
 
 To make custom changes to web requests and responses, [add rules][1] to Fiddler's **OnBeforeRequest** function using FiddlerScript. For example:
 
-* * *
+
 
 **Add a request header**
 
 		oSession.oRequest["NewHeaderName"] = "New header value";
 
-* * *
+
 
 **Delete a response header**
 
 		oSession.oResponse.headers.Remove("Set-Cookie");
 
-* * *
+
 
 **Change a request for one page to a different page on the same server**
 
@@ -31,7 +31,7 @@ To make custom changes to web requests and responses, [add rules][1] to Fiddler'
 		  oSession.PathAndQuery="/version2.css";
 		}
 
-* * *
+
 
 **Point all requests for one server to the same port on a different server**
 
@@ -39,7 +39,7 @@ To make custom changes to web requests and responses, [add rules][1] to Fiddler'
 		  oSession.hostname="test.bayden.com";
 		}
 
-* * *
+
 
 **Point all requests for one port to a different port on a different server**
 
@@ -47,7 +47,7 @@ To make custom changes to web requests and responses, [add rules][1] to Fiddler'
 		  oSession.host="test.bayden.com:9090";
 		}
 
-* * *
+
 
 **Point all requests for one server to a different server, including HTTPS tunnels**
 
@@ -58,7 +58,7 @@ To make custom changes to web requests and responses, [add rules][1] to Fiddler'
 
 		if (oSession.HostnameIs("www.example.com")) oSession.hostname = "beta.example.com"; 
 
-* * *
+
 
 **Simulate the Windows HOSTS file, by pointing one Hostname to a different IP address.**
 (Retargets without changing the request's Host header)
@@ -69,7 +69,7 @@ To make custom changes to web requests and responses, [add rules][1] to Fiddler'
 		oSession["x-overrideHost"] = "128.123.133.123";  // DNS name or IP address of target server
 		}
 
-* * *
+
 
 **Retarget requests for a single page to a different page, potentially on  a different server.**
 (Retargets by changing the request's Host header)
@@ -78,20 +78,20 @@ To make custom changes to web requests and responses, [add rules][1] to Fiddler'
 		  oSession.url = "dev.example.com/workinprogress.js";
 		}
 
-* * *
+
 
 **Prevent upload of HTTP Cookies**
 
 		oSession.oRequest.headers.Remove("Cookie");
 
-* * *
+
 
 **Decompress and unchunk a HTTP response, updating headers if needed**
 
 		// Remove any compression or chunking from the response in order to make it easier to manipulate
 		oSession.utilDecodeResponse();
 
-* * *
+
 
 **Search and replace in HTML.**
 
@@ -100,7 +100,7 @@ To make custom changes to web requests and responses, [add rules][1] to Fiddler'
 		  oSession.utilReplaceInResponse('<b>','<u>');
 		}
 
-* * *
+
 
 **Case insensitive Search of response HTML.**
 
@@ -108,7 +108,7 @@ To make custom changes to web requests and responses, [add rules][1] to Fiddler'
 		  oSession["ui-color"] = "red";
 		}
 
-* * *
+
 
 **Remove all DIV tags (and content inside the DIV tag)**
 
@@ -126,19 +126,19 @@ To make custom changes to web requests and responses, [add rules][1] to Fiddler'
 		  oSession.utilSetResponseBody(oBody); 
 		}
 
-* * *
+
 
 **Pretend your browser is the GoogleBot webcrawler**
 
 		oSession.oRequest["User-Agent"]="Googlebot/2.X (+http://www.googlebot.com/bot.html)";
 
-* * *
+
 
 **Request Hebrew content**
 
 		oSession.oRequest["Accept-Language"]="he";
 
-* * *
+
 
 **Deny .CSS requests**
 
@@ -148,7 +148,7 @@ To make custom changes to web requests and responses, [add rules][1] to Fiddler'
 		 oSession.oRequest.FailSession(404, "Blocked", "Fiddler blocked CSS file");
 		}
 
-* * *
+
 
 **Simulate HTTP Basic authentication  (Requires user to enter a password before displaying web content.)**
 
@@ -165,7 +165,7 @@ To make custom changes to web requests and responses, [add rules][1] to Fiddler'
 		oResponse.headers.Add("Content-Type", "text/html");
 		}
 
-* * *
+
 
 **Respond to a request with a file loaded from the \Captures\Responses folder**
 (Can be placed in **OnBeforeRequest** or **OnBeforeResponse** function)
@@ -174,7 +174,7 @@ To make custom changes to web requests and responses, [add rules][1] to Fiddler'
 		  oSession["x-replywithfile"] ="version2.css";
 		}
 
-* * *
+
 
 
 [1]: ../../Extend-Fiddler/AddRules
