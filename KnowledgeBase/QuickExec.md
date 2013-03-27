@@ -27,7 +27,7 @@ Keyboard Shortcuts
 Default commands
 ----------------
 
-* * *
+
 		
 **?sometext**	
 
@@ -35,7 +35,7 @@ As you type sometext, Fiddler will highlight sessions where the URL contains som
 
 	?searchtext
 
-* * *
+
 
 **>size**	
 
@@ -43,15 +43,15 @@ Select sessions where response size is greater than size bytes.
 
 	>40000 <-- Select responses over 40kb
 
-* * *
 
-	<size	
+
+**'<size'**
 
 Select sessions where response size is less than size bytes.	
 
 	<5k <-- Select responses under 5kb
 
-* * *
+
 
 **=status**
 
@@ -62,7 +62,7 @@ Select sessions where response status = status or request method = method.
 	=301 <-- Select 301 redirect responses
 	=POST <-- Select POST requests
 
-* * *
+
 
 **@host**
 
@@ -70,7 +70,7 @@ Select sessions where the request host contains host.  Hit Enter to set focus to
 
 	@msn.com <-- Select www.msn.com, login.msn.com, etc
 
-* * *
+
 
 **bold**	
 
@@ -79,7 +79,7 @@ Mark any future sessions in bold if the url contains the target string
 	bold /bar.aspx
 	bold        <-- Call with no parameter to clear
 
-* * *
+
 
 **bpafter**	
 
@@ -88,7 +88,7 @@ Break any response where the RequestURI contains the specified string
 	bpafter /favicon.ico 
 	bpafter        <-- Call with no parameter to clear
 
-* * *
+
 
 **bps**	
 
@@ -97,7 +97,7 @@ Break any response where the status code matches
 	bps 404
 	bps        <-- Call with no parameter to clear
 
-* * *
+
 
 **bpv** or **bpm**
 
@@ -106,7 +106,7 @@ Create a request breakpoint for the specified HTTP method.  Setting this command
 	bpv POST
 	bpv        <-- Call with no parameter to clear
 
-* * *
+
 
 **bpu**	
 
@@ -115,7 +115,7 @@ Create a request breakpoint for URIs containing the specified string.  Setting t
 	bpu /myservice.asmx
 	bpu        <-- Call with no parameter to clear
 
-* * *
+
 
 **cls** or **clear**	
 
@@ -123,7 +123,7 @@ clear the session list
 
 	cls
 
-* * *
+
 
 **dump**	
 
@@ -131,7 +131,7 @@ dump all sessions to a zip archive in C:\
 
 	dump
 
-* * *
+
 
 **g** or **go**	
 
@@ -139,7 +139,7 @@ Resume all breakpointed sessions
 
 	g
 
-* * *
+
 
 **help**	
 
@@ -147,13 +147,13 @@ Show this page
 
 	help
 
-* * *
+
 
 **hide**	Hide Fiddler in System tray	
 
 	hide
 
-* * *
+
 
 **urlreplace**	
 
@@ -162,7 +162,7 @@ Replace any string in URLs with a different string.  Setting this command will c
 	urlreplace SeekStr ReplaceWithStr
 	urlreplace        <-- Call with no parameters to clear
 
-* * *
+
 
 **start**	
 
@@ -170,7 +170,7 @@ Register as the system proxy
 
 	start
 
-* * *
+
 
 **stop**	
 
@@ -178,7 +178,7 @@ Unregister as the system proxy
 
 	stop
 
-* * *
+
 
 **show**	
 
@@ -186,7 +186,7 @@ Restore Fiddler from system tray -- more useful when triggering rules from ExecA
 
 	show
 
-* * *
+
 
 **select *MIME***	
 
@@ -196,7 +196,7 @@ Select any session where the response Content-Type header contains the specified
 	select css
 	select htm
 
-* * *
+
 
 **select *HeaderOrFlag PartialValue***
 
@@ -208,7 +208,7 @@ Select any session where the named Header or SessionFlag contains the specified 
 	select @Request.Accept html     <-- Find requests with Accept: html
 	select @Response.Set-Cookie domain <- Find responses that Set-Cookie on a domain
 
-* * *
+
 
 **allbut** or **keeponly**	
 
@@ -217,7 +217,7 @@ Hide all sessions except those where Content-Type header contains the specified 
 	allbut xml
 	allbut java
 
-* * *
+
 
 **quit**	
 
@@ -225,7 +225,7 @@ Shutdown Fiddler.
 
 	quit
 
-* * *
+
 
 **!dns hostname**
 
@@ -234,7 +234,7 @@ Perform a DNS lookup of the target host and show the results on the LOG tab
 	!dns www.example.com
 	!nslookup www.example.com
 
-* * *
+
 
 **!listen *PORT [CERTHOSTNAME]***	
 
@@ -244,6 +244,6 @@ Set up an additional listener on another port, optionally secured by a HTTPS cer
 	!listen 4443 localhost
 	!listen 444 secure.example.com
 
-* * *
+
 
 [1]: ../images/QuickExecReference/QuickExecBox.png
