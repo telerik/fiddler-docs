@@ -29,7 +29,7 @@ Firefox
 
   + Click **Tools > Monitor with Fiddler > Use Fiddler automatically** to configure with [FiddlerHook][8], or
 
-  + Click **Tools > Options > Advanced > Network > Settings > Use System Proxy Settings**. Or, install the FiddlerHook Help Firefox addon.
+  + Click **Tools > Options > Advanced > Network > Settings > Use System Proxy Settings**. 
 
 + [Capture HTTPS traffic from Firefox][9]
 
