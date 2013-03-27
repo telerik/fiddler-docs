@@ -17,7 +17,7 @@ Fiddler also uses the HTTP **Referer** header to help you [associate traffic][2]
 
 Internet Explorer 9 includes two new features that help add more context.
 
-First, the Web Browser now sends a meaningful Accept header for most types of downloads. Previously, IE sent a long, registry-generated string for document downloads and Accept: */* for everything else. This limitation made it impossible to reliably distinguish between a request initiated by a <LINK REL=�STYLESHEET�> element and one initiated by **SCRIPT** element. IE9 RC will send the following Accept headers, depending on context:
+First, the Web Browser now sends a meaningful Accept header for most types of downloads. Previously, IE sent a long, registry-generated string for document downloads and Accept: */* for everything else. This limitation made it impossible to reliably distinguish between a request initiated by a **LINK REL=STYLESHEET** element and one initiated by **SCRIPT** element. IE9 RC will send the following Accept headers, depending on context:
 
 
 + **Frame/markup** 
