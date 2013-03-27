@@ -50,7 +50,7 @@ Set the iOS Device Proxy
 Decrypt HTTPS Traffic from iOS Devices
 --------------------------------------
 
-1. Download the [Certificate Maker plugin] for Fiddler.
+1. Download the [Certificate Maker plugin][8] for Fiddler.
 
 2. Install the **Certificate Maker** plugin.
 
