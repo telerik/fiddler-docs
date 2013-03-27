@@ -29,7 +29,7 @@ Select Active Rules
 
 + To enable or disable a rule, click the checkbox next to the rule.
 
- [Enable or Disable Rule][3]
+ ![Enable or Disable Rule][3]
 
 Set rule priority
 -----------------
@@ -38,7 +38,7 @@ To change the priority of a rule in the ruleset:
 
 1. Select a rule from the **Autoresponder** rulset.
 
- [Select Rule][1]
+ ![Select Rule][1]
 
 2. Move the rule up or down in the ruleset:
 
