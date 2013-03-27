@@ -50,7 +50,7 @@ Set the iOS Device Proxy
 Decrypt HTTPS Traffic from iOS Devices
 --------------------------------------
 
-1. Download the **Certificate Maker** plugin for Fiddler* from http://fiddler2.com/r/?FiddlerCertMaker.
+1. Download the [Certificate Maker plugin] for Fiddler.
 
 2. Install the **Certificate Maker** plugin.
 
@@ -96,3 +96,4 @@ If you decide to uninstall the root certificate:
 [5]: ../../images/ConfigureForiOS/DownloadFiddlerRootCert.png
 [6]: ../../images/ConfigureForiOS/InstallProfile.png
 [7]: ../../images/ConfigureForiOS/Warning.png
+[8]: http://fiddler2.com/add-ons
