@@ -6,6 +6,9 @@ publish: true
 ordinal: 8
 ---
 
+Configure a Java Application to Use Fiddler
+===========================================
+
 To configure a Java application to send web traffic to Fiddler, set the proxy using **jre**:
 
 		jre -DproxySet=true -Dhttp.proxyHost=127.0.0.1 -Dhttp.proxyPort=8888
