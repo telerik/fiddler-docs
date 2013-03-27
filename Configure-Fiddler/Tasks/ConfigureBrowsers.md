@@ -27,43 +27,11 @@ Firefox
 
 + To capture HTTP traffic from **Firefox 4+**, either:
 
-  + Click **Tools > Monitor with Fiddler > Use Fiddler automatically**, or
+  + Click **Tools > Monitor with Fiddler > Use Fiddler automatically** to configure with [FiddlerHook][8], or
 
   + Click **Tools > Options > Advanced > Network > Settings > Use System Proxy Settings**. Or, install the FiddlerHook Help Firefox addon.
 
-+ To capture HTTPS traffic from Firefox:
-
-1. In Fiddler, 
-
- a. Click **Tools > Fiddler Options**. 
-
- b. Click the **HTTPS** tab. Ensure the **Decrypt HTTPS traffic** checkbox is checked. 
-
- c. Click the **Export Fiddler Root Certificate to Desktop** button.
- 
-   ![Export Root Certificate to Desktop][1]
-
-2. In Firefox, 
-
- a. Click **Tools > Options...**. 
-
- b. Click the **Advanced** button. 
-
- c. Click the **Encryption** tab. 
-
- d. Click **View Certificates**. 
-
- e. Click the **Authorities** tab. 
-
- f. Click **Import**.
-
-   ![Import Certificate][2]
-
- g. Select the .CER file from your desktop.
-
- h. Click the checkbox next to **Trust this CA to identify web sites.**
-
-  ![Trust this CA to identify web sites][3]
++ [Capture HTTPS traffic from Firefox][9]
 
 Manual Configuration
 --------------------
@@ -94,3 +62,5 @@ To find the correct auto-configuration URL from Fiddler:
 [5]: ../../images/ConfigureBrowsers/CopyAutoCorrectURL.jpg
 [6]: ./MonitorLocalTraffic
 [7]: http://www.wikihow.com/Clear-Your-Browser's-Cache
+[8]: ../../KnowledgeBase/FiddlerHook
+[9]: ./FirefoxHTTPS
