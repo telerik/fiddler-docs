@@ -84,9 +84,9 @@ Modify the default **class1.cs** (or create a new class) in your project as foll
 		  public void OnBeforeReturningError(Session oSession){}
 		}
 
+Compile and Load Extension
+--------------------------
 [Compile and Load Your Extension in Fiddler][3]
------------------------------------------------
-
 
 [1]: ./Interfaces
 [2]: ./LoadExtension
