@@ -18,5 +18,5 @@ For Example
 
 [Configure WinHTTP Applications][2]
 
-[1]: ./ConfigureDotNETApp.md
-[2]: ./ConfigureWinHTTPApp.md
+[1]: ./ConfigureDotNETApp
+[2]: ./ConfigureWinHTTPApp

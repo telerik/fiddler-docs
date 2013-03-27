@@ -90,8 +90,8 @@ See Also
 [3]: ../../images/MonitorWindowsPhone7/Settings.png
 [4]: ../../images/MonitorWindowsPhone7/Wifi.png
 [5]: ../../images/MonitorWindowsPhone7/EditNetwork.png
-[6]: ./DecryptHTTPS.md
+[6]: ./DecryptHTTPS
 [7]: ../../images/MonitorWindowsPhone7/CertificateWarning.png
 [8]: ../../images/MonitorWindowsPhone7/OpenCertificate.png
 [9]: ../../images/MonitorWindowsPhone7/InstallCertificate.png
-[10]: ../Troubleshooting/NoWindowsPhone7Traffic.md
+[10]: ../Troubleshooting/NoWindowsPhone7Traffic

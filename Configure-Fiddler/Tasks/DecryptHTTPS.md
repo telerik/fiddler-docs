@@ -54,4 +54,4 @@ See also
 
 [1]: ../../images/DecryptHTTPS/DecryptHTTPSTrafficOption.png
 [2]: ../../images/DecryptHTTPS/SkipDecryption.png
-[3]: /RespondWithClientCert.md
+[3]: /RespondWithClientCert

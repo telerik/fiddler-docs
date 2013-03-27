@@ -92,7 +92,7 @@ If you decide to uninstall the root certificate:
 [1]: ../../images/ConfigureForiOS/AllowRemoteComputersToConnect.png
 [2]: ../../images/ConfigureForiOS/OnlineTooltip.png
 [3]: ../../images/ConfigureForiOS/iOSProxySettings.png
-[4]: ./TrustFiddlerRootCert.md
+[4]: ./TrustFiddlerRootCert
 [5]: ../../images/ConfigureForiOS/DownloadFiddlerRootCert.png
 [6]: ../../images/ConfigureForiOS/InstallProfile.png
 [7]: ../../images/ConfigureForiOS/Warning.png

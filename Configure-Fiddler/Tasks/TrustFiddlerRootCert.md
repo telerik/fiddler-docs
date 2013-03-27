@@ -19,6 +19,6 @@ Configure Windows Client to trust Fiddler Root Certificate
 
 ![Install this certificate][3]
 
-[1]: ./DecryptHTTPS.md
+[1]: ./DecryptHTTPS
 [2]: ../../images/TrustFiddlerRootCert/TrustFiddlerRootCert.png
 [3]: ../../images/TrustFiddlerRootCert/InstallThisCert.png

@@ -92,5 +92,5 @@ To find the correct auto-configuration URL from Fiddler:
 [3]: ../../images/ConfigureBrowsers/TrustThisCAToIdentifyWebsites.png
 [4]: ../../images/ConfigureBrowsers/BrowserPAC.png
 [5]: ../../images/ConfigureBrowsers/CopyAutoCorrectURL.jpg
-[6]: ./MonitorTrafficToLocalhost.md
+[6]: ./MonitorTrafficToLocalhost
 [7]: http://www.wikihow.com/Clear-Your-Browser's-Cache
