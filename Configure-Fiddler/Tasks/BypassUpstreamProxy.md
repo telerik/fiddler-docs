@@ -15,5 +15,5 @@ To bypass the upstream proxy for all requests to a specific domain (for example,
 		oSession.bypassGateway = true;
 		}
 
-[1]: ../../ExtendFiddler/AddRules
+[1]: ../../Extend-Fiddler/AddRules
 
