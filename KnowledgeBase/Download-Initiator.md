@@ -50,7 +50,7 @@ This will add a column labelled **@request.Accept** and as each session is logge
 
 		FiddlerObject.UI.lvSessions.AddBoundColumn("Accept", 50, "@request.Accept");
 
-Second, while understanding what class of Element initiated a request is useful, IE9 includes an even more valuable feature that conveys contextual information about why a request was made. You can see this feature at work in the Internet Explorer F12 Developer Tools, which you can open by pressing (you guessed it) the F12 key. On the Network tab, you�ll see the �Initiator� column that provides more information about the context in which a request was made:
+Second, while understanding what class of Element initiated a request is useful, IE9 includes an even more valuable feature that conveys contextual information about why a request was made. You can see this feature at work in the Internet Explorer F12 Developer Tools, which you can open by pressing (you guessed it) the F12 key. On the Network tab, you'll see the **Initiator** column that provides more information about the context in which a request was made:
 
 
 
@@ -63,9 +63,9 @@ You can display this information in Fiddler using the same technique described p
 
 		cols add @request.X-Download-Initiator
 
-This will add a column labelled �@request.Accept� and as each session is logged, the request�s Accept header, if any, will be listed. To add this column every time Fiddler starts, click Rules > Customize Rules. Scroll to the static function Main() block , and add the following line within:
+This will add a column labelled **@request.Accept** and as each session is logged, the request's Accept header, if any, will be listed. To add this column every time Fiddler starts, click Rules > Customize Rules. Scroll to the static function Main() block , and add the following line within:
 
-		FiddlerObject.UI.lvSessions.AddBoundColumn("Reason", 50, �@request.X-Download-Initiator");
+		FiddlerObject.UI.lvSessions.AddBoundColumn("Reason", 50, "@request.X-Download-Initiator");
 
 Then, when you load a page, you will see the initiator information:
 
