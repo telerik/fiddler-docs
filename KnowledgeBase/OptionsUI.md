@@ -45,7 +45,7 @@ By unchecking this checkbox, you're telling Fiddler *"ignore my browser's normal
 * The **Act as System Proxy on startup** controls whether or not Fiddler registers as the System proxy on startup.  Internet Explorer and many other applications use the system proxy by default and are notified when it changes.  [Learn more...](http://www.fiddler2.com/redir/?id=HOOKUP)
 * The **Monitor all connections** checkbox controls whether Fiddler will register as the proxy for all WinINET Connections.
 * The **Use PAC Script** checkbox controls how Fiddler registers as the system proxy; specifically, when this box is ticked, Fiddler will tell the browser to use the proxy configuration script (which can be found by clicking the **Copy Browser Proxy Configuration URL** link) instead of using the default proxy configuration of *127.0.0.1:8888.*
-* The **WinINET Connections** list shows what network connections are configured for this machine.  This may be useful if you are connected to the Internet via dialup or VPN and want Fiddler to automatically hook a connection other than your LAN connection. [Learn more...](http://www.fiddler2.com/redir/?id=HOOKUP)
+* The **WinINET Connections** list shows what network connections are configured for this machine.  This may be useful if you are connected to the Internet via dialup or VPN and want Fiddler to automatically hook a connection other than your LAN connection. [Learn more...](../Configure-Fidder/Tasks/MonitorDialupAndVPN)
 * The **IE should bypass Fiddler** list controls which requests should not be sent through Fiddler at all when it is registered as the system proxy.  Note that this list is generally only respected by WinINET clients like Internet Explorer.
 
 ##Appearance
