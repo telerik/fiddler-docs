@@ -71,7 +71,7 @@ Then, when you load a page, you will see the initiator information:
 
 ![Reason Column][5]
 
-Interpretation of these tokens is as follows. First, there�s a token (e.g. image, script, html) indicating what type of content is being downloaded. Next, an indicator of which document object �owns� the download. Information about what element made the request is present, and in some cases, information about what the exact download trigger was. For instance �html tokenizer� means that the download request occurred during the parsing of HTML. �html lookahead� indicates that the [Lookahead parser] is making the request. On the other hand, �src property change� means that the download occurred because script changed the SRC property of an **img** tag.
+Interpretation of these tokens is as follows. First, there's a token (e.g. image, script, html) indicating what type of content is being downloaded. Next, an indicator of which document object "owns" the download. Information about what element made the request is present, and in some cases, information about what the exact download trigger was. For instance "html tokenizer" means that the download request occurred during the parsing of HTML. "html lookahead" indicates that the [Lookahead parser] is making the request. On the other hand, "src property change" means that the download occurred because script changed the SRC property of an **img** tag.
 
 [1]: ../Observe-Traffic/Tasks/ViewSessionSummary
 [2]: ../Observe-Traffic/Tasks/ParentChild
