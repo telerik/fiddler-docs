@@ -24,5 +24,5 @@ Solution 3:
 
 [Disable the authentication loopback check][2]
 
-[1]: ../Task/AuthenticateWithCBT
+[1]: ../Tasks/AuthenticateWithCBT
 [2]: http://support.microsoft.com/kb/926642

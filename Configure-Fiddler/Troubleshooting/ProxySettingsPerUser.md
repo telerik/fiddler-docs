@@ -9,8 +9,6 @@ ordinal: 10
 Fiddler and ProxySettingsPerUser=0
 ==================================
 
-Configuration Conflict
-----------------------
 
 Your system's or domain's Administrator has set the Group Policy setting **ProxySettingsPerUser** to **0**. This means that instead of the default Windows behavior (each user has their own proxy settings), instead all user accounts share one set of proxy settings.
 

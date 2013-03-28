@@ -6,7 +6,14 @@ publish: true
 ordinal: 3
 ---
 
-**Q:** I see some traffic, but some traffic (e.g. from a specific program) seems to be missing?
+Problem
+-------
+
+I see some traffic, but some traffic (e.g. from a specific program) seems to be missing
+
+Solution
+--------
+
 Do you have any Traffic Filters enabled?  Check in the **status bar**, the **Process Filter** in the toolbar, and the **Filters tab**. If you've written or set any Rules (see the menu) check those too.
 
 ![SBFilter](../../images/SBFilter.png) ![TBFilter](../..images/TBFilter.png)  
