@@ -19,5 +19,16 @@ As the system proxy, all HTTP requests from WinInet flow through Fiddler before 
 
 When you close Fiddler, it unregisters itself as the system proxy before shutting down.
 
+Chaining to an Upstream Proxy
+-----------------------------
+
+All current versions of Fiddler support chaining to upstream proxies (either autodetected or manually specified).
+
+The result is an architecture like this: 
+
+ ![Upstream Proxy Architecture][3]
+
+Note that Fiddler does not support upstream proxy configuration scripts that are accessed using the FILE:// protocol, only those accessed using the HTTP or HTTPS protocols (so far, no one seems to have hit this limitation in the last 6 years).
 [1]: ../images/Proxy/IEProxySettings.png
 [2]: ../images/Proxy/TrafficFlow.png
+[3]: ../images/Proxy/UpstreamProxy.md
