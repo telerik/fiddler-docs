@@ -18,7 +18,7 @@ Do you have any Traffic Filters enabled?  Check in the **status bar**, the **Pro
 
 ![SBFilter](../../images/SBFilter.png) 
 
-![TBFilter](../..images/TBFilter.png)  
+![TBFilter](../../images/TBFilter.png)  
 
 ![FiltersTab](../../images/filterstab.png)
 
