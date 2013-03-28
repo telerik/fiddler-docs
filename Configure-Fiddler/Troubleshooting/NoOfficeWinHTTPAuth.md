@@ -19,5 +19,5 @@ Solution 2:
 
 [Change **AuthFowardServerList** with REGEDIT][2]
 
-[1]: ../AuthenticateWithCBT 
+[1]: ../Tasks/AuthenticateWithCBT 
 [2]: http://support.microsoft.com/kb/956943
