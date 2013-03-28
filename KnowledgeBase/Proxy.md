@@ -31,4 +31,4 @@ The result is an architecture like this:
 Note that Fiddler does not support upstream proxy configuration scripts that are accessed using the FILE:// protocol, only those accessed using the HTTP or HTTPS protocols (so far, no one seems to have hit this limitation in the last 6 years).
 [1]: ../images/Proxy/IEProxySettings.png
 [2]: ../images/Proxy/TrafficFlow.png
-[3]: ../images/Proxy/UpstreamProxy.md
+[3]: ../images/Proxy/UpstreamProxy.png
