@@ -24,8 +24,10 @@ When requesting **http://ipv4.fiddler:2468** from an IIS Express instance, the s
 		<BODY><h2>Bad Request - Invalid Hostname</h2>
 		<hr><p>HTTP Error 400. The request hostname is invalid.</p></BODY></HTML>
 
-Solution: Replace **http://ipv.fiddler:2468** with **http://localhost.fiddler:2468**
-------------------------------------------------------------------------------------
+Solution: 
+---------
+
+Replace **http://ipv.fiddler:2468** with **http://localhost.fiddler:2468**.
 
 See also
 --------
