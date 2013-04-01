@@ -21,10 +21,10 @@ Options
 
 The Options tab exposes options that allow you to customize the behavior of the Composer.
 
-+ ##Inspect Session## selects the new session and activates the Inspectors tab when the request is issued.
-+ ##Fix Content-Length Header## adjusts the value of the Content-Length request header (if present) to match the size of the request body.
-+ ##Follow Redirects## causes a HTTP/3xx redirect to trigger a new request, if possible. The Composer will follow up to fiddler.composer.followredirects.max default redirections.
-+ ##Automatically Authenticate## causes Fiddler to automatically respond to HTTP/401 and HTTP/407 challenges that use NTLM or Negotiate protocols using the current user's Windows credentials.
++ **Inspect Session** selects the new session and activates the Inspectors tab when the request is issued.
++ **Fix Content-Length Header** adjusts the value of the Content-Length request header (if present) to match the size of the request body.
++ **Follow Redirects** causes a HTTP/3xx redirect to trigger a new request, if possible. The Composer will follow up to fiddler.composer.followredirects.max default redirections.
++ **Automatically Authenticate** causes Fiddler to automatically respond to HTTP/401 and HTTP/407 challenges that use NTLM or Negotiate protocols using the current user's Windows credentials.
 
 Tips and Tricks
 ---------------
