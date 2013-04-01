@@ -9,6 +9,15 @@ ordinal: 10
 Build a Cookie Scanning Extension
 =================================
 
-Find out how to scan privacy information in [this blog post][1].
+1. Install the [Privacy Scanner Fiddler add-on].
 
-[1]: http://blogs.msdn.com/b/fiddler/archive/2012/02/21/showing-cookie-and-p3p-information-in-fiddler-using-a-simple-extension.aspx
+ Fiddler will gain a new top-level menu named **Privacy**.
+
+ ![Privacy menu][2]
+
+2. Ensure **Privacy > Enabled** is checked.
+
+ The add-on will add a **Privacy Info** column to the session list.
+
+[1]: http://fiddler2.com/add-ons
+[2]: ../images/PrivacyMenu.png
