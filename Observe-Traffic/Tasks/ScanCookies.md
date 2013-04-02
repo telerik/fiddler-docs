@@ -24,5 +24,5 @@ Build a Cookie Scanning Extension
  
 
 [1]: http://fiddler2.com/add-ons
-[2]: ../images/CookieScanning/PrivacyMenu.png
-[3]: ../images/CookieScanning/PrivacyInfo.png
+[2]: ../../images/CookieScanning/PrivacyMenu.png
+[3]: ../../images/CookieScanning/PrivacyInfo.png
