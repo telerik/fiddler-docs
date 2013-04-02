@@ -9,7 +9,7 @@ ordinal: 10
 Build a Cookie Scanning Extension
 =================================
 
-1. Install the [Privacy Scanner Fiddler add-on].
+1. Install the [Privacy Scanner Fiddler add-on][1].
 
  Fiddler will gain a new top-level menu named **Privacy**.
 
@@ -24,5 +24,5 @@ Build a Cookie Scanning Extension
  
 
 [1]: http://fiddler2.com/add-ons
-[2]: ../images/PrivacyMenu.png
-[3]: ../images/PrivacyInfo.png
+[2]: ../images/CookieScanning/PrivacyMenu.png
+[3]: ../images/CookieScanning/PrivacyInfo.png
