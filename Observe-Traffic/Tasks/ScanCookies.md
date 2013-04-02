@@ -1,13 +1,13 @@
 ---
-title: Build a Cookie Scanning Extension
+title: View Cookie Information
 slug: CookieScanning
 tags: Extend Fiddler, .NET, Extension, Cookies, IAutoTamper2, Privacy, P3P
 publish: true
 ordinal: 10
 ---
 
-Build a Cookie Scanning Extension
-=================================
+View Cookie Information
+=======================
 
 1. Install the [Privacy Scanner Fiddler add-on][1].
 
