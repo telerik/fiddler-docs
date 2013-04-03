@@ -34,6 +34,8 @@ Use on of these methods:
  
  ![Customize Columns Window][7]
 
+ 3. Enter the name of the collection member that will populate the column and the title of the column.
+
 + **Use QuickExec to add a temporary column**
 
 
