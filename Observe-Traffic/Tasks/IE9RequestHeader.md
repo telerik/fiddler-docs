@@ -20,8 +20,8 @@ Add Accept header and Download Initiator columns to **Web Sessions List**.
 
 2. Enter these commands in the QuickExec box:
 
-	cols add @request.Accept
-	cols add @request.X-Download-Initiator
+		cols add @request.Accept
+		cols add @request.X-Download-Initiator
 
  ![QuickExec Command][1]
 
