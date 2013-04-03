@@ -22,8 +22,8 @@ Now, if a session presents a P3P statement that is malformed, that P3P header wi
 See Also
 --------
 
-[Cookie Test Page][5]
-[View Cookie Information][6]
++ [Cookie Test Page][5]
++ [View Cookie Information][6]
 
 [1]: http://fiddler2.com/add-ons
 [2]: ../../images/CookieScanning/PrivacyMenu.png
