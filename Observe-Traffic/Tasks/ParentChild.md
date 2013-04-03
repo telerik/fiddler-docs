@@ -13,10 +13,10 @@ Select Parent or Child Session
 
 1. Select a session in the **Web Sessions List**.
 
-2. Press P.
+2. Press **P**.
 
 + To select all child sessions (the later requests to the URL specified in the selected session's Referer header):
 
 1. Select a session in the **Web Sessions List**.
 
-2. Press C.
+2. Press **C**.
