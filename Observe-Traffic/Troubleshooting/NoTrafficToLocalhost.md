@@ -24,3 +24,10 @@ Lastly, you could update your Rules file like so:
 ...and then just hit http://myapp, which will act as an alias for 127.0.0.1:8081.
 
 **Note:** You shouldn't ever encounter the "Localhost traffic not captured" problem with Firefox. The FiddlerHook add-on for Firefox removes "localhost" from the "bypass proxy" list when Fiddler is in "Capturing" mode.
+
+See Also
+--------
+
++ [Monitor Traffic to Localhost][1]
+
+[1] ../../Configure-Fiddler/Tasks/MonitorLocalTraffic
