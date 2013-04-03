@@ -17,4 +17,10 @@ To view a waterfall diagram of the transfer timeline for one or more web session
 
  ![Timeline Tab][1]
 
+See Also
+--------
+
++ [Timeline View KB Article][2]
++ 
 [1]: ../../images/ViewSessionsTimeline/Timeline.png
+[2]: ../../KnowledgeBase/Timeline
