@@ -40,6 +40,6 @@ Configure Firefox
   ![Trust this CA to identify web sites][3]
 
 [1]: ../../KnowledgeBase/FiddlerHook
-[2]: ../../images/FirefoxHTTPS/TrustFiddlerRootCert.png
+[2]: ../../images/FirefoxHTTPS/TrustFiddlerRoot.png
 [3]: ../../images/ConfigureBrowsers/ExportRootCertificateToDesktop.png
 [4]: ../../images/ConfigureBrowsers/ImportCertificate.png
