@@ -14,7 +14,7 @@ Add Accept header and Download Initiator columns to **Web Sessions List**.
 
 1. Enable the 
 
-	FEATURE_DOWNLOAD_INITIATOR_HTTP_HEADER 
+		FEATURE_DOWNLOAD_INITIATOR_HTTP_HEADER 
 	
  Feature Control Key. 
 
