@@ -6,8 +6,8 @@ publish: true
 ordinal: 10
 ---
 
-View Cookie Information
-=======================
+Rename Invalid P3P Headers
+==========================
 
 1. Install the [Privacy Scanner Fiddler add-on][1].
 
