@@ -24,6 +24,15 @@ Add Custom Columns
 ------------------
 
 Use on of these methods:
++ Use the **Customize Columns** menu.
+
+ 1. Right-click the top of a column and select **Customize Columns...**.
+
+ ![Column Header Context Menu][6]
+ 
+ 2. Click the **Collection** drop-down menu and select the collection that will populate the column.
+ 
+ ![Customize Columns Window][7]
 
 + **Use QuickExec to add a temporary column**
 
@@ -49,3 +58,5 @@ Use on of these methods:
 [3]: ../../images/ConfigureColumns/QuickExecCommand.png
 [4]: ../../KnowledgeBase/QuickExec
 [5]: ../../KnowledgeBase/FiddlerScript/AddColumns
+[6]: ../../images/ConfigureColumns/ColumnsContextMenu.png
+[7]: ../../images/ConfigureColumns/CollectionDropDown.png
