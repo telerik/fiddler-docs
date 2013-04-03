@@ -43,6 +43,10 @@ To manually configure any browser to send traffic to Fiddler, set the browser to
 Address: **127.0.0.1**
 Port: **8888**
 
+Note: If a browser uses these settings, revert these settings after you close Fiddler, or the browser will not load pages. For example, Firefox will show the following error message:
+
+![Firefox Proxy Error][11]
+
 To instead allow Fiddler to automatically enable and disable the proxy, use **Proxy Auto-configuration** with a URL pointing to Documents/Fiddler2/Scripts/BrowserPAC.js.
 
 For example, in Firefox, click **Tools > Options > Advanced > Network > Settings**, and input the URL of the BrowserPAC.js.
@@ -67,3 +71,4 @@ To find the correct auto-configuration URL from Fiddler:
 [8]: ../../KnowledgeBase/FiddlerHook
 [9]: ./FirefoxHTTPS
 [10]: ../../images/ConfigureBrowsers/UseSystemProxySettings.png
+[11]: ../../images/ConfigureBrowsers/FirefoxProxyError.png
