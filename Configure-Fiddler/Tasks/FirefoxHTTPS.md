@@ -23,9 +23,9 @@ Configure Fiddler
 Configure Firefox
 -----------------
 
-+ Use [FiddlerHook][1] to walk through importing the Fiddler Root certificate.
++ If [FiddlerHook][1] is enabled, in Firefox click **Tools > Monitor with Fiddler > Trust FiddlerRoot certificate...**.
 
-![FiddlerHook Import][2]
+![FiddlerHook Menu Option][2]
 
 + Or, import the certificate manually:
 
@@ -33,13 +33,13 @@ Configure Firefox
 
    ![Import Certificate][4]
 
- 2. Select the **.CER** file from your desktop.
+ 2. Select the **FiddlerRoot.cer** file from your desktop.
 
  3. Click the checkbox next to **Trust this CA to identify web sites.**
 
   ![Trust this CA to identify web sites][3]
 
 [1]: ../../KnowledgeBase/FiddlerHook
-[2]: ../../images/FirefoxHTTPS/FiddlerHookImport.png
+[2]: ../../images/FirefoxHTTPS/TrustFiddlerRoot.png
 [3]: ../../images/ConfigureBrowsers/ExportRootCertificateToDesktop.png
 [4]: ../../images/ConfigureBrowsers/ImportCertificate.png
