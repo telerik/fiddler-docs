@@ -21,6 +21,6 @@ See Also
 --------
 
 + [Timeline View KB Article][2]
-+ 
+
 [1]: ../../images/ViewSessionsTimeline/Timeline.png
 [2]: ../../KnowledgeBase/Timeline
