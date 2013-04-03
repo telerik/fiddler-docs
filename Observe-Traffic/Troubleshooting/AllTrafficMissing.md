@@ -6,13 +6,25 @@ publish: true
 ordinal: 1
 ---
 
-I don't see any traffic in Fiddler.
------------------------------------
+Problem: No sessions appear in the Web Sessions List.
+-----------------------------------------------------
 
-+ Do you have an active VPN (or dialup modem) connection?
-+ Want to hook a non-IE browser or application? 
-+ Are you only trying to visit http://localhost?
-+ Do you have any traffic Filters enabled?
-+ See the [Configuring Clients][1] section.
+Solution: Review your Fiddler Configuration
+-------------------------------------------
 
-[1]: ../../Configure-Fiddler
++ Review the [Configuring Clients][1] section.
+
++ If appropriate, review the [Configure Browser][2] or [Configure .NET app][3] pages.
+ 
++ If appropriate, review the [Monitoring traffic to localhost][5] page.
+
++ Ensure traffic is not blocked by one or more [filters][6].
+
++ If appropriate, review the [Monitor Dialup or VPN connection][4] page.
+
+[1]: ../../Configure-Fiddler/Tasks/Configure-Fiddler
+[2]: ../../Configure-Fiddler/Tasks/ConfigureBrowsers
+[3]: ../../Configure-Fiddler/Tasks/ConfigureDotNETApp
+[4]: ../../Configure-Fiddler/Tasks/MonitorDialupAndVPN
+[5]: ../../Configure-Fiddler/Tasks/MonitorLocalTraffic
+[6]: ../../KnowledgeBase/Filters
