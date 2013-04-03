@@ -31,6 +31,8 @@ Firefox
 
   + Click **Tools > Options > Advanced > Network > Settings > Use System Proxy Settings**. 
 
+ ![Use System Proxy Settings][10]
+
 + [Capture HTTPS traffic from Firefox][9]
 
 Manual Configuration
@@ -64,3 +66,4 @@ To find the correct auto-configuration URL from Fiddler:
 [7]: http://www.wikihow.com/Clear-Your-Browser's-Cache
 [8]: ../../KnowledgeBase/FiddlerHook
 [9]: ./FirefoxHTTPS
+[10]: ../../images/ConfigureBrowsers/UseSystemProxySettings.png
