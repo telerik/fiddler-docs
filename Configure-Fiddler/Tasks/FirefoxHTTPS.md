@@ -33,7 +33,7 @@ Configure Firefox
 
    ![Import Certificate][4]
 
- 2. Select the **.CER** file from your desktop.
+ 2. Select the **FiddlerRoot.cer** file from your desktop.
 
  3. Click the checkbox next to **Trust this CA to identify web sites.**
 
