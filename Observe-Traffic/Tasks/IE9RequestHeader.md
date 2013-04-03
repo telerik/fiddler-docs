@@ -29,8 +29,8 @@ Add Accept header and Download Initiator columns to **Web Sessions List**.
 
 4. Scroll to the static function Main() block , and add the following line within:
 
-	FiddlerObject.UI.lvSessions.AddBoundColumn("Accept", 50, "@request.Accept");
-	FiddlerObject.UI.lvSessions.AddBoundColumn("Reason", 50, �@request.X-Download-Initiator");
+		FiddlerObject.UI.lvSessions.AddBoundColumn("Accept", 50, "@request.Accept");
+		FiddlerObject.UI.lvSessions.AddBoundColumn("Reason", 50, "@request.X-Download-Initiator");
 
 See also
 --------
