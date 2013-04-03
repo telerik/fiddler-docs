@@ -22,7 +22,7 @@ Solution: Review your Fiddler Configuration
 
 + If appropriate, review the [Monitor Dialup or VPN connection][4] page.
 
-[1]: ../../Configure-Fiddler/Tasks/Configure-Fiddler
+[1]: ../../Configure-Fiddler/Tasks/ConfigureFiddler
 [2]: ../../Configure-Fiddler/Tasks/ConfigureBrowsers
 [3]: ../../Configure-Fiddler/Tasks/ConfigureDotNETApp
 [4]: ../../Configure-Fiddler/Tasks/MonitorDialupAndVPN
