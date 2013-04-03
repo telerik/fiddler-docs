@@ -28,7 +28,12 @@ Evaluation of any P3P statements that come along with those cookies will change 
 + **Orange** sessions send a P3P policy that [does not permit use of the cookie in a 3rd party context][4].
 + **Red** sessions send invalid P3P policies. 
 
+See Also
+--------
+
++ [Rename Invalid P3P Headers][5]
 [1]: http://fiddler2.com/add-ons
 [2]: ../../images/CookieScanning/PrivacyMenu.png
 [3]: ../../images/CookieScanning/PrivacyInfo.png
 [4]: http://msdn.microsoft.com/en-us/library/ie/ms537343(v=vs.85).aspx#unsatisfactory_cookies
+[5]: ../../Modify-Traffic/Tasks/RenameInvalidP3P
