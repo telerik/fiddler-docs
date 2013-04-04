@@ -30,7 +30,7 @@ The **client** is the source of the web traffic that Fiddler monitors. Some clie
 + **Applications**, like [.NET apps][9], [WinHTTP Apps][11], [Java Apps][12], and [PHP/cURL apps][13]
 + **Devices**, like [Android][15], [iOS][16], [Windows Phone 7][17], and [PocketPC][18] devices
 
-[1]: ./InstallFiddler
+[1]: /documentation/InstallFiddler
 [2]: ./ConfigureFiddlerForWin8
 [3]: ./DecryptHTTPS
 [4]: ./ConfigureForMac
