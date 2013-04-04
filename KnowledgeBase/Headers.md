@@ -9,10 +9,11 @@ ordinal: 8
 Headers References
 --------------
 
-HTTP Response Status codes: [RFC 2616 List][1] or [Expanded Wikipedia List][2]
-[HTTP RFC Header Definitions][3]
-[IANA Header Registrations][4]
-[Jukka Korpela's list of HTTP Headers][5]
+HTTP Response Status codes: 
++ [RFC 2616 List][1] or [Expanded Wikipedia List][2]
++ [HTTP RFC Header Definitions][3]
++ [IANA Header Registrations][4]
++ [Jukka Korpela's list of HTTP Headers][5]
 
 Additional Information
 ----------------------
