@@ -6,7 +6,7 @@ publish: true
 ordinal: 8
 ---
 
-Key References
+Headers References
 --------------
 
 HTTP Response Status codes: [RFC 2616 List][1] or [Expanded Wikipedia List][2]
