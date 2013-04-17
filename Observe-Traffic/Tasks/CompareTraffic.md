@@ -51,10 +51,6 @@ Compare multiple sessions at once
 
 The [Traffic Differ Extension][4] allows you to compare multiple sessions at a time.
 
-Q: Any other hints?
-If you're using WinDiff, you can cause it to break each line on punctuation by holding ALT or SHIFT while clicking on the Compare menu item.
-
-
 
 See Also
 --------
