@@ -36,15 +36,15 @@ In the [QuickExec box][3]:
 
 1. Provide the path to the tool:
 
-    PREFS SET fiddler.config.path.differ "C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\devenv.exe"
+        PREFS SET fiddler.config.path.differ "C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\devenv.exe"
 
 2. Configure the command line to match what the tool expects:
 
-    PREFS SET fiddler.differ.Params "/diff \"{0}\" \"{1}\""
+        PREFS SET fiddler.differ.Params "/diff \"{0}\" \"{1}\""
 
 3. (Optional) Set an alternate command line that will be invoked if you hold ALT or SHIFT while invoking the comparison:
 
-    PREFS SET fiddler.differ.ParamsAlt "/diff /binary \"{0}\" \"{1}\""
+        PREFS SET fiddler.differ.ParamsAlt "/diff /binary \"{0}\" \"{1}\""
 
 Compare multiple sessions at once
 ---------------------------------
