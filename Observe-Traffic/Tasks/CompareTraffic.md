@@ -26,7 +26,7 @@ By default, this will attempt to launch **WinDiff** or **WinMerge** to compare t
 Change default text comparison tool
 -----------------------------------
 
-1. Click **Tools > Fiddler Options > Tools**
+1. Click **Tools > Fiddler Options > Tools**.
 2. Enter the location for the tool executable.
 
 Set custom command-line arguments
