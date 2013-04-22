@@ -24,6 +24,7 @@ Add Custom Columns
 ------------------
 
 Use on of these methods:
+
 + Use the **Customize Columns** menu.
 
  1. Right-click the top of a column and select **Customize Columns...**.
