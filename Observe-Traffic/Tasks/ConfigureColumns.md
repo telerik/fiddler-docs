@@ -42,7 +42,7 @@ Use on of these methods:
 
  Type this command in the QuickExec box:
 
-	cols add [Title] FlagName 
+		cols add [Title] FlagName 
 
   ![QuickExec Command][3]
 
