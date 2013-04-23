@@ -29,7 +29,9 @@ Export
 
 + **[HTTP Archive JSON v1.2][3]** (*.har)
 
-   This format supports storage of non-textual response bodies. Because these *.har files are not compressed, Fiddler will only store non-textual content smaller than 32kb by default. This limit can be increased by setting the [Fiddler Preference][5] **fiddler.importexport.HTTPArchiveJSON.MaxBinaryBodyLength**.
+   This format supports storage of non-textual response bodies. Because these .har files are not compressed, Fiddler will only store non-textual content smaller than 32kb by default. This limit can be increased by setting a [Fiddler Preference][5]: 
+   
+        fiddler.importexport.HTTPArchiveJSON.MaxBinaryBodyLength
 
 + **Visual Studio Web Test XML**
 
@@ -46,7 +48,7 @@ Export
 Custom Import and Export Classes
 --------------------------------
 
-Beyond these default formats, developers can create their own Import and Export classes by implementing the [ISessionImporter and ISessionExporter][6] interfaces using any .NET language. There’s no particular requirement that the classes store data in a file—you could build a class that saves or loads traffic from a local database or a data store in the cloud.
+Beyond these default formats, developers can create their own Import and Export classes by implementing the [ISessionImporter and ISessionExporter][6] interfaces using any .NET language. There is no particular requirement that the classes store data in a file. You could build a class that saves or loads traffic from a local database or a data store in the cloud.
 
 [1]: http://blogs.msdn.com/b/ie/archive/2010/04/22/ie9-developer-tools-network-tab.aspx
 [2]: http://groups.google.com/group/http-archive-specification/web/har-1-1-spec
