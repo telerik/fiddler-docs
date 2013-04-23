@@ -64,3 +64,5 @@ Alternatively, you can call the **AddBoundColumn()** method.  The first paramete
 		}
 
 		static function getSentCookie(oS: Session){ if (null != oS.oRequest) return oS.oRequest["Cookie"]; }
+		
+[1]: ../../Extend-Fiddler/AddRules

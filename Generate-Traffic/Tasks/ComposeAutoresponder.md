@@ -30,6 +30,12 @@ Compose Autoresponder Rules
 
 When **Enable automatic responses** is checked, Fiddler will undertake the action if a captured request URI matches the match rule.
 
+See Also
+--------
+
++ [Autoresponder Reference][6]
+
 [1]: ../../images/ReplayAutoresponder/EnableAutomaticResponses.png
 [2]: ../../images/ReplayAutoresponder/WebSessionsList.png
 [5]: ../../images/ReplayAutoresponder/RuleEditor.png
+[6]: ../../KnowledgeBase/AutoResponder
