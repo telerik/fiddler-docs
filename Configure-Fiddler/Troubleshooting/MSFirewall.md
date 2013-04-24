@@ -11,7 +11,8 @@ Problem: Fiddler Detaches Randomly with MS Firewall for ISA 2004
 
 Microsoft Firewall client for Microsoft ISA 2004 has an option to automatically reconfigure Internet Explorer settings. Unfortunately, this setting will cause Internet Explorer to detach from Fiddler at random times. 
 
-Solution: Disable Web browser automatic configuration in the Microsoft Firewall client.
+Solution: Disable Web browser automatic configuration in the Microsoft Firewall client
+--------------------------------------------------------------------------------------
 
 + If there's a Firewall Client icon ![Firewall Client][1]  in your system tray:
 	1. Right click the Firewall Client icon in the system tray.
