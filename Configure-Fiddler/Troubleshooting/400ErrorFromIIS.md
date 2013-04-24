@@ -32,6 +32,6 @@ Replace **http://ipv.fiddler:2468** with **http://localhost.fiddler:2468**.
 See also
 --------
 
-[Capture traffic from localhost][1]
++ [Capture traffic from localhost][1]
 
 [1]: ../Tasks/MonitorLocalTraffic
