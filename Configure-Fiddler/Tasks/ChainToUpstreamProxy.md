@@ -7,7 +7,9 @@ ordinal: 12
 ---
 
 Chain Fiddler to an Upstream Proxy
-==========================
+==================================
+
+To configure Fiddler to send and receive web traffic to and from another proxy between Fiddler and the destination server:
 
 1. Close Fiddler.
 
@@ -23,6 +25,10 @@ Chain Fiddler to an Upstream Proxy
 
 You should now see the upstream proxy listed in the Fiddler **About** dialog.
 
+See Also
+--------
 
++ [Understanding the Fiddler Proxy][2]
 
 [1]: ../../images/ChainToUpstreamProxy/SetProxyAddress.jpg
+[2]: ../../KnowledgeBase/Proxy
