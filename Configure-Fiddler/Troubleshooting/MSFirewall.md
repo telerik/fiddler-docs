@@ -25,5 +25,5 @@ Solution: Disable Web browser automatic configuration in the Microsoft Firewall 
 
 On the Web Browser tab, uncheck the **Enable Web browser automatic configuration** checkbox.
 
-[1]: ../../images/FirewallIcon.png
-[2]: ../../images/FirewallClient.png
+[1]: ../../images/MSFirewall/FirewallIcon.png
+[2]: ../../images/MSFirewall/FirewallClient.png
