@@ -6,8 +6,7 @@ publish: true
 ordinal: 10
 ---
 
-No Traffic Captured with ProxySettingsPerUser=0
-===============================================
+
 
 Problem: No Traffic is captured with ProxySettingsPerUser=0 Group Policy Setting
 --------------------------------------------------------------------------------
