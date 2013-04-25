@@ -9,8 +9,8 @@ ordinal: 8
 Find why IE9 made a web request
 ===============================
 
-Add Accept header and Download Initiator columns to **Web Sessions List**.
---------------------------------------------------------------------------
+Add Accept header and Download Initiator columns to **Web Sessions List**
+-------------------------------------------------------------------------
 
 1. Enable the 
 
@@ -25,7 +25,7 @@ Add Accept header and Download Initiator columns to **Web Sessions List**.
 
  ![QuickExec Command][1]
 
-3. Click **Rules > Customize Rules**
+3. Click **Rules > Customize Rules**.
 
 4. Scroll to the static function Main() block , and add the following line within:
 
@@ -35,7 +35,7 @@ Add Accept header and Download Initiator columns to **Web Sessions List**.
 See also
 --------
 
-[Introduction to Feature Controls][9]
++ [Introduction to Feature Controls][9]
 
 [1]: ../../images/IE9RequestHeader/QuickExecCommand.png
 [9]: http://msdn.microsoft.com/en-us/library/ms537184(v=vs.85).aspx
