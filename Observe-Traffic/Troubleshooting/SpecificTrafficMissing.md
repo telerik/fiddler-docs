@@ -6,20 +6,30 @@ publish: true
 ordinal: 3
 ---
 
-Problem
--------
+Problem: Specific Traffic is Missing
+------------------------------------
 
-I see some traffic, but some traffic (e.g. from a specific program) seems to be missing
+I see some traffic in the Web Sessions List, but some traffic (for example, from a specific program) seems to be missing.
 
-Solution
---------
+Solution: Check for Traffic Filters
+-----------------------------------
 
-Do you have any Traffic Filters enabled?  Check in the **status bar**, the **Process Filter** in the toolbar, and the **Filters tab**. If you've written or set any Rules (see the menu) check those too.
+Check to see if any Traffic Filters are enabled.  
 
-![SBFilter](../../images/SBFilter.png) 
++ Check in the **status bar**
+
+ ![SBFilter](../../images/SBFilter.png) 
+
++ Check the **Process Filter** in the toolbar.
 
 ![TBFilter](../../images/TBFilter.png)  
 
++ Check the **Filters tab**. 
+
 ![FiltersTab](../../images/filterstab.png)
 
-In Fiddler v2.3.6.3 and later, you can click **Troubleshoot Filters...** on the Help menu. When you do so, traffic that would otherwise be hidden is instead shown in a strikethrough font. The **Comments** column will show which of Fiddler's filters was responsible for attempting to hide the traffic.
++ If you've written or set any [Fiddler Rules][1] check those too.
+
++ Click **Help > Troubleshoot Filters...**. When you do so, traffic that would otherwise be hidden is instead shown in a strikethrough font. The **Comments** column will show which of Fiddler's filters was responsible for attempting to hide the traffic.
+
+[1]: ../../Extend-Fiddler/AddRules
