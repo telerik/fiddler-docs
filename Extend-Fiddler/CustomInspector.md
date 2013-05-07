@@ -9,7 +9,7 @@ ordinal: 5
 Build a Custom Inspector
 ========================
 
-1. Create a [Fiddler extension project].
+1. Create a [Fiddler extension project][1].
 
 2. Change the code to derive from the **Inspector2** class and implement either **IResponseInspector2** or **IRequestInspector2**.
 
