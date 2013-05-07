@@ -88,7 +88,7 @@ See [Fiddler Interfaces][1].
 
 Compile and Load Extension
 --------------------------
-[Compile and Load Your Extension in Fiddler][3]
+[Compile and Load Your Extension in Fiddler][2]
 
 [1]: ./Interfaces
 [2]: ./LoadExtension

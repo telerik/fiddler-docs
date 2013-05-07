@@ -59,11 +59,5 @@ Log Sessions to Local Database
   + [Force Fiddler to run in 32bit mode][2]
 
 
-+ **Note**: To use the Database Objects in Fiddler 2.3.9 and below:
-  1. Click **Tools > Fiddler Options > Extensions > Scripting**.
-  2. Add **system.data** to the **References** list.
-
- In 2.3.9.1 and later, this reference will occur automatically.
-
 [1]: ../../Extend-Fiddler/AddRules
 [2]: http://fiddler.wikidot.com/bitness
