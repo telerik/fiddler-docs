@@ -26,4 +26,4 @@ Or, change the Java Virtual Machine's proxy settings programmatically:
 
 [Learn more about Java proxy settings.][1]
 
-[1]: http://java.sun.com/j2se/1.5.0/docs/guide/net/proxies.html. 
+[1]: http://java.sun.com/j2se/1.5.0/docs/guide/net/proxies.html 
