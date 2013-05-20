@@ -9,7 +9,7 @@ ordinal: 1
 Modifying a Request or Response
 ===============================
 
-To make custom changes to web requests and responses, [add rules][1] to Fiddler's **OnBeforeRequest** function using FiddlerScript. For example:
+To make custom changes to web requests and responses, use FiddlerScript to [add rules][1] to Fiddler's **OnBeforeRequest** or **OnBeforeResponse** function (depending on which objects are being used). For example:
 
 
 
