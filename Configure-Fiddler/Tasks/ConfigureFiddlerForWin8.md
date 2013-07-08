@@ -20,6 +20,9 @@ Create a Loopback Exemption
 ---------------------------
 
 1.	(Fiddler2 Only:) Install the [EnableLoopback Utility][1] by clicking the **Win8 Config** button.
+
+      ![Win8 Config Button][10]
+
 2.	Open the Fiddler Tools menu and click Win8 Loopback Exemptions. 
 
       ![Fiddler Tools menu][2]
@@ -65,3 +68,4 @@ Place Fiddler Root Certificate in the machine's Trusted Root store
 [7]: ../../images/ModelDoc/SecurityWarningInstallFiddlerRootCert.png "Install Fiddler Root certificate security warning dialog"
 [8]: ../../images/ModelDoc/UACDialog.png "User Account Control dialog"
 [9]: ../../images/ModelDoc/TrustCertConfirmDialog.png "TrustCert Confirmation dialog"
+[10]: ../../images/ConfigureForWin8/Win8Config.png "Win8 Config Button"
