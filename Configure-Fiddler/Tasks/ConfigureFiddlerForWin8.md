@@ -19,17 +19,12 @@ Follow two steps to configure Fiddler for Windows 8:
 Create a Loopback Exemption
 ---------------------------
 
-1.	(Fiddler2 Only:) Install the [EnableLoopback Utility][1] by clicking the **Win8 Config** button.
+1.	(Fiddler2 Only:) Install and launch the [EnableLoopback Utility][1] by clicking the **Win8 Config** button.
 
       ![Win8 Config Button][10]
 
-2.	Open the Fiddler Tools menu and click Win8 Loopback Exemptions. 
 
-      ![Fiddler Tools menu][2]
-
-
-
-3.    Check the box next to each application that will send traffic to Fiddler.  This requires Administrator privileges.
+2.    Check the box next to each application that will send traffic to Fiddler.  This requires Administrator privileges.
 
       ![AppContainer Loopback Exemption Utility][3].
 
