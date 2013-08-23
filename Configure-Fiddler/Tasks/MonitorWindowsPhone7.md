@@ -1,13 +1,13 @@
 ---
-title: Monitor Windows Phone 7
+title: Monitor Windows Phone
 slug: MonitorWindowsPhone7
-tags: Configuration, Windows Phone, Windows Phone 7
+tags: Configuration, Windows Phone, Windows Phone 
 publish: true
 ordinal: 19
 ---
 
-Monitor Windows Phone 7
-=======================
+Monitor Windows Phone
+=====================
 
 Configure Fiddler
 -----------------
@@ -24,10 +24,10 @@ Configure Fiddler
 
  ![Windows Security Alert][2]
 
-To verify this configuration, enable your Windows Phone 7 WiFi connection and visit **http://FIDDLERSERVER:8888**, where FIDDLERSERVER is the machine name for the machine running Fiddler. This should display the **Fiddler Echo Service** web site.
+To verify this configuration, enable your Windows Phone WiFi connection and visit **http://FIDDLERSERVER:8888**, where FIDDLERSERVER is the machine name for the machine running Fiddler. This should display the **Fiddler Echo Service** web site.
 
-Configure Windows Phone 7
--------------------------
+Configure Windows Phone
+-----------------------
 
 1. Tap **Settings > WiFi**.
 
@@ -51,7 +51,7 @@ Decrypt HTTPS Traffic
 ---------------------
 1. [Configure Fiddler to decrypt HTTPS traffic][6].
 
-2. On the Windows Phone 7, use Mobile IE to request an HTTPS protocol URL.
+2. On the Windows Phone, use Mobile IE to request an HTTPS protocol URL.
 
 3. Under the security warning page, click **Continue to website (not recommended)**.
 
@@ -67,7 +67,7 @@ Decrypt HTTPS Traffic
 
  ![Install Certificate][9]
 
-Note: There is no known resource containing steps to remove security certificates from a Windows 7 Phone. This may prevent connecting to a different Fiddler proxy, which will use a different security certificate.
+Note: There is no known resource containing steps to remove security certificates from a Windows Phone. This may prevent connecting to a different Fiddler proxy, which will use a different security certificate.
 
 Disable Monitoring
 ------------------
