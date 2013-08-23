@@ -53,17 +53,13 @@ Decrypt HTTPS Traffic
 
 2. On the Windows Phone, use Mobile IE to request an HTTPS protocol URL.
 
-3. Under the security warning page, click **Continue to website (not recommended)**.
+3. Go to **http://FIDDLERSERVER:8888/FiddlerRoot.cer**.
 
- ![Certificate Warning][7]
-
-4. Go to **http://FIDDLERSERVER:8888/FiddlerRoot.cer**.
-
-5. Tap the icon labeled **Tap to open the file fiddlerroot.cer**.
+4. Tap the icon labeled **Tap to open the file fiddlerroot.cer**.
 
  ![Open Certificate][8]
 
-6. Tap **install**.
+5. Tap **install**.
 
  ![Install Certificate][9]
 
