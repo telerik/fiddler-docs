@@ -9,9 +9,9 @@ ordinal: 8
 Resend a Request
 ================
 
-You can resend a request directly from the **Sessions List**, or save sessions to resend in the **Composer**.
+You can resend a request directly from the **Sessions List**, or save requests to resend in the **Composer**.
 
-Resend a Session from the Sessions List
+Resend a Request from the Sessions List
 ---------------------------------------
 
 1. Select one or more sessions in the Sessions List.
