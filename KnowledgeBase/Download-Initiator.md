@@ -80,4 +80,4 @@ Interpretation of these tokens is as follows. First, there's a token (e.g. image
 [5]: ../images/Download-Initiator/Download-Initiator.png
 [6]: http://blogs.msdn.com/b/ieinternals/archive/2010/04/01/ie8-lookahead-downloader-fixed.aspx
 [7]: https://www.fiddler2.com/dl/EnableDownloadInitiator.reg
-[8]: https://www.fiddler2.com/dl/DisableDownloadInitiator.reg
+[8]: http://www.fiddlerbook.com/dl/DisableDownloadInitiator.reg
