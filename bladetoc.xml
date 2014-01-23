@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<Contents>
+    <Section Title="Configure Fiddler" URL="Configure-Fiddler">
+		<Section Title="Tasks" URL="Tasks" />
+		<Section Title="Troubleshooting" URL="Troubleshooting" />
+	</Section>
+    <Section Title="Observe Traffic" URL="Observe-Traffic">
+		<Section Title="Tasks" URL="Tasks" />
+		<Section Title="Troubleshooting" URL="Troubleshooting" />
+	</Section>
+    <Section Title="Modify Traffic" URL="Modify-Traffic">
+		<Section Title="Tasks" URL="Tasks" />
+	</Section>
+    <Section Title="Generate Traffic" URL="Generate-Traffic">
+		<Section Title="Tasks" URL="Tasks" />
+	</Section>
+    <Section Title="Save-And-Load Traffic" URL="Save-And-Load-Traffic">
+		<Section Title="Tasks" URL="Tasks" />
+	</Section>
+    <Section Title="Extend Fiddler" URL="Extend-Fiddler" />
+    <Section Title="KnowledgeBase" URL="KnowledgeBase">
+		<Section Title="FiddlerScript" URL="FiddlerScript" />
+		<Section Title="Add Ons" URL="Add-Ons" />
+	</Section>
+    <Section Title="Troubleshoot Fiddler" URL="Troubleshoot-Fiddler" />
+</Contents>
