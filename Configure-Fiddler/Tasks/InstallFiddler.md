@@ -41,7 +41,7 @@ d. Click 'Close' when installation completes.
 
 [Configure your web browser to use Fiddler][7]
 
-[1]: ../../../install
+[1]: http://www.telerik.com/download/fiddler
 [2]: http://www.fiddlercap.com/FiddlerCap/
 [3]: ../../images/ConfigureFiddler/SetupSecurityWarning.png
 [4]: ../../images/ConfigureFiddler/AgreetoLicenseAgreement.png
