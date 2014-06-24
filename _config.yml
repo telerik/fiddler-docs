@@ -1,0 +1,39 @@
+# The public documentation URL, used for sitemap.xml
+url: "http://docs.telerik.com/product"
+
+# Exclude files which should not be in the output
+exclude: [README.md,Gemfile,Gemfile.lock]
+navigation:
+## List your directory names and order here, like this:
+    getting-started:
+        position: 2
+        title: Getting Started
+
+## The application virtual path
+baseurl: /product
+
+## Assign layout and category per different paths
+defaults:
+-
+    scope:
+        path: ""
+    values:
+        layout: "page"
+        category: "default"
+
+# Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
+# "foo": "Bar"
+
+# The google services configuration
+google_analytics: UA-111455-1
+google_tag_manager: GTM-6X92
+google_custom_search: '001595215763381649090:eblhnfskwrk'
+
+## Do not edit below this line
+safe: false
+markdown: MarkdownProcessor
+kramdown:
+    toc_levels: 2..3
+    smart_quotes: ["quot", "quot", "quot", "quot"]
+    input: GFM
+
