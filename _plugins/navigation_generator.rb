@@ -2,7 +2,7 @@ module Jekyll
 
     class NavigationGenerator < Generator
         def initialize(config)
-            @navigation = config['navigation'] || {}
+            @navigation = Hash[(config['navigation'] || {}).map { |key, value| [/^#{key.gsub('*', '.*?')}$/, value] }]
         end
 
         def generate(site)
@@ -34,7 +34,10 @@ module Jekyll
                             item['position'] = page.data['position'] if page.data['position']
                             item['text'] = page.data['title']
                         else
-                            mapping = @navigation[segments.slice(1,index).join('/')] || {}
+                            path = segments.slice(1,index).join('/')
+                            navigation_entry =  @navigation.find { |key, value| p path, key; path =~ key }
+                            mapping = navigation_entry ? navigation_entry[1] : {}
+                            p mapping
                             item['text'] = mapping['title'] || segment
                             item['items'] = []
                             item['position'] = mapping['position'] if mapping.has_key?('position')
