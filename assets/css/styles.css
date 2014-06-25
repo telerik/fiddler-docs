@@ -232,18 +232,6 @@ a img {
     font-size: 13px;
 }
 
-#page-nav .k-treeview-lines > .k-item > div > .k-in {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 12px;
-}
-
-#page-nav .k-treeview-lines > .k-item > div > .k-in > a {
-    text-transform: none;
-    font-weight: normal;
-    font-size: 13px;
-}
-
 #page-nav .k-state-selected {
     background-color: #00b312;
 }
