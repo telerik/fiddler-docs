@@ -1,6 +1,5 @@
 module Jekyll
 
-    require 'github/markup'
     require 'html/pipeline'
 
     class RootRelativeFilter < HTML::Pipeline::Filter
