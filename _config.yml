@@ -8,6 +8,8 @@ navigation:
     getting-started:
         position: 2
         title: Getting Started
+    "*foo":
+        title: Foo
 
 ## The application virtual path
 baseurl: /product
