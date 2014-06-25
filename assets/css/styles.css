@@ -196,8 +196,15 @@ a img {
 
 #page-nav {
     float: left;
-    width: 360px;
-    padding: 20px 0 0 40px;
+    width: 400px;
+    padding: 20px 0 0;
+}
+
+#page-tree {
+    padding: 0 20px 40px 40px;
+    white-space: normal;
+    word-break: break-word;
+    overflow: hidden;
 }
 
 #page-nav .k-plus { background: url(../images/close.png); }
@@ -366,14 +373,22 @@ a img {
 
 /* Article pages */
 
-#page-inner-content {
+.faux-columns {
     background: #fff url(../images/column.png) repeat-y 0 0;
+}
+
+#page-inner-content:after {
+    content: " ";
+    font-size: 0;
+    line-height: 0;
+    clear: both;
+    display: block;
 }
 
 #page-article {
     background-color: #fff;
     margin-left: 400px;
-    padding: 1px 85px 100px;
+    padding: 1px 85px 50px;
     line-height: 1.5;
 }
 
@@ -470,19 +485,15 @@ pre .dec { color: #3e526b; } /* decimal */
 {
     background-color: #2a2d33;
     text-align: left;
-    clear: both;
-}
-
-#introduction {
-    padding-bottom: 200px;
-}
-
-#introduction #footer {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    clear: both;
+}
+
+#introduction,
+#page-inner-content {
+    padding-bottom: 140px; /* footer height */
 }
 
 .footer-links {

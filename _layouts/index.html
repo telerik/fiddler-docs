@@ -24,7 +24,11 @@
         })();
     </script>
     </head>
+    {% if page.category %}
+    <body class="faux-columns">
+    {% else %}
     <body>
+    {% endif %}
         <!-- Google Tag Manager -->
         <noscript>
             <iframe src="//www.googletagmanager.com/ns.html?id={{site.google_tag_manager}}" height="0" width="0" style="display: none; visibility: hidden"></iframe>
