@@ -35,7 +35,7 @@ module Jekyll
                             item['text'] = page.data['title']
                         else
                             path = segments.slice(1,index).join('/')
-                            navigation_entry =  @navigation.find { |key, value| p path, key; path =~ key }
+                            navigation_entry =  @navigation.find { |key, value| path =~ key }
                             mapping = navigation_entry ? navigation_entry[1] : {}
                             item['text'] = mapping['title'] || segment
                             item['items'] = []
