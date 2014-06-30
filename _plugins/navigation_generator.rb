@@ -50,6 +50,12 @@ module Jekyll
                 end
             end
 
+            categories.each do |key, value|
+                items = value[0]['items']
+
+                sort!(items)
+            end
+
             categories
         end
 
@@ -60,8 +66,6 @@ module Jekyll
                 FileUtils.mkdir_p(site.dest) unless File.exist?(site.dest)
 
                 items = value[0]['items']
-
-                sort!(items)
 
                 File.write(File.join(site.dest, filename), items.to_json)
 
