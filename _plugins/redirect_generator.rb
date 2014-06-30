@@ -36,7 +36,7 @@ module Jekyll
 
             categories.each do |key, category|
                 category.each do |item|
-                    redirect_directories << redirect(item['path'], item) if item.has_key?('items')
+                    redirect_directories << redirect('', item) if item.has_key?('items')
                 end
             end
 
@@ -54,7 +54,7 @@ module Jekyll
                 path = path + '/' + directory['path']
             end
             if page
-                url = page['url'].sub('.html', '')
+                url = page['path'].sub('.html', '')
                 url = path + '/' + url unless path.empty?
 
                 result << { 'path' => path, 'url' => url }
@@ -67,9 +67,9 @@ module Jekyll
         end
 
         def first_page(directory)
-            page = directory['items'].find { |item| item.has_key?('url') }
+            page = directory['items'].find { |item| !item.has_key?('items') }
 
-            page = { 'url' => directory['items'].first['path'] } unless page
+            page = { 'path' => directory['items'].first['path'] } unless page
 
             page
         end
