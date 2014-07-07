@@ -53,7 +53,7 @@ defaults:
 # The google services configuration
 google_analytics: UA-111455-1
 google_tag_manager: GTM-6X92
-google_custom_search: '001595215763381649090:eblhnfskwrk'
+google_custom_search: '001595215763381649090:fpe1norq_ow'
 
 ## Do not edit below this line
 safe: false
