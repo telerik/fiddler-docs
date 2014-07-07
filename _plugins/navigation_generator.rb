@@ -11,6 +11,7 @@ module Jekyll
             site.pages.each do |page|
                 category = page.data['category']
 
+                next if page.data['publish'] == false
                 next unless category
 
                 node = categories[category]
