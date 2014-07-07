@@ -3,7 +3,7 @@ title: Vary Response Header
 slug: VaryResponseHeader
 tags: KnowledgeBase, Vary, WinINET
 publish: true
-ordinal: 7
+position: 7
 ---
 
 About the Vary Response Header

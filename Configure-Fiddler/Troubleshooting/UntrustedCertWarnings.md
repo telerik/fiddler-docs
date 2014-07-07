@@ -3,7 +3,7 @@ title: Untrusted Root Certificate Warnings
 slug: UntrustedRootCertWarnings
 tags: Configuration, Troubleshooting, Untrusted Root Certificate Warnings, FiddlerRoot
 publish: true
-ordinal: 1
+position: 1
 ---
 
 Problem: Untrusted Certificate Warnings

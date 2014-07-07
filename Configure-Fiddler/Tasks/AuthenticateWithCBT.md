@@ -3,7 +3,7 @@ title: Configure Fiddler to Authenticate to CBT-Protected Server
 slug: AuthenticateWithCBT
 tags: Configuration, CBT, Channel-binding token, authenticate
 publish: true
-ordinal: 21
+position: 21
 ---
 
 Configure Fiddler to Authenticate to CBT-Protected Server

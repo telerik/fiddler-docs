@@ -3,7 +3,7 @@ title: Create a new request
 slug: CreateNewRequest
 tags: Generate Traffic, Composer
 publish: true
-ordinal: 1
+position: 1
 ---
 
 Create a New Request

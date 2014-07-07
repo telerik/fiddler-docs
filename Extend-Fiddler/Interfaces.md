@@ -3,7 +3,7 @@ title: Implement Fiddler Interfaces
 slug: Interfaces
 tags: Extend Fiddler, .NET, Extension, Interfaces, IFiddlerExtension, IAutoTamper, IHandleExecAction assembly
 publish: true
-ordinal: 2
+position: 2
 ---
 
 Implement Fiddler Interfaces

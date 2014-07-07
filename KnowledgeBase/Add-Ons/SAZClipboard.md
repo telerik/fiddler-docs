@@ -3,7 +3,7 @@ title: SAZClipboard
 slug: SAZClipboard
 tags: Add-ons, .saz
 publish: true
-ordinal: 1
+position: 1
 ---
 
 SAZClipboard

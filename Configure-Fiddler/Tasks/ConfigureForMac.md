@@ -3,7 +3,7 @@ title: Configure Fiddler for Mac
 slug: ConfigureForMac
 tags: Configuration, Mac, Certificate, Metro, Loopback
 publish: true
-ordinal: 16
+position: 16
 ---
 
 Configure Fiddler for Mac

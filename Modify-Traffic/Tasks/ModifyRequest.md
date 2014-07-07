@@ -3,7 +3,7 @@ title: Modify a Request
 slug: ModifyRequest
 tags: Modify Traffic, FiddlerScript
 publish: true
-ordinal: 2
+position: 2
 ---
 
 Modify a Request

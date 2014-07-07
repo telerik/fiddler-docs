@@ -3,7 +3,7 @@ title: Override Windows HOSTS file
 slug: HOSTS
 tags: KnowledgeBase, HOSTS, etc\hosts
 publish: true
-ordinal: 9
+position: 9
 ---
 
 Overriding HOSTS

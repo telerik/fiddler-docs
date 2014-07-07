@@ -3,7 +3,7 @@ title: Configure Fiddler for Windows 8 Metro-style applications
 slug: Windows8Config
 tags: Configuration, Windows 8, Certificate, Metro, Loopback
 publish: true
-ordinal: 15
+position: 15
 ---
 
 <!-- http://fiddler2.com/Fiddler/help/AndroidNexus7.asp -->

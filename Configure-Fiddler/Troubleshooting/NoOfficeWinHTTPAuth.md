@@ -3,7 +3,7 @@ title: Office clients don't authenticate
 slug: NoOfficeWinHTTPAuth
 tags: Configuration, Troubleshooting, Office, WinHTTP, Auth, Authentication
 publish: true
-ordinal: 6
+position: 6
 ---
 
 Problem: Office clients using WinHTTP do not properly authenticate while running Fiddler

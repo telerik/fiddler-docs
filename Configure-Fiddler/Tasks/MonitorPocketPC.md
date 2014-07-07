@@ -3,7 +3,7 @@ title: Monitor PocketPC
 slug: MonitorPocketPC
 tags: Configuration, PocketPC, IEMobile
 publish: true
-ordinal: 20
+position: 20
 ---
 
 Monitor PocketPC

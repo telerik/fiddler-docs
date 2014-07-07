@@ -3,7 +3,7 @@ title: Use Fiddler as a Reverse Proxy
 slug: UseFiddlerAsReverseProxy
 tags: Configuration, reverse proxy, proxy
 publish: true
-ordinal: 13
+position: 13
 ---
 
 Use Fiddler as a Reverse Proxy

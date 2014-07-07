@@ -3,7 +3,7 @@ title: Load Extension in Fiddler
 slug: LoadExtension
 tags: Extend Fiddler, .NET, Extension, load extension
 publish: true
-ordinal: 4
+position: 4
 ---
 
 Load Extension in Fiddler

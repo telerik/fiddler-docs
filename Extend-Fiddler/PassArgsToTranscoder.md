@@ -3,7 +3,7 @@ title: Pass Arguments to Exporter Extension
 slug: PassArgsToTranscoder
 tags: Extend Fiddler, .NET, Extension, Importer, Exporter, ISessionImporter, ISessionExporter, ProgressCallbackEventArgs
 publish: true
-ordinal: 9
+position: 9
 ---
 
 Passing arguments to the Importer or Exporter Extension

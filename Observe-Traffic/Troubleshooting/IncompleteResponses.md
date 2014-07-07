@@ -3,7 +3,7 @@ title: Incomplete HTTP Responses
 slug: IncompleteResponses
 tags: Observe Traffic, Troubleshooting, HTTP 1.1, WebServices
 publish: true
-ordinal: 6
+position: 6
 ---
 
 Problem

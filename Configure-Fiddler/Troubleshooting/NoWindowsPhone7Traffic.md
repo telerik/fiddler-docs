@@ -3,7 +3,7 @@ title: No Windows Phone Traffic
 slug: NoWindowsPhone7Traffic
 tags: Configuration, Troubleshooting, Windows Phone, Connection, Fiddler Echo Service, Wi-Fi
 publish: true
-ordinal: 5
+position: 5
 ---
 
 Problem: Windows Phone does not exchange web traffic with Fiddler

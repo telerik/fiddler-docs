@@ -3,7 +3,7 @@ title: Find why IE9 made a web request
 slug: IE9RequestHeader
 tags: Observe traffic, IE9, Request header, downloa-initiator
 publish: true
-ordinal: 8
+position: 8
 ---
 
 Find why IE9 made a web request

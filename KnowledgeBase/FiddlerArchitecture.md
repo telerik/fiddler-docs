@@ -3,7 +3,7 @@ title: Fiddler Architecture Info
 slug: fiddler-architecture-info
 tags: Architecture, advanced
 publish: true
-ordinal: 12
+position: 12
 ---
 
 <!-- http://fiddler2.com/Fiddler/dev/FiddlerArchitecture.asp -->

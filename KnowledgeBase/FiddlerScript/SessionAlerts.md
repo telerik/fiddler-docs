@@ -3,7 +3,7 @@ title: Session Alerts
 slug: SessionAlerts
 tags: Knowledge Base, FiddlerScript, sound, message box
 publish: true
-ordinal: 6
+position: 6
 ---
 
 Session Alerts

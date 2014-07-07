@@ -3,7 +3,7 @@ title: Repeat 401 Errors
 slug: Repeat401Errors
 tags: Configuration, Troubleshooting, 401 errors, CBT Authentication
 publish: true
-ordinal: 3
+position: 3
 ---
 
 Problem: Repeat 401 Errors and Windows Security Prompts

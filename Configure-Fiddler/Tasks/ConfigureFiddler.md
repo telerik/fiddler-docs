@@ -3,7 +3,7 @@ title: Configure Fiddler
 slug: ConfigureFiddler
 tags: Getting Started, configure fiddler, common configuration tasks
 publish: true
-ordinal: -1
+position: 0
 ---
 
 Getting Started with Fiddler

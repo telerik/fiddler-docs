@@ -3,7 +3,7 @@ title: Add Columns to Web Sessions List
 slug: AddColumns
 tags: Knowledge Base, FiddlerScript, BindUIColumn, AddBoundColumn
 publish: true
-ordinal: 7
+position: 7
 ---
 
 Add Columns to the Web Sessions List

@@ -3,7 +3,7 @@ title: Headers Reference
 slug: Headers
 tags: KnowledgeBase, HTTP, Expires, Cache-Control must-revalidate, set-cookie
 publish: true
-ordinal: 8
+position: 8
 ---
 
 Headers References

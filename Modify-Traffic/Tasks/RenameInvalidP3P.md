@@ -3,7 +3,7 @@ title: Rename Invalid P3P Headers
 slug: RenameInvalidP3P
 tags: Modify Traffic, Cookies, add-ons, Privacy, P3P
 publish: true
-ordinal: 4
+position: 4
 ---
 
 Rename Invalid P3P Headers

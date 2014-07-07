@@ -3,7 +3,7 @@ title: Timeline View
 slug: Timeline
 tags: Knowledge Base, Timeline, Waterfall, Visualize, Visualise
 publish: true
-ordinal: 4
+position: 4
 ---
 
 Timeline View

@@ -3,7 +3,7 @@ title: Keyboard Reference
 slug: Keyboard
 tags: Knowledge Base, Hotkeys, QuickExec, Shortcuts, keystrokes
 publish: true
-ordinal: 2
+position: 2
 ---
 
 Keyboard Reference

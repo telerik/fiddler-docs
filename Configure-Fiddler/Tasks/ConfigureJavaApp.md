@@ -3,7 +3,7 @@ title: Configure a Java application to use Fiddler
 slug: ConfigureJavaApp
 tags: Configuration, Java app
 publish: true
-ordinal: 8
+position: 8
 ---
 
 Configure a Java Application to Use Fiddler

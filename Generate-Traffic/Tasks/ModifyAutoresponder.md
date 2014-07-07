@@ -3,7 +3,7 @@ title: Modify Matching Rules
 slug: ModifyAutoresponder
 tags: Generate Traffic, Autoresponder, replay
 publish: true
-ordinal: 4
+position: 4
 ---
 
 Modify Matching Rules

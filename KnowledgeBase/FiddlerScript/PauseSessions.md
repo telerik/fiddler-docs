@@ -3,7 +3,7 @@ title: Pause Web Sessions
 slug: PauseSessions
 tags: Knowledge Base, FiddlerScript, POST, XML, JavaScript, edit
 publish: true
-ordinal: 5
+position: 5
 ---
 
 Pause Web Sessions

@@ -3,7 +3,7 @@ title: Fiddler Preferences System
 slug: FiddlerPrefs
 tags: Knowledge Base, FiddlerScript, Watchers, notification, callbacks
 publish: true
-ordinal: 8
+position: 8
 ---
 
 The Fiddler Preferences System

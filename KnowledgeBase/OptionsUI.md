@@ -3,7 +3,7 @@ title: Options UI
 slug: options-ui
 tags: help, configuration, menu
 publish: true
-ordinal: 6
+position: 6
 ---
 
 <!-- http://fiddler2.com/Fiddler/help/OptionsUI.asp -->

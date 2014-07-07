@@ -3,7 +3,7 @@ title: The Fiddler Proxy
 slug: Proxy
 tags: KnowledgeBase, WinINET, proxy settings
 publish: true
-ordinal: 8
+position: 8
 ---
 
 The Fiddler Proxy

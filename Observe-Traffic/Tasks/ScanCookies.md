@@ -3,7 +3,7 @@ title: View Cookie Information
 slug: CookieScanning
 tags: Observe Traffic, Cookies, add-ons, Privacy, P3P
 publish: true
-ordinal: 10
+position: 10
 ---
 
 View Cookie Information

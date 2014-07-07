@@ -3,7 +3,7 @@ title: Respond to requests requiring client certificate
 slug: RespondWithClientCert
 tags: Configuration, HTTPS, Certificate
 publish: true
-ordinal: 5
+position: 5
 ---
 
 Respond to Requests Requiring a Client Certificate

@@ -3,7 +3,7 @@ title: Font 'Tahoma' does not support style 'Regular'
 slug: TahomaError
 tags: Troubleshooting, Tahoma, style 'Regular', System.Drawing, Word 97
 publish: true
-ordinal: 6
+position: 6
 ---
 
 ####Fiddler crashes on startup complaining about the Tahoma font

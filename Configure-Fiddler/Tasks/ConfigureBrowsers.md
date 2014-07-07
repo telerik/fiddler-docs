@@ -3,7 +3,7 @@ title: Configure Browsers for Fiddler
 slug: ConfigureBrowsers
 tags: Configuration, Configure, Browser, Firefox, https, manual
 publish: true
-ordinal: 2
+position: 2
 ---
 
 Configure Browsers

@@ -3,7 +3,7 @@ title: Site on local machine rejects credentials
 slug: NoAuthToLocalMachine
 tags: Configuration, Troubleshooting, local machine, localhost, authentication, credentials
 publish: true
-ordinal: 7
+position: 7
 ---
 
 Problem: Website running on local machine with Fiddler running rejects credentials

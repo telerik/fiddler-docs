@@ -3,7 +3,7 @@ title: Create a Session Archive Zip (SAZ) Traffic Archive
 slug: CreateSAZ
 tags: Save and Load Traffic, SAZ, Save, archive
 publish: true
-ordinal: 1
+position: 1
 ---
 
 Create a Session Archive Zip (SAZ) Traffic archive
