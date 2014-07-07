@@ -27,6 +27,7 @@ layout: index
         });
         </script>
     </div>
+
     <div id="page-article">
         <div id="page-top">
             <div id="page-breadcrumb">
@@ -36,9 +37,17 @@ layout: index
                 {% include search.html %}
             </div>
         </div>
-    {% if page.category == "api" %}<div id="markdown-toc"></div>{% endif %}
-    {{ content }}
-    </div>
 
-    {% include footer.html %}
+        {% if page.title %}
+        <h1>{{ page.title }}</h1>
+        {% endif %}
+
+        {% if page.category == "api" %}<div id="markdown-toc"></div>{% endif %}
+
+        <article>
+            {{ content }}
+        </article>
+    </div>
 </div>
+
+{% include footer.html %}
