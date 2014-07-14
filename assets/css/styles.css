@@ -337,14 +337,8 @@ h3 em {
 }
 
 blockquote {
-    color: #bf5e00;
     padding: 10px 10px 10px 64px;
-    background: #fff4d9 url(../images/important.png) no-repeat 15px 15px;
     margin: 0;
-}
-
-blockquote a {
-    color: #428bca;
 }
 
 blockquote table {
@@ -353,7 +347,6 @@ blockquote table {
 }
 
 blockquote th, blockquote td {
-    border-color: #F2BB72;
     padding: .5em;
 }
 
