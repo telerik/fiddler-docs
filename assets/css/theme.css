@@ -727,7 +727,7 @@ pre .dec { color: #3e526b; } /* decimal */
 }
 
 /* Footer */
-#page-footer {
+footer {
     padding: 0 20px 0 0;
     height: 42px;
     line-height: 42px;
@@ -737,7 +737,7 @@ pre .dec { color: #3e526b; } /* decimal */
     font-size: 13px;
     font-size: 1.3rem;
 }
-#page-footer > p {
+footer > p {
     line-height: 1.2em;
     margin: 1em;
     display: inline;
