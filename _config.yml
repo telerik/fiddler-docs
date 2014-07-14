@@ -38,6 +38,9 @@ navigation:
 ## The application virtual path
 baseurl: /fiddler
 
+## The product name
+productName: "AppBuilder"
+
 ## Assign layout and category per different paths
 defaults:
 -
