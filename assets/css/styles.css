@@ -193,6 +193,8 @@ a img {
 #markdown-toc {
     border-bottom: 1px solid #ebecee;
     font-size: 12px;
+    position: relative;
+    z-index: 1;
 }
 
 #markdown-toc > ul > li {
