@@ -57,6 +57,11 @@ defaults:
 google_tag_manager: GTM-6X92
 google_custom_search: '001595215763381649090:fpe1norq_ow'
 
+# Assets pipeline configuration
+assets:
+    cachebust: soft
+    js_compressor: uglifier
+
 ## Do not edit below this line
 safe: false
 markdown: MarkdownProcessor
