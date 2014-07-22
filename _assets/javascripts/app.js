@@ -2,26 +2,20 @@ function expandNavigation(url) {
     return function() {
         var segments = url.split("/");
         var page = segments[segments.length - 1];
-        var tree = this;
 
-        if (segments.length > 1) {
-            var path = segments.slice();
-            tree.expandPath(segments, function() {
-                var dataSource = tree.dataSource;
-                var node;
+        this.expandPath(segments, function() {
+            var dataSource = this.dataSource;
+            var node;
 
-                for (var idx = 0; idx < path.length; idx++) {
-                   node = dataSource.get(path[idx]);
-                   dataSource = node.children;
-                }
+            for (var idx = 0; idx < segments.length; idx++) {
+               node = dataSource.get(segments[idx]);
+               dataSource = node.children;
+            }
 
-                node.set("selected", true);
-            });
-        } else {
-            tree.dataSource.get(page).set("selected", true);
-        }
+            node.set("selected", true);
+        });
 
-        tree.unbind("dataBound", arguments.callee);
+        this.unbind("dataBound", arguments.callee);
     }
 }
 
