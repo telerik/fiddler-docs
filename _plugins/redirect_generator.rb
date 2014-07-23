@@ -11,6 +11,9 @@ module Jekyll
             web_config = Page.new(site, site.source, '', 'web.config')
             web_config.content = File.read(File.join(site.source, 'web.config'))
             web_config.render(Hash.new, site.site_payload)
+
+            FileUtils.mkdir_p(site.dest) unless File.directory?(site.dest)
+
             File.write(File.join(site.dest, 'web.config'), web_config.output)
 
             site.static_files << web_config
