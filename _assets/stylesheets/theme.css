@@ -801,7 +801,7 @@ footer > p {
 #page-nav .k-minus {
     position: relative;
 }
-#page-nav .k-plus:before { 
+#page-nav .k-plus:before {
     content: "\F114";
     font-family: "FontAwesome";
     width: 13px;
@@ -811,7 +811,7 @@ footer > p {
     top: 8px;
     left: 0;
 }
-#page-nav .k-minus:before { 
+#page-nav .k-minus:before {
     content: "\F115";
     font-family: "FontAwesome";
     width: 13px;
@@ -853,7 +853,7 @@ footer > p {
     box-sizing: content-box;
     zoom: 1;
 }
-#page-top:before, 
+#page-top:before,
 #page-top:after {
     content: "";
     display: table;
@@ -927,4 +927,35 @@ article ul {
 article img {
     max-width: 100%;
     height: auto;
+}
+
+.k-tabstrip {
+    border: 0;
+}
+
+.k-tabstrip .k-item {
+    border-width: 0 1px 0;
+    border-color: #dce4e5;
+    background-color: #F5F7F8;
+    padding-bottom: 0;
+    margin-right: 2px;
+}
+
+.k-tabstrip .k-content {
+    border: 2px dashed #dbe3e4;
+    background: #fbfdfe;
+}
+
+.k-tabstrip .k-content pre {
+    border: 0
+}
+
+.k-tabstrip .k-tabstrip-items .k-state-active {
+    background: #2d3e50;
+    border-color: #2d3e50;
+    margin-bottom: 0;
+}
+
+.k-tabstrip .k-tabstrip-items .k-state-active .k-link {
+    color: #fff;
 }
