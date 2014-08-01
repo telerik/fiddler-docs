@@ -90,9 +90,8 @@ $(function(){
     // Enable prettyprint support. We need to map lang="JavaScript" to class="lang-js" in order to start proper pretty print lexer.
     $("pre").each(function(index){
         var langExtension = codeSampleMapper[$(this).attr('lang')];
-        $(this).addClass('lang-' + langExtension); 
+        $(this).addClass('lang-' + langExtension).addClass("prettyprint");
     });
-    $("pre").addClass("prettyprint");
 
     prettyPrint();
 
