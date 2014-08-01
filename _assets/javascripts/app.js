@@ -76,6 +76,22 @@ $(function(){
        });
     });
 
+    var codeSampleMapper = {
+        'C#': 'cs',
+        'VB.NET' : 'vb',
+        'AppBuilder' : 'js',
+        'JavaScript' : 'js',
+        'C++' : 'cpp',
+        'C' : 'c',
+        'Objective-C' : 'm',
+        'Java' : 'java',
+    }
+
+    // Enable prettyprint support. We need to map lang="JavaScript" to class="lang-js" in order to start proper pretty print lexer.
+    $("pre").each(function(index){
+        var langExtension = codeSampleMapper[$(this).attr('lang')];
+        $(this).addClass('lang-' + langExtension); 
+    });
     $("pre").addClass("prettyprint");
 
     prettyPrint();
