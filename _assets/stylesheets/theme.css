@@ -657,20 +657,12 @@ pre .dec { color: #3e526b; } /* decimal */
 
 /* Header */
 #page-header {
-    height: 40px;
+    height: 45px;
     background: #2d3e50;
     padding: 0 30px;
     -webkit-box-shadow: 0 2px 2px -2px rgba(0,0,0,0.52);
     font-size: 12px;
     font-size: 1.2rem;
-}
-
-.main-navigation, .main-navigation h1, .main-navigation ul, .main-navigation li, .main-navigation div, .main-navigation a, .main-navigation span, .main-navigation h1 i {
-    float: left;
-    line-height: 40px;
-    font-family: 'open_sansregular',sans-serif;
-    font-size: 14px;
-    height: 40px;
 }
 
 .main-navigation li {
@@ -958,4 +950,21 @@ article img {
 
 .k-tabstrip .k-tabstrip-items .k-state-active .k-link {
     color: #fff;
+}
+
+.main-navigation a {
+    font-size: 15px;
+    background-image: url('../images/logo-2x.png');
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+    padding-left: 45px;
+    display: block;
+    color: #fff;
+}
+
+.main-navigation a span {
+    display: block;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
