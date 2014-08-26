@@ -3,7 +3,7 @@ title: Run from Command Line with ExecAction
 slug: ExecAction
 tags: KnowledgeBase, ExecAction, QuickExec, console, command line
 publish: true
-ordinal: 10
+position: 10
 ---
 
 Controlling Fiddler with Test Automation

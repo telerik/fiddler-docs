@@ -3,7 +3,7 @@ title: Chain to Upstream Proxy
 slug: ChainToUpstreamProxy
 tags: Configuration, upstream proxy, proxy, upstream, chain
 publish: true
-ordinal: 12
+position: 12
 ---
 
 Chain Fiddler to an Upstream Proxy

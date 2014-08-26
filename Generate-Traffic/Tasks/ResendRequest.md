@@ -3,7 +3,7 @@ title: Resend a Request
 slug: ResendRequest
 tags: Generate Traffic, Composer
 publish: true
-ordinal: 8
+position: 8
 ---
 
 Resend a Request

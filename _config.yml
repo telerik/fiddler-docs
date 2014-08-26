@@ -1,0 +1,72 @@
+# The public documentation URL, used for sitemap.xml
+url: "http://docs.telerik.com/fiddler"
+
+# Exclude files which should not be in the output
+exclude: [README.md,Gemfile,Gemfile.lock]
+navigation:
+## List your directory names and order here, like this:
+    Configure-Fiddler:
+        title: Configure Fiddler
+        position: 0
+    Observe-Traffic:
+        title: Observe Traffic
+        position: 1
+    Modify-Traffic:
+        title: Modify Traffic
+        position: 2
+    Generate-Traffic:
+        title: Generate Traffic
+        position: 3
+    Save-And-Load-Traffic:
+        title: Save-And-Load Traffic
+        position: 4
+    Extend-Fiddler:
+        title: Extend Fiddler
+        position: 5
+    KnowledgeBase:
+        title: Knowledge Base
+        position: 6
+    Troubleshoot-Fiddler:
+        title: Troubleshoot Fiddler
+        position: 7
+    KnowledgeBase/FiddlerScript:
+        position: 0
+    KnowledgeBase/Add-Ons:
+        title: Add Ons
+        position: 1
+
+## The application virtual path
+baseurl: /fiddler
+
+## The product name
+productName: "AppBuilder"
+
+## Assign layout and category per different paths
+defaults:
+-
+    scope:
+        path: ""
+    values:
+        layout: "page"
+        category: "default"
+
+# Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
+# "foo": "Bar"
+
+# The google services configuration
+google_tag_manager: GTM-6X92
+google_custom_search: '001595215763381649090:fpe1norq_ow'
+
+# Assets pipeline configuration
+assets:
+    cachebust: soft
+    js_compressor: uglifier
+
+## Do not edit below this line
+safe: false
+markdown: MarkdownProcessor
+kramdown:
+    toc_levels: 2..3
+    smart_quotes: ["quot", "quot", "quot", "quot"]
+    input: GFM
+

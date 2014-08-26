@@ -3,7 +3,7 @@ title: HTTPS Connections Timeout with Decryption Enabled
 slug: HTTPSTimeout
 tags: Getting Started, Configuration, Troubleshooting, .NET, TLS Encrypted Alert
 publish: true
-ordinal: 8
+position: 8
 ---
 
 HTTPS Connections Timeout with Decryption Enabled

@@ -3,7 +3,7 @@ title: Fiddler and Microsoft Firewall Client
 slug: MSFirewall
 tags: Getting Started, Configuration, Troubleshooting, .NET, TLS Encrypted Alert
 publish: true
-ordinal: 9
+position: 9
 ---
 
 Problem: Fiddler Detaches Randomly with MS Firewall for ISA 2004

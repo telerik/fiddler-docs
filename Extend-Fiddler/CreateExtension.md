@@ -3,7 +3,7 @@ title: Create Fiddler Extension project
 slug: CreateExtension
 tags: Extend Fiddler, .NET, Extension, Interfaces, modify request string
 publish: true
-ordinal: 3
+position: 3
 ---
 
 Create Fiddler Extension Project

@@ -3,7 +3,7 @@ title: Build a Custom Importer or Exporter
 slug: BuildImporterExporter
 tags: Extend Fiddler, .NET, Extension, Importer, Exporter, ISessionImporter, ISessionExporter, ProgressCallbackEventArgs
 publish: true
-ordinal: 8
+position: 8
 ---
 
 Build a Custom Importer or Exporter

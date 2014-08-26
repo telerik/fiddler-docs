@@ -3,7 +3,7 @@ title: Crawl Sequential URLs
 slug: CrawlURLs
 tags: Generate Traffic, FiddlerScript, Simulate traffic, utilIssueRequest
 publish: true
-ordinal: 7
+position: 7
 ---
 
 Crawl Sequential URLs

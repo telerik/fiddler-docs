@@ -3,7 +3,7 @@ title: View Web Sessions Transfer Timeline
 slug: ViewSessionsTimeline
 tags: Observe traffic, View sessions transfer timeline, examine session, session content, content, HTTP session, https session, ftp session, requests, responses, timeline, waterfall
 publish: true
-ordinal: 5
+position: 5
 ---
 
 Visualize Sessions Transfer Timeline

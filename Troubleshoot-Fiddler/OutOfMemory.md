@@ -3,7 +3,7 @@ title: Out-of-memory exception
 slug: OutOfMemory
 tags: Troubleshooting
 publish: true
-ordinal: 1
+position: 1
 ---
 
 ####Fiddler throws an out-of-memory exception

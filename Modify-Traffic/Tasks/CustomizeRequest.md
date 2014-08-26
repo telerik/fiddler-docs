@@ -3,7 +3,7 @@ title: Customize a Request
 slug: CustomizeRequest
 tags: Modify Traffic, Composer
 publish: true
-ordinal: 1
+position: 1
 ---
 
 Customize a Request

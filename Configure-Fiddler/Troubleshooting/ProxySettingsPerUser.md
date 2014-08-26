@@ -3,7 +3,7 @@ title: ProxySettingsPerUser=0
 slug: ProxySettingsPerUser
 tags: Getting Started, Configuration, Troubleshooting
 publish: true
-ordinal: 10
+position: 10
 ---
 
 

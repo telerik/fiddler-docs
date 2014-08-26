@@ -3,7 +3,7 @@ title: Certificate Errors and .NET security exceptions
 slug: CertErrors
 tags: Troubleshooting
 publish: true
-ordinal: 2
+position: 2
 ---
 
 Problem: Certificate errors or .NET security exceptions while capturing traffic

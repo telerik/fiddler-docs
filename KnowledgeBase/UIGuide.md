@@ -3,7 +3,7 @@ title: User Interface Guide
 slug: UIGuide
 tags: Knowledge Base, UI
 publish: true
-ordinal: 3
+position: 3
 ---
 
 User Interface Guide

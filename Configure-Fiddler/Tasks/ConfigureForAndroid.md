@@ -3,7 +3,7 @@ title: Configure Fiddler for Android / Google Nexus 7
 slug: ConfigureForAndroid
 tags: Configuration, Android, Nexus 7
 publish: true
-ordinal: 18
+position: 18
 ---
 
 Configure Fiddler for Android / Google Nexus 7

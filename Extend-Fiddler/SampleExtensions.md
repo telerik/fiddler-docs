@@ -3,7 +3,7 @@ title: Sample Extensions
 slug: SampleExtensions
 tags: Extend Fiddler, .NET, Extension, Sample, add-on, addon
 publish: true
-ordinal: 12
+position: 12
 ---
 
 Sample Extensions

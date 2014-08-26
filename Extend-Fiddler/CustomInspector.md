@@ -3,7 +3,7 @@ title: Build a Custom Inspector
 slug: CustomInspector
 tags: Extend Fiddler, .NET, Extension, Inspector, IResponseInspector
 publish: true
-ordinal: 5
+position: 5
 ---
 
 Build a Custom Inspector

@@ -3,7 +3,7 @@ title: Configure Columns
 slug: ConfigureColumns
 tags: Observe Traffic, Configuration, Columns, Web Sessions List
 publish: true
-ordinal: 9
+position: 9
 ---
 
 Configure Columns

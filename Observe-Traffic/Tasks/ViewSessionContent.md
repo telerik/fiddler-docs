@@ -3,7 +3,7 @@ title: View Web Session Content
 slug: ViewSessionContent
 tags: Observe traffic, View session content, examine session, session content, content, HTTP session, https session, ftp session, requests, responses, image, header, hex
 publish: true
-ordinal: 4
+position: 4
 ---
 
 View Web Session Content

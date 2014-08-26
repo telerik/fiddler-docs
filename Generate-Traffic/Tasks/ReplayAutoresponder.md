@@ -3,7 +3,7 @@ title: Replay Captured Traffic
 slug: ReplayAutoresponder
 tags: Generate Traffic, Autoresponder, web sessions archive, replay
 publish: true
-ordinal: 3
+position: 3
 ---
 
 Replay Captured Traffic

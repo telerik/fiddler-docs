@@ -3,7 +3,7 @@ title: Configuration system failed to initialize
 slug: ConfigurationSystemError
 tags: Troubleshooting, System.Configuration, you may have found a bug
 publish: true
-ordinal: 4
+position: 4
 ---
 
 ####Fiddler crashes on startup complaining about the "Configuration System":

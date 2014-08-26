@@ -3,7 +3,7 @@ title: All traffic is missing
 slug: AllTrafficMissing
 tags: Observe Traffic, Troubleshooting, No traffic, Web Sessions List
 publish: true
-ordinal: 1
+position: 1
 ---
 
 Problem: No sessions appear in the Web Sessions List.

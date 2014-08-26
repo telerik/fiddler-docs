@@ -3,7 +3,7 @@ title: Fiddler SessionFlags
 slug: SessionFlags
 tags: Knowledge Base, oFlags, string flags, FiddlerScript, IFiddlerExtension, metadata
 publish: true
-ordinal: 4
+position: 4
 ---
 
 Fiddler SessionFlags

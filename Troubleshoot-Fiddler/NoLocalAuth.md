@@ -3,7 +3,7 @@ title: No authentication when capturing traffic to local IIS server
 slug: NoLocalAuth
 tags: Troubleshooting, IIS, LoopBack Exception, Loopback protection, DisableLoopback
 publish: true
-ordinal: 3
+position: 3
 ---
 
 ####Fiddler's "Automatic Authentication" feature doesn't work when server and client are on the same machine?

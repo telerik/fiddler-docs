@@ -3,7 +3,7 @@ title: Import and Export Formats
 slug: ImportExportFormats
 tags: KnowledgeBase, Import, Export, Formats, Archive JSON, Archive XML, Visual Studio Web Test, Raw Files, Meddler, AppCache Manifest
 publish: true
-ordinal: 18
+position: 18
 ---
 
 Fiddler Import and Export Formats

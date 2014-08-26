@@ -3,7 +3,7 @@ title: Customize Menus
 slug: CustomizeMenus
 tags: Knowledge Base, FiddlerScript, context menu, rules menu, submenu, clear cookies, clear cache
 publish: true
-ordinal: 3
+position: 3
 ---
 
 Customize Menus

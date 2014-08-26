@@ -3,7 +3,7 @@ title: FiddlerHook Help
 slug: fiddlerhook-help
 tags: fiddlerhook, addon
 publish: true
-ordinal: 6
+position: 6
 ---
 
 <!-- http://fiddler2.com/Fiddler2/addons/fiddlerhook/ -->

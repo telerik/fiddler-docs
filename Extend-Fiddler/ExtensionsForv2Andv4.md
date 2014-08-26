@@ -3,7 +3,7 @@ title: Build Extension Assemblies for Fiddler v2 and v4.
 slug: ExtensionsForv2Andv4
 tags: Extend Fiddler, .NET, Extension, Cookies, IAutoTamper2, Privacy, P3P
 publish: true
-ordinal: 11
+position: 11
 ---
 
 Build Extension Assemblies for Fiddler v2 and v4

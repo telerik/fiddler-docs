@@ -3,7 +3,7 @@ title: Capture HTTPS traffic from Firefox
 slug: FirefoxHTTPS
 tags: Getting Started, Configuration, Firefox, HTTPS, Fiddler Root Certificate
 publish: true
-ordinal: 24
+position: 24
 ---
 
 Capture HTTPS traffic from Firefox

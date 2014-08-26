@@ -3,7 +3,7 @@ title: Configure a WinHTTP Application to Use Fiddler
 slug: ConfigureWinHTTPApp
 tags: Configuration, WinHTTP, traffic
 publish: true
-ordinal: 9
+position: 9
 ---
 
 Configure a WinHTTP Application to Use Fiddler

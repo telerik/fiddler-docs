@@ -3,7 +3,7 @@ title: Capture Traffic from a Different Account
 slug: CaptureTrafficFromDifferentAccount
 tags: Configuration, account, different account, asp.net, IIS, Windows Service
 publish: true
-ordinal: 14
+position: 14
 ---
 
 Capture Traffic from a Different Account

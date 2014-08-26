@@ -3,7 +3,7 @@ title: Configure Fiddler to decrypt HTTPS traffic
 slug: DecryptHTTPS
 tags: Configuration, HTTPS, Decrypt, Decrypt HTTPS
 publish: true
-ordinal: 3
+position: 3
 ---
 
 Configure Fiddler to Decrypt HTTPS Traffic

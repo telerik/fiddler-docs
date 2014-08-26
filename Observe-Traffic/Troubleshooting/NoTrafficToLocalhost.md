@@ -3,7 +3,7 @@ title: No Traffic to Localhost
 slug: NoTrafficToLocalhost
 tags: Observe Traffic, Troubleshooting, localhost, 127.0.0.1, Web Sessions List
 publish: true
-ordinal: 2
+position: 2
 ---
 
 Problem: Traffic sent to http://localhost or http://127.0.0.1 is not captured

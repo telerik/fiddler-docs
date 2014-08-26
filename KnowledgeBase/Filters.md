@@ -3,7 +3,7 @@ title: Filters
 slug: Filters
 tags: Knowledge Base, Zone Filter, host Filter, hosts, client process, hide traffic, PID, REGEX
 publish: true
-ordinal: 5
+position: 5
 ---
 
 Filters Reference

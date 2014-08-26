@@ -3,7 +3,7 @@ title: Configure Visual Studio
 slug: ConfigureVS
 tags: Extend Fiddler, .NET, Extension, Configuration, IFiddlerExtension, assembly
 publish: true
-ordinal: 1
+position: 1
 ---
 
 Extend Fiddler with .NET Code

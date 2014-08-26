@@ -3,7 +3,7 @@ title: Bypass Upstream Proxy
 slug: BypassUpstreamProxy
 tags: Getting Started, Configuration, Upstream Proxy, Specific Domain, Proxy Bypass List, bypassGateway
 publish: true
-ordinal: 23
+position: 23
 ---
 
 Bypass the Upstream Proxy

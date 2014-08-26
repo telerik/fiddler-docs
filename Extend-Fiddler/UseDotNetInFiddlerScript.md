@@ -3,7 +3,7 @@ title: Use .NET Assemblies in FiddlerScript
 slug: UseDotNetInFiddlerScript
 tags: Extend Fiddler, FiddlerScript, .NET, C#, 
 publish: true
-ordinal: 15
+position: 15
 ---
 
 Use .NET Assemblies in FiddlerScript

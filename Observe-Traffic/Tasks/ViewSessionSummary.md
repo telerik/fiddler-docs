@@ -3,7 +3,7 @@ title: View Web Session Summary
 slug: ViewSessionSummary
 tags: Observe traffic, View session summary, examine session, session summary, HTTP session, https session, ftp session, requests, responses, result code, protocol, hostname, content type, URL, body size, caching value, origin process, custom comments, custom columns
 publish: true
-ordinal: 2
+position: 2
 ---
 
 View Web Session Summary

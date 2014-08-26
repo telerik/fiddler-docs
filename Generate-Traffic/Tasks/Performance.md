@@ -3,7 +3,7 @@ title: Test performance
 slug: Performance
 tags: Generate Traffic, FiddlerScript, Simulate traffic, display time
 publish: true
-ordinal: 6
+position: 6
 ---
 
 Test Performance

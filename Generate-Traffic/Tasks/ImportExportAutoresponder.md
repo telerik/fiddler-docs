@@ -3,7 +3,7 @@ title: Import or Export Matching Rules
 slug: ImportExportAutoresponder
 tags: Generate Traffic, Autoresponder, import, .farx, .sazexport
 publish: true
-ordinal: 5
+position: 5
 ---
 
 Import or Export Matching Rules

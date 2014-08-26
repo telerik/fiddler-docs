@@ -3,7 +3,7 @@ title: Log Sessions to Local Database
 slug: LogToLocalDB
 tags: Save and Load Traffic, Log, SQL, OLEDB
 publish: true
-ordinal: 4
+position: 4
 ---
 
 Log Sessions to Local Database
