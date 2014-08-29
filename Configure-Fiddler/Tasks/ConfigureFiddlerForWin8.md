@@ -1,4 +1,4 @@
-﻿---
+---
 title: Configure Fiddler for Windows 8 Metro-style applications
 slug: Windows8Config
 tags: Configuration, Windows 8, Certificate, Metro, Loopback
@@ -30,7 +30,7 @@ Create a Loopback Exemption
 
 Now these applications can send traffic to Fiddler.
 
-* To allow Unit Tests in Visual Studio 2012 to send traffic to Fiddler, click the AppContainer Loopback Exemption Utility Refresh button while the Unit Test is running. An AppContainer for the Unit Test will appear. Check the box for this AppContainer. [Learn more][4].  
+* To allow Unit Tests in Visual Studio 2012 to send traffic to Fiddler, click the AppContainer Loopback Exemption Utility Refresh button while the Unit Test is running. An AppContainer for the Unit Test will appear. Check the box for this AppContainer. [Learn more][4].
 
 * An alternative to using the AppContainer Loopback Exemption Utility is to [declare the privateNetworkClientServer permission][5].
 
@@ -59,7 +59,7 @@ Place Fiddler Root Certificate in the machine's Trusted Root store
 [3]: ../../images/ModelDoc/AppContainerLoopbackExemptionUtility.png "AppContainer Loopback Exemption Utility"
 [4]: http://stackoverflow.com/questions/13360309/using-fiddler-with-windows-store-unit-test
 [5]: http://msdn.microsoft.com/en-us/library/windows/apps/br211380
-[6]: ../../images/ModelDoc/WarningDialogTrustFiddlerRootCert.png "Trust Fiddler Root certificate warning dialog" 
+[6]: ../../images/ModelDoc/WarningDialogTrustFiddlerRootCert.png "Trust Fiddler Root certificate warning dialog"
 [7]: ../../images/ModelDoc/SecurityWarningInstallFiddlerRootCert.png "Install Fiddler Root certificate security warning dialog"
 [8]: ../../images/ModelDoc/UACDialog.png "User Account Control dialog"
 [9]: ../../images/ModelDoc/TrustCertConfirmDialog.png "TrustCert Confirmation dialog"
