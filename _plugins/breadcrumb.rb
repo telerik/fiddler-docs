@@ -9,7 +9,7 @@ class BreadCrumbTag < Liquid::Tag
         segments = url.split('/')
 
         html = '<ul>'
-        html += "<li class=\"link\"><a href=\"#{site.baseurl}/introduction/index\">Home</a></li>"
+        html += "<li class=\"link\"><a href=\"#{site.baseurl}/configure-fiddler/tasks/configurefiddler\">Home</a></li>"
 
         segments.each_with_index do |segment, index|
             next if index == 0
