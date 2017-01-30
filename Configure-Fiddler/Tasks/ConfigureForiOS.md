@@ -74,6 +74,8 @@ Decrypt HTTPS Traffic from iOS Devices
 
  ![Warning][7]
 
+On iOS 10 and later, after installing the FiddlerRoot certificate, go to *Settings* -> *General* -> *About* -> *Certificate Trust Settings* and manually enable full trust for the FiddlerRoot root certificate. Accept the dialog that says that this will allow a third-party to eavesdrop on all your communications.
+
 Uninstall FiddlerRoot Certificate
 ---------------------------------
 
