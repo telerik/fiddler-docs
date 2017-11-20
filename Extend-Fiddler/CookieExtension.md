@@ -160,7 +160,7 @@ Below is the code for the Fiddler [Privacy Scanner add-on][1].
 				}
  
 				// If a cookie contains an unsatisfactory purpose and an unsatisfactory category, mark it
-				// http://msdn.microsoft.com/en-us/library/ie/ms537343(v=vs.85).aspx#unsatisfactory_cookies
+				// https://msdn.microsoft.com/en-us/library/ie/ms537343(v=vs.85).aspx#unsatisfactory_cookies
 				if ((sUnsatCat.Length > 0) && (sUnsatPurpose.Length > 0))
 				{
 					if (oP3PState == P3PState.P3POk)

@@ -28,6 +28,6 @@ See Also
 [1]: http://fiddler2.com/add-ons
 [2]: ../../images/CookieScanning/PrivacyMenu.png
 [3]: ../../images/CookieScanning/PrivacyInfo.png
-[4]: http://msdn.microsoft.com/en-us/library/ie/ms537343(v=vs.85).aspx#unsatisfactory_cookies
+[4]: https://msdn.microsoft.com/en-us/library/ie/ms537343(v=vs.85).aspx#unsatisfactory_cookies
 [5]: http://www.enhanceie.com/test/cookie/
 [6]: ../../Observe-Traffic/Tasks/ScanCookies

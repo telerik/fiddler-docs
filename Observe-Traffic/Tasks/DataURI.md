@@ -25,7 +25,7 @@ To inspect a DataURI object:
 
  ![Inspect Object][5]
 
-[1]: http://en.wikipedia.org/wiki/Data_URI_scheme
+[1]: https://en.wikipedia.org/wiki/Data_URI_scheme
 [2]: ../../images/DataURI/CopyDataURI.png
 [3]: ../../images/DataURI/PasteFiles.png
 [4]: ./ViewSessionContent

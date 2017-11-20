@@ -11,8 +11,8 @@ position: 11
 #HTTP References
 
 ##RFCs
-* [HTTP Response codes (RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html) and [HTTP Response Codes (Wikipedia)](http://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
-* [HTTP Header Definitions](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html)
+* [HTTP Response codes (RFC 2616)](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html) and [HTTP Response Codes (Wikipedia)](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+* [HTTP Header Definitions](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html)
 * [HTTP 1.1 Specification (RFC 2616)](http://www.rfc-editor.org/rfc/rfc2616.txt)
 
 ##Other Useful specs

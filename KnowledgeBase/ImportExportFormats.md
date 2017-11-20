@@ -50,7 +50,7 @@ Custom Import and Export Classes
 
 Beyond these default formats, developers can create their own Import and Export classes by implementing the [ISessionImporter and ISessionExporter][6] interfaces using any .NET language. There is no particular requirement that the classes store data in a file. You could build a class that saves or loads traffic from a local database or a data store in the cloud.
 
-[1]: http://blogs.msdn.com/b/ie/archive/2010/04/22/ie9-developer-tools-network-tab.aspx
+[1]: https://blogs.msdn.com/b/ie/archive/2010/04/22/ie9-developer-tools-network-tab.aspx
 [2]: https://groups.google.com/forum/?fromgroups=#!forum/http-archive-specification
 [3]: https://groups.google.com/forum/?fromgroups=#!forum/http-archive-specification
 [4]: http://www.fiddler2.com/meddler/

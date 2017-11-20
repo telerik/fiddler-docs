@@ -11,7 +11,7 @@ Problem: Traffic sent to http://localhost or http://127.0.0.1 is not captured
 
 Internet Explorer and the .NET Framework are hardcoded not to send requests for Localhost through any proxies, and as a proxy, Fiddler will not receive such traffic.
 
-+ This behavior was [changed for Internet Explorer 9](http://blogs.msdn.com/b/fiddler/archive/2011/02/10/fiddler-is-better-with-internet-explorer-9.aspx) in the Release Candidate build. IE9 RC allows Fiddler to proxy traffic sent to localhost or 127.0.0.1 without additional steps on your part.
++ This behavior was [changed for Internet Explorer 9](https://blogs.msdn.com/b/fiddler/archive/2011/02/10/fiddler-is-better-with-internet-explorer-9.aspx) in the Release Candidate build. IE9 RC allows Fiddler to proxy traffic sent to localhost or 127.0.0.1 without additional steps on your part.
 
 + You should never encounter the "Localhost traffic not captured" problem with Firefox. The FiddlerHook add-on for Firefox removes "localhost" from the "bypass proxy" list when Fiddler is in "Capturing" mode.
 

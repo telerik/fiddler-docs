@@ -51,4 +51,4 @@ Or, manually specify the proxy on an individual WebRequest object:
 + This URL will appear in Fiddler: 
 >http://mymachine/X509SignCodeService/X509SigningService.asmx
 
-[1]: http://msdn.microsoft.com/en-us/magazine/cc300743.aspx
+[1]: https://msdn.microsoft.com/en-us/magazine/cc300743.aspx

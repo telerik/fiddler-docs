@@ -53,7 +53,7 @@ Create Custom Importers and Exporters
 [2]: http://groups.google.com/group/http-archive-specification/web/har-1-1-spec
 [3]: http://groups.google.com/group/http-archive-specification/web/har-1-2-spec
 [4]: ../../images/ImportExport/SelectExportFormat.png
-[5]: http://blogs.msdn.com/b/ie/archive/2010/04/22/ie9-developer-tools-network-tab.aspx
+[5]: https://blogs.msdn.com/b/ie/archive/2010/04/22/ie9-developer-tools-network-tab.aspx
 [6]: ../../images/ImportExport/SelectImportFormat.png
 [7]: ../../images/ImportExport/AdjustAppCacheManifest.png
 [8]: ../../images/ImportExport/BaseURL.png

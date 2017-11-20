@@ -26,4 +26,4 @@ To generate a .CER file:
 3. Click **All Tasks > Export...**.
 
 
-[1]: http://msdn.microsoft.com/en-us/library/windows/hardware/ff546307(v=vs.85).aspx
+[1]: https://msdn.microsoft.com/en-us/library/windows/hardware/ff546307(v=vs.85).aspx

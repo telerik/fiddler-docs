@@ -75,9 +75,9 @@ Interpretation of these tokens is as follows. First, there's a token (e.g. image
 
 [1]: ../Observe-Traffic/Tasks/ViewSessionSummary
 [2]: ../Observe-Traffic/Tasks/ParentChild
-[3]: http://blogs.msdn.com/b/patricka/archive/2010/09/16/if-i-m-using-internet-explorer-9-beta-what-should-i-do-if-a-site-is-broken-or-hangs-or-crashes-etc.aspx
+[3]: https://blogs.msdn.com/b/patricka/archive/2010/09/16/if-i-m-using-internet-explorer-9-beta-what-should-i-do-if-a-site-is-broken-or-hangs-or-crashes-etc.aspx
 [4]: ./QuickExec
 [5]: ../images/Download-Initiator/Download-Initiator.png
-[6]: http://blogs.msdn.com/b/ieinternals/archive/2010/04/01/ie8-lookahead-downloader-fixed.aspx
+[6]: https://blogs.msdn.com/b/ieinternals/archive/2010/04/01/ie8-lookahead-downloader-fixed.aspx
 [7]: https://www.fiddler2.com/dl/EnableDownloadInitiator.reg
 [8]: http://www.fiddlerbook.com/dl/DisableDownloadInitiator.reg

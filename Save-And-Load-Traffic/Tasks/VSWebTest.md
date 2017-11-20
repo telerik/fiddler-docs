@@ -33,12 +33,12 @@ To replay a WebTest:
 Troubleshooting Problems
 ------------------------
 
-Please see [http://blogs.msdn.com/slumley/pages/how-to-debug-a-web-test.aspx](http://blogs.msdn.com/slumley/pages/how-to-debug-a-web-test.aspx) for information on how to troubleshoot problems with WebTests.
+Please see [https://blogs.msdn.com/slumley/pages/how-to-debug-a-web-test.aspx](https://blogs.msdn.com/slumley/pages/how-to-debug-a-web-test.aspx) for information on how to troubleshoot problems with WebTests.
 
 See Also
 --------
 
-+ [http://blogs.msdn.com/slumley/pages/enhanced-web-test-support-in-fiddler.aspx](http://blogs.msdn.com/slumley/pages/enhanced-web-test-support-in-fiddler.aspx)  
-+ [http://blogs.msdn.com/edglas/archive/2007/06/13/fiddler-2-drop-available-at-www-fiddler2-com.aspx](http://blogs.msdn.com/edglas/archive/2007/06/13/fiddler-2-drop-available-at-www-fiddler2-com.aspx)
++ [https://blogs.msdn.com/slumley/pages/enhanced-web-test-support-in-fiddler.aspx](https://blogs.msdn.com/slumley/pages/enhanced-web-test-support-in-fiddler.aspx)  
++ [https://blogs.msdn.com/edglas/archive/2007/06/13/fiddler-2-drop-available-at-www-fiddler2-com.aspx](https://blogs.msdn.com/edglas/archive/2007/06/13/fiddler-2-drop-available-at-www-fiddler2-com.aspx)
 
 [1]: ../../Observe-Traffic/Tasks/CaptureWebTraffic.md
