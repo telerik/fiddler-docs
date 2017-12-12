@@ -39,4 +39,4 @@ See Also
 
 ["How do you get a System.Web.HttpWebRequest object to use SSL 2.0?" at stackoverflow.com][1]
 
-[1]: http://stackoverflow.com/questions/169222/how-do-you-get-a-system-web-httpwebrequest-object-to-use-ssl-2-0/169396#169396
+[1]: https://stackoverflow.com/questions/169222/how-do-you-get-a-system-web-httpwebrequest-object-to-use-ssl-2-0/169396#169396

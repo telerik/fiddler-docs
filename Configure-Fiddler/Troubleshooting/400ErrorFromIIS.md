@@ -18,7 +18,7 @@ When requesting **http://ipv4.fiddler:2468** from an IIS Express instance, the s
 		Connection: close
 		Content-Length: 334
 
-		<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+		<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""https://www.w3.org/TR/html4/strict.dtd">
 		<HTML><HEAD><TITLE>Bad Request</TITLE>
 		<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
 		<BODY><h2>Bad Request - Invalid Hostname</h2>

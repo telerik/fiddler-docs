@@ -103,7 +103,7 @@ Fiddler supports regular expression syntax for expressions which begin with **re
 Got a great regular expression to share?  Please send it to me using the "Contact" link at the top-right side of this page!
 You can learn more about regular expressions [here](http://www.regular-expressions.info/quickstart.html).
 
-You can specify regular expression options (like case-sensitivity) by leading the expression with an appropriate declaration.  (?insx) works well; it turns on case-insensitivity, requires explicit capture groups, enables single-line syntax, and enables comments after the #character. [Learn more on MSDN](http://msdn.microsoft.com/en-us/library/yd1hzczs(VS.80).aspx).
+You can specify regular expression options (like case-sensitivity) by leading the expression with an appropriate declaration.  (?insx) works well; it turns on case-insensitivity, requires explicit capture groups, enables single-line syntax, and enables comments after the #character. [Learn more on MSDN](https://msdn.microsoft.com/en-us/library/yd1hzczs(VS.80).aspx).
 
 ##Actions
 
@@ -134,7 +134,7 @@ Set the Request header with the given Name to the specfied value. If no header o
 Set the [Session Flag](./SessionFlags) with the given Name to the specfied value. If no header of that name exists, a new header will be created. Non-final action.
 
 ###*CORSPreflightAllow	
-Returns a response that indicates that [CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing) is allowed.
+Returns a response that indicates that [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) is allowed.
 
 ###*reset
 Reset the client connection immediately using a TCP/IP RST to the client.
@@ -145,7 +145,7 @@ Close the client connection immediately without sending a response.
 ###*exit
 Stop processing rules at this point. 
 	
-For rules whose match action is a regular expression, you can use Regular Expression Replacement Group expressions in the Action string to copy content from the Inbound URL to the action string. [Learn more...](http://blogs.msdn.com/b/fiddler/archive/2012/01/09/fiddler-2.3.8.2-beta-views-woff-mp3-h264-datauris-and-autoresponder-supports-regular-expression-groups.aspx)
+For rules whose match action is a regular expression, you can use Regular Expression Replacement Group expressions in the Action string to copy content from the Inbound URL to the action string. [Learn more...](https://blogs.msdn.com/b/fiddler/archive/2012/01/09/fiddler-2.3.8.2-beta-views-woff-mp3-h264-datauris-and-autoresponder-supports-regular-expression-groups.aspx)
 
 Rules with Non-final actions will allow the request to match multiple AutoResponder rules. As soon a rule specifying a final action is reached, the matching process exits and no further rules are processed for that session.
 

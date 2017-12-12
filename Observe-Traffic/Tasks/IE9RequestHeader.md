@@ -38,4 +38,4 @@ See also
 + [Introduction to Feature Controls][9]
 
 [1]: ../../images/IE9RequestHeader/QuickExecCommand.png
-[9]: http://msdn.microsoft.com/en-us/library/ms537184(v=vs.85).aspx
+[9]: https://msdn.microsoft.com/en-us/library/ms537184(v=vs.85).aspx

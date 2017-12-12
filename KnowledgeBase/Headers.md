@@ -46,13 +46,13 @@ Info on IE's Privacy features and impact on HTTP Cookies
 
 
 
-[1]: http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
-[2]: http://en.wikipedia.org/wiki/List_of_HTTP_status_codes
-[3]: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html
-[4]: http://www.iana.org/assignments/message-headers/message-header-index.html
+[1]: https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+[2]: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+[3]: https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html
+[4]: https://www.iana.org/assignments/message-headers/message-header-index.html
 [5]: http://www.cs.tut.fi/~jkorpela/http.html
 [6]: http://www.mnot.net/cache_docs/
 [7]: http://www.faqs.org/rfcs/rfc2616.html
 [8]: http://www.p3pwriter.com/LRN_111.asp
-[9]: http://msdn.microsoft.com/en-us/library/ms537343.aspx
+[9]: https://msdn.microsoft.com/en-us/library/ms537343.aspx
 
