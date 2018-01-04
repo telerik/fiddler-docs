@@ -9,6 +9,8 @@ GEM
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     colorator (1.1.0)
+    commonmarker (0.17.7.1)
+      ruby-enum (~> 0.5)
     concurrent-ruby (1.0.5)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
@@ -85,6 +87,8 @@ GEM
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
     rouge (3.1.0)
+    ruby-enum (0.7.1)
+      i18n
     ruby_dep (1.5.0)
     safe_yaml (1.0.4)
     sass (3.5.4)
@@ -106,6 +110,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  commonmarker
   github-markdown
   html-pipeline
   jekyll
