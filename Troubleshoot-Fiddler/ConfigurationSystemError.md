@@ -6,11 +6,11 @@ publish: true
 position: 4
 ---
 
-####Fiddler crashes on startup complaining about the "Configuration System":
+#### Fiddler crashes on startup complaining about the "Configuration System":
 
-		
+
 		Sorry, you may have found a bug...
-		
+
 		Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
 		Configuration system failed to initialize
 		Source: System.Configuration
