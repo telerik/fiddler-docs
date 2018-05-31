@@ -1,12 +1,15 @@
 <script>
-  (function() {
+  (function () {
     var cx = '{{site.google_custom_search}}';
     var gcse = document.createElement('script');
     gcse.async = true;
     gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//www.google.com/cse/cse.js?cx=' + cx;
+      '//www.google.com/cse/cse.js?cx=' + cx;
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<gcse:search></gcse:search>
+<div id="page-search">
+  <script src="https://www.google.com/jsapi"></script>
+  <div class="gcse-search" data-gname="google-search"></div>
+</div>
