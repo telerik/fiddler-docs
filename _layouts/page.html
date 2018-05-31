@@ -21,6 +21,9 @@ layout: index
                     }
                 }
             },
+            messages: {
+                loading: " "
+            },
             select: preventParentSelection,
             template: navigationTemplate("{{site.baseurl}}/"),
             dataBound: expandNavigation("{{page.url | remove_first: '/' }}")
@@ -28,20 +31,14 @@ layout: index
         </script>
     </div>
 
-    <div id="page-article">
-        <div id="page-top">
-            <div id="page-breadcrumb">
-                {% breadcrumb %}
-            </div>
-            <div id="page-search">
-                {% include search.html %}
-            </div>
-        </div>
+    {% if page.editable %}<a id="page-edit-link" href="https://github.com/telerik/fiddler-docs/edit/master/{{ page.url | replace: '.html','' }}.md"><span class="k-icon k-i-pencil"></span> Edit this page</a>{% endif %}
 
+    <div id="page-article">
         <article>
-            {{ content }}
+            {% if page.is_main %}{% include api-filter.html %}{% endif %}
+            {% if page.slug == 'knowledge_base' %}{% include kb-last-updated-articles.html %} {% else %} {{ content }} {% endif %}
         </article>
     </div>
+    {% if page.slug != 'knowledge_base' and page.is_main != true %}{% if site.ff-sheet-id %}{% include feedback-form.html %}{% endif %}{% endif %}
+    {% include footer.html %}
 </div>
-
-{% include footer.html %}
