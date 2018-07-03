@@ -9,8 +9,10 @@ position: 0
 Getting Started with Fiddler
 ============================
 
-First, [Install Fiddler][1].
+First, Install Fiddler.
 ----------------------------
+
+You can check more detailed information on how to install Fiddler [here][1].
 
 Next, Configure the Fiddler Server.
 -----------------------------------
