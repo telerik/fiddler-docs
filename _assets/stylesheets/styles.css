@@ -820,14 +820,8 @@ footer p {
 }
 
 #page-search .gsc-input {
-  background-image: none !important;
   padding-right: 2px;
-  text-indent: 0 !important;
   height: 32px !important;
-}
-
-#page-search .gsc-input::placeholder {
-  opacity: 0 !important;
 }
 
 #page-search td.gsc-search-button {
@@ -845,8 +839,12 @@ footer p {
   padding: 8px 7px 7px !important;
 }
 
-#page-search button.gsc-search-button, #page-search .gcsc-branding {
+#page-search button.gsc-search-button {
   display: none !important;
+}
+
+#page-search .gcsc-branding {
+  margin: auto;
 }
 
 .toggle-nav,
