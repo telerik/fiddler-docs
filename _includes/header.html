@@ -12,7 +12,9 @@
     <div class="toggle-nav">
         <span class="k-icon k-i-menu"></span>
     </div>
+    {% if page.slug != 'knowledge_base' %}
     {% include search.html %}
+    {% endif %}
     <div id="logo-bar">
         <a href="{{site.baseurl}}">
             <img alt="Fiddler logo" class="logo" src="{{site.baseurl}}/images/{{page.product}}.svg">
