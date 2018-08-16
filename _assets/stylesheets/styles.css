@@ -793,6 +793,10 @@ footer p {
   box-shadow: 3px 3px 19px rgba(0, 0, 0, 0.1);
 }
 
+.gsc-results img {
+  margin: auto !important;
+}
+
 #page-search .gsc-input-box {
   box-shadow: none;
   border: 0;

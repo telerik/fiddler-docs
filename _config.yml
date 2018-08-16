@@ -23,17 +23,13 @@ navigation:
     Extend-Fiddler:
         title: Extend Fiddler
         position: 5
-    KnowledgeBase:
-        title: Knowledge Base
+    "knowledge-base":
+        title: "Knowledge Base"
+        isNew: true
         position: 6
     Troubleshoot-Fiddler:
         title: Troubleshoot Fiddler
         position: 7
-    KnowledgeBase/FiddlerScript:
-        position: 0
-    KnowledgeBase/Add-Ons:
-        title: Add Ons
-        position: 1
 
 ## Product title
 product: "Progress Telerik Fiddler"
@@ -51,6 +47,11 @@ defaults:
         category: "default"
         product: "fiddler"
         editable: true
+-
+    scope:
+        path: "knowledge-base"
+    values:
+        layout: "kb-page"
 
 ## The Kendo UI version used
 cdnVersion: "2017.3.1026"
@@ -63,6 +64,7 @@ ff-sheet-id: aa62b076-27a9-f0b8-f954-e963653a5a2d
 # The google services configuration
 google_tag_manager: 'GTM-6X92'
 google_custom_search: '001595215763381649090:fpe1norq_ow'
+google_custom_kb_search: '001595215763381649090:hkokowggd0w'
 
 # Assets pipeline configuration
 assets:
