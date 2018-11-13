@@ -2,7 +2,7 @@
 url: "https://docs.telerik.com/fiddler"
 
 # Exclude files which should not be in the output
-exclude: [README.md, Gemfile, Gemfile.lock, api_sort.rb, Fiddler-Everywhere/*]
+exclude: [README.md, Gemfile, Gemfile.lock, api_sort.rb]
 navigation:
 ## List your directory names and order here, like this:
     Configure-Fiddler:
