@@ -3,6 +3,7 @@ url: "https://docs.telerik.com/fiddler"
 
 # Exclude files which should not be in the output
 exclude: [README.md, Gemfile, Gemfile.lock, api_sort.rb]
+exclude_navigation: ["knowledge-base/*"]
 navigation:
 ## List your directory names and order here, like this:
     Configure-Fiddler:
@@ -33,6 +34,7 @@ navigation:
 
 ## Product title
 product: "Progress Telerik Fiddler"
+platform: fiddler
 
 ## The application virtual path
 baseurl: /fiddler
@@ -43,7 +45,7 @@ defaults:
     scope:
         path: ""
     values:
-        layout: "page"
+        layout: "documentation"
         category: "default"
         product: "fiddler"
         editable: true
@@ -51,7 +53,7 @@ defaults:
     scope:
         path: "knowledge-base"
     values:
-        layout: "kb-page"
+        res_type: kb
 
 ## The Kendo UI version used
 cdnVersion: "2017.3.1026"
@@ -63,8 +65,41 @@ ff-sheet-id: aa62b076-27a9-f0b8-f954-e963653a5a2d
 
 # The google services configuration
 google_tag_manager: 'GTM-6X92'
-google_custom_search: '001595215763381649090:fpe1norq_ow'
-google_custom_kb_search: '001595215763381649090:hkokowggd0w'
+gcs_engine: '001595215763381649090:fpe1norq_ow'
+gcs_api_key: 'AIzaSyD8zBghoTOj_uX85DHGGFTIjPmrOXgCn_M'
+
+skip_tabbed_code: true
+code_lang: true
+has_kb_portal: true
+
+edit_repo_url: https://github.com/telerik/fiddler-docs/edit/master
+download: https://www.telerik.com/download/fiddler
+nav:
+  "Videos": https://www.telerik.com/videos/fiddler/getting-started-with-fiddler-web-debugging-proxy
+  "Release History": https://www.telerik.com/support/whats-new/aspnet-core-ui/release-history
+  "About": https://www.telerik.com/fiddler
+
+footer:
+-
+  title: "Getting Started"
+  links:
+    "Getting Started": https://www.telerik.com/videos/fiddler/getting-started-with-fiddler-web-debugging-proxy
+    "Download": https://www.telerik.com/download/fiddler
+-
+  title: "Support Resources"
+  links:
+    "Priority Support": https://www.telerik.com/purchase/fiddler
+-
+  title: "Community"
+  links:
+    "Blogs": https://www.telerik.com/blogs/tag/fiddler
+    "Videos": https://www.telerik.com/videos/fiddler
+
+footer_social:
+    facebook: https://www.facebook.com/Telerik/
+    youtube: https://www.youtube.com/user/TelerikInc
+    linkedin: https://www.linkedin.com/showcase/telerik/
+    twitter: https://twitter.com/Telerik/
 
 # Assets pipeline configuration
 assets:
