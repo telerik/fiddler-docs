@@ -93,13 +93,13 @@ The Comment, if any, which the user set on this session.
 Breakpoint Flags
 ----------------
 
-**ui-breakrequest**
+**x-breakrequest**
 
 If present, execution of this session will pause before the request is issued.
 
 
 
-**ui-breakresponse**
+**x-breakresponse**
 
 If present, execution of this session will pause after the response is received.
 
