@@ -51,4 +51,25 @@ Or, manually specify the proxy on an individual WebRequest object:
 + This URL will appear in Fiddler: 
 >http://mymachine/X509SignCodeService/X509SigningService.asmx
 
+
+
+Configure .NET Core Applications
+===========================
+
+Setup the proxy via netsh tool in commmand line the following way 
+
+see [Netsh Docs][2] for more info on this topic
+
+ 		netsh winhttp set proxy 127.0.0.1:8888
+ 
+To remove the proxy use the following 
+ 
+ 		netsh winhttp reset proxy
+
+
+
 [1]: https://msdn.microsoft.com/en-us/magazine/cc300743.aspx
+[2]: https://docs.microsoft.com/en-us/windows-server/networking/technologies/netsh/netsh-contexts
+
+
+
