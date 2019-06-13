@@ -20,7 +20,7 @@ Configure Fiddler
 
 3. Restart Fiddler.
 
-4. Ensure your firewall allows incoming connections to the Fiddler process.
+4. Ensure your firewall allows incoming connections to the Fiddler process, and that it's not blocking all incoming connections, including those in the list of allowed apps.
 
 4. Hover over the **Online indicator** at the far right of the Fiddler toolbar to display the IP addresses assigned to Fiddler's machine.
 
@@ -58,19 +58,19 @@ Decrypt HTTPS Traffic from iOS Devices
 
 4. Configure the device where Fiddler is installed to [trust Fiddler root certificate][4].
 
-5. On the iOS device, go to http://ipv4.fiddler:8888/ in a browser.
+5. On the iOS device, go to http://ipv4.fiddler:8888/ in a browser. Do this from Safari, Chrome will just download the certificate and will not offer to install it, the same for Firefox.
 
 6. From the bottom of the **Fiddler Echo Service** webpage, download the **FiddlerRoot certificate.**
 
  ![Download FiddlerRoot Certificate][5]
 
-7. Open the **FiddlerRoot.cer** file.
+7. Click **Allow** to download a configuration profile.
 
-8. Tap the **Install** button.
+8. Go to  **Settings > Profile Downloaded**, tap the downloaded **DO_NOT_TRUST_FiddlerRoot** profile, click **Install**.
 
  ![Install Profile][6]
 
-9. Tap the **Install** button again.
+9. Tap the **Install** button again, and confirm with yet another **Install** button.
 
  ![Warning][7]
 
