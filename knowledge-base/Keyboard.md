@@ -18,6 +18,7 @@ System-wide
 App-wide
 --------
 
++ Alt+S - Set focus to the Session Pane Window
 + Alt+Q - Activate the [QuickExec command line][1], allowing access to many more functions from the keyboard.
 + CTRL+F - Find sessions
 + CTRL+H - View Header Inspector
