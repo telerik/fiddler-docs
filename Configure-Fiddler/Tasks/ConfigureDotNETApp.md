@@ -13,7 +13,7 @@ To allow the .NET Framework to automatically connect to Fiddler, start Fiddler b
 
 To temporarily connect a .NET application to Fiddler, use the **GlobalProxySelection** class to set a proxy:
 
->GlobalProxySelection.Select = new WebProxy("127.0.0.1", 8888);
+>System.Net.WebRequest.DefaultWebProxy = new System.Net.WebProxy("127.0.0.1", 8888); 
 
 Or, specify a proxy inside the **yourappname.exe.config** file.
 
