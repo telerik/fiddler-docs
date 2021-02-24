@@ -13,7 +13,7 @@ position: 8
 ## How personal data is used by Telerik Products
 
 Progress Telerik Fiddler uses your account details, email address and a product usage data to better understand customer experience allowing us to focus development efforts on the products and features that matter most to our customers. Additionally, this information may be used by Marketing and / or Sales to ensure you receive relevant content updates, product news and materials to ensure your success with our products.
-[Please see our Privacy Policy for more details](https://wwwuat.progress.com/legal/privacy-center).
+[Please see our Privacy Policy for more details](https://www.progress.com/legal/privacy-center).
 
 This information is for our own purposes and do not sell or otherwise provide this information to any third-parties for a commercial purpose.
 
