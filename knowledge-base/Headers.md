@@ -10,7 +10,9 @@ res_type: kb
 Headers References
 --------------
 
-HTTP Response Status codes: 
+This article lists several popular references for HTTP headers. We also explain some of the [frequently misinterpreted HTTP headers](#additional-Information).
+
+References for HTTP Response Status codes: 
 + [RFC 2616 List][1] or [Expanded Wikipedia List][2]
 + [HTTP RFC Header Definitions][3]
 + [IANA Header Registrations][4]
