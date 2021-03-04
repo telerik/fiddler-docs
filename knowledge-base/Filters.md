@@ -12,20 +12,44 @@ Filters Reference
 
 Fiddler's Filters tab allows you to easily filter and flag traffic displayed in the Fiddler UI, as well as perform some lightweight modifications.
 
+This article describes the available filtering options and their usage.
+
 Hosts
 -----
 
 The **Zone Filter** dropdown at the top of the dialog allows you to show traffic only to your Intranet (e.g. dotless hostnames) or only to the Internet (e.g. dotted hostnames). This is a useful option when debugging a site in one zone while referencing web-based documentation from the other zone.
 
-The **Host Filter** dropdown enables you to flag or exclude display of traffic to specified domain names. Note, if you put, e.g. fiddler2.com in the list, you will not see traffic to www.fiddler2.com. To see traffic to subdomains of Fiddler2.com, set the filter to ***.fiddler2.com**. 
+The **Host Filter** dropdown enables you to flag or exclude displaying of traffic to specified domain names. Use the wildcard symbol to adjust your filter, for example:
 
-This will include traffic to test.fiddler2.com and sub.fiddler2.com, etc. If you want to see traffic to fiddler2.com as well, set the filter to ***fiddler2.com**; this will include traffic to any domain that ends with fiddler2.com.
+* To display traffic from subdomains of *fiddler2.com*:
+    1. Select **Show only the following Hosts**.
+    1. Add the _*.fiddler2.com_ filter in the text box.
 
-Note: When the box is yellow, it means your changes have not yet been applied. Click anywhere outside the box to save your changes to the list.
+    These filter settings allow you to see only traffic from the fiddler2.com domain and its subdomains like www.fiddler2.com and test.fiddler2.com.
+
+* To display traffic only from *fiddler2.com* and exclude its subdomains:
+
+    1. Select **Show only the following Hosts**.
+    1. Add the _fiddler2.com_ filter in the text box.
+
+* To display traffic from all subdomains of *fiddler2.com* and also from _fiddler2.com_:
+
+    1. Select **Show only the following Hosts**.
+    1. Add the _*fiddler2.com_ filter in the text box.
+
+    If you remove the wildcard and set the filter to _fiddler2.com_, you will see no traffic from these subdomains.
+
+The following table summarizes the filters that we used to demonstrate how to display traffic from the _fiddler2.com_, _www.fiddler2.com_, and _test.fiddler2.com_ domains:
+
+| Filter | Displayed traffic | Excluded traffic |
+| -------| ----------------- | ---------------- |
+| fiddler2.com | fiddler2.com | www.fiddler2.com, test.fiddler2.com |
+| *.fiddler2.com | www.fiddler2.com, test.fiddler2.com | fiddler2.com |
+| *fiddler2.com | fiddler2.com, www.fiddler2.com, test.fiddler2.com |
+
+>When the text box is yellow, your changes have not yet been applied. Click anywhere outside the box to save your changes to the list.
 
 When configured to hide traffic to certain hosts, Fiddler will still proxy traffic to those hosts, but that traffic will be hidden from the Fiddler Session List. List multiple hosts using a semi-colon.
-
-Sample:
 
 ![Filter to Hosts][1]
 
@@ -36,9 +60,8 @@ The process filter allows you to control which processes' traffic is shown withi
 
 The **Hide traffic from Service Host** option will hide traffic from svchost.exe, a system process that synchronizes RSS Feeds and performs other background network activity.
 
-Note: Fiddler can only determine the process name/PID owner of a request when the client application is running on the same computer as Fiddler itself.
-
-When configured to hide traffic from certain processes, Fiddler will still proxy their traffic, but that traffic will be hidden from the Fiddler Session List.
+>Fiddler can only determine the process name/PID owner of a request when the client application is running on the same computer as Fiddler itself.
+>When configured to hide traffic from certain processes, Fiddler will still proxy their traffic, but that traffic will be hidden from the Fiddler Session List.
 
 Breakpoints
 -----------

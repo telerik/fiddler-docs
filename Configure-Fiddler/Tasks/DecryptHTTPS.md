@@ -9,7 +9,9 @@ position: 3
 Configure Fiddler to Decrypt HTTPS Traffic
 ==========================================
 
-Enable HTTPS traffic decryption:
+By default, Fiddler does not capture and decrypt secure HTTPS traffic. To capture data sent through HTTPS, enable HTTPS traffic decryption.
+
+Enable HTTPS traffic decryption
 --------------------------------
 
 1. Click **Tools > Fiddler Options > HTTPS**.
@@ -30,7 +32,9 @@ Skip traffic decryption for a specific host
 Skip traffic decryption for an application
 ------------------------------------------
 
-Add a rule like this inside the OnBeforeRequest function*:
+To skip traffic decryption for a specific application or to decrypt HTTPS traffic only from a single host, you must modify the OnBeforeRequest function in the [FiddlerScript](https://www.telerik.com/blogs/understanding-fiddlerscript).
+
+Add a rule like this inside the [OnBeforeRequest function](https://docs.telerik.com/fiddler/knowledge-base/fiddlerscript/modifyrequestorresponse):
 
 		if (oSession.HTTPMethodIs("CONNECT") && oSession["X-PROCESSINFO"] && oSession["X-PROCESSINFO"].StartsWith("outlook")) 
 		{ 
@@ -40,7 +44,7 @@ Add a rule like this inside the OnBeforeRequest function*:
 Decrypt traffic from one hostname only
 ---------------------------------------
 
-Add a rule like this inside the OnBeforeRequest function*:
+Add a rule like this inside the [OnBeforeRequest function](https://docs.telerik.com/fiddler/knowledge-base/fiddlerscript/modifyrequestorresponse):
 
 		if (oSession.HTTPMethodIs("CONNECT") && 
 			!oSession.HostnameIs("SiteICareAbout.com"))
