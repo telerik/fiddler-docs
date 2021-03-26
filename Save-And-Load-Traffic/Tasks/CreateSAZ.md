@@ -22,5 +22,5 @@ See Also
 
 + [Import and Export Traffic][2]
 
-[1]: ../../Observe-Traffic/Tasks/
+[1]: ../../observe-traffic/tasks/capturewebtraffic
 [2]: ./ImportExportDefault
