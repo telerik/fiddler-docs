@@ -1,7 +1,7 @@
 ---
 title: 400 Bad Request Error from IIS Express
+description: Instructions for resolving IIS Express unexpected error message
 slug: 400ErrorFromIIS
-tags: Configuration, Troubleshooting, 400 Bad Request error, IIS Express, localhost.fiddler, request hostname is invalid
 publish: true
 position: 4
 ---

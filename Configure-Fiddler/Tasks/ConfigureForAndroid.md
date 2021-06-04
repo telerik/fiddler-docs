@@ -1,7 +1,7 @@
 ---
-title: Configure Fiddler for Android / Google Nexus 7
+title: Capturing Android Traffic
+description: Configure Fiddler Classic for Android Mobile Operating System
 slug: ConfigureForAndroid
-tags: Configuration, Android, Nexus 7
 publish: true
 position: 18
 ---
@@ -9,7 +9,7 @@ position: 18
 Configure Fiddler for Android / Google Nexus 7
 ================================================
 
-Configure Fiddler
+Configure Fiddler Classic
 -----------------
 
 1. Click **Tools > Fiddler Options > Connections**.

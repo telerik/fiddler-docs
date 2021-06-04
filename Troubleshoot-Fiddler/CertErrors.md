@@ -1,7 +1,6 @@
 ---
 title: Certificate Errors and .NET security exceptions
 slug: CertErrors
-tags: Troubleshooting
 publish: true
 position: 2
 ---

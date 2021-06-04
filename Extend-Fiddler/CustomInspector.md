@@ -1,7 +1,6 @@
 ---
 title: Build a Custom Inspector
 slug: CustomInspector
-tags: Extend Fiddler, .NET, Extension, Inspector, IResponseInspector
 publish: true
 position: 5
 ---
@@ -9,7 +8,7 @@ position: 5
 Build a Custom Inspector
 ========================
 
-1. Create a [Fiddler extension project][1].
+1. Create a [Fiddler Classic extension project][1].
 
 2. Change the code to derive from the **Inspector2** class and implement either **IResponseInspector2** or **IRequestInspector2**.
 

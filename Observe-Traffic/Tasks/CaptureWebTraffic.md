@@ -1,7 +1,6 @@
 ---
 title: View Web Traffic
 slug: ViewWebTraffic
-tags: Observe traffic, HTTP session, https session, ftp session, requests, responses, session list
 publish: true
 position: 1
 ---

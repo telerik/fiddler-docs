@@ -1,7 +1,7 @@
 ---
 title: Trust FiddlerRoot Certificate
+description: Configure Windows client to trust Fiddler Root certificate
 slug: TrustFiddlerRootCert
-tags: Configuration, FiddlerRoot, Certificate, Trust, Warning
 publish: true
 position: 4
 ---

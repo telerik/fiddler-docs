@@ -1,7 +1,6 @@
 ---
-title: Create traffic with custom matching rules
+title: Create traffic with Custom Matching Rules
 slug: ComposeAutoresponder
-tags: Generate Traffic, Autoresponder, web sessions archive, replay
 publish: true
 position: 2
 ---

@@ -1,7 +1,6 @@
 ---
 title: Performance Testing
 slug: PerfTesting
-tags: Knowledge Base, FiddlerScript, OnBeforeRequest, OnBeforeResponse, modem, cache, time to last byte, time to first byte, CopyTimers
 publish: true
 position: 2
 res_type: kb

@@ -1,7 +1,6 @@
 ---
-title: ProxySettingsPerUser=0
+title: Run Fiddler as Administrator
 slug: ProxySettingsPerUser
-tags: Getting Started, Configuration, Troubleshooting
 publish: true
 position: 10
 ---

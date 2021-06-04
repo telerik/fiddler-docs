@@ -1,7 +1,6 @@
 ---
 title: "Exception: The underlying connection was closed"
 slug: UnderlyingConnectionClosed
-tags: Observe Traffic, Troubleshooting, System.NET.WebException, WebServices
 publish: true
 position: 5
 ---

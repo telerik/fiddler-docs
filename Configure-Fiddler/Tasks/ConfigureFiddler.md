@@ -1,18 +1,18 @@
 ---
 title: Configure Fiddler
+description: Basic configuration instructions for Fiddler Classic.
 slug: ConfigureFiddler
-tags: Getting Started, configure fiddler, common configuration tasks
 publish: true
 position: 0
 ---
 
-Getting Started with Fiddler
-============================
+Getting Started with Fiddler Classic
+===================================
 
-First, Install Fiddler.
+First, Install Fiddler Classic.
 ----------------------------
 
-You can check more detailed information on how to install Fiddler [here][1].
+You can check more detailed information on how to install Fiddler Classic [here][1].
 
 Next, Configure the Fiddler Server.
 -----------------------------------

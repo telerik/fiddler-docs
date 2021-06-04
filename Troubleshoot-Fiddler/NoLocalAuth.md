@@ -1,7 +1,6 @@
 ---
 title: No authentication when capturing traffic to local IIS server
 slug: NoLocalAuth
-tags: Troubleshooting, IIS, LoopBack Exception, Loopback protection, DisableLoopback
 publish: true
 position: 3
 ---

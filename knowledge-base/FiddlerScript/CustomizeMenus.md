@@ -1,7 +1,6 @@
 ---
 title: Customize Menus
 slug: CustomizeMenus
-tags: Knowledge Base, FiddlerScript, context menu, rules menu, submenu, clear cookies, clear cache
 publish: true
 position: 3
 res_type: kb

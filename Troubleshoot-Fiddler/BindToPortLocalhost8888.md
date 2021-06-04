@@ -1,7 +1,6 @@
 ---
 title: "Unable to bind to port [Localhost: 8888]"
 slug: BindToPortLocalhost8888
-tags: Troubleshooting, ISA Firewall
 publish: true
 position: 8
 ---

@@ -1,7 +1,6 @@
 ---
 title: Import and Export Traffic
 slug: ImportExport
-tags: Save and Load Traffic, Import, Export, Importer, Exporter, Save
 publish: true
 position: 3
 ---

@@ -1,7 +1,6 @@
 ---
 title: Understanding Download-Initiator
 slug: Download-Initiator
-tags: KnowledgeBase, Download-Initiator,  PID, parent session, child session
 publish: true
 position: 13
 res_type: kb

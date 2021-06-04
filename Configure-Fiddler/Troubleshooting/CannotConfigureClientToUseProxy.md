@@ -1,7 +1,6 @@
 ---
 title: Cannot Configure Client To Use Proxy Server
 slug: CannotConfigureClientToUseProxy
-tags: Configuration, Troubleshooting, Proxy Server, Reverse Proxy
 publish: true
 position: 2
 ---

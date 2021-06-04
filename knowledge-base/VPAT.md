@@ -1,7 +1,6 @@
 ---
 title: VPAT
 slug: vpat
-tags: VPAT
 publish: true
 res_type: kb
 ---

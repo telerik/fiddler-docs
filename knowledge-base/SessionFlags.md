@@ -1,7 +1,6 @@
 ---
 title: Fiddler SessionFlags
 slug: SessionFlags
-tags: Knowledge Base, oFlags, string flags, FiddlerScript, IFiddlerExtension, metadata
 publish: true
 position: 4
 res_type: kb

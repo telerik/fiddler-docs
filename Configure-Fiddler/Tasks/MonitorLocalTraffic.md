@@ -1,7 +1,6 @@
 ---
 title: Monitor traffic to localhost from IE or .NET
 slug: MonitorLocalTraffic
-tags: Getting Started, Configuration, localhost, IE, .NET, 127.0.0.1
 publish: true
 position: 22
 ---

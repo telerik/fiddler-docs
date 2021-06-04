@@ -1,7 +1,6 @@
 ---
 title: User Interface Guide
 slug: UIGuide
-tags: Knowledge Base, UI
 publish: true
 position: 3
 res_type: kb

@@ -1,7 +1,6 @@
 ---
 title: No HTTPS traffic
 slug: NoHTTPSTraffic
-tags: Observe Traffic, Troubleshooting, missing traffic, Web Sessions List
 publish: true
 position: 4
 ---

@@ -2,10 +2,7 @@
 title: How to use a different proxy for some sites and fiddler for others
 description: In some cases, when using Fiddler it may be useful to not let Fiddler Capture some traffic that needs to flow through an Upstream Proxy. This article describes how to do this.
 type: how-to
-page_title: Use Fiddler to Most Capture Traffic and an Upstream Proxy to Capture Specific Host
 slug: configure-fiddler-and-upstream-proxy-to-work-on-same-machine
-position: 
-tags: upstream proxy, bypass gateway, pac file configuration
 ticketid: 1456948
 res_type: kb
 ---

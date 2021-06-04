@@ -1,7 +1,7 @@
 ---
 title: Crawl Sequential URLs
+description: Create Fiddler Classic rule for crawling sequential URLs
 slug: CrawlURLs
-tags: Generate Traffic, FiddlerScript, Simulate traffic, utilIssueRequest
 publish: true
 position: 7
 ---

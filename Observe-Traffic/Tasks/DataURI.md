@@ -1,7 +1,6 @@
 ---
 title: Inspect DataURI Object
 slug: DataURI
-tags: Observe traffic, DataURI, data, base64
 publish: true
 position: 15
 ---

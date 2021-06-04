@@ -1,7 +1,7 @@
 ---
-title: Configure Browsers for Fiddler
+title: Capture Configuration for Browsers
+description: Specific configuration steps for enabling capture on Opera, Firefox, and other non-Chromium browsers.
 slug: ConfigureBrowsers
-tags: Configuration, Configure, Browser, Firefox, https, manual
 publish: true
 position: 2
 ---

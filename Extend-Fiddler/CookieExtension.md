@@ -1,7 +1,6 @@
 ---
 title: Build Cookie Scanning Extension
 slug: CookieExtension
-tags: Extend Fiddler, .NET, Extension, Cookies, P3P, Sample
 publish: true
 position: 16
 ---

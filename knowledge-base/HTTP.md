@@ -1,7 +1,6 @@
 ---
 title: HTTP References
 slug: http-references
-tags: reference
 publish: true
 position: 11
 res_type: kb

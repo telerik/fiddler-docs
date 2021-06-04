@@ -1,7 +1,6 @@
 ---
 title: Examine Web Traffic
 slug: ExamineWebTraffic
-tags: Observe traffic, Examine traffic, examine session, HTTP session, https session, ftp session, requests, responses, inspect, stats, statistics
 publish: true
 position: 2
 ---

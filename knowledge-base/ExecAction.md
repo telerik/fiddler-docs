@@ -1,7 +1,6 @@
 ---
 title: Run from Command Line with ExecAction
 slug: ExecAction
-tags: KnowledgeBase, ExecAction, QuickExec, console, command line
 publish: true
 position: 10
 res_type: kb

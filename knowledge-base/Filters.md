@@ -1,7 +1,7 @@
 ---
 title: Filters
+description: Using Fiddler Classic filters and applying Regex.
 slug: Filters
-tags: Knowledge Base, Zone Filter, host Filter, hosts, client process, hide traffic, PID, REGEX
 publish: true
 position: 5
 res_type: kb

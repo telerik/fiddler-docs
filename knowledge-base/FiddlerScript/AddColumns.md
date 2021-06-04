@@ -1,7 +1,6 @@
 ---
 title: Add Columns to Web Sessions List
 slug: AddColumns
-tags: Knowledge Base, FiddlerScript, BindUIColumn, AddBoundColumn
 publish: true
 res_type: kb
 position: 7

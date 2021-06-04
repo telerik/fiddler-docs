@@ -1,7 +1,6 @@
 ---
 title: Incomplete HTTP Responses
 slug: IncompleteResponses
-tags: Observe Traffic, Troubleshooting, HTTP 1.1, WebServices
 publish: true
 position: 6
 ---

@@ -1,7 +1,6 @@
 ---
 title: Configuration system failed to initialize
 slug: ConfigurationSystemError
-tags: Troubleshooting, System.Configuration, you may have found a bug
 publish: true
 position: 4
 ---

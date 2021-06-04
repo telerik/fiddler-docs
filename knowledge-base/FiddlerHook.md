@@ -1,7 +1,6 @@
 ---
 title: FiddlerHook Help
 slug: fiddlerhook-help
-tags: fiddlerhook, addon
 publish: true
 position: 6
 res_type: kb

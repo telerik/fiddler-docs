@@ -1,7 +1,7 @@
 ---
 title: Use .NET Assemblies in FiddlerScript
+description: Importing and using .NET assemblies via FiddlerScript tab in Fiddler Classic
 slug: UseDotNetInFiddlerScript
-tags: Extend Fiddler, FiddlerScript, .NET, C#, 
 publish: true
 position: 15
 ---

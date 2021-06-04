@@ -1,7 +1,7 @@
 ---
 title: Customize a Request
+description: Options in FIddler Classic for customizing a request
 slug: CustomizeRequest
-tags: Modify Traffic, Composer
 publish: true
 position: 1
 ---

@@ -1,7 +1,7 @@
 ---
 title: Using Fiddler
+description: Instructions for basic Fiddler Classic usage
 slug: UsingFiddler
-tags: Getting Started, Install Fiddler, Install
 publish: true
 position: 0
 ---
@@ -12,7 +12,7 @@ Install Fiddler
 
 [View the Fiddler System Requirements][1]
 
-1. Download the Fiddler Installer
+1. Download the Fiddler Classic Installer
 ---------------------------------
 
 +  [Download the full version of Fiddler][1].

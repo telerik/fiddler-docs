@@ -1,7 +1,6 @@
 ---
 title: Timeline View
 slug: Timeline
-tags: Knowledge Base, Timeline, Waterfall, Visualize, Visualise
 publish: true
 position: 4
 res_type: kb

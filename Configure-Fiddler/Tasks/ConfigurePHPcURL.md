@@ -1,7 +1,7 @@
 ---
-title: Configure a PHP/cURL application to use Fiddler
+title: Configure a PHP/cURL application
+description: Configure a PHP/cURL application alongside the Fiddler proxy
 slug: PHPcURL
-tags: Configuration, PHP, cURL
 publish: true
 position: 7
 ---

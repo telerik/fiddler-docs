@@ -1,7 +1,6 @@
 ---
 title: Capture traffic for Visual Studio WebTest playback
 slug: VSWebTest
-tags: Save and Load Traffic, Visual Studio, VS, WebTest, playback, Save
 publish: true
 position: 2
 ---

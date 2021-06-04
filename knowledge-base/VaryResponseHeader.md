@@ -1,7 +1,6 @@
 ---
 title: Vary Response Header
 slug: VaryResponseHeader
-tags: KnowledgeBase, Vary, WinINET
 publish: true
 position: 7
 res_type: kb

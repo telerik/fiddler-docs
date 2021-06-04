@@ -1,7 +1,8 @@
 ---
-title: "Reduce delays from Expect: 100-continue request headers"
+title: Reduce delays from Expect header
+description: Reduce delays from 'Expect 100-continue headers'
 slug: ContinueRequestHeaders
-tags: Modify Traffic, Reduce delays, 100-continue request headers
+
 publish: true
 position: 3
 ---
