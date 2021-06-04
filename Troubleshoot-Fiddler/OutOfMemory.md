@@ -1,7 +1,6 @@
 ---
-title: Out-of-memory exception
+title: Out-of-Memory exception
 slug: OutOfMemory
-tags: Troubleshooting
 publish: true
 position: 1
 ---

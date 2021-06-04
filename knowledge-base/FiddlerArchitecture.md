@@ -1,7 +1,6 @@
 ---
 title: Fiddler Architecture Info
 slug: fiddler-architecture-info
-tags: Architecture, advanced
 publish: true
 res_type: kb
 position: 12

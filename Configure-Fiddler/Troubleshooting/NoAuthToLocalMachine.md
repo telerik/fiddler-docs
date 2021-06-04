@@ -1,7 +1,6 @@
 ---
 title: Site on local machine rejects credentials
 slug: NoAuthToLocalMachine
-tags: Configuration, Troubleshooting, local machine, localhost, authentication, credentials
 publish: true
 position: 7
 ---

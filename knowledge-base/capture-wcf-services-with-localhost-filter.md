@@ -2,10 +2,7 @@
 title: Capture WCF Service with localhost Filter 
 description: Follow along to learn how to capture WCF on localhost
 type: how-to
-page_title: Capture WCF Service with localhost Filter 
 slug: capture-wcf-services-with-localhost-filter
-position: 
-tags: wcf, localhost filter
 ticketid: 1445633
 res_type: kb
 ---

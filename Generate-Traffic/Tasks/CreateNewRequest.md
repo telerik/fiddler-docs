@@ -1,7 +1,6 @@
 ---
 title: Create a new request
 slug: CreateNewRequest
-tags: Generate Traffic, Composer
 publish: true
 position: 1
 ---

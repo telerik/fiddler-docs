@@ -1,7 +1,6 @@
 ---
 title: Capture traffic from another machine
 slug: MonitorRemoteMachine
-tags: Configuration, Capture, Remote, Unix
 publish: true
 position: 11
 ---

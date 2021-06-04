@@ -1,7 +1,6 @@
 ---
 title: Compare Traffic
 slug: CompareTraffic
-tags: Observe Traffic, Compare, Diff, WinDiff, WinMerge
 publish: true
 position: 11
 ---

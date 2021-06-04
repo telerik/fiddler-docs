@@ -1,7 +1,6 @@
 ---
 title: Import and Export Formats
 slug: ImportExportFormats
-tags: KnowledgeBase, Import, Export, Formats, Archive JSON, Archive XML, Visual Studio Web Test, Raw Files, Meddler, AppCache Manifest
 publish: true
 position: 18
 res_type: kb

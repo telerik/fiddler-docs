@@ -1,12 +1,12 @@
 ---
-title: Configure Fiddler for Mac
+title: Configuring Mac
+description: Configure Fiddler Classic for Mac
 slug: ConfigureForMac
-tags: Configuration, Mac, Certificate, Metro, Loopback
 publish: true
 position: 16
 ---
 
-Configure Fiddler for Mac
+Configure Fiddler Classic for Mac
 =========================
 
 Virtualization products like VMWare Fusion or Parallels Desktop permit Fiddler to run in a virtual machine on your Mac.
@@ -20,10 +20,10 @@ Configure the Virtual Machine
 
 3. Restart the Virtual Machine.
 
-Configure Fiddler
------------------
+Configure Fiddler Classic
+-------------------------
 
-1. Install Fiddler on the Virtual Machine.
+1. Install Fiddler Classic on the Virtual Machine.
 
 2. Open Fiddler.
 

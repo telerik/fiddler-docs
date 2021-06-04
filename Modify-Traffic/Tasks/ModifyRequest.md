@@ -1,7 +1,6 @@
 ---
 title: Modify a Request
 slug: ModifyRequest
-tags: Modify Traffic, FiddlerScript
 publish: true
 position: 2
 ---

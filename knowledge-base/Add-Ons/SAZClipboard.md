@@ -1,7 +1,7 @@
 ---
-title: SAZClipboard
+title: SAZ Clipboard
+description: SAZClipboard extension introduction
 slug: SAZClipboard
-tags: Add-ons, .saz
 publish: true
 position: 1
 res_type: kb

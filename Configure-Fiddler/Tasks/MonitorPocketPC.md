@@ -1,7 +1,7 @@
 ---
 title: Monitor PocketPC
+description: Configuration for setting Fiddler Classic on PocketPC
 slug: MonitorPocketPC
-tags: Configuration, PocketPC, IEMobile
 publish: true
 position: 20
 ---

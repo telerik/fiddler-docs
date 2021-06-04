@@ -1,7 +1,6 @@
 ---
 title: Office clients don't authenticate
 slug: NoOfficeWinHTTPAuth
-tags: Configuration, Troubleshooting, Office, WinHTTP, Auth, Authentication
 publish: true
 position: 6
 ---

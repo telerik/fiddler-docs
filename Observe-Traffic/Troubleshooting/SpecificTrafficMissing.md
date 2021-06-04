@@ -1,7 +1,6 @@
 ---
 title: Specific Traffic is Missing
 slug: SpecificTrafficMissing
-tags: Observe Traffic, Troubleshooting, missing traffic, filter, Web Sessions List
 publish: true
 position: 3
 ---

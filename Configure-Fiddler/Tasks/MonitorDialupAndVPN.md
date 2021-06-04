@@ -1,7 +1,6 @@
 ---
 title: Monitor RAS, VPN, or Dialup Connections
 slug: MonitorDialupAndVPN
-tags: Configuration, VPN, RAS, Dialup
 publish: true
 position: 10
 ---

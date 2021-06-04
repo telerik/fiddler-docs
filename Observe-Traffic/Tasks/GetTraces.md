@@ -1,7 +1,6 @@
 ---
-title: Get Fiddler traces from your users 
+title: Get Fiddler Classic traces from your users 
 slug: GetTraces
-tags: Observe traffic, Get traces from users, FiddlerCap, session list, HTTP session, https session, ftp session, requests, responses, QuickExec, FiddlerScript
 publish: true
 position: 7
 ---

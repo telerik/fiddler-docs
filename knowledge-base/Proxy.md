@@ -1,7 +1,6 @@
 ---
 title: The Fiddler Proxy
 slug: Proxy
-tags: KnowledgeBase, WinINET, proxy settings
 publish: true
 position: 8
 res_type: kb

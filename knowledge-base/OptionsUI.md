@@ -1,7 +1,6 @@
 ---
 title: Options UI
 slug: options-ui
-tags: help, configuration, menu
 publish: true
 position: 6
 res_type: kb

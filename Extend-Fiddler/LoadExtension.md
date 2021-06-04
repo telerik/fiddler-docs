@@ -1,7 +1,7 @@
 ---
-title: Load Extension in Fiddler
+title: Load Extensions
+description: Load Extension in Fiddler Classic
 slug: LoadExtension
-tags: Extend Fiddler, .NET, Extension, load extension
 publish: true
 position: 4
 ---

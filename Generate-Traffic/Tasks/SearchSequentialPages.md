@@ -1,7 +1,6 @@
 ---
 title: Search Sequential Pages for Target String 
 slug: SearchSequentialPages
-tags: Generate Traffic, FiddlerScript, Simulate traffic, sequential pages, utilIssueRequest, utilFindInResponse
 publish: true
 position: 8
 ---

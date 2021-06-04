@@ -1,7 +1,6 @@
 ---
 title: Monitor Windows Phone
 slug: MonitorWindowsPhone7
-tags: Configuration, Windows Phone, Windows Phone 
 publish: true
 position: 19
 ---

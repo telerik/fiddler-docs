@@ -1,7 +1,6 @@
 ---
 title: View Web Session Statistics
 slug: ViewSessionStatistics
-tags: Observe traffic, View session statistics, examine session, session statistics, stats, HTTP session, https session, ftp session, requests, responses, size, performance
 publish: true
 position: 3
 ---

@@ -1,7 +1,6 @@
 ---
 title: Modify Matching Rules
 slug: ModifyAutoresponder
-tags: Generate Traffic, Autoresponder, replay
 publish: true
 position: 4
 ---

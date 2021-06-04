@@ -1,7 +1,7 @@
 ---
 title: Configure .NET applications
+description: Configfure .NET Framework to automatically connect to Fiddler
 slug: DotNETConfig
-tags: Configuration, .NET, Application
 publish: true
 position: 6
 ---

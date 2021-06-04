@@ -1,7 +1,7 @@
 ---
 title: No Windows Phone Traffic
+description: Creating an IPSEC Boundary Computer Exception
 slug: NoWindowsPhone7Traffic
-tags: Configuration, Troubleshooting, Windows Phone, Connection, Fiddler Echo Service, Wi-Fi
 publish: true
 position: 5
 ---

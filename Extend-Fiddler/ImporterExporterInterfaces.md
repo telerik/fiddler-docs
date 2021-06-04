@@ -1,7 +1,6 @@
 ---
 title: Importer and Exporter Interfaces
 slug: ImporterExporterInterfaces
-tags: Extend Fiddler, .NET, Extension, Importer, Exporter, ISessionImporter, ISessionExporter, ProgressCallbackEventArgs
 publish: true
 position: 7
 ---

@@ -1,7 +1,6 @@
 ---
 title: AutoResponder Reference
 slug: autoresponder-reference
-tags: AutoResponder, reference
 publish: true
 position: 9
 res_type: kb

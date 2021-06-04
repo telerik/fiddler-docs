@@ -1,7 +1,6 @@
 ---
 title: Search and filter sessions
 slug: SearchSessions
-tags: Observe traffic, Search and filter sessions, find session, session list, HTTP session, https session, ftp session, requests, responses, QuickExec, FiddlerScript
 publish: true
 position: 6
 ---

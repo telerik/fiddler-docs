@@ -1,8 +1,7 @@
 ---
-title: Configure Fiddler 4 for iOS
+title: Capturing iOS Traffic
 description: The configuration steps needed to setup the classic Fiddler to capture traffic from iOS devices.
 slug: ConfigureForiOS
-tags: Configuration, iOS
 publish: true
 position: 17
 ---
@@ -10,7 +9,7 @@ position: 17
 Capture Traffic from iOS Device
 ===============================
 
-Configure Fiddler
+Configure Fiddler Classic
 -----------------
 
 1. Open Fiddler and stop capturing.

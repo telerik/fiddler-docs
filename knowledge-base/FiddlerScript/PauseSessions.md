@@ -1,7 +1,6 @@
 ---
 title: Pause Web Sessions
 slug: PauseSessions
-tags: Knowledge Base, FiddlerScript, POST, XML, JavaScript, edit
 publish: true
 position: 5
 res_type: kb

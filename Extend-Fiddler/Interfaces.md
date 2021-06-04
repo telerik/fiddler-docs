@@ -1,15 +1,14 @@
 ---
-title: Implement Fiddler Interfaces
+title: Implement Interfaces
 slug: Interfaces
-tags: Extend Fiddler, .NET, Extension, Interfaces, IFiddlerExtension, IAutoTamper, IHandleExecAction assembly
 publish: true
 position: 2
 ---
 
-Implement Fiddler Interfaces
+Implement Fiddler Classic Interfaces
 ============================
 
-Implement Fiddler interfaces to load your assembly during Fiddler execution.
+Implement Fiddler Classic interfaces to load your assembly during Fiddler execution.
 
 Load Extension During Startup
 -----------------------------

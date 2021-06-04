@@ -1,7 +1,6 @@
 ---
 title: Pass Arguments to Exporter Extension
 slug: PassArgsToTranscoder
-tags: Extend Fiddler, .NET, Extension, Importer, Exporter, ISessionImporter, ISessionExporter, ProgressCallbackEventArgs
 publish: true
 position: 9
 ---

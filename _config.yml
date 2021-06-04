@@ -36,6 +36,11 @@ navigation:
 product: "Progress Telerik Fiddler"
 platform: fiddler
 
+## An experimental property to resolve the SEO vs STA panels conflicts discussed in the following issue: https://github.com/telerik/docs-seed/issues/159
+## Use only with docs-seed branch #fiddler-page-title
+page_title_product: "Fiddler Classic"
+use_product_in_title: true
+
 ## The application virtual path
 baseurl: /fiddler
 

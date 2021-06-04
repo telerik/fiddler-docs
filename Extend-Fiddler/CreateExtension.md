@@ -1,12 +1,11 @@
 ---
-title: Create Fiddler Extension project
+title: Create Extension project
 slug: CreateExtension
-tags: Extend Fiddler, .NET, Extension, Interfaces, modify request string
 publish: true
 position: 3
 ---
 
-Create Fiddler Extension Project
+Create Fiddler Classic Extension Project
 ================================
 
 Follow these steps to create a sample Fiddler Extension that modifies the User-Agent string of all outbound requests:

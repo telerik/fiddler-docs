@@ -1,7 +1,6 @@
 ---
 title: Headers Reference
 slug: Headers
-tags: KnowledgeBase, HTTP, Expires, Cache-Control must-revalidate, set-cookie
 publish: true
 position: 8
 res_type: kb

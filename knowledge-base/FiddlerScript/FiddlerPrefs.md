@@ -1,7 +1,6 @@
 ---
-title: Fiddler Preferences System
+title: Preferences System
 slug: FiddlerPrefs
-tags: Knowledge Base, FiddlerScript, Watchers, notification, callbacks
 publish: true
 position: 8
 res_type: kb

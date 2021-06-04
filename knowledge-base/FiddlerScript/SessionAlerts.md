@@ -1,7 +1,6 @@
 ---
 title: Session Alerts
 slug: SessionAlerts
-tags: Knowledge Base, FiddlerScript, sound, message box
 publish: true
 position: 6
 res_type: kb

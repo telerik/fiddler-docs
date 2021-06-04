@@ -1,7 +1,7 @@
 ---
 title: Chain to Upstream Proxy
+description: Configure Fiddler to send and receive web traffic to and from another proxy between Fiddler and the destination serve
 slug: ChainToUpstreamProxy
-tags: Configuration, upstream proxy, proxy, upstream, chain
 publish: true
 position: 12
 ---

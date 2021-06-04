@@ -1,7 +1,6 @@
 ---
 title: Configure Columns
 slug: ConfigureColumns
-tags: Observe Traffic, Configuration, Columns, Web Sessions List
 publish: true
 position: 9
 ---

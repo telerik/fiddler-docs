@@ -1,7 +1,6 @@
 ---
 title: Repeat 401 Errors
 slug: Repeat401Errors
-tags: Configuration, Troubleshooting, 401 errors, CBT Authentication
 publish: true
 position: 3
 ---

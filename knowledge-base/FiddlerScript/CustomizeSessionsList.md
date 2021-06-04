@@ -1,7 +1,6 @@
 ---
 title: Customize Web Sessions List
 slug: CustomizeSessionsList
-tags: Knowledge Base, FiddlerScript, custom column, request time, set-cookie, cookies, hide session
 publish: true
 position: 4
 res_type: kb

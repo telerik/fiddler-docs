@@ -1,14 +1,14 @@
 ---
-title: Configure Fiddler for Windows 8 Metro-style applications
+title: Capture traffic from Windows Metro-style applications
+description: Configure Fiddler Classic for Windows 8 Metro-style applications
 slug: Windows8Config
-tags: Configuration, Windows 8, Certificate, Metro, Loopback
 publish: true
 position: 15
 ---
 
 <!-- http://fiddler2.com/Fiddler/help/AndroidNexus7.asp -->
 
-Configure Fiddler for Windows 8 Metro-style applications
+Configure Fiddler Classic for Windows 8 Metro-style applications
 ========================================================
 
 Follow two steps to configure Fiddler for Windows 8:

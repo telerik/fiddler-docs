@@ -1,7 +1,7 @@
 ---
-title: Configure a Java application to use Fiddler
+title: Configure a Java application
+description: Configure a Java Application alongside Fiddler Classic proxy
 slug: ConfigureJavaApp
-tags: Configuration, Java app
 publish: true
 position: 8
 ---

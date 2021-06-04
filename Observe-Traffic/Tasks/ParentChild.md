@@ -1,7 +1,6 @@
 ---
 title: Select Parent or Child Session
 slug: ParentChild
-tags: Observe Traffic, Referer header, parent session, child session, find parent, find child
 publish: true
 position: 8
 ---

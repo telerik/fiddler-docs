@@ -1,7 +1,6 @@
 ---
 title: Add Menu Items
 slug: AddMenuItems
-tags: Extend Fiddler, FiddlerScript, Extension, menu items
 publish: true
 position: 14
 ---

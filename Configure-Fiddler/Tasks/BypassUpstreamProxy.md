@@ -1,7 +1,7 @@
 ---
 title: Bypass Upstream Proxy
+description: Configuration code to bypass the upstream proxy for all requests to a specific domain
 slug: BypassUpstreamProxy
-tags: Getting Started, Configuration, Upstream Proxy, Specific Domain, Proxy Bypass List, bypassGateway
 publish: true
 position: 23
 ---

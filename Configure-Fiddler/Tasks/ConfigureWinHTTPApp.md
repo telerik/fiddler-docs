@@ -1,15 +1,15 @@
 ---
-title: Configure a WinHTTP Application to Use Fiddler
+title: Configure a WinHTTP Application
+description: Configure a WinHTTP application alongside the Fiddler proxy
 slug: ConfigureWinHTTPApp
-tags: Configuration, WinHTTP, traffic
 publish: true
 position: 9
 ---
 
-Configure a WinHTTP Application to Use Fiddler
-==============================================
+Configure a WinHTTP Application to Use Fiddler Classic
+=====================================================
 
-To configure a WinHTTP application to send web traffic to Fiddler, enter this command from the command line:
+To configure a WinHTTP application to send web traffic to Fiddler Classic, enter this command from the command line:
 
 **Windows Vista or above** (Requires an Elevated/Admin command prompt):
 

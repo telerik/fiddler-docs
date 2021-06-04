@@ -1,7 +1,7 @@
 ---
 title: HTTPS Connections Timeout with Decryption Enabled
+description: Customize Fiddler Rules to force SSLv3 handshake
 slug: HTTPSTimeout
-tags: Getting Started, Configuration, Troubleshooting, .NET, TLS Encrypted Alert
 publish: true
 position: 8
 ---

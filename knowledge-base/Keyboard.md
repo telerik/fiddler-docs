@@ -1,7 +1,7 @@
 ---
 title: Keyboard Reference
 slug: Keyboard
-tags: Knowledge Base, Hotkeys, QuickExec, Shortcuts, keystrokes
+
 publish: true
 position: 2
 res_type: kb

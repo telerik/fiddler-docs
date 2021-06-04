@@ -1,7 +1,6 @@
 ---
 title: Sample Extensions
 slug: SampleExtensions
-tags: Extend Fiddler, .NET, Extension, Sample, add-on, addon
 publish: true
 position: 12
 ---

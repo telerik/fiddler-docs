@@ -1,7 +1,6 @@
 ---
 title: Font 'Tahoma' does not support style 'Regular'
 slug: TahomaError
-tags: Troubleshooting, Tahoma, style 'Regular', System.Drawing, Word 97
 publish: true
 position: 6
 ---

@@ -1,7 +1,6 @@
 ---
-title: All traffic is missing
+title: Traffic missing in Session List
 slug: AllTrafficMissing
-tags: Observe Traffic, Troubleshooting, No traffic, Web Sessions List
 publish: true
 position: 1
 ---

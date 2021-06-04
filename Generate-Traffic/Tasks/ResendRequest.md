@@ -1,7 +1,6 @@
 ---
 title: Resend a Request
 slug: ResendRequest
-tags: Generate Traffic, Composer
 publish: true
 position: 8
 ---

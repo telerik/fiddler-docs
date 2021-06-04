@@ -1,7 +1,6 @@
 ---
 title: Add Rules to Fiddler
 slug: AddRules
-tags: Extend Fiddler, FiddlerScript, Extension, CustomRules.js, JavaScript, Customize Rules
 publish: true
 position: 13
 ---

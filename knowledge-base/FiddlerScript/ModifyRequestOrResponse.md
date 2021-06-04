@@ -1,7 +1,6 @@
 ---
 title: Modifying a Request or Response
 slug: ModifyRequestOrResponse
-tags: Knowledge Base, FiddlerScript, OnBeforeRequest, OnBeforeResponse, modify header, redirect, cookies, find and replace, div, css, authentication
 publish: true
 position: 1
 res_type: kb

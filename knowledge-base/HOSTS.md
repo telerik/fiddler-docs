@@ -1,7 +1,6 @@
 ---
 title: Override Windows HOSTS file
 slug: HOSTS
-tags: KnowledgeBase, HOSTS, etc\hosts
 publish: true
 position: 9
 res_type: kb

@@ -1,7 +1,7 @@
 ---
 title: Fiddler and Microsoft Firewall Client
+description: Disabling Web browser automatic configuration in the Microsoft Firewall client
 slug: MSFirewall
-tags: Getting Started, Configuration, Troubleshooting, .NET, TLS Encrypted Alert
 publish: true
 position: 9
 ---
