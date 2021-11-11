@@ -60,6 +60,7 @@ Introduced in version 2.3.2.5 similar to the previous, but the rule is applied o
 #### **NOT:query** matches
 * http://www.example.com/Path1/q
 
+
 ### Exact Match
 
 Fiddler supports an exact, case-sensitive match syntax for expressions which begin with exact
@@ -72,6 +73,13 @@ Fiddler supports an exact, case-sensitive match syntax for expressions which beg
 
 #### **EXACT:http://www.example.com/path** matches
 * http://www.example.com/path/q=Query** (No Match - substring different)
+
+
+### Method Match
+
+#### **METHOD:GET EXACT:http://example.com/path**
+* Matches only **GET** requests to http://example.com/path
+
 
 ### Regular Expressions
 
