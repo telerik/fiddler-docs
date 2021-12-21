@@ -1,5 +1,5 @@
 ---
-title: Run Fiddler as Administrator
+title: Run Fiddler Classic as Administrator
 slug: ProxySettingsPerUser
 publish: true
 position: 10
@@ -14,17 +14,17 @@ Your system or domain Administrator has set the Group Policy setting **ProxySett
 
 		HKLM\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ 
 
-Solution: Run Fiddler as Administrator
+Solution: Run Fiddler Classic as Administrator
 --------------------------------------
 
-This machine-wide proxy setting can only be changed by code running as an Adminstrator, so Fiddler must be started **Elevated**:
+This machine-wide proxy setting can only be changed by code running as an Adminstrator, so Fiddler Classic must be started **Elevated**:
 
 1. Right-click the **Fiddler** icon in the Start menu.
 2. Choose **Run as Administrator**.
 
 This will adjust the proxy setting.
 
-If you cannot run Fiddler as Admin (because, for example, you're not an Administrator) you will need to request that your system or domain administrator disable this policy:
+If you cannot run Fiddler Classic as Admin (because, for example, you're not an Administrator) you will need to request that your system or domain administrator disable this policy:
 
 		HKLM\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ProxySettingsPerUser is 0.
 

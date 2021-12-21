@@ -5,13 +5,13 @@ publish: true
 position: 7
 ---
 
-Problem: Website running on local machine with Fiddler running rejects credentials
+Problem: Website running on local machine with Fiddler Classic running rejects credentials
 ----------------------------------------------------------------------------------
 
 Solution 1:
 -----------
 
-[Configure Fiddler to Authenticate to Server][1]
+[Configure Fiddler Classic to Authenticate to Server][1]
 
 Solution 2: 
 -----------

@@ -8,9 +8,9 @@ position: 10
 View Cookie Information
 =======================
 
-1. Install the [Privacy Scanner Fiddler add-on][1].
+1. Install the [Privacy Scanner Fiddler Classic add-on][1].
 
- Fiddler will gain a new top-level menu named **Privacy**.
+ Fiddler Classic will gain a new top-level menu named **Privacy**.
 
  ![Privacy menu][2]
 

@@ -11,7 +11,7 @@ position: 15
 Configure Fiddler Classic for Windows 8 Metro-style applications
 ========================================================
 
-Follow two steps to configure Fiddler for Windows 8:
+Follow two steps to configure Fiddler Classic for Windows 8:
 
 + Create a Loopback Exemption
 + Place Fiddler Root Certificate in the Machine's Trusted Root Store
@@ -24,20 +24,20 @@ Create a Loopback Exemption
       ![Win8 Config Button][10]
 
 
-2.    Check the box next to each application that will send traffic to Fiddler.  This requires Administrator privileges.
+2.    Check the box next to each application that will send traffic to Fiddler Classic.  This requires Administrator privileges.
 
       ![AppContainer Loopback Exemption Utility][3].
 
-Now these applications can send traffic to Fiddler.
+Now these applications can send traffic to Fiddler Classic.
 
-* To allow Unit Tests in Visual Studio 2012 to send traffic to Fiddler, click the AppContainer Loopback Exemption Utility Refresh button while the Unit Test is running. An AppContainer for the Unit Test will appear. Check the box for this AppContainer. [Learn more][4].
+* To allow Unit Tests in Visual Studio 2012 to send traffic to Fiddler Classic, click the AppContainer Loopback Exemption Utility Refresh button while the Unit Test is running. An AppContainer for the Unit Test will appear. Check the box for this AppContainer. [Learn more][4].
 
 * An alternative to using the AppContainer Loopback Exemption Utility is to [declare the privateNetworkClientServer permission][5].
 
 Place Fiddler Root Certificate in the machine's Trusted Root store
 --------------------------------------------------------------------
 
-1.	Enable Fiddler HTTPS-decryption feature. A **Warning** dialog appears. Click **Yes** to trust the Fiddler Root certificate.
+1.	Enable Fiddler Classic HTTPS-decryption feature. A **Warning** dialog appears. Click **Yes** to trust the Fiddler Root certificate.
 
  ![Warning dialog][6]
 
@@ -55,7 +55,7 @@ Place Fiddler Root Certificate in the machine's Trusted Root store
 
 
 [1]: http://fiddler2.com/add-ons
-[2]: ../../images/ModelDoc/ToolsMenuLoopbackExemptions.png "Fiddler Tools menu"
+[2]: ../../images/ModelDoc/ToolsMenuLoopbackExemptions.png "Fiddler Classic Tools menu"
 [3]: ../../images/ModelDoc/AppContainerLoopbackExemptionUtility.png "AppContainer Loopback Exemption Utility"
 [4]: https://stackoverflow.com/questions/13360309/using-fiddler-with-windows-store-unit-test
 [5]: https://msdn.microsoft.com/en-us/library/windows/apps/br211380

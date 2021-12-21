@@ -45,7 +45,7 @@ Use on of these methods:
 
   ![QuickExec Command][3]
 
- Columns added using QuickExec will be removed the next time Fiddler starts. For more QuickExec column commands, see the [QuickExec Reference][4].
+ Columns added using QuickExec will be removed the next time Fiddler Classic starts. For more QuickExec column commands, see the [QuickExec Reference][4].
 
 + [Customize rules with FiddlerScript][5]
 

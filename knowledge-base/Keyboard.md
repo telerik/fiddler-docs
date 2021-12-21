@@ -1,7 +1,6 @@
 ---
 title: Keyboard Reference
 slug: Keyboard
-
 publish: true
 position: 2
 res_type: kb
@@ -13,7 +12,7 @@ Keyboard Reference
 System-wide
 -----------
 
-+ CTRL+ALT+F - Bring Fiddler to the foreground.  Hotkey may be adjusted using **Tools > Fiddler Options**.
++ CTRL+ALT+F - Bring Fiddler Classic to the foreground.  Hotkey may be adjusted using **Tools > Options**.
 
 App-wide
 --------

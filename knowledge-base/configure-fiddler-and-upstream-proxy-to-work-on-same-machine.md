@@ -1,6 +1,6 @@
 ---
-title: How to use a different proxy for some sites and fiddler for others
-description: In some cases, when using Fiddler it may be useful to not let Fiddler Capture some traffic that needs to flow through an Upstream Proxy. This article describes how to do this.
+title: How to use a different proxy for some sites and fiddler Classic for others
+description: In some cases, when using Fiddler Classic it may be useful to not let Fiddler Classic Capture some traffic that needs to flow through an Upstream Proxy. This article describes how to do this.
 type: how-to
 slug: configure-fiddler-and-upstream-proxy-to-work-on-same-machine
 ticketid: 1456948
@@ -23,13 +23,13 @@ res_type: kb
 
 
 ## Description
-In some cases, when using Fiddler it may be necessary to allow traffic through to an upstream proxy. If this is needed, follow the below solution.
+In some cases, when using Fiddler Classic it may be necessary to allow traffic through to an upstream proxy. If this is needed, follow the below solution.
 
 ## Solution
 
 1. Configure the OS Auto Proxy settings with a PAC file and with Fiddler's Proxy configuration.
 
-    ![System OS Auto Proxy Settings with Fiddler](images/system_auto_proxy_with_fiddler.png)
+    ![System OS Auto Proxy Settings with Fiddler Classic](images/system_auto_proxy_with_fiddler.png)
 
 2. Use a catch in the PAC file. 
 
@@ -46,12 +46,12 @@ In some cases, when using Fiddler it may be necessary to allow traffic through t
     }
     ```
 
-3. Start Fiddler with -noattach flag.
+3. Start Fiddler Classic with -noattach flag.
 
     ```CMD
     fiddler.exe -noattach
     ```
 
-4. Set Fiddler Gateway Options to No Proxy to prevent infinite loop.
+4. Set Fiddler Classic Gateway Options to No Proxy to prevent infinite loop.
 
-    ![Fiddler Gateway No Proxy](images/fiddler_gateway_no_proxy.png)
+    ![Fiddler Classic Gateway No Proxy](images/fiddler_gateway_no_proxy.png)

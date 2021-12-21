@@ -1,15 +1,16 @@
 ---
 title: Import and Export Formats
+description: "Learn how to import and export sessions in different formats through the Fiddler Classic UI."
 slug: ImportExportFormats
 publish: true
 position: 18
 res_type: kb
 ---
 
-Fiddler Import and Export Formats
+Fiddler Classic Import and Export Formats
 =================================
 
-Fiddler supports the following formats by default:
+Fiddler Classic supports the following formats by default:
 
 Import
 ------
@@ -29,7 +30,7 @@ Export
 
 + **[HTTP Archive JSON v1.2][3]** (*.har)
 
-   This format supports storage of non-textual response bodies. Because these .har files are not compressed, Fiddler will only store non-textual content smaller than 32kb by default. This limit can be increased by setting a [Fiddler Preference][5]: 
+   This format supports storage of non-textual response bodies. Because these .har files are not compressed, Fiddler Classic will only store non-textual content smaller than 32kb by default. This limit can be increased by setting a [Fiddler Classic Preference][5]: 
    
         fiddler.importexport.HTTPArchiveJSON.MaxBinaryBodyLength
 

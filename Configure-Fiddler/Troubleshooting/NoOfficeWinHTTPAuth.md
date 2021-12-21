@@ -5,13 +5,13 @@ publish: true
 position: 6
 ---
 
-Problem: Office clients using WinHTTP do not properly authenticate while running Fiddler
+Problem: Office clients using WinHTTP do not properly authenticate while running Fiddler Classic
 ----------------------------------------------------------------------------------------
 
 Solution 1: 
 -----------
 
-[Configure Fiddler to Authenticate to the Server][1]
+[Configure Fiddler Classic to Authenticate to the Server][1]
 
 Solution 2: 
 -----------

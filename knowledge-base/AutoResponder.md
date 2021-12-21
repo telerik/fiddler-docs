@@ -14,7 +14,7 @@ Fiddler's AutoResponder tab allows you to return files from your local disk inst
 
 ## Creating AutoResponder Rules
 
-On the AutoResponder tab, you enter a **match rule** and an **action string**, and Fiddler will undertake the action if the request URI matches the match rule.
+On the AutoResponder tab, you enter a **match rule** and an **action string**, and Fiddler Classic will undertake the action if the request URI matches the match rule.
 
 ### Tips
 
@@ -28,7 +28,7 @@ On the AutoResponder tab, you enter a **match rule** and an **action string**, a
 
 ### String Literals
 
-Fiddler will match string literals (case insensitively)
+Fiddler Classic will match string literals (case insensitively)
 
 #### **\*** matches
 * **http://www.example.com/Path1/query=example**
@@ -63,7 +63,7 @@ Introduced in version 2.3.2.5 similar to the previous, but the rule is applied o
 
 ### Exact Match
 
-Fiddler supports an exact, case-sensitive match syntax for expressions which begin with exact
+Fiddler Classic supports an exact, case-sensitive match syntax for expressions which begin with exact
 
 #### **EXACT:http://www.example.com/path** matches
 * http://www.example.com/path
@@ -83,7 +83,7 @@ Fiddler supports an exact, case-sensitive match syntax for expressions which beg
 
 ### Regular Expressions
 
-Fiddler supports regular expression syntax for expressions which begin with **regex**. The regular expression will be used to replace the inbound URL with the string in the Actions column. Use .+ to match a sequence of one or more characters, or .* to match zero or more characters. Use ^ at the front of your regex to mean "Start of the URL" and use $ at the tail of the regex to mean "End of the URL."
+Fiddler Classic supports regular expression syntax for expressions which begin with **regex**. The regular expression will be used to replace the inbound URL with the string in the Actions column. Use .+ to match a sequence of one or more characters, or .* to match zero or more characters. Use ^ at the front of your regex to mean "Start of the URL" and use $ at the tail of the regex to mean "End of the URL."
 
 #### **regex:.+** matches
 * **http://www.example.com/Path1/query=example**

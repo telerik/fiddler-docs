@@ -1,5 +1,6 @@
 ---
 title: Timeline View
+description: "Use the Fiddler Classic's Timeline view to visualise captured traffic in diagrams"
 slug: Timeline
 publish: true
 position: 4
@@ -12,7 +13,7 @@ Timeline View
 Introduction
 ------------
 
-The Fiddler **Timeline View** allows you to visualize the HTTP(S) traffic on a "waterfall" diagram.
+The Fiddler Classic **Timeline View** allows you to visualize the HTTP(S) traffic on a "waterfall" diagram.
 
 Hovering over any entry will show more information about the entry. Double-clicking the entry will inspect that session.
 

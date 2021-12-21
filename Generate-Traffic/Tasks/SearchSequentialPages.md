@@ -10,7 +10,7 @@ Search Sequential Pages for Target String
 
 To search for a target string on a series of successively named HTML pages (for example, to find the first page containing "TargetString" from 1.htm, 2.htm, 3.htm, 4.htm, etc.), [add rules to Fiddler][1] as follows:
 
-1. Add a rule to Fiddler with Global scope to create a new menu item as follows:
+1. Add a rule to Fiddler Classic with Global scope to create a new menu item as follows:
 
 		public static ToolsAction("Find page containing search string") 
 		function doGrab(){ 
@@ -25,7 +25,7 @@ To search for a target string on a series of successively named HTML pages (for 
 
   This will generate the first request. Note: Because the **utilIssueRequest** call is asynchronous, you don't get the response directly.
 
-2. Add a rule to Fiddler in the **OnBeforeResponse** function as follows:
+2. Add a rule to Fiddler Classic in the **OnBeforeResponse** function as follows:
 
 		if (oSession.oRequest.headers.Exists("X-My-Num")){ 
 		  // This is a response to my Grab code... 

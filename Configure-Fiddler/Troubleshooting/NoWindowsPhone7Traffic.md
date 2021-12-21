@@ -9,7 +9,7 @@ position: 5
 Problem: Windows Phone does not exchange web traffic with Fiddler
 -------------------------------------------------------------------
 
-After configuring a Windows Phone to use Fiddler as a proxy, requests from the Windows Phone device do not return resources or appear in the Fiddler session list.
+After configuring a Windows Phone to use Fiddler Classic as a proxy, requests from the Windows Phone device do not return resources or appear in the Fiddler Classic session list.
 
 Solution: Create an IPSEC Boundary Computer Exception
 -----------------------------------------------------

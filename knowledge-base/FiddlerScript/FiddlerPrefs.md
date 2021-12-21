@@ -6,7 +6,7 @@ position: 8
 res_type: kb
 ---
 
-The Fiddler Preferences System
+The Fiddler Classic Preferences System
 ==============================
 
 To learn how to simply the storage and reloading of user-preferences, read [this article][1].

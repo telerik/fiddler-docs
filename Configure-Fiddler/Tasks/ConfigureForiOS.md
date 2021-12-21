@@ -1,6 +1,6 @@
 ---
 title: Capturing iOS Traffic
-description: The configuration steps needed to setup the classic Fiddler to capture traffic from iOS devices.
+description: The configuration steps needed to setup the classic Fiddler Classic to capture traffic from iOS devices.
 slug: ConfigureForiOS
 publish: true
 position: 17
@@ -12,11 +12,11 @@ Capture Traffic from iOS Device
 Configure Fiddler Classic
 -----------------
 
-1. Open Fiddler and stop capturing.
+1. Open Fiddler Classic and stop capturing.
 
 2. Open **_Tools > Options > HTTPS_** and disable **_Capturing HTTPS Connects_**.
 
-3. Close Fiddler and install BouncyCastle (CertMaker.dll) from [here](https://disq.us/url?url=https%3A%2F%2Ftelerik-fiddler.s3.amazonaws.com%2Ffiddler%2Faddons%2Ffiddlercertmaker.exe%3A6S55_jduFvAwH1hSJcNA8KXcBzQ&cuid=3627150). – this will add CertMaker.dll in your Fiddler installation, and it will change the way certificates are generated. With this option, Fiddler will use only one root certificate and will not generate intermediate certificates for each option.
+3. Close Fiddler Classic and install BouncyCastle (CertMaker.dll) from [here](https://disq.us/url?url=https%3A%2F%2Ftelerik-fiddler.s3.amazonaws.com%2Ffiddler%2Faddons%2Ffiddlercertmaker.exe%3A6S55_jduFvAwH1hSJcNA8KXcBzQ&cuid=3627150). – this will add CertMaker.dll in your Fiddler installation, and it will change the way certificates are generated. With this option, Fiddler Classic will use only one root certificate and will not generate intermediate certificates for each option.
 
 4. After installation is complete, open Fiddler, open **_Tools > Options > HTTPS_** menu use **_Actions > Reset all certificates_** option. This will remove all previously used certificates and will trust the new one.
 
@@ -30,13 +30,13 @@ Configure Fiddler Classic
 
 8. Restart Fiddler.
 
-9. Ensure your firewall allows incoming connections to the Fiddler process and that it's not blocking all incoming connections, including those in the list of allowed apps.
+9. Ensure your firewall allows incoming connections to the Fiddler Classic process and that it's not blocking all incoming connections, including those in the list of allowed apps.
 
-10. Hover over the **Online indicator** at the Fiddler toolbar's far-right to display the IP addresses assigned to Fiddler's machine. Use this address on your iOS device (see the 5th step in the iOS device setup steps below).
+10. Hover over the **Online indicator** at the Fiddler Classic toolbar's far-right to display the IP addresses assigned to Fiddler's machine. Use this address on your iOS device (see the 5th step in the iOS device setup steps below).
 
  ![Online Tooltip][2]
 
-11. Verify client iOS device can reach Fiddler by navigating in the browser to **http://FiddlerMachineIP:8888**. This address should return the **Fiddler Echo Service** page.
+11. Verify client iOS device can reach Fiddler Classic by navigating in the browser to **http://FiddlerMachineIP:8888**. This address should return the **Fiddler Echo Service** page.
 
 12. For iPhone: Disable the 3g/4g connection.
 
@@ -52,15 +52,15 @@ Set the iOS Device Proxy
 
 4. Scroll to the bottom and choose **Manual** in the **_Configure Proxy_** option.
 
-5. Type your Fiddler machine IP address in the **Server** field.
+5. Type your Fiddler Classic machine IP address in the **Server** field.
 
-6. Type the Fiddler Everywhere listening port (8888 by default) in the **Port** field and finally tap on **Save**.
+6. Type the Fiddler Classic listening port (8888 by default) in the **Port** field and finally tap on **Save**.
 
     >tip With the current setup, you should be able to capture non-secure HTTP traffic. However, if you try to open any **HTTPS** website, you'll get the _This site's security certificate is not trusted!_ error. To fix this, proceed with the steps that follow below.
 
-7. Open a browser on the iOS device and type the Fiddler echo service address: **http://ipv4.fiddler:8888**
+7. Open a browser on the iOS device and type the Fiddler Classic echo service address: **http://ipv4.fiddler:8888**
 
-8. Click on the Fiddler root certificate link to download it.
+8. Click on the Fiddler Classic root certificate link to download it.
 
 0. On your iOS device, open **_General_** and install the certificate via the **_Profile Downloaded_**. Note that this option will appear after the certificate is downloaded.
 

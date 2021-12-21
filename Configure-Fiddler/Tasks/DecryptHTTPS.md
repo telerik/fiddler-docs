@@ -14,7 +14,7 @@ By default, Fiddler Classic does not capture and decrypt secure HTTPS traffic. T
 Enable HTTPS traffic decryption
 --------------------------------
 
-1. Click **Tools > Fiddler Options > HTTPS**.
+1. Click **Tools > Options > HTTPS**.
 
 2. Click the **Decrypt HTTPS Traffic** box.
 
@@ -23,7 +23,7 @@ Enable HTTPS traffic decryption
 Skip traffic decryption for a specific host
 -------------------------------------------
 
-1. Click **Tools > Fiddler Options > HTTPS**.
+1. Click **Tools > Options > HTTPS**.
 
 2. Type the hostname in the **Skip Decryption**.
 

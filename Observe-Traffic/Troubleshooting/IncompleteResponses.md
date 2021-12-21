@@ -8,7 +8,7 @@ position: 6
 Problem
 -------
 
-Fiddler captures incomplete HTTP Responses
+Fiddler Classic captures incomplete HTTP Responses
 
 Solution
 --------

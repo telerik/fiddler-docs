@@ -1,6 +1,6 @@
 ---
 title: Configure .NET applications
-description: Configfure .NET Framework to automatically connect to Fiddler
+description: Configfure .NET Framework to automatically connect to Fiddler Classic
 slug: DotNETConfig
 publish: true
 position: 6
@@ -9,9 +9,9 @@ position: 6
 Configure .NET Applications
 ===========================
 
-To allow the .NET Framework to automatically connect to Fiddler, start Fiddler before starting the .NET application.
+To allow the .NET Framework to automatically connect to Fiddler, start Fiddler Classic before starting the .NET application.
 
-To temporarily connect a .NET application to Fiddler, use the **GlobalProxySelection** class to set a proxy:
+To temporarily connect a .NET application to Fiddler Classic, use the **GlobalProxySelection** class to set a proxy:
 
 >System.Net.WebRequest.DefaultWebProxy = new System.Net.WebProxy("127.0.0.1", 8888); 
 
@@ -32,7 +32,7 @@ See [MSDN][1] for more on this topic.
 
 + If the .NET application is running in a different user account (for example, a Windows service), edit the **machine.config** file:
 
-		<!-- The following section is to force use of Fiddler for all applications, including those running in service accounts -->  <system.net>
+		<!-- The following section is to force use of Fiddler Classic for all applications, including those running in service accounts -->  <system.net>
 		 <defaultProxy>
 		  <proxy autoDetect="false" bypassonlocal="false" proxyaddress="http://127.0.0.1:8888" usesystemdefault="false" />
 		 </defaultProxy>
@@ -43,7 +43,7 @@ Or, manually specify the proxy on an individual WebRequest object:
 		objRequest = (HttpWebRequest)WebRequest.Create(url);
 		objRequest.Proxy= new WebProxy("127.0.0.1", 8888);
 
-**Note:** Important: Regardless of other settings, .NET will always bypass the Fiddler proxy for URLs containing localhost.  So, rather than using localhost, change your code to refer to the machine name.  For instance:
+**Note:** Important: Regardless of other settings, .NET will always bypass the Fiddler Classic proxy for URLs containing localhost.  So, rather than using localhost, change your code to refer to the machine name.  For instance:
 
 + This URL will not appear in Fiddler: 
 >http://localhost/X509SignCodeService/X509SigningService.asmx

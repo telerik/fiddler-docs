@@ -13,6 +13,6 @@ The client device, application or platform has no option to use a proxy server l
 Solution: 
 ---------
 
-[Configure Fiddler as a Reverse Proxy][1]
+[Configure Fiddler Classic as a Reverse Proxy][1]
 
 [1]: ../Tasks/UseFiddlerAsReverseProxy

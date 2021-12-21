@@ -8,45 +8,45 @@ position: 2
 Implement Fiddler Classic Interfaces
 ============================
 
-Implement Fiddler Classic interfaces to load your assembly during Fiddler execution.
+Implement Fiddler Classic interfaces to load your assembly during Fiddler Classic execution.
 
 Load Extension During Startup
 -----------------------------
 
-Public classes in your assembly that implement the **IFiddlerExtension** interface will be loaded by Fiddler during startup.
+Public classes in your assembly that implement the **IFiddlerExtension** interface will be loaded by Fiddler Classic during startup.
 
 		public interface IFiddlerExtension
 		{
-		  // Called when Fiddler User Interface is fully available
+		  // Called when Fiddler Classic User Interface is fully available
 		  void OnLoad();
 
-		  // Called when Fiddler is shutting down
+		  // Called when Fiddler Classic is shutting down
 		  void OnBeforeUnload();
 		}
 
-+ The **OnLoad** function will be called when Fiddler has finished loading and its UI is fully available.  At this point, you can safely add menu items, tabbed pages, or other elements to the Fiddler UI. 
++ The **OnLoad** function will be called when Fiddler Classic has finished loading and its UI is fully available.  At this point, you can safely add menu items, tabbed pages, or other elements to the Fiddler Classic UI. 
 
-+ The **OnBeforeUnload** function will be called when Fiddler is shutting down and unloading all extensions.
++ The **OnBeforeUnload** function will be called when Fiddler Classic is shutting down and unloading all extensions.
 
 Call Extension for Each Web Request
 -----------------------------------
 
 + Extensions that implement the **IAutoTamper** interface (which extends **IFiddlerExtension**) are called for each HTTP/HTTPS request and response, enabling modifications, logging, or other operations. 
 
- ***Warning***:  Functions in this interface are called on background, non-UI threads. To update UI, use **Invoke** or **BeginInvoke** to update the UI. Also, note that the IAutoTamper::* functions may be called before the **OnLoad** event is called-- Fiddler allows traffic to flow before the UI is fully available.
+ ***Warning***:  Functions in this interface are called on background, non-UI threads. To update UI, use **Invoke** or **BeginInvoke** to update the UI. Also, note that the IAutoTamper::* functions may be called before the **OnLoad** event is called-- Fiddler Classic allows traffic to flow before the UI is fully available.
 
 		public interface IAutoTamper : IFiddlerExtension
 		{
-		  // Called before the user can edit a request using the Fiddler Inspectors
+		  // Called before the user can edit a request using the Fiddler Classic Inspectors
 		  void AutoTamperRequestBefore(Session oSession);
 
-		  // Called after the user has had the chance to edit the request using the Fiddler Inspectors, but before the request is sent
+		  // Called after the user has had the chance to edit the request using the Fiddler Classic Inspectors, but before the request is sent
 		  void AutoTamperRequestAfter(Session oSession);
 
-		  // Called before the user can edit a response using the Fiddler Inspectors, unless streaming.
+		  // Called before the user can edit a response using the Fiddler Classic Inspectors, unless streaming.
 		  void AutoTamperResponseBefore(Session oSession);
 
-		  // Called after the user edited a response using the Fiddler Inspectors.  Not called when streaming.
+		  // Called after the user edited a response using the Fiddler Classic Inspectors.  Not called when streaming.
 		  void AutoTamperResponseAfter(Session oSession);
 
 		  // Called Fiddler returns a self-generated HTTP error (for instance DNS lookup failed, etc)
@@ -84,7 +84,7 @@ Call Extension for Each Web Request
 Call Extension When User Enters a QuickExec Command
 ---------------------------------------------------
 
-+ Extensions that implement the **IHandleExecAction** interface are called when the user has entered a command into the [QuickExec box][1]. To react to the command (and prevent further processing by other extensions and Fiddler itself) return true from this method.
++ Extensions that implement the **IHandleExecAction** interface are called when the user has entered a command into the [QuickExec box][1]. To react to the command (and prevent further processing by other extensions and Fiddler Classic itself) return true from this method.
 
 		public interface IHandleExecAction
 		{

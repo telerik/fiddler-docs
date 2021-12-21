@@ -10,7 +10,7 @@ position: 0
 Install Fiddler
 ===============
 
-[View the Fiddler System Requirements][1]
+[View the Fiddler Classic System Requirements][1]
 
 1. Download the Fiddler Classic Installer
 ---------------------------------
@@ -19,7 +19,7 @@ Install Fiddler
 +  For web traffic capture only, [download FiddlerCap][2].
 
 
-2. Run the Fiddler Installer
+2. Run the Fiddler Classic Installer
 ----------------------------
 a. Select 'Run' from any Security Warning dialog.
 
@@ -35,11 +35,11 @@ c. Select the install directory for Fiddler.
 
 d. Click 'Close' when installation completes.
 
-![Fiddler Setup Completed][6]
+![Fiddler Classic Setup Completed][6]
 
 **See Also:**
 
-[Configure your web browser to use Fiddler][7]
+[Configure your web browser to use Fiddler Classic][7]
 
 [1]: http://www.telerik.com/download/fiddler
 [2]: http://www.fiddlercap.com/FiddlerCap/

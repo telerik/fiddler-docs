@@ -11,9 +11,9 @@ Importer and Exporter Interfaces
 Thread Safety and FiddlerCore
 -----------------------------
 
-+ Currently, the **ISessionImporter** and **ISessionExporter** interfaces are called on the **MAIN** UI thread. This is almost certain to change in the future, so you should ensure that your classes are thread safe and that they do not attempt to directly manipulate the Fiddler UI. 
++ Currently, the **ISessionImporter** and **ISessionExporter** interfaces are called on the **MAIN** UI thread. This is almost certain to change in the future, so you should ensure that your classes are thread safe and that they do not attempt to directly manipulate the Fiddler Classic UI. 
 
-+ Manipulation of the Fiddler UI is further ill-advised because Fiddler itself may not be loaded; FiddlerCore may be hosting your Importer/Exporter directly. In order to support FiddlerCore, it's advised that you support the Filename key (with string value of a fully-qualified path) in the dictOptions parameter, and consider supporting a Silent key (value as boolean) as well.
++ Manipulation of the Fiddler Classic UI is further ill-advised because Fiddler Classic itself may not be loaded; FiddlerCore may be hosting your Importer/Exporter directly. In order to support FiddlerCore, it's advised that you support the Filename key (with string value of a fully-qualified path) in the dictOptions parameter, and consider supporting a Silent key (value as boolean) as well.
 
 The ISessionImporter Interface
 ------------------------------
@@ -35,7 +35,7 @@ The **dictOptions** dictionary may be null, or may contain a set of string-keyed
 The ISessionExporter Interface
 ------------------------------
 
-This class is defined by Fiddler and allows you to report on the progress of an import or export operation.
+This class is defined by Fiddler Classic and allows you to report on the progress of an import or export operation.
 
 If the completion ratio cannot be determined, simply pass 0 or a "guess" between 0 and 1.0.
 

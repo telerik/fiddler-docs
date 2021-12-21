@@ -147,7 +147,7 @@ To make custom changes to web requests and responses, use FiddlerScript to [add 
 		if (oSession.uriContains(".css")){
 		 oSession["ui-color"]="orange"; 
 		 oSession["ui-bold"]="true";
-		 oSession.oRequest.FailSession(404, "Blocked", "Fiddler blocked CSS file");
+		 oSession.oRequest.FailSession(404, "Blocked", "Fiddler Classic blocked CSS file");
 		}
 
 
@@ -163,7 +163,7 @@ To make custom changes to web requests and responses, use FiddlerScript to [add 
 		// Build up the headers
 		oSession.oResponse.headers.HTTPResponseCode = 401;
 		oSession.oResponse.headers.HTTPResponseStatus = "401 Auth Required";
-		oSession.oResponse["WWW-Authenticate"] = "Basic realm=\"Fiddler (just hit Ok)\"";
+		oSession.oResponse["WWW-Authenticate"] = "Basic realm=\"Fiddler Classic (just hit Ok)\"";
 		oResponse.headers.Add("Content-Type", "text/html");
 		}
 

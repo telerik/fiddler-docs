@@ -5,9 +5,9 @@ publish: true
 position: 7
 ---
 
-Get Fiddler traces from users
+Get Fiddler Classic traces from users
 =============================
 
-Direct your users to download and use [FiddlerCap][1], a simplified version of Fiddler for trace capture only.
+Direct your users to download and use [FiddlerCap][1], a simplified version of Fiddler Classic for trace capture only.
 
 [1]: http://fiddlercap.com

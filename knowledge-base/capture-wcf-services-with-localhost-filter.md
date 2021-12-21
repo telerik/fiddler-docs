@@ -23,7 +23,7 @@ res_type: kb
 
 
 ## Description
-The .NET Framework bypasses all proxies on localhost. This means WCF Services will not be captured. In order to capture WCF Services using Fiddler. Disable the bypassonlocal and point the application to the Fiddler Proxy address.
+The .NET Framework bypasses all proxies on localhost. This means WCF Services will not be captured. In order to capture WCF Services using Fiddler. Disable the bypassonlocal and point the application to the Fiddler Classic Proxy address.
 
 ## Solution
 In the web.config or app.config add the following proxy settings.
