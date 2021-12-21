@@ -5,7 +5,7 @@ publish: true
 position: 4
 ---
 
-#### Fiddler crashes on startup complaining about the "Configuration System":
+#### Fiddler Classic crashes on startup complaining about the "Configuration System":
 
 
 		Sorry, you may have found a bug...

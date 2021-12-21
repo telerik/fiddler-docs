@@ -11,7 +11,7 @@ Build a Custom Importer or Exporter
 Sample Extension
 ----------------
 
-1. Create a [Fiddler extension project][1].
+1. Create a [Fiddler Classic extension project][1].
 
 2. Modify the default class1.cs (or create a new class) in your project as follows:
 
@@ -30,7 +30,7 @@ Sample Extension
 		[ProfferFormat("Comma-Separated Values", 
 			"Session List in Comma-Delimited Format; import into Excel or other tools")]
 
-		public class CSVTranscoder: ISessionExporter  // Ensure class is public, or Fiddler won't see it!
+		public class CSVTranscoder: ISessionExporter  // Ensure class is public, or Fiddler Classic won't see it!
 		{
 		  public bool ExportSessions(string sFormat, Session[] oSessions, Dictionary<string, object> dictOptions,
 			  EventHandler<ProgressCallbackEventArgs> evtProgressNotifications)
@@ -140,7 +140,7 @@ Sample Extension
 See Also
 --------
 
-[Build extension assemblies to run in both Fiddler 2 and 4][3]
+[Build extension assemblies to run in both Fiddler Classic versions 2 and 4][3]
 [1]: ./CreateExtension
 [2]: ./LoadExtension
 [3]: ./ExtensionsForv2Andv4

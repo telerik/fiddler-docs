@@ -9,12 +9,12 @@ position: 8
 HTTPS Connections Timeout with Decryption Enabled
 =================================================
 
-Problem: Client Application Cannot Reach HTTPS Site when Fiddler is configured to decrypt HTTPS traffic.
+Problem: Client Application Cannot Reach HTTPS Site when Fiddler Classic is configured to decrypt HTTPS traffic.
 --------------------------------------------------------------------------------------------------------
 
 This issue occurs on Windows Vista or later.
 
-Solution 1: Customize Fiddler Rules to force SSLv3 handshake
+Solution 1: Customize Fiddler Classic Rules to force SSLv3 handshake
 ------------------------------------------------------------
 
 1. Click **Rules > Customize Rules**.

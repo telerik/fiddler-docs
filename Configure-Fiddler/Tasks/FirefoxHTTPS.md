@@ -8,10 +8,10 @@ position: 24
 Capture HTTPS traffic from Firefox
 ==================================
 
-Configure Fiddler 
+Configure Fiddler Classic 
 -----------------
 
- 1. Click **Tools > Fiddler Options**. 
+ 1. Click **Tools > Options**. 
 
  2. Click the **HTTPS** tab. Ensure the **Decrypt HTTPS traffic** checkbox is checked. 
 

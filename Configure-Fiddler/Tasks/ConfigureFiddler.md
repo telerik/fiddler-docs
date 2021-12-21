@@ -14,19 +14,19 @@ First, Install Fiddler Classic.
 
 You can check more detailed information on how to install Fiddler Classic [here][1].
 
-Next, Configure the Fiddler Server.
+Next, Configure the Fiddler Classic Server.
 -----------------------------------
 
-The **Fiddler Server** is the machine on which Fiddler is installed. Some scenarios may require specific steps for Fiddler to receive and send web traffic. This includes:
+The **Fiddler Server** is the machine on which Fiddler Classic is installed. Some scenarios may require specific steps for Fiddler Classic to receive and send web traffic. This includes:
 
 + **Types of traffic**, like [decrypting HTTPS][3] and [authenticating with channel-binding tokens][19]
 + **Operating systems**, like [Windows 8][2] and [Mac OSX][4]
-+ **Network configurations**, like [monitoring a remote machine][14], [chaining to an upstream proxy][5], [using Fiddler as a Reverse Proxy][6], [monitoring local traffic][10] or [monitoring dial-up and VPN connections][7]
++ **Network configurations**, like [monitoring a remote machine][14], [chaining to an upstream proxy][5], [using Fiddler Classic as a Reverse Proxy][6], [monitoring local traffic][10] or [monitoring dial-up and VPN connections][7]
 
 Last, Configure the Client.
 ---------------------------
 
-The **client** is the source of the web traffic that Fiddler monitors. Some client applications, operating systems, and devices may require specific steps to send and receive traffic to and from Fiddler. This includes:
+The **client** is the source of the web traffic that Fiddler Classic monitors. Some client applications, operating systems, and devices may require specific steps to send and receive traffic to and from Fiddler. This includes:
 
 + **Browsers**, like [Firefox, Opera, or IE (when sending traffic to localhost)][8]
 + **Applications**, like [.NET apps][9], [WinHTTP Apps][11], [Java Apps][12], and [PHP/cURL apps][13]

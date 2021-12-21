@@ -11,9 +11,9 @@ Monitor Windows Phone
 Configure Fiddler
 -----------------
 
-1. Start Fiddler on Fiddler server (the machine that will capture the traffic).
+1. Start Fiddler Classic on the Fiddler server (the machine that will capture the traffic).
 
-2. Click **Tools > Fiddler Options**. Click **Allow remote clients to connect**. 
+2. Click **Tools > Options**. Click **Allow remote clients to connect**. 
 
  ![Allow remote clients to connect][1]
 
@@ -48,7 +48,7 @@ Configure Windows Phone
 
 Decrypt HTTPS Traffic
 ---------------------
-1. [Configure Fiddler to decrypt HTTPS traffic][6].
+1. [Configure Fiddler Classic to decrypt HTTPS traffic][6].
 
 2. On the Windows Phone, use Mobile IE to request an HTTPS protocol URL.
 
@@ -66,7 +66,7 @@ Note: There is no known resource containing steps to remove security certificate
 
 Disable Monitoring
 ------------------
-After Fiddler monitoring is complete:
+After Fiddler Classic monitoring is complete:
 
 1. Tap **Settings > WiFi**.
 

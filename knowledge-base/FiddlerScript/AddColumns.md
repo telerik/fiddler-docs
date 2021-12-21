@@ -14,7 +14,7 @@ To add custom columns to the **Web Sessions List**, [add rules][1] using Fiddler
 The BindUIColumn Attribute
 --------------------------
 
-To fill a custom column, add a method labeled with the **BindUIColumn** attribute. Fiddler will run the method on each session to fill the custom column.  (To avoid exceptions, be sure that your method is robust and checks to ensure that objects exist before use!) For example:
+To fill a custom column, add a method labeled with the **BindUIColumn** attribute. Fiddler Classic will run the method on each session to fill the custom column.  (To avoid exceptions, be sure that your method is robust and checks to ensure that objects exist before use!) For example:
 
 
 
@@ -53,7 +53,7 @@ There are four overloads for BindUIColumn that allow you to set the width, displ
 The AddBoundColumn method
 -------------------------
 
-Alternatively, you can call the **AddBoundColumn()** method.  The first parameter is the name with which the column should be named, and the second parameter is the default width of the column. The third parameter is either a Fiddler Session Flag string, an @-prefixed-header name, or a JavaScript function that returns a string. 
+Alternatively, you can call the **AddBoundColumn()** method.  The first parameter is the name with which the column should be named, and the second parameter is the default width of the column. The third parameter is either a Fiddler Classic Session Flag string, an @-prefixed-header name, or a JavaScript function that returns a string. 
 
 		static function Main()
 		{

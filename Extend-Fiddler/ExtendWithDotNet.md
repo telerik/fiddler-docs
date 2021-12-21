@@ -20,7 +20,7 @@ Requirements
 + If targeting **.NET Framework 3.5**: Ensure user has **.NET Framework 3.5** installed.
 + If extending **64bit Fiddler**: Target **AnyCPU**.
 
-See [Build extension assemblies to run in both Fiddler 2 and 4][1].
+See [Build extension assemblies to run in both Fiddler Classic versions 2 and 4][1].
 
 Debugging
 ---------
@@ -31,7 +31,7 @@ Debugging
 [1]: http://fiddler.wikidot.com/prefsaction
 [2]: http://fiddler.wikidot.com/prefslist
 
-Direct Fiddler to load extension assemblies
+Direct Fiddler Classic to load extension assemblies
 -------------------------------------------
 
 + To make the extensions available to all users on the machine, install extension assembly DLLs to:
@@ -46,7 +46,7 @@ Direct Fiddler to load extension assemblies
 
 		using Fiddler;
 
-		// Extension requires Fiddler 2.2.8.6+ because it uses types introduced in v2.2.8...
+		// Extension requires Fiddler Classic 2.2.8.6+ because it uses types introduced in v2.2.8...
 		[assembly: Fiddler.RequiredVersion("2.2.8.6")]
 
 
@@ -87,7 +87,7 @@ Modify the default class1.cs (or create a new class) in your project as follows:
 	  string sUserAgent = "";
 	
 	  public Violin(){
-	  /* NOTE: It's possible that Fiddler UI isn't fully loaded yet, so don't add any UI in the constructor.
+	  /* NOTE: It's possible that Fiddler Classic UI isn't fully loaded yet, so don't add any UI in the constructor.
 	
 	     But it's also possible that AutoTamper* methods are called before OnLoad (below), so be
 	     sure any needed data structures are initialized to safe values here in this constructor */

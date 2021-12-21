@@ -8,11 +8,11 @@ position: 5
 Respond to Requests Requiring a Client Certificate
 ==================================================
 
-To specify the .CER file for Fiddler to return for a given session, add this FiddlerScript*:
+To specify the .CER file for Fiddler Classic to return for a given session, add this FiddlerScript*:
 
 		oSession["https-Client-Certificate"] = "C:\\test\\someCert.cer";
 
-To specify a .CER file for Fiddler to return otherwise, place that .CER file in:
+To specify a .CER file for Fiddler Classic to return otherwise, place that .CER file in:
 
 		%USERPROFILE%\My Documents\Fiddler2\ClientCertificate.cer
 

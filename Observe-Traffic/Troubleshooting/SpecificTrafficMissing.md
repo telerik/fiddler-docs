@@ -27,7 +27,7 @@ Check to see if any Traffic Filters are enabled.
 
 ![FiltersTab](../../images/filterstab.png)
 
-+ If you've written or set any [Fiddler Rules][1] check those too.
++ If you've written or set any [Fiddler Classic Rules][1] check those too.
 
 + Click **Help > Troubleshoot Filters...**. When you do so, traffic that would otherwise be hidden is instead shown in a strikethrough font. The **Comments** column will show which of Fiddler's filters was responsible for attempting to hide the traffic.
 

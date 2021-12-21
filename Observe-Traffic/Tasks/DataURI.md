@@ -10,7 +10,7 @@ Inspect DataURI Object
 
 To inspect a DataURI object:
 
-1. Copy a [DataURI][1] to your clipboard from Fiddler or any other source.
+1. Copy a [DataURI][1] to your clipboard from Fiddler Classic or any other source.
 
  ![Copy DataURI][2]
 
@@ -18,9 +18,9 @@ To inspect a DataURI object:
 
  ![Paste Files as Sessions][3]
 
- Fiddler will parse the DataURI and create a new Session for it in the **Web Sessions List**.
+ Fiddler Classic will parse the DataURI and create a new Session for it in the **Web Sessions List**.
 
-3. [Use Fiddler inspectors][4] to examine the resulting object.
+3. [Use Fiddler Classic inspectors][4] to examine the resulting object.
 
  ![Inspect Object][5]
 

@@ -27,7 +27,7 @@ Compose Autoresponder Rules
 
   ![Rule Editor][5]
 
-When **Enable automatic responses** is checked, Fiddler will undertake the action if a captured request URI matches the match rule.
+When **Enable automatic responses** is checked, Fiddler Classic will undertake the action if a captured request URI matches the match rule.
 
 See Also
 --------

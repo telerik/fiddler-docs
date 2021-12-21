@@ -1,5 +1,6 @@
 ---
 title: Rename Invalid P3P Headers
+description: "lern how to modify invalid P3P headers through the privacy scanner add-on"
 slug: RenameInvalidP3P
 publish: true
 position: 4
@@ -8,9 +9,9 @@ position: 4
 Rename Invalid P3P Headers
 ==========================
 
-1. Install the [Privacy Scanner Fiddler add-on][1].
+1. Install the [Privacy Scanner Fiddler Classic add-on][1].
 
- Fiddler will gain a new top-level menu named **Privacy**.
+ Fiddler Classic will gain a new top-level menu named **Privacy**.
 
  ![Privacy menu][2]
 

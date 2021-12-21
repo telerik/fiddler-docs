@@ -5,7 +5,7 @@ publish: true
 position: 5
 ---
 
-#### Fiddler Crashes on Startup with an unhelpful message box
+#### Fiddler Classic Crashes on Startup with an unhelpful message box
 
 If you see this message box when starting Fiddler:
 

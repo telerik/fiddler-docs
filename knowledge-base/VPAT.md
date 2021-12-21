@@ -10,10 +10,10 @@ res_type: kb
 9/15/2012
 
 ### Name of Product:
-Fiddler Web Debugger
+Fiddler Classic Web Debugger
 
 ### Contact for more Information:
-[http://www.fiddler2.com](http://www.fiddler2.com/)
+[https://www.telerik.com/fiddler](https://www.telerik.com/fiddler)
 
 # Summary
 ## Voluntary Product Accessibility Template
@@ -22,19 +22,19 @@ Fiddler Web Debugger
 Please refer to the attached VPAT
 
 ### Section 1194.22 Web-based Internet Information and Applications
-Not Applicable - Fiddler is not considered a web-based internet information application
+Not Applicable - Fiddler Classic is not considered a web-based internet information application
 
 ### Section 1194.23 Telecommunications Products
-Not Applicable - Fiddler is not considered a telecommunications product
+Not Applicable - Fiddler Classic is not considered a telecommunications product
 
 ### Section 1194.24 Video and Multi-media Products
-Not Applicable - Fiddler is not considered a video or multi-media product
+Not Applicable - Fiddler Classic is not considered a video or multi-media product
 
 ### Section 1194.25 Self-Contained, Closed Products
-Not Applicable - Fiddler is not considered a self-contained, closed product
+Not Applicable - Fiddler Classic is not considered a self-contained, closed product
 
 ### Section 1194.26 Desktop and Portable Computers
-Not Applicable - Fiddler is not considered a desktop or portable computer
+Not Applicable - Fiddler Classic is not considered a desktop or portable computer
 
 ### Section 1194.31 Functional Performance Criteria
 Please refer to the attached VPAT
@@ -48,63 +48,63 @@ Please refer to the attached VPAT
 ### (a) When software is designed to run on a system that has a keyboard, product functions shall be executable from a keyboard where the function itself or the result of performing a function can be discerned textually.
 Supports with Exceptions
 
-* Fiddler supports all standard keyboard features of the user interface.
-* Fiddler provides Help functionality that includes easily accessible reference guides for keyboard shortcuts.
+* Fiddler Classic supports all standard keyboard features of the user interface.
+* Fiddler Classic provides Help functionality that includes easily accessible reference guides for keyboard shortcuts.
 * In addition, documentation on Keyboard Shortcut keys are available online: [http://www.fiddler2.com/fiddler/help/keyboard.asp](http://www.fiddler2.com/fiddler/help/keyboard.asp)
-* Fiddler supports a feature known as QuickExec which allows full command-line access to all Fiddler features via the scripting engine.  See [http://www.fiddler2.com/fiddler/help/quickexec.asp](http://www.fiddler2.com/fiddler/help/quickexec.asp) for more information.
+* Fiddler Classic supports a feature known as QuickExec which allows full command-line access to all Fiddler Classic features via the scripting engine.  See [http://www.fiddler2.com/fiddler/help/quickexec.asp](http://www.fiddler2.com/fiddler/help/quickexec.asp) for more information.
 
 Exceptions
 
-* Fiddler supports all standard keyboard operation of the user interface.
-* Fiddler plugins not bundled with Fiddler may or may not support keyboard accessibility.
+* Fiddler Classic supports all standard keyboard operation of the user interface.
+* Fiddler Classic plugins not bundled with Fiddler Classic may or may not support keyboard accessibility.
 
 ### (b) Applications shall not disrupt or disable activated features of other products that are identified as accessibility features, where those features are developed and documented according to industry standards. Applications also shall not disrupt or disable activated features of any operating system that are identified as accessibility features where the application programming interface for those accessibility features has been documented by the manufacturer of the operating system and is available to the product developer.
 Supports with Exceptions
 
-* Fiddler supports system StickyKeys, FilterKeys, MouseKeys, SerialKeys and ToggleKeys.
+* Fiddler Classic supports system StickyKeys, FilterKeys, MouseKeys, SerialKeys and ToggleKeys.
 
 ### (c) A well-defined on-screen indication of the current focus shall be provided that moves among interactive interface elements as the input focus changes. The focus shall be programmatically exposed so that Assistive Technology can track focus and focus changes.
 Supports with Exceptions
 
-* Fiddler indicates focus in all focusable fields using standard technologies.
+* Fiddler Classic indicates focus in all focusable fields using standard technologies.
 
 ### (d) Sufficient information about a user interface element including the identity, operation and state of the element shall be available to Assistive Technology. When an image represents a program element, the information conveyed by the image must also be available in text.
 Supports with Exceptions
 
-* Fiddler user interface elements are exposed programmatically through managed object models and programming interfaces such as Microsoft Active Accessibility. Standard Windows controls and interface elements automatically expose this information through Microsoft Active Accessibility.
+* Fiddler Classic user interface elements are exposed programmatically through managed object models and programming interfaces such as Microsoft Active Accessibility. Standard Windows controls and interface elements automatically expose this information through Microsoft Active Accessibility.
 
 ### (e) When bitmap images are used to identify controls, status indicators, or other programmatic elements, the meaning assigned to those images shall be consistent throughout an application's performance.
 Supports
 
-* Fiddler utilizes standard and consistent images throughout.
+* Fiddler Classic utilizes standard and consistent images throughout.
 
 ### (f) Textual information shall be provided through operating system functions for displaying text. The minimum information that shall be made available is text content, text input caret location, and text attributes.
 Supports with Exceptions
 
-* Fiddler provides textual information through Microsoft Active Accessibility.
+* Fiddler Classic provides textual information through Microsoft Active Accessibility.
 * Microsoft Active Accessibility is a COM-based technology that improves the way accessibility aids work with applications running on Microsoft Windows operating systems. It provides dynamic-link libraries that are incorporated into the operating system, as well as a COM interface and application programming elements that provide reliable methods for exposing information about user interface elements.
 
 ### (g) Applications shall not override user selected contrast and color selections and other individual display attributes.
 Supports with Exceptions
 
-* In some cases, Fiddler overrides UI colors to indicate characteristics of HTTP/HTTPS traffic.  Color is not used as the sole distinguishing attribute.
-* Fiddler does not always respect system font sizing.  Fiddler font sizing may be controlled from the Tools / Fiddler Options screen.
+* In some cases, Fiddler Classic overrides UI colors to indicate characteristics of HTTP/HTTPS traffic.  Color is not used as the sole distinguishing attribute.
+* Fiddler Classic does not always respect system font sizing.  Fiddler Classic font sizing may be controlled from the Tools / Fiddler Classic Options screen.
 
 ### (h) When animation is displayed, the information shall be displayable in at least one non-animated presentation mode at the option of the user.
 Supports with Exceptions
 
-* Fiddler does not use animation in its user interface.
+* Fiddler Classic does not use animation in its user interface.
 * When viewing animated web images using Fiddler, they will be animated.
 
 ### (i) Color coding shall not be used as the only means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.
 Supports
 
-* Fiddler does not use colors as the only way to convey information, indicate an action, prompt a response, or distinguish a visual element.
+* Fiddler Classic does not use colors as the only way to convey information, indicate an action, prompt a response, or distinguish a visual element.
 
 ### (j) When a product permits a user to adjust color and contrast settings, a variety of color selections capable of producing a range of contrast levels shall be provided.
 Supports
 
-* Fiddler supports changing of UI element colors via its scripting engine.
+* Fiddler Classic supports changing of UI element colors via its scripting engine.
 
 ### (k) Software shall not use flashing or blinking text, objects, or other elements having a flash or blink frequency greater than 2 Hz and lower than 55 Hz.
 Supports with Exceptions
@@ -115,7 +115,7 @@ Supports with Exceptions
 ### (l) When electronic forms are used, the form shall allow people using Assistive Technology to access the information, field elements, and functionality required for completion and submission of the form, including all directions and cues.
 Not Applicable
 
-* Fiddler does not use electronic forms.
+* Fiddler Classic does not use electronic forms.
 
 # Section 1194.22 Web-based Internet Information and Applications - Detail
 ## Voluntary Product Accessibility Template
@@ -229,12 +229,12 @@ Not Applicable
 ### (c) All training and informational video and multimedia productions which support the agency's mission, regardless of format, that contain speech or other audio information necessary for the comprehension of the content, shall be open or closed captioned.
 Does Not Support
 
-* Fiddler demonstration videos [http://www.fiddler2.com/fiddler/help/video/default.asp](http://www.fiddler2.com/fiddler/help/video/default.asp) are not required to use the product, and are not currently closed-captioned.
+* Fiddler Classic demonstration videos [http://www.fiddler2.com/fiddler/help/video/default.asp](http://www.fiddler2.com/fiddler/help/video/default.asp) are not required to use the product, and are not currently closed-captioned.
 
 ### (d) All training and informational video and multimedia productions which support the agency's mission, regardless of format, that contain visual information necessary for the comprehension of the content, shall be audio described.
 Does Not Support
 
-* Fiddler demonstration videos [http://www.fiddler2.com/fiddler/help/video/default.asp](http://www.fiddler2.com/fiddler/help/video/default.asp) are not required to use the product, and are not currently closed-captioned.
+* Fiddler Classic demonstration videos [http://www.fiddler2.com/fiddler/help/video/default.asp](http://www.fiddler2.com/fiddler/help/video/default.asp) are not required to use the product, and are not currently closed-captioned.
 * The majority of their content is available in textual form elsewhere in the Help.
 
 ### (e) Display or presentation of alternate text presentation or audio descriptions shall be user-selectable unless permanent.
@@ -303,8 +303,8 @@ Not Applicable
 ### (a) At least one mode of operation and information retrieval that does not require user vision shall be provided, or support for Assistive Technology used by people who are blind or visually impaired shall be provided.
 Supports with Exceptions
 
-* Fiddler Supports the use of assistive technology, such as screen readers, for access by people who are blind or visually impaired, except as noted in the Remarks section.
-* Fiddler provides keyboard accessibility through keyboard shortcuts, access keys and TAB order to all significant features so use of a mouse is not required to be productive with the software.
+* Fiddler Classic Supports the use of assistive technology, such as screen readers, for access by people who are blind or visually impaired, except as noted in the Remarks section.
+* Fiddler Classic provides keyboard accessibility through keyboard shortcuts, access keys and TAB order to all significant features so use of a mouse is not required to be productive with the software.
 * Documentation on Keyboard Shortcut keys are listed on http://www.fiddler2.com/fiddler/help/keyboard.asp.
 
 Exceptions
@@ -314,30 +314,30 @@ Exceptions
 ### (b) At least one mode of operation and information retrieval that does not require visual acuity greater than 20/70 shall be provided in audio and enlarged print output working together or independently, or support for Assistive Technology used by people who are visually impaired shall be provided.
 Supports
 
-* Fiddler supports font sizing using the Tools / Fiddler Options command.
+* Fiddler Classic supports font sizing using the Tools / Fiddler Classic Options command.
 
 ### (c) At least one mode of operation and information retrieval that does not require user hearing shall be provided, or support for Assistive Technology used by people who are deaf or hard of hearing shall be provided
 Supports
 
-* Fiddler does not use audio in any meaningful way.
+* Fiddler Classic does not use audio in any meaningful way.
 
 ### (d) Where audio information is important for the use of a product, at least one mode of operation and information retrieval shall be provided in an enhanced auditory fashion, or support for assistive hearing devices shall be provided.
 Supports
 
-* Fiddler does not use audio in any meaningful way.
+* Fiddler Classic does not use audio in any meaningful way.
 
 ### (e) At least one mode of operation and information retrieval that does not require user speech shall be provided, or support for Assistive Technology used by people with disabilities shall be provided.
 Not Applicable
 
-* Fiddler does not require the use of speech for any functionality.
+* Fiddler Classic does not require the use of speech for any functionality.
 
 ### (f) At least one mode of operation and information retrieval that does not require fine motor control or simultaneous actions and that is operable with limited reach and strength shall be provided.
 Supports with Exceptions
 
-* Fiddler supports the use of assistive technology such as voice recognition and alternative input devices for people who have reduced motor skills/coordination, with the exceptions listed in the Remarks section.
-* Fiddler provides keyboard accessibility through keyboard shortcuts, access keys and TAB order to all significant features so use of a mouse is not required to be productive with the software.
+* Fiddler Classic supports the use of assistive technology such as voice recognition and alternative input devices for people who have reduced motor skills/coordination, with the exceptions listed in the Remarks section.
+* Fiddler Classic provides keyboard accessibility through keyboard shortcuts, access keys and TAB order to all significant features so use of a mouse is not required to be productive with the software.
 * Documentation on Keyboard Shortcut keys are listed on http://www.fiddler2.com/fiddler/help/keyboard.asp.
-* Fiddler supports operating system keyboard assistance features to complement keyboard accessibility to facilitate the use of alternative input devices and to assist users who do not have the need for assistive technology but have reduced motor skills/coordination. These features include StickyKeys, FilterKeys, Mouse Keys, SerialKeys and ToggleKeys which are provided by the Windows operating system itself, as well as all applications that are installed on the Windows operating system. The recommended Operating System for Fiddler is Windows XP and later.
+* Fiddler Classic supports operating system keyboard assistance features to complement keyboard accessibility to facilitate the use of alternative input devices and to assist users who do not have the need for assistive technology but have reduced motor skills/coordination. These features include StickyKeys, FilterKeys, Mouse Keys, SerialKeys and ToggleKeys which are provided by the Windows operating system itself, as well as all applications that are installed on the Windows operating system. The recommended Operating System for Fiddler Classic is Windows XP and later.
 
 Exceptions
 

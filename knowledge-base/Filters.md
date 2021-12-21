@@ -1,6 +1,6 @@
 ---
 title: Filters
-description: Using Fiddler Classic filters and applying Regex.
+description: L"earn how to use Fiddler Classic filters and to apply Regex to achieve complex filtering results."
 slug: Filters
 publish: true
 position: 5
@@ -10,7 +10,7 @@ res_type: kb
 Filters Reference
 =================
 
-Fiddler's Filters tab allows you to easily filter and flag traffic displayed in the Fiddler UI, as well as perform some lightweight modifications.
+Fiddler's Filters tab allows you to easily filter and flag traffic displayed in the Fiddler Classic UI, as well as perform some lightweight modifications.
 
 This article describes the available filtering options and their usage.
 
@@ -49,7 +49,7 @@ The following table summarizes the filters that we used to demonstrate how to di
 
 >When the text box is yellow, your changes have not yet been applied. Click anywhere outside the box to save your changes to the list.
 
-When configured to hide traffic to certain hosts, Fiddler will still proxy traffic to those hosts, but that traffic will be hidden from the Fiddler Session List. List multiple hosts using a semi-colon.
+When configured to hide traffic to certain hosts, Fiddler Classic will still proxy traffic to those hosts, but that traffic will be hidden from the Fiddler Classic Session List. List multiple hosts using a semi-colon.
 
 ![Filter to Hosts][1]
 
@@ -60,8 +60,8 @@ The process filter allows you to control which processes' traffic is shown withi
 
 The **Hide traffic from Service Host** option will hide traffic from svchost.exe, a system process that synchronizes RSS Feeds and performs other background network activity.
 
->Fiddler can only determine the process name/PID owner of a request when the client application is running on the same computer as Fiddler itself.
->When configured to hide traffic from certain processes, Fiddler will still proxy their traffic, but that traffic will be hidden from the Fiddler Session List.
+>Fiddler Classic can only determine the process name/PID owner of a request when the client application is running on the same computer as Fiddler Classic itself.
+>When configured to hide traffic from certain processes, Fiddler Classic will still proxy their traffic, but that traffic will be hidden from the Fiddler Classic Session List.
 
 Breakpoints
 -----------

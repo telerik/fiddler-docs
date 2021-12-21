@@ -8,7 +8,7 @@ position: 16
 Build Cookie Scanning Extension
 ===============================
 
-Below is the code for the Fiddler [Privacy Scanner add-on][1]. 
+Below is the code for the Fiddler Classic [Privacy Scanner add-on][1]. 
 
 		using System;
 		using System.Collections;
@@ -44,7 +44,7 @@ Below is the code for the Fiddler [Privacy Scanner add-on][1].
 				/*
 		 * NB: You might not get called here until ~after~ one of the AutoTamper methods was called.
 		 * This is okay for us, because we created our mnuContentBlock in the constructor and its simply not
-		 * visible anywhere until this method is called and we merge it onto the Fiddler Main menu.
+		 * visible anywhere until this method is called and we merge it onto the Fiddler Classic Main menu.
 		 */
 				FiddlerApplication.UI.mnuMain.MenuItems.Add(mnuCookieTag);
 			}

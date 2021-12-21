@@ -1,5 +1,6 @@
 ---
 title: Examine Web Traffic
+description: "learno how to inspect the web traffic"
 slug: ExamineWebTraffic
 publish: true
 position: 2
@@ -10,7 +11,7 @@ Examine Web Traffic
 
 View Web Session Summary
 ------------------------
-To view the Fiddler ID Number, result code, protocol, hostname, content type, URL, body size, caching value, origin process, custom comments, and any custom columns for a web session:
+To view the Fiddler Classic ID Number, result code, protocol, hostname, content type, URL, body size, caching value, origin process, custom comments, and any custom columns for a web session:
 
 1. [Capture web traffic][1].
 

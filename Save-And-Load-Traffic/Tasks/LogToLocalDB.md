@@ -55,7 +55,7 @@ Log Sessions to Local Database
 + **Note**: This example relies upon OLEDB 4.0 which is not available for 64bit processes. Either:
 
   + Select another data provider (for example, SQLServer); or 
-  + [Force Fiddler to run in 32bit mode][2]
+  + [Force Fiddler Classic to run in 32bit mode][2]
 
 
 [1]: ../../Extend-Fiddler/AddRules

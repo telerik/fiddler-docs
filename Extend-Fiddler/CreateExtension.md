@@ -8,7 +8,7 @@ position: 3
 Create Fiddler Classic Extension Project
 ================================
 
-Follow these steps to create a sample Fiddler Extension that modifies the User-Agent string of all outbound requests:
+Follow these steps to create a sample Fiddler Classic Extension that modifies the User-Agent string of all outbound requests:
 
 Add Reference to Fiddler
 ------------------------
@@ -47,7 +47,7 @@ Add Build Event
 
 		copy "$(TargetPath)" "%userprofile%\My Documents\Fiddler2\Scripts\$(TargetFilename)"
 
-Implement a Fiddler Interface
+Implement a Fiddler Classic Interface
 ----------------------------------
 
 Modify the default **class1.cs** (or create a new class) in your project as follows:
@@ -58,12 +58,12 @@ Modify the default **class1.cs** (or create a new class) in your project as foll
 
 		[assembly: Fiddler.RequiredVersion("2.3.5.0")]
 
-		public class Violin : IAutoTamper    // Ensure class is public, or Fiddler won't see it!
+		public class Violin : IAutoTamper    // Ensure class is public, or Fiddler Classic won't see it!
 		{
 		  string sUserAgent = "";
 
 		  public Violin(){
-		  /* NOTE: It's possible that Fiddler UI isn't fully loaded yet, so don't add any UI in the constructor.
+		  /* NOTE: It's possible that Fiddler Classic UI isn't fully loaded yet, so don't add any UI in the constructor.
 
 			 But it's also possible that AutoTamper* methods are called before OnLoad (below), so be
 			 sure any needed data structures are initialized to safe values here in this constructor */
@@ -83,11 +83,11 @@ Modify the default **class1.cs** (or create a new class) in your project as foll
 		  public void OnBeforeReturningError(Session oSession){}
 		}
 
-See [Fiddler Interfaces][1].
+See [Fiddler Classic Interfaces][1].
 
 Compile and Load Extension
 --------------------------
-[Compile and Load Your Extension in Fiddler][2]
+[Compile and Load Your Extension in Fiddler Classic][2]
 
 [1]: ./Interfaces
 [2]: ./LoadExtension

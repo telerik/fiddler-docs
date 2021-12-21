@@ -23,7 +23,7 @@ The Options tab exposes options that allow you to customize the behavior of the 
 + **Inspect Session** selects the new session and activates the Inspectors tab when the request is issued.
 + **Fix Content-Length Header** adjusts the value of the Content-Length request header (if present) to match the size of the request body.
 + **Follow Redirects** causes a HTTP/3xx redirect to trigger a new request, if possible. The Composer will follow up to fiddler.composer.followredirects.max default redirections.
-+ **Automatically Authenticate** causes Fiddler to automatically respond to HTTP/401 and HTTP/407 challenges that use NTLM or Negotiate protocols using the current user's Windows credentials.
++ **Automatically Authenticate** causes Fiddler Classic to automatically respond to HTTP/401 and HTTP/407 challenges that use NTLM or Negotiate protocols using the current user's Windows credentials.
 
 Tips and Tricks
 ---------------
@@ -41,9 +41,9 @@ For instance, if you have the URL http://www.example.com/#/?a=#, and enter the S
 
 3. **Shift+Click** the Execute button to immediately break the new request for further editing using Fiddler's Inspectors
 
-4. Add a dummy header **Fiddler-Encoding: base64** and encode your body using base64 if it contains any binary data. Fiddler will decode the data before transmitting it to the server.
+4. Add a dummy header **Fiddler-Encoding: base64** and encode your body using base64 if it contains any binary data. Fiddler Classic will decode the data before transmitting it to the server.
 
-5. Add a dummy header **Fiddler-Host: targettesthost** if you would like Fiddler to send your request to the specified server (http://targettesthost, in this case) while retaining the URL and host header specified elsewhere in the request. This is a convenience method that setS the X-OverrideHost, X-IgnoreCertCNMismatch and X-OverrideGateway flags on the new Session, removing the dummy header before contacting the specified server.
+5. Add a dummy header **Fiddler-Host: targettesthost** if you would like Fiddler Classic to send your request to the specified server (http://targettesthost, in this case) while retaining the URL and host header specified elsewhere in the request. This is a convenience method that setS the X-OverrideHost, X-IgnoreCertCNMismatch and X-OverrideGateway flags on the new Session, removing the dummy header before contacting the specified server.
 
 6. Click the **Upload File** link to have the composer inject one or more local files into the request body as it is sent to the server. 
 

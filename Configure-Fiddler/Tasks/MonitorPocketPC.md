@@ -9,10 +9,10 @@ position: 20
 Monitor PocketPC
 ================
 
-Configure Fiddler
+Configure Fiddler Classic
 -----------------
 
-1. On the Fiddler server (the machine where Fiddler is installed), [open port 8888 in Windows Firewall][1].
+1. On the Fiddler Classic server (the machine where Fiddler Classic is installed), [open port 8888 in Windows Firewall][1].
 
 2. Open **ActiveSync > Connection Settings...**. 
 
@@ -20,7 +20,7 @@ Configure Fiddler
 
 4. Start Fiddler.
 
-5. Click **Tools > Fiddler Options...**.
+5. Click **Tools > Options...**.
 
 6. Ensure "Allow remote clients to connect" is checked. 
 
@@ -29,7 +29,7 @@ Configure Fiddler
 Configure PocketPC
 ------------------
 
-1. On the PocketPC, set the HTTP proxy to be **FIDDLERSERVER:8888**, where FIDDLERSERVER is the machine name for the machine with Fiddler installed.
+1. On the PocketPC, set the HTTP proxy to be **FIDDLERSERVER:8888**, where FIDDLERSERVER is the machine name for the machine with Fiddler Classic installed.
 
 2. Connect the PocketPC to ActiveSync.
 

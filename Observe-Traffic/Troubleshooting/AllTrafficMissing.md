@@ -8,7 +8,7 @@ position: 1
 Problem: No sessions appear in the Web Sessions List.
 -----------------------------------------------------
 
-Solution: Review your Fiddler Configuration
+Solution: Review your Fiddler Classic Configuration
 -------------------------------------------
 
 + Review the [Configuring Clients][1] section.

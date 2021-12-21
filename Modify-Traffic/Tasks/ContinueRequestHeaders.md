@@ -2,7 +2,6 @@
 title: Reduce delays from Expect header
 description: Reduce delays from 'Expect 100-continue headers'
 slug: ContinueRequestHeaders
-
 publish: true
 position: 3
 ---
@@ -10,7 +9,7 @@ position: 3
 Reduce Delays from Expect: 100-continue headers
 ===============================================
 
-To have Fiddler return the 100-Continue header for a request:
+To have Fiddler Classic return the 100-Continue header for a request:
 
 1. Click **Rules > Customize Rules...**.
 

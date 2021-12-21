@@ -27,7 +27,7 @@ Configure Fiddler Classic
 
 2. Open Fiddler.
 
-3. Click **Tools > Fiddler Options > Connections**.
+3. Click **Tools > Options > Connections**.
 
 4. Click the checkbox by **Allow remote computers to connect**. 
 
@@ -35,12 +35,12 @@ Configure Fiddler Classic
 
 5. Restart Fiddler.
 
-6. Ensure your firewall allows incoming connections to the Fiddler process. 
+6. Ensure your firewall allows incoming connections to the Fiddler Classic process. 
 
 Configure Mac 
 -------------
 
-1. Hover over the **Online indicator** at the far right of the Fiddler toolbar to display the IP addresses assigned to the virtual machine.
+1. Hover over the **Online indicator** at the far right of the Fiddler Classic toolbar to display the IP addresses assigned to the virtual machine.
 
  ![Online Tooltip][2]
 

@@ -11,9 +11,9 @@ Capture Traffic from Another Machine (Any OS)
 Set Remote Machine Proxy Settings
 ---------------------------------
 
-1. Start Fiddler on Fiddler server (the machine that will capture the traffic).
+1. Start Fiddler Classic on the Fiddler server (the machine that will capture the traffic).
 
-2. Click **Tools > Fiddler Options**. Ensure **Allow remote clients to connect** is checked. 
+2. Click **Tools > Options**. Ensure **Allow remote clients to connect** is checked. 
 
  ![Allow remote clients to connect][1]
 

@@ -27,13 +27,13 @@ Click **Monitor with Fiddler** on Firefox's **Tools** menu (or in the status bar
 
 ![FiddlerHookOptions](../images/FiddlerHookOptions.png)  
 
-The option "Force Traffic to Fiddler" will attempt to send traffic to Fiddler regardless of whether or not it's even running. The Use Fiddler Automatically option will emulate IE's behavior: traffic will be sent to Fiddler only when Fiddler is running and is in "capturing" mode.
+The option "Force Traffic to Fiddler" will attempt to send traffic to Fiddler Classic regardless of whether or not it's even running. The Use Fiddler Classic Automatically option will emulate IE's behavior: traffic will be sent to Fiddler Classic only when Fiddler Classic is running and is in "capturing" mode.
 
 To add the **Launch Fiddler** button to your toolbar, right-click the Firefox toolbar and choose **Customize.**  
 
 ![fiddlerhook-step1](../images/fiddlerhook-step1.png)
 
-In the dialog that appears, drag the Fiddler icon to the toolbar location of your choice.  
+In the dialog that appears, drag the Fiddler Classic icon to the toolbar location of your choice.  
 
 ![fiddlerhook2](../images/fiddlerhook2.png)
 

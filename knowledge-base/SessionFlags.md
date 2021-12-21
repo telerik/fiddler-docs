@@ -1,15 +1,16 @@
 ---
-title: Fiddler SessionFlags
+title: Fiddler Classic SessionFlags
+description: "Learn more about the FiddlerScript's sessioon flags in Fiddler Classic"
 slug: SessionFlags
 publish: true
 position: 4
 res_type: kb
 ---
 
-Fiddler SessionFlags
+Fiddler Classic SessionFlags
 ====================
 
-Each Session object in Fiddler contains a collection of string flags, in the **Session.oFlags[]** collection.  The flags control how the session is processed and displayed in the Fiddler [Web Session List][4].  Flags can be set by [FiddlerScript][1] or an [IFiddlerExtension][2].
+Each Session object in Fiddler Classic contains a collection of string flags, in the **Session.oFlags[]** collection.  The flags control how the session is processed and displayed in the Fiddler Classic [Web Session List][4].  Flags can be set by [FiddlerScript][1] or an [IFiddlerExtension][2].
 
 Using SessionFlags
 ------------------
@@ -79,7 +80,7 @@ If present, this session's entry will be struck out in the Session List.
 
 **ui-customcolumn**
 
-The value of this flag is shown in the Fiddler Session List's "User-defined" column.
+The value of this flag is shown in the Fiddler Classic Session List's "User-defined" column.
 
 
 
@@ -129,13 +130,13 @@ Client Flags
 
 **x-ProcessInfo**
 
-Information (module name and ProcessID) on source of local requests.  Requires Fiddler v2.1.4.1 or later.
+Information (module name and ProcessID) on source of local requests.  Requires Fiddler Classic v2.1.4.1 or later.
 
 
 
 **x-clientIP**
 
-Read-only.  Indicates the client IP that sent this request.  Mostly useful when multiple computers on a network are pointed to a single Fiddler instance.
+Read-only.  Indicates the client IP that sent this request.  Mostly useful when multiple computers on a network are pointed to a single Fiddler Classic instance.
 
 
 
@@ -165,13 +166,13 @@ Decryption and Authentication Flags
 
 **x-no-decrypt**
 
-If set on a CONNECT tunnel, the traffic in the tunnel will not be decrypted.  Requires Fiddler v2.0.8.9 or later.
+If set on a CONNECT tunnel, the traffic in the tunnel will not be decrypted.  Requires Fiddler Classic v2.0.8.9 or later.
 
 
 
 **https-Client-Certificate**
 
-Filename of client certificate (e.g. .CER) that should be attached to this secure request.  Requires Fiddler v2.1.0.3 or later.
+Filename of client certificate (e.g. .CER) that should be attached to this secure request.  Requires Fiddler Classic v2.1.0.3 or later.
 
 
 
@@ -183,7 +184,7 @@ String specifying the hostname that should appear in the CN field of this CONNEC
 
 **x-SuppressProxySupportHeader**
 
-Prevent Fiddler from adding a "Proxy-Support: Session-Based-Authentication" header to HTTP/401 or HTTP/407 responses that request Negotiate or NTLM authentication.   Requires Fiddler v2.1.4.2 or later.
+Prevent Fiddler Classic from adding a "Proxy-Support: Session-Based-Authentication" header to HTTP/401 or HTTP/407 responses that request Negotiate or NTLM authentication. Requires Fiddler Classic v2.1.4.2 or later.
 
 
 

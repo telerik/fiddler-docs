@@ -5,7 +5,7 @@ publish: true
 position: 6
 ---
 
-#### Fiddler crashes on startup complaining about the Tahoma font
+#### Fiddler Classic crashes on startup complaining about the Tahoma font
 	
 	Sorry, you may have found a bug...
 	

@@ -43,7 +43,7 @@ Add References
 
 		csc /target:library /out:c:\UASim.dll UASimulator.cs /reference:"C:\program files\fiddler2\fiddler.exe"
 
-5. In Fiddler, click **Tools > Fiddler Options**.
+5. In Fiddler, click **Tools > Options**.
 
 6. Click the **Extensions** tab.
 
@@ -51,10 +51,10 @@ Add References
 
 		C:\UASim.dll
 
-Update Fiddler Rules
+Update Fiddler Classic Rules
 --------------------
 
-[Add a rule to Fiddler][1] to update your script. For example:
+[Add a rule to Fiddler Classic][1] to update your script. For example:
 
 		import System;
 		import System.Windows.Forms;
@@ -86,7 +86,7 @@ See Also
 
 + [Write code in .NET with the IAutoTamper interface][2]
 
-+ [Build assemblies to run in both Fiddler v2 and v4][3]
++ [Build assemblies to run in both Fiddler Classic v2 and v4][3]
 
 [1]: ./AddRules
 [2]: http://fiddler2.com/add-ons

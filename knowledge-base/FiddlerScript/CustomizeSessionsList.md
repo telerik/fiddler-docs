@@ -95,7 +95,7 @@ To customize Fiddler's **Web Sessions List**, [add rules][1] using FiddlerScript
 
 **Add image size information in a column.**
 (**Global** scope)
-Note: you must add System.drawing.dll inside **Tools > Fiddler Options > Extensions > References**.
+Note: you must add System.drawing.dll inside **Tools > Options > Extensions > References**.
 
 		public static BindUIColumn("ImageSize", 60)
 		function FillImageSizeColumn(oS: Session){
