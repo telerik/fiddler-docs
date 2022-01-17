@@ -16,7 +16,7 @@ Configure Fiddler Classic
 
 2. Open **_Tools > Options > HTTPS_** and disable **_Capturing HTTPS Connects_**.
 
-3. Close Fiddler Classic and install BouncyCastle (CertMaker.dll) from [here](https://disq.us/url?url=https%3A%2F%2Ftelerik-fiddler.s3.amazonaws.com%2Ffiddler%2Faddons%2Ffiddlercertmaker.exe%3A6S55_jduFvAwH1hSJcNA8KXcBzQ&cuid=3627150). – this will add CertMaker.dll in your Fiddler installation, and it will change the way certificates are generated. With this option, Fiddler Classic will use only one root certificate and will not generate intermediate certificates for each option.
+3. Close Fiddler Classic and install BouncyCastle (CertMaker.dll) from [here](https://telerik-fiddler.s3.amazonaws.com/fiddler/addons/fiddlercertmaker.exe ). – this will add CertMaker.dll in your Fiddler installation, and it will change the way certificates are generated. With this option, Fiddler Classic will use only one root certificate and will not generate intermediate certificates for each option.
 
 4. After installation is complete, open Fiddler, open **_Tools > Options > HTTPS_** menu use **_Actions > Reset all certificates_** option. This will remove all previously used certificates and will trust the new one.
 
