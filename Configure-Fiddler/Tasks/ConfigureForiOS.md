@@ -62,6 +62,8 @@ Set the iOS Device Proxy
 
 8. Click on the Fiddler Classic root certificate link to download it.
 
+ >important Ensure that the Fiddler Classic certificate is generated through the BouncyCastle certificate generator.[Learn more about certificate generators and how to install and enable BouncyCastle here...](https://www.telerik.com/blogs/understanding-fiddler-certificate-generators).
+
 0. On your iOS device, open **_General_** and install the certificate via the **_Profile Downloaded_**. Note that this option will appear after the certificate is downloaded.
 
 10. (iOS 10.3+) Go to **_General > About > Certificate Trust Settings_** and **enable full trust** for the **DO_NOT_TRUST_FiddlerRoot** certificate. Note that you will see the **DO_NOT_TRUST_FiddlerRoot** certificate only after completing the previous step. 
