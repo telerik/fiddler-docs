@@ -1,14 +1,4 @@
----
-title: Personal Data Collection
-page_title: Personal Data Collection
-description: Documentation page about Personal Data Collection.
-slug: PersonalDataCollection
-publish: true
-position: 8
----
-
 # Personal Data Collection
-
 
 ## How personal data is used by Telerik Products
 
