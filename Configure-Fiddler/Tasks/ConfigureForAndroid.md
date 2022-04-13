@@ -9,6 +9,9 @@ position: 18
 Configure Fiddler Classic for Android Devices
 ================================================
 
+
+>tip Update: If you're looking for Fiddler for Android, check out the new [Fiddler Everywhere](https://www.telerik.com/fiddler/fiddler-everywhere)! Check this [blog post](https://www.telerik.com/blogs/new-release-fiddler-everywhere-3) to learn more about it or directly see how easy is to [setup and use Fiddler Everywhere alongside Android device](https://docs.telerik.com/fiddler-everywhere/traffic/configure-android).
+
 Configure Fiddler Classic
 -----------------
 
