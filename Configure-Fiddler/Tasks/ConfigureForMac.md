@@ -9,6 +9,9 @@ position: 16
 Configure Fiddler Classic for Mac
 =========================
 
+>tip Update: If you're looking for Fiddler for macOS, check out the new [Fiddler Everywhere](https://www.telerik.com/fiddler/fiddler-everywhere)! You can read more about it in this [blog post](https://www.telerik.com/blogs/new-release-fiddler-everywhere-3). [Get started with Fiddler Everywhere on macOS here...](http://docs.telerik.com/fiddler-everywhere/get-started/quickstart-macos.html)
+
+
 Virtualization products like VMWare Fusion or Parallels Desktop permit Fiddler to run in a virtual machine on your Mac.
 
 Configure the Virtual Machine
