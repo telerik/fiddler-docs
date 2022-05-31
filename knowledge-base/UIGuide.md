@@ -30,12 +30,12 @@ Certain key information is available in this list, including:
 + Caching - Values from the Response's Expires or Cache-Control headers
 + Process - The local Windows Process from which the traffic originated
 + Content-Type - The Content-Type header from the Response
-+ Custom - A text field you can set [via scripting][30].
++ Custom - A text field you can set [via scripting]({%slug AddColumns%}).
 + Comments - A text field you can set from scripting or the session's context menu
 
 In Fiddler Classic v2.2.0.5 and later, you can add new columns of your choice.
 
-The default text coloring of the Session entries derives from the HTTP Status (red for errors, yellow for authentication demands), traffic type (CONNECT appears in grey), or response type (CSS in purple, HTML in blue; script in green, images in grey).  You can override a session's text color using the ui-color flag in [FiddlerScript][31].
+The default text coloring of the Session entries derives from the HTTP Status (red for errors, yellow for authentication demands), traffic type (CONNECT appears in grey), or response type (CSS in purple, HTML in blue; script in green, images in grey).  You can override a session's text color using the ui-color flag in FiddlerScript.
 
 Each session is marked with an icon for quick reference:
 
@@ -45,7 +45,7 @@ Each session is marked with an icon for quick reference:
 + ![Response Paused](../images/UIGuide/ResponsePaused.png) Response is paused at a breakpoint
 + ![Request Used HEAD](../images/UIGuide/RequestUsedHEAD.png) Request used HTTP HEAD method; response should have no body
 + ![Request Used POST](../images/UIGuide/RequestUsedPost.png) Request used HTTP POST method
-+ ![Request Used CONNECT](../images/UIGuide/RequestUsedCONNECT.png) Request used HTTP CONNECT method; this establishes a tunnel used for [HTTPS traffic][32]
++ ![Request Used CONNECT](../images/UIGuide/RequestUsedCONNECT.png) Request used HTTP CONNECT method; this establishes a tunnel used for [HTTPS traffic]({%slug DecryptHTTPS%})
 + ![HTML](../images/UIGuide/HTML.png) Response was HTML
 + ![Image](../images/UIGuide/Image.png) Response was an image
 + ![Script](../images/UIGuide/Script.PNG) Response was a script
@@ -71,7 +71,7 @@ If you right-click one or more sessions, a context-menu appears:
 
 ![Context Menu](../images/UIGuide/ContextMenu.png)
 
-Tip: You can add to this menu using the [ContextAction feature of FiddlerScript][33].  
+Tip: You can add to this menu using the [ContextAction feature of FiddlerScript]({%slug PerfTesting%]}).  
 
 On the **Copy** menu:
 
@@ -108,7 +108,7 @@ The Inspectors tab allows you to view the contents of each request and response,
 Filters
 -------
 
-The [Filters tab][35] enables you to quickly filter out traffic that is not of interest. 
+The Filters tab enables you to quickly filter out traffic that is not of interest. 
 
 Timeline
 --------
@@ -120,21 +120,11 @@ QuickExec
 
 The QuickExec box below the session list allows you to execute commands and search your traffic. Learn more...
 
-![QuickExec Box][29]
+![QuickExec Box](../images/UIGuide/QuickExec.png)
 
 Request Composer
 ----------------
 
-The [Request Composer][34] allows you to craft custom requests to send to the server.  You can either create a new request manually, or you can drag and drop a session from the Web Sessions list to create a new request based on the existing request. Learn more...
+The [Request Composer]({%slug CreateNewRequest%}) allows you to craft custom requests to send to the server.  You can either create a new request manually, or you can drag and drop a session from the Web Sessions list to create a new request based on the existing request. Learn more...
 
 
-[26]: 
-[27]: 
-[28]: 
-[29]: ../images/UIGuide/QuickExec.png
-[30]: ./FiddlerScript/AddColumns
-[31]: ./FiddlerScript/ 
-[32]: ../Configure-Fiddler/Tasks/DecryptHTTPS
-[33]: ./FiddlerScript/PerfTesting
-[34]: ../Generate-Traffic/Tasks/CreateNewRequest
-[35]: ./Filters
