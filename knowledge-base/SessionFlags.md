@@ -10,7 +10,8 @@ res_type: kb
 Fiddler Classic SessionFlags
 ====================
 
-Each Session object in Fiddler Classic contains a collection of string flags, in the **Session.oFlags[]** collection.  The flags control how the session is processed and displayed in the Fiddler Classic [Web Session List][4].  Flags can be set by [FiddlerScript][1] or an [IFiddlerExtension][2].
+Each Session object in Fiddler Classic contains a collection of string flags, in the **Session.oFlags[]** collection.  The flags control how the session is processed and displayed in the Fiddler Classic Web Session List.  Flags can be set by [FiddlerScript][({%slug AddRules%}) or an [IFiddlerExtension]({slug Interfaces}).
+
 
 Using SessionFlags
 ------------------
@@ -243,9 +244,3 @@ Drop the request body from the session list after request is sent to the server.
 
 Drop the request body from the session list after response is sent to the client.  Useful for minimizing memory usage.
 
-
-
-
-[1]: ../Extend-Fiddler/AddRules
-[2]: ../Extend-Fiddler/Interfaces
-[3]: ../Observe-Traffic/Tasks/ExamineWebTraffic

@@ -13,11 +13,11 @@ View Web Session Summary
 ------------------------
 To view the Fiddler Classic ID Number, result code, protocol, hostname, content type, URL, body size, caching value, origin process, custom comments, and any custom columns for a web session:
 
-1. [Capture web traffic][1].
+1. [Capture web traffic]({%slug ViewWebTraffic%}).
 
 2. Find the web session in the **Web Sessions List**.
 
- ![Web Session List][2]
+ ![Web Session List](../../images/ExamineWebTraffic/SessionsList.png)
 
 View Web Session Statistics
 ---------------------------
@@ -27,7 +27,7 @@ To view performance statistics for a web sesion:
 
 2. Click the **Statistics** tab.
 
- ![Statistics Tab][3]
+ ![Statistics Tab](../../images/ExamineWebTraffic/Statistics.png)
 
 View Web Session Content
 ------------------------
@@ -37,7 +37,7 @@ To view the content of a web session in a variety of formats:
 
 2. Click the **Inspectors** tab.
 
- ![Inspectors Tab][4]
+ ![Inspectors Tab](../../images/ExamineWebTraffic/Inspectors.png)
 
 Visualize Sessions Transfer Timeline
 ---------------------------
@@ -47,10 +47,4 @@ To view a waterfall diagram of the transfer timeline for one or more web session
 
 2. Click the **Timeline** tab.
 
- ![Timeline Tab][5]
-
-[1]: ./CaptureWebTraffic
-[2]: ../../images/ExamineWebTraffic/SessionsList.png
-[3]: ../../images/ExamineWebTraffic/Statistics.png
-[4]: ../../images/ExamineWebTraffic/Inspectors.png
-[5]: ../../images/ExamineWebTraffic/Timeline.png
+ ![Timeline Tab](../../images/ExamineWebTraffic/Timeline.png)

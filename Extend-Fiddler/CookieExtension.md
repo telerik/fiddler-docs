@@ -8,7 +8,7 @@ position: 16
 Build Cookie Scanning Extension
 ===============================
 
-Below is the code for the Fiddler Classic [Privacy Scanner add-on][1]. 
+Below is the code for the Fiddler Classic [Privacy Scanner add-on](https://www.telerik.com/fiddler/add-ons). 
 
 		using System;
 		using System.Collections;
@@ -234,9 +234,5 @@ Below is the code for the Fiddler Classic [Privacy Scanner add-on][1].
 See Also
 --------
 
-+ [View Cookie Information][2]
-+ [Rename Invalid P3P Headers][3]
-
-[1]: http://fiddler2.com/add-ons
-[2]: ../../Observe-Traffic/Tasks/ScanCookies.md
-[3]: ../../Modify-Traffic/Tasks/RenameInvalidP3P.md
++ [View Cookie Information]({%slug CookieScanning%})
++ [Rename Invalid P3P Headers]({%slug RenameInvalidP3P%})
