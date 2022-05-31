@@ -71,7 +71,7 @@ If you right-click one or more sessions, a context-menu appears:
 
 ![Context Menu](../images/UIGuide/ContextMenu.png)
 
-Tip: You can add to this menu using the [ContextAction feature of FiddlerScript]({%slug PerfTesting%]}).  
+Tip: You can add to this menu using the [ContextAction feature of FiddlerScript]({%slug PerfTesting%}).  
 
 On the **Copy** menu:
 
