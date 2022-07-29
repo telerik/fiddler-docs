@@ -7,6 +7,9 @@ position: 24
 
 Capture HTTPS traffic from Firefox
 ==================================
+See this guide: https://textslashplain.com/2018/09/28/firefox-and-fiddler-easier-than-ever/
+
+The below is only for legacy Firefox versions:
 
 Configure Fiddler Classic 
 -----------------
