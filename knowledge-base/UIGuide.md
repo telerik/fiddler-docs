@@ -12,7 +12,7 @@ User Interface Guide
 Overview
 --------
 
-![UI Overview][1]
+![UI Overview](../images/UIGuide/UIOverview.png)
 
 The Web Sessions List
 ---------------------
@@ -30,52 +30,52 @@ Certain key information is available in this list, including:
 + Caching - Values from the Response's Expires or Cache-Control headers
 + Process - The local Windows Process from which the traffic originated
 + Content-Type - The Content-Type header from the Response
-+ Custom - A text field you can set [via scripting][30].
++ Custom - A text field you can set [via scripting]({%slug AddColumns%}).
 + Comments - A text field you can set from scripting or the session's context menu
 
 In Fiddler Classic v2.2.0.5 and later, you can add new columns of your choice.
 
-The default text coloring of the Session entries derives from the HTTP Status (red for errors, yellow for authentication demands), traffic type (CONNECT appears in grey), or response type (CSS in purple, HTML in blue; script in green, images in grey).  You can override a session's text color using the ui-color flag in [FiddlerScript][31].
+The default text coloring of the Session entries derives from the HTTP Status (red for errors, yellow for authentication demands), traffic type (CONNECT appears in grey), or response type (CSS in purple, HTML in blue; script in green, images in grey).  You can override a session's text color using the ui-color flag in FiddlerScript.
 
 Each session is marked with an icon for quick reference:
 
-+ ![Request Being Sent][2] 	Request is being sent to the server
-+ ![Response Being Read][3] Response is being read from the server
-+ ![Request Paused][4] Request is paused at a breakpoint
-+ ![Response Paused][5] Response is paused at a breakpoint
-+ ![Request Used HEAD][6] Request used HTTP HEAD method; response should have no body
-+ ![Request Used POST][7] Request used HTTP POST method
-+ ![Request Used CONNECT][8] Request used HTTP CONNECT method; this establishes a tunnel used for [HTTPS traffic][32]
-+ ![HTML][9] Response was HTML
-+ ![Image][10] Response was an image
-+ ![Script][11] Response was a script
-+ ![CSS][12] Response was Cascading Style Sheet
-+ ![XML][13] Response was XML
-+ ![JSON][14] Response was JSON
-+ ![Audio][15] Response was an audio file
-+ ![Video][16] Response was a video file
-+ ![Silverlight][17] Response was a Silverlight applet
-+ ![Flash][18] Response was a Flash applet
-+ ![Font][19] Response was a font
-+ ![Successful][20] Generic successful response
-+ ![Redirect][21] Response was HTTP/300,301,302,303 or 307 redirect
-+ ![Use Cached][22] Response was HTTP/304: Use cached version
-+ ![Request Client Credentials][23] Response was a request for client credentials
-+ ![Server Error][24] Response was a server error
-+ ![Session Aborted][25] Session was aborted by the client, Fiddler, or the Server.
++ ![Request Being Sent](../images/UIGuide/RequestBeingSent.png) 	Request is being sent to the server
++ ![Response Being Read](../images/UIGuide/RequestBeingRead.png) Response is being read from the server
++ ![Request Paused](../images/UIGuide/RequestPaused.png) Request is paused at a breakpoint
++ ![Response Paused](../images/UIGuide/ResponsePaused.png) Response is paused at a breakpoint
++ ![Request Used HEAD](../images/UIGuide/RequestUsedHEAD.png) Request used HTTP HEAD method; response should have no body
++ ![Request Used POST](../images/UIGuide/RequestUsedPost.png) Request used HTTP POST method
++ ![Request Used CONNECT](../images/UIGuide/RequestUsedCONNECT.png) Request used HTTP CONNECT method; this establishes a tunnel used for [HTTPS traffic]({%slug DecryptHTTPS%})
++ ![HTML](../images/UIGuide/HTML.png) Response was HTML
++ ![Image](../images/UIGuide/Image.png) Response was an image
++ ![Script](../images/UIGuide/Script.PNG) Response was a script
++ ![CSS](../images/UIGuide/CSS.png) Response was Cascading Style Sheet
++ ![XML](../images/UIGuide/XML.png) Response was XML
++ ![JSON](../images/UIGuide/JSON.png) Response was JSON
++ ![Audio](../images/UIGuide/Audio.png) Response was an audio file
++ ![Video](../images/UIGuide/Video.png) Response was a video file
++ ![Silverlight](../images/UIGuide/Silverlight.png) Response was a Silverlight applet
++ ![Flash](../images/UIGuide/Flash.png) Response was a Flash applet
++ ![Font](../images/UIGuide/Font.png) Response was a font
++ ![Successful](../images/UIGuide/Successful.png) Generic successful response
++ ![Redirect](../images/UIGuide/300.png) Response was HTTP/300,301,302,303 or 307 redirect
++ ![Use Cached](../images/UIGuide/304.png) Response was HTTP/304: Use cached version
++ ![Request Client Credentials](../images/UIGuide/RequestClientCredentials.png) Response was a request for client credentials
++ ![Server Error](../images/UIGuide/ServerError.png) Response was a server error
++ ![Session Aborted](../images/UIGuide/SessionAborted.png) Session was aborted by the client, Fiddler, or the Server.
 
 Interacting with Sessions
 -------------------------
 
 If you right-click one or more sessions, a context-menu appears:
 
-![Context Menu][26]
+![Context Menu](../images/UIGuide/ContextMenu.png)
 
-Tip: You can add to this menu using the [ContextAction feature of FiddlerScript][33].  
+Tip: You can add to this menu using the [ContextAction feature of FiddlerScript]({%slug PerfTesting%}).  
 
 On the **Copy** menu:
 
-![Copy Menu][27]
+![Copy Menu](../images/UIGuide/CopyMenu.png)
 
 + Session - Copy the raw session(s) to the clipboard in plaintext and colorized HTML format
 + Just URL - Copy the hostname + URL path
@@ -85,7 +85,7 @@ On the **Copy** menu:
 
 On the **Save** menu:
 
-![Save Menu][28]
+![Save Menu](../images/UIGuide/SaveMenu.png)
 
 + **Session > In ArchiveZIP** - Creates a .SAZ archive containing all selected requests & responses, plus an index page. 
 + **Session** - Create a text file containing the request followed by the response
@@ -108,7 +108,7 @@ The Inspectors tab allows you to view the contents of each request and response,
 Filters
 -------
 
-The [Filters tab][35] enables you to quickly filter out traffic that is not of interest. 
+The Filters tab enables you to quickly filter out traffic that is not of interest. 
 
 Timeline
 --------
@@ -120,45 +120,11 @@ QuickExec
 
 The QuickExec box below the session list allows you to execute commands and search your traffic. Learn more...
 
-![QuickExec Box][29]
+![QuickExec Box](../images/UIGuide/QuickExec.png)
 
 Request Composer
 ----------------
 
-The [Request Composer][34] allows you to craft custom requests to send to the server.  You can either create a new request manually, or you can drag and drop a session from the Web Sessions list to create a new request based on the existing request. Learn more...
+The [Request Composer]({%slug CreateNewRequest%}) allows you to craft custom requests to send to the server.  You can either create a new request manually, or you can drag and drop a session from the Web Sessions list to create a new request based on the existing request. Learn more...
 
-[1]: ../images/UIGuide/UIOverview.png
-[2]: ../images/UIGuide/RequestBeingSent.png
-[3]: ../images/UIGuide/RequestBeingRead.png
-[4]: ../images/UIGuide/RequestPaused.png
-[5]: ../images/UIGuide/ResponsePaused.png
-[6]: ../images/UIGuide/RequestUsedHEAD.png
-[7]: ../images/UIGuide/RequestUsedPost.png
-[8]: ../images/UIGuide/RequestUsedCONNECT.png
-[9]: ../images/UIGuide/HTML.png
-[10]: ../images/UIGuide/Image.png
-[11]: ../images/UIGuide/Script.PNG
-[12]: ../images/UIGuide/CSS.png
-[13]: ../images/UIGuide/XML.png
-[14]: ../images/UIGuide/JSON.png
-[15]: ../images/UIGuide/Audio.png
-[16]: ../images/UIGuide/Video.png
-[17]: ../images/UIGuide/Silverlight.png
-[18]: ../images/UIGuide/Flash.png
-[19]: ../images/UIGuide/Font.png
-[20]: ../images/UIGuide/Successful.png
-[21]: ../images/UIGuide/300.png
-[22]: ../images/UIGuide/304.png
-[23]: ../images/UIGuide/RequestClientCredentials.png
-[24]: ../images/UIGuide/ServerError.png
-[25]: ../images/UIGuide/SessionAborted.png
-[26]: ../images/UIGuide/ContextMenu.png
-[27]: ../images/UIGuide/CopyMenu.png
-[28]: ../images/UIGuide/SaveMenu.png
-[29]: ../images/UIGuide/QuickExec.png
-[30]: ./FiddlerScript/AddColumns
-[31]: ./FiddlerScript/ 
-[32]: ../Configure-Fiddler/Tasks/DecryptHTTPS
-[33]: ./FiddlerScript/PerfTesting
-[34]: ../Generate-Traffic/Tasks/CreateNewRequest
-[35]: ./Filters
+

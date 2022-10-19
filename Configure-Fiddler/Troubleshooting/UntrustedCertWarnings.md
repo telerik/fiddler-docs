@@ -13,7 +13,4 @@ When using Fiddler, browsers may display untrusted certificate warnings, such as
 Solution: 
 ---------
 
-[Configure Windows client to trust the Fiddler Root Certificate][1]
-
-
-[1]: ../Tasks/TrustFiddlerRootCert
+[Configure Windows client to trust the Fiddler Root Certificate]({%slug TrustFiddlerRootCert%})

@@ -9,11 +9,11 @@ position: 4
 Rename Invalid P3P Headers
 ==========================
 
-1. Install the [Privacy Scanner Fiddler Classic add-on][1].
+1. Install the [Privacy Scanner Fiddler Classic add-on](https://www.telerik.com/fiddler/add-ons).
 
  Fiddler Classic will gain a new top-level menu named **Privacy**.
 
- ![Privacy menu][2]
+ ![Privacy menu](../../images/CookieScanning/PrivacyMenu.png)
 
 2. Ensure **Privacy > Enabled** and **Privacy > Rename P3P header if invalid** are checked.
 
@@ -22,12 +22,6 @@ Now, if a session presents a P3P statement that is malformed, that P3P header wi
 See Also
 --------
 
-+ [Cookie Test Page][5]
-+ [View Cookie Information][6]
++ [Cookie Test Page](http://www.enhanceie.com/test/cookie/)
++ [View Cookie Information]({%slug CookieScanning%})
 
-[1]: http://fiddler2.com/add-ons
-[2]: ../../images/CookieScanning/PrivacyMenu.png
-[3]: ../../images/CookieScanning/PrivacyInfo.png
-[4]: https://msdn.microsoft.com/en-us/library/ie/ms537343(v=vs.85).aspx#unsatisfactory_cookies
-[5]: http://www.enhanceie.com/test/cookie/
-[6]: ../../Observe-Traffic/Tasks/ScanCookies

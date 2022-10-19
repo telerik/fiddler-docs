@@ -6,31 +6,31 @@ exclude: [README.md, Gemfile, Gemfile.lock, api_sort.rb]
 exclude_navigation: ["knowledge-base/*"]
 navigation:
 ## List your directory names and order here, like this:
-    Configure-Fiddler:
+    configure-fiddler:
         title: Configure Fiddler
-        position: 0
-    Observe-Traffic:
+        position: 10
+    observe-traffic:
         title: Observe Traffic
-        position: 1
-    Modify-Traffic:
+        position: 20
+    modify-traffic:
         title: Modify Traffic
-        position: 2
-    Generate-Traffic:
+        position: 30
+    generate-traffic:
         title: Generate Traffic
-        position: 3
-    Save-And-Load-Traffic:
-        title: Save-And-Load Traffic
-        position: 4
-    Extend-Fiddler:
+        position: 40
+    save-and-load-traffic:
+        title: Save & Load Traffic
+        position: 50
+    extend-fiddler:
         title: Extend Fiddler
-        position: 5
-    "knowledge-base":
-        title: "Knowledge Base"
+        position: 60
+    knowledge-base:
+        title: Knowledge Base
         isNew: true
-        position: 6
-    Troubleshoot-Fiddler:
+        position: 70
+    troubleshoot-fiddler:
         title: Troubleshoot Fiddler
-        position: 7
+        position: 80
 
 ## Product title
 product: "Progress Telerik Fiddler"

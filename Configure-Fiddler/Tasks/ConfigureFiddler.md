@@ -12,42 +12,22 @@ Getting Started with Fiddler Classic
 First, Install Fiddler Classic.
 ----------------------------
 
-You can check more detailed information on how to install Fiddler Classic [here][1].
+You can check more detailed information on how to install Fiddler Classic [here]({%slug UsingFiddler%}).
 
 Next, Configure the Fiddler Classic Server.
 -----------------------------------
 
 The **Fiddler Server** is the machine on which Fiddler Classic is installed. Some scenarios may require specific steps for Fiddler Classic to receive and send web traffic. This includes:
 
-+ **Types of traffic**, like [decrypting HTTPS][3] and [authenticating with channel-binding tokens][19]
-+ **Operating systems**, like [Windows 8][2] and [Mac OSX][4]
-+ **Network configurations**, like [monitoring a remote machine][14], [chaining to an upstream proxy][5], [using Fiddler Classic as a Reverse Proxy][6], [monitoring local traffic][10] or [monitoring dial-up and VPN connections][7]
++ **Types of traffic**, like [decrypting HTTPS]({%slug DecryptHTTPS%}) and [authenticating with channel-binding tokens]({%slug AuthenticateWithCBT%})
++ **Operating systems**, like [Windows 8]({%slug Windows8Config%}) and [Mac OSX]({%slug ConfigureForMac%})
++ **Network configurations**, like [monitoring a remote machine]({%slug MonitorRemoteMachine%}), [chaining to an upstream proxy]({%slug ChainToUpstreamProxy%}), [using Fiddler Classic as a Reverse Proxy]({%slug UseFiddlerAsReverseProxy%}), [monitoring local traffic]({%slug MonitorLocalTraffic%}) or [monitoring dial-up and VPN connections]({%slug MonitorDialupAndVPN%})
 
 Last, Configure the Client.
 ---------------------------
 
 The **client** is the source of the web traffic that Fiddler Classic monitors. Some client applications, operating systems, and devices may require specific steps to send and receive traffic to and from Fiddler. This includes:
 
-+ **Browsers**, like [Firefox, Opera, or IE (when sending traffic to localhost)][8]
-+ **Applications**, like [.NET apps][9], [WinHTTP Apps][11], [Java Apps][12], and [PHP/cURL apps][13]
-+ **Devices**, like [Android][15], [iOS][16], [Windows Phone 7][17], and [PocketPC][18] devices
-
-[1]: ./InstallFiddler
-[2]: ./ConfigureFiddlerForWin8
-[3]: ./DecryptHTTPS
-[4]: ./ConfigureForMac
-[5]: ./ChainToUpstreamProxy
-[6]: ./UseFiddlerAsReverseProxy
-[7]: ./MonitorDialupAndVPN
-[8]: ./ConfigureBrowsers
-[9]: ./ConfigureDotNETApp
-[10]: ./MonitorLocalTraffic
-[11]: ./ConfigureWinHTTPApp
-[12]: ./ConfigureJavaApp
-[13]: ./ConfigurePHPcURL
-[14]: ./MonitorRemoteMachine
-[15]: ./ConfigureForAndroid
-[16]: ./ConfigureForiOS
-[17]: ./MonitorWindowsPhone7
-[18]: ./MonitorPocketPC
-[19]: ./AuthenticateWithCBT
++ **Browsers**, like [Firefox, Opera, or IE (when sending traffic to localhost)]({%slug ConfigureBrowsers%})
++ **Applications**, like [.NET apps]({%slug DotNETConfig%}), [WinHTTP Apps]({%slug ConfigureWinHTTPApp%}), [Java Apps]({%slug ConfigureJavaApp%}), and [PHP/cURL apps]({%slug PHPcURL%})
++ **Devices**, like [Android]({%slug ConfigureForAndroid%}), [iOS]({%slug ConfigureForiOS%}), [Windows Phone 7]({%slug MonitorWindowsPhone7%}), and [PocketPC]({%slug MonitorPocketPC%}) devices
