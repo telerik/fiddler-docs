@@ -1,6 +1,6 @@
 ---
 title: Configure Fiddler
-description: Learno how to configure Fiddler Classic .
+description: Learn how to configure Fiddler Classic.
 slug: ConfigureFiddler
 publish: true
 position: 0
