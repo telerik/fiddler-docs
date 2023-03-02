@@ -75,11 +75,11 @@ To customize Fiddler's **Web Sessions List**, [add rules][1] using FiddlerScript
 **Flag all pages in which the server sends a cookie**
 (in **OnBeforeResponse**)
 
-		if (oSession.oResponse.headers.Exists("Set-Cookie") ||
-		  oSession.utilDecodeResponse();
-		  oSession.utilFindInResponse("document.cookie", false)>-1 ||
-		  oSession.utilFindInResponse('HTTP-EQUIV="Set-Cookie"', false)>-1){
-		  oSession["ui-color"]="purple"; 
+		if (oSession.oResponse.headers.Exists("Set-Cookie") {
+			oSession.utilDecodeResponse();
+			if (oSession.utilFindInResponse("document.cookie", false)>-1 ||
+				oSession.utilFindInResponse('HTTP-EQUIV="Set-Cookie"', false)>-1) {
+				oSession["ui-color"]="purple"; 
 		}
 
 
