@@ -1,50 +1,52 @@
 ---
 title: Using Fiddler
-description: Instructions for basic Fiddler Classic usage
+description: Instructions for installing the Fiddler Classic proxy tool
 slug: UsingFiddler
 publish: true
 position: 0
 ---
 
 
-Install Fiddler
-===============
+# Using Fiddler 
 
-[View the Fiddler Classic System Requirements][1]
+- Download the Fiddler product:
 
-1. Download the Fiddler Classic Installer
----------------------------------
+    * Download the latest version of [Fiddler Classic (Windows only)](https://www.telerik.com/download/fiddler).
 
-+  [Download the full version of Fiddler][1].
-+  For web traffic capture only, [download FiddlerCap][2].
+    * Download the latest version of [Fiddler Everywhere supported on Windows, macOS, and Linux](https://www.telerik.com/download/fiddler-everywhere)
+
+    * Download the [FiddlerCap](https://www.telerik.com/fiddler/fiddlercap) application for quick web traffic capturing.
 
 
-2. Run the Fiddler Classic Installer
-----------------------------
-a. Select 'Run' from any Security Warning dialog.
+- Install Fiddler Classic
 
-![Setup Security Warning][3]
+    - Select **Run** from any Security Warning dialog.
 
-b. Agree to the License Agreement.
+        ![Setup Security Warning](../../images/ConfigureFiddler/SetupSecurityWarning.png)
 
-![Agree to License Agreement][4]
+    - Agree to the License Agreement.
 
-c. Select the install directory for Fiddler.
+        ![Agree to License Agreement](../../images/ConfigureFiddler/AgreetoLicenseAgreement.png)
 
-![Select Install Directory][5]
+    - Select the install directory for Fiddler.
 
-d. Click 'Close' when installation completes.
+        ![Select Install Directory](../../images/ConfigureFiddler/SelectInstallDirectory.png)
 
-![Fiddler Classic Setup Completed][6]
+    - Click **Close** when installation completes.
 
-**See Also:**
+        ![Fiddler Classic Setup Completed](../../images/ConfigureFiddler/FiddlerSetupCompleted.png)
 
-[Configure your web browser to use Fiddler Classic][7]
 
-[1]: http://www.telerik.com/download/fiddler
-[2]: http://www.fiddlercap.com/FiddlerCap/
-[3]: ../../images/ConfigureFiddler/SetupSecurityWarning.png
-[4]: ../../images/ConfigureFiddler/AgreetoLicenseAgreement.png
-[5]: ../../images/ConfigureFiddler/SelectInstallDirectory.png
-[6]: ../../images/ConfigureFiddler/FiddlerSetupCompleted.png
-[7]: ./ConfigureBrowsers
+- Install Fiddler Everywhere
+
+    - Fiddler Everywhere is a modern proxy tool with cross-platform Windows, macOS, and Linux support. Apart from being a local MITM proxy, it also provides collaboration functionalities, capabilities to save and store data in the cloud, HTTP/2 and TLS 1.3 support, and many more! [Learn more on how to install and use Fiddler Everywhere here...](https://docs.telerik.com/fiddler-everywhere/installation-and-update/installation-procedure)
+
+- Start the desired Fiddler application and begin your network debugging journey.
+
+## Additional Resources
+
+- [Configure Fiddler Classic]({%slug ConfigureFiddler%})
+- [Configure your web browser to use Fiddler Classic]({%slug ConfigureBrowsers%})
+- [Capture traffic on Windows with Fiddler Classic]({%slug ViewWebTraffic%})
+- [Capture traffic on macOS, Linux and Windows with the new **Fiddler Everywhere**](https://docs.telerik.com/fiddler-everywhere)
+
