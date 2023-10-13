@@ -1,11 +1,12 @@
 ---
-title: Lgging in Fiddler Application
+title: Logging in Fiddler Application
 description: Configure Fiddler Classic to log specific data with FiddlerScript
 slug: fiddler-logging-fiddlerscript
 publish: true
 position: 35
 ---
 
+# Logging in Fiddler Classic
 
 Fiddler Classic provides a lightweight Logging mechanism.
 
