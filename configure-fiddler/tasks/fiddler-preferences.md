@@ -14,12 +14,12 @@ The following is a partial list of supported preferences in Fiddler; the default
 
 Shows error messages when Inspector and Extension related errors are encountered:
 ```bash
-fiddler.debug.extensions.showerrors = "False"
+fiddler.debug.extensions.showerrors = "True"
 ```
 
 Shows verbose messages in the Log tab when Fiddler loads Inspector and Extensions:
 ```bash
-fiddler.debug.extensions.verbose = "False"
+fiddler.debug.extensions.verbose = "True"
 ```
 
 Controls whether the Fiddler Toolbar is visible:
@@ -34,7 +34,7 @@ fiddler.filters.ResetOnRestart = "False"
 
 String indicating which egressIP to use:
 ```bash
-fiddler.network.egress.IP
+fiddler.network.egress.IP 131.107.0.111
 ```
 
 String indicating what hostname to use when registering as the system proxy. Should be 127.0.0.1 (default), localhost, the machine's name, or the machine's IP address.
