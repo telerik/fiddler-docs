@@ -15,23 +15,24 @@ concurrency:
 
 jobs:
   publish_kb:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
-     - name: Checkout
-       uses: actions/checkout@v3
-
      - name: configure git
        run: |
-            git config --global user.email "kb-bot@telerik.com"
-            git config --global user.name "KB Bot"
+          git config --global user.email "kb-bot@telerik.com"
+          git config --global user.name "KB Bot"
+            
+     - name: Checkout
+       uses: actions/checkout@v3 
+
      - name: Create branch
        run: |
-          git checkout -b "new-kb-$($env:name)-$($env:id)"
-          cd $env:folder
-          echo $env:content > "$($env:name).md"
-          git add "$($env:name).md"
-          git commit -m "Added new kb article $($env:name)"
-          git push -u origin "new-kb-$($env:name)-$($env:id)"
+          git checkout -b "new-kb-$name-$id"
+          cd $folder
+          echo "$content" > "$name.md"
+          git add "$name.md"
+          git commit -m "Added new kb article $name"
+          git push -u origin "new-kb-$name-$id"
        env:
           name: ${{ github.event.client_payload.name }}
           content: ${{ github.event.client_payload.content }}
@@ -42,3 +43,4 @@ jobs:
        run: gh pr create --fill
        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
