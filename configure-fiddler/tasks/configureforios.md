@@ -42,7 +42,7 @@ Configure Fiddler Classic
 Set the iOS Device Proxy
 ------------------------
 
-1. On the iOS device open **_Settings > General > Profiles_** and remove all **DO_NOT_TRUST_FiddlerRoot** profiles. You must remove them (not disabling them).
+1. On the iOS device open **_Settings > General > VPN & Device Management_** and remove all **DO_NOT_TRUST_FiddlerRoot** profiles. You must remove them (not disabling them).
 
 1. Go to **_Settings > WiFi_** on your iOS device.
 
@@ -62,7 +62,7 @@ Set the iOS Device Proxy
 
  >important Ensure that the Fiddler Classic certificate is generated through the BouncyCastle certificate generator.[Learn more about certificate generators and how to install and enable BouncyCastle here...](https://www.telerik.com/blogs/understanding-fiddler-certificate-generators).
 
-1. On your iOS device, open **_General_** and install the certificate via the **_Profile Downloaded_**. Note that this option will appear after the certificate is downloaded.
+1. On your iOS device, open **_General_** > **_VPN & Device Management_** and install the certificate via the **_Profile Downloaded_**. Note that this option will appear after the certificate is downloaded.
 
 1. (iOS 10.3+) Go to **_General > About > Certificate Trust Settings_** and **enable full trust** for the **DO_NOT_TRUST_FiddlerRoot** certificate. Note that you will see the **DO_NOT_TRUST_FiddlerRoot** certificate only after completing the previous step. 
 
@@ -76,7 +76,7 @@ If you decide to uninstall the root certificate:
 
 1. Tap **General**.
 
-1. Scroll to **Profiles**.
+1. Scroll to **VPN & Device Management**.
 
 1. Tap the **DO_NOT_TRUST_FiddlerRoot*** profile.
 
