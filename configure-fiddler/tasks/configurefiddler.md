@@ -28,3 +28,5 @@ position: 0
 
 - [Capture traffic with Fiddler Classic]({%slug ViewWebTraffic%})
 - [Capture traffic on macOS, Linux and Windows with the new **Fiddler Everywhere**](https://docs.telerik.com/fiddler-everywhere)
+* [Fiddler Homepage](https://www.telerik.com/fiddler)
+* [Fiddler Everywhere Product Page](https://www.telerik.com/fiddler/fiddler-everywhere)
