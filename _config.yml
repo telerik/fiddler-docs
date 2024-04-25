@@ -66,7 +66,7 @@ cdnVersion: "2017.3.1026"
 # Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
 # "foo": "Bar"
 
-ff-sheet-id: aa62b076-27a9-f0b8-f954-e963653a5a2d
+productCode: FIDDLER
 
 # The google services configuration
 google_tag_manager: 'GTM-6X92'
