@@ -36,7 +36,7 @@ Direct Fiddler Classic to load extension assemblies
 
 + To make the extensions available to all users on the machine, install extension assembly DLLs to:
 
-		%Program Files%\Fiddler2\Scripts
+		%ProgramFiles%\Fiddler2\Scripts
 
 + To make the extensions available to only the current user, install extension assembly DLLs to:
 
