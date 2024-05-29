@@ -57,7 +57,7 @@ Sample Extension: Step by Step
 
 3. Right-click the project's **References** folder in the **Solution Explorer**.
 
-4. Click the **Browse** tab and select **Fiddler.exe** in the **C:\Program Files\Fiddler2** folder. 
+4. Click the **Browse** tab and select **Fiddler.exe** in the **%localappdata%\Programs\Fiddler** folder. 
 
 5. Click **Ok** to add the reference.
 

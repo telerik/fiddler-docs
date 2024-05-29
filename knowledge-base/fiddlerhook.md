@@ -42,6 +42,6 @@ FiddlerHook also introduces a simple way to clear your Firefox cache (memory and
 ![FiddlerHookMenu](../images/fhmenu.png)
 
 Removal Instructions
-You can use Firefox's Add-on Manager (on the tools menu) to disable the FiddlerHook addon.  If you would like to remove the FiddlerHook add-on altogether, you can simply delete the C:\Program Files\Fiddler2\FiddlerHook folder.
+You can use Firefox's Add-on Manager (on the tools menu) to disable the FiddlerHook addon.  If you would like to remove the FiddlerHook add-on altogether, you can simply delete the %localappdata%\Programs\Fiddler\FiddlerHook folder.
 
 [1]: ../images/FiddlerHook/Enable.png
