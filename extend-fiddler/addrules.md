@@ -50,11 +50,11 @@ Change the JScript Editor Launched from the **Rules** Menu
 Restore Default Rules
 ---------------------
 
-1. Delete the **CustomRules.js** file in **~/Documents/Fiddler2/Scripts**.
+1. Delete the **CustomRules.js** file in **%userprofile%\Documents\Fiddler2\Scripts**.
 
 2. Restart Fiddler.
 
-Note: Fiddler's default rules are stored in **~/Program Files/Fiddler2/Scripts/SampleRules.js**.
+Note: Fiddler's default rules are stored in **%localappdata%\Programs\Fiddler\Scripts\SampleRules.js**.
 
 See Also
 --------

@@ -34,13 +34,10 @@ Debugging
 Direct Fiddler Classic to load extension assemblies
 -------------------------------------------
 
-+ To make the extensions available to all users on the machine, install extension assembly DLLs to:
-
-		%ProgramFiles%\Fiddler2\Scripts
-
-+ To make the extensions available to only the current user, install extension assembly DLLs to:
-
-		%USERPROFILE%\My Documents\Fiddler2\Scripts
++ To make the extensions available to the current user, install extension assembly DLLs to:
+		%localappdata%\Programs\Fiddler\Scripts
+		OR
+		%userprofile%\Documents\Fiddler2\Scripts
 
 + Set the **Fiddler.RequiredVersion** attribute in your **AssemblyInfo.cs** file (or elsewhere in your code) as follows:
 
@@ -72,7 +69,7 @@ Sample Extension: Step by Step
  + In the Solution Explorer, right click the project.  Choose Properties.
  + On the Build Events tab, add the following to the Post-build event command line:
 
-    copy "$(TargetPath)" "%userprofile%\My Documents\Fiddler2\Scripts\$(TargetFilename)"
+    copy "$(TargetPath)" "%userprofile%\Documents\Fiddler2\Scripts\$(TargetFilename)"
 
 Modify the default class1.cs (or create a new class) in your project as follows:
 

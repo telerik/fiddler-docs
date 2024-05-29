@@ -11,10 +11,12 @@ Load Extension in Fiddler
 
 1. Compile your project.
 
-2. Copy the assembly .DLL to the correct **Scripts** folder:
+2. For Extensions projects, copy the assembly .DLL to the correct **Scripts** folder:
 
- + Use **\My Documents\Fiddler2\Scripts** to make the extension available to the current user.
+ + Use **%userprofile%\Documents\Fiddler2\Scripts** to make the extension available to the current user.
 
- + Use **\Program Files\Fiddler2\Scripts** to make the extension available to all users on the machine.
+ 2. For Custom Inspector projects, copy the assembly .DLL to the correct **Inspectors** folder:
+
+ + Use **%userprofile%\Documents\Fiddler2\Inspectors** to make the inspector extension available to the current user.
 
 3. Restart Fiddler.

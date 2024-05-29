@@ -18,7 +18,7 @@ Build a Custom Inspector
 
 		public class WebViewer: Inspector2, IResponseInspector2
 		{
-			public Viewers()
+			public WebViewer()
 			{
 			//
 			// TODO: Add constructor logic here
