@@ -41,7 +41,7 @@ Add References
 
 4. Enter the command to create a DLL in the VS command prompt. For example:
 
-		csc /target:library /out:c:\UASim.dll UASimulator.cs /reference:"C:\program files\fiddler2\fiddler.exe"
+		csc /target:library /out:c:\UASim.dll UASimulator.cs /reference:"%localappdata%\Programs\Fiddler\fiddler.exe"
 
 5. In Fiddler, click **Tools > Options**.
 
