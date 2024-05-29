@@ -32,7 +32,7 @@ Open the SAZClipboard Window from the **Tools Menu**.
 
 ![Tools Menu Item][1]
 
-You can drag and drop from the Fiddler Classic session list to the SAZ clipboard form, or load a SAZ directly into it using the button at the bottom. Launch it from the Tools menu. Just drop SazClipboard.dll into your C:\program files\fiddler2\scripts folder and restart Fiddler. Source is provided, so you can update as desired.
+You can drag and drop from the Fiddler Classic session list to the SAZ clipboard form, or load a SAZ directly into it using the button at the bottom. Launch it from the Tools menu. Just drop SazClipboard.dll into your %localappdata%\Programs\Fiddler\Scripts folder and restart Fiddler. Source is provided, so you can update as desired.
 
 ![Clipboard Window][2]
 

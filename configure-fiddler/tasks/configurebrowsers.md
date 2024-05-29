@@ -47,7 +47,7 @@ Note: If a browser uses these settings, revert these settings after you close Fi
 
 ![Firefox Proxy Error][11]
 
-To instead allow Fiddler Classic to automatically enable and disable the proxy, use **Proxy Auto-configuration** with a URL pointing to Documents/Fiddler2/Scripts/BrowserPAC.js.
+To instead allow Fiddler Classic to automatically enable and disable the proxy, use **Proxy Auto-configuration** with a URL pointing to %userprofile%\Documents\Fiddler2\Scripts\BrowserPAC.js.
 
 For example, in Firefox, click **Tools > Options > Advanced > Network > Settings**, and input the URL of the BrowserPAC.js.
 

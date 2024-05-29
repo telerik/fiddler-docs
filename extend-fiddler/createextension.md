@@ -45,7 +45,7 @@ Add Build Event
 
 4. Add the following to the **Post-build event command line**:
 
-		copy "$(TargetPath)" "%userprofile%\My Documents\Fiddler2\Scripts\$(TargetFilename)"
+		copy "$(TargetPath)" "%userprofile%\Documents\Fiddler2\Scripts\$(TargetFilename)"
 
 Implement a Fiddler Classic Interface
 ----------------------------------
