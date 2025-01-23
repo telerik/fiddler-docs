@@ -2,11 +2,10 @@
 title: Certificate Errors and .NET security exceptions
 slug: CertErrors
 publish: true
-position: 2
+position: 20
 ---
 
-Problem: Certificate errors or .NET security exceptions while capturing traffic
--------------------------------------------------------------------------------
+# Certificate errors or .NET security exceptions while capturing traffic
 
 Solution: 
 ---------
