@@ -36,3 +36,10 @@ The consent dialogs in Fiddler Classic are triggered upon the following actions 
 - When the user chooses to open a session url with a specific browser (browsers are detected using heuristics, so it is not sure that they are installed).
 - During capturing, if the user has specified a custom certificate maker assembly.
 
+## Reset All Consent Dialogs
+
+All consent dialogs in Fiddler Classic can be explicitly reset through the **Tools > Options > Extensions > Reset Allow Security Exceptions**
+
+![Reset security dialogs in Fiddler Classic](../images/security-dialogs-reset.png)
+
+
