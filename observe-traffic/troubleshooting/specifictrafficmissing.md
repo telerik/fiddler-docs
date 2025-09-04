@@ -1,5 +1,6 @@
 ---
 title: Specific Traffic is Missing
+description: "Learn how to resolve missing traffic in Fiddler Classic by checking status bar filters, toolbar process filters, rules, and using the Troubleshoot Filters tool."
 slug: SpecificTrafficMissing
 publish: true
 position: 3

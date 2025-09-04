@@ -1,5 +1,6 @@
 ---
 title: Out-of-Memory exception
+description: "Address out-of-memory errors in Fiddler Classic - tips for buffer limits, memory settings, and large session handling."
 slug: OutOfMemory
 publish: true
 position: 10

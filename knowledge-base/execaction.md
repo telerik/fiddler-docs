@@ -1,5 +1,6 @@
 ---
 title: Run from Command Line with ExecAction
+description: "Fiddler Classic execAction guide - automate tasks like clearing traffic, saving sessions, or running external tools with custom actions."
 slug: ExecAction
 publish: true
 position: 10

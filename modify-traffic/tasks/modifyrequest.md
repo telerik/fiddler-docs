@@ -1,5 +1,6 @@
 ---
 title: Modify a Request
+description: "Modify HTTP requests on the fly in Fiddler Classic - edit headers, body, URL, method for live testing and debugging."
 slug: ModifyRequest
 publish: true
 position: 2

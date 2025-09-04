@@ -75,12 +75,14 @@ Using these options, you can add or remove HTTP request headers, and flag respon
 
 You can also filter displayed traffic down to specific URLs with the **Show only if url contains** box. You can demand case-sensitivity with the **EXACT** directive
 
-    EXACT://example.com/q=Case+Sensitive+String 
-
+```sh
+EXACT://example.com/q=Case+Sensitive+String 
+```
 or you can use regular expressions, so you can use:
 
-     REGEX:(?insx).*\.(gif|png|jpg)$ #only show requests for img types
-
+```sh
+REGEX:(?insx).*\.(gif|png|jpg)$ #only show requests for img types
+```
 Response Status Code
 --------------------
 

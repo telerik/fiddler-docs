@@ -1,5 +1,6 @@
 ---
 title: Search and filter sessions
+description: "Search sessions in Fiddler Classic - use filters, regex, or columns to quickly find requests/responses among captured traffic."
 slug: SearchSessions
 publish: true
 position: 6

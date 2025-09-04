@@ -1,5 +1,6 @@
 ---
 title: Add Columns to Web Sessions List
+description: "Learn how to add custom columns in Fiddler Classic sessions grid via FiddlerScript - enhance session analysis with tailored metadata."
 slug: AddColumns
 publish: true
 res_type: kb

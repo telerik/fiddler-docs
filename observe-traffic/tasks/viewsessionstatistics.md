@@ -1,5 +1,6 @@
 ---
 title: View Web Session Statistics
+description: "View session statistics in Fiddler Classic - analyze count, size, duration, and performance data for captured traffic."
 slug: ViewSessionStatistics
 publish: true
 position: 3

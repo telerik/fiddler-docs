@@ -1,5 +1,6 @@
 ---
 title: Add Menu Items
+description: "Add custom menu items in Fiddler Classic via .NET extensions - integrate external features or tools into Fiddler UI."
 slug: AddMenuItems
 publish: true
 position: 14
