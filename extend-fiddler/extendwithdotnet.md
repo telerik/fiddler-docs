@@ -1,6 +1,6 @@
 ---
 title: Configure Visual Studio
-decription: "Guide to extending Fiddler Classic with .NET - create custom inspectors, menu items, and automation using .NET assemblies."
+description: "Guide to extending Fiddler Classic with .NET - create custom inspectors, menu items, and automation using .NET assemblies."
 slug: ConfigureVS
 publish: true
 position: 1
