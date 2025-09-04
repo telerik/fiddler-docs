@@ -81,7 +81,6 @@ has_api_reference: false
 edit_repo_url: https://github.com/telerik/fiddler-docs/edit/master
 download: https://www.telerik.com/download/fiddler
 nav:
-  "Videos": https://www.telerik.com/videos/fiddler/getting-started-with-fiddler-web-debugging-proxy
   "Release History": https://www.telerik.com/support/whats-new/fiddler/release-history
   "About": https://www.telerik.com/fiddler
   "Priority Support": https://www.telerik.com/purchase/fiddler
@@ -90,7 +89,7 @@ footer:
 -
   title: "Getting Started"
   links:
-    "Getting Started": https://www.telerik.com/videos/fiddler/getting-started-with-fiddler-web-debugging-proxy
+    "Getting Started": https://www.telerik.com/videos/product/fiddler-classic
     "Download": https://www.telerik.com/download/fiddler
 -
   title: "Support Resources"
@@ -100,7 +99,7 @@ footer:
   title: "Community"
   links:
     "Blogs": https://www.telerik.com/blogs/tag/fiddler
-    "Videos": https://www.telerik.com/videos/fiddler
+    "Videos": https://www.telerik.com/videos/product/fiddler-classic
 
 footer_social:
     facebook: https://www.facebook.com/Telerik/

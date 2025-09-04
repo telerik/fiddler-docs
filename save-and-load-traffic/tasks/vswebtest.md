@@ -13,7 +13,7 @@ Fiddler2 includes the ability to capture web traffic (including AJAX requests) f
 Save a WebTest
 --------------
 
-1. [Capture traffic][1] from your web application. 
+1. Capture traffic from your web application. 
 2. Click **File > Export Sessions > All Sessions**. 
 3. Click **Visual Studio WebTest.**
 
@@ -40,4 +40,3 @@ See Also
 + [https://blogs.msdn.com/slumley/pages/enhanced-web-test-support-in-fiddler.aspx](https://blogs.msdn.com/slumley/pages/enhanced-web-test-support-in-fiddler.aspx)  
 + [https://blogs.msdn.com/edglas/archive/2007/06/13/fiddler-2-drop-available-at-www-fiddler2-com.aspx](https://blogs.msdn.com/edglas/archive/2007/06/13/fiddler-2-drop-available-at-www-fiddler2-com.aspx)
 
-[1]: ../../Observe-Traffic/Tasks/CaptureWebTraffic.md
