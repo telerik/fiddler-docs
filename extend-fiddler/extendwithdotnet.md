@@ -1,6 +1,6 @@
 ---
 title: Configure Visual Studio
-decription: Extending Fiddler Classic with .NET Code
+description: "Guide to extending Fiddler Classic with .NET - create custom inspectors, menu items, and automation using .NET assemblies."
 slug: ConfigureVS
 publish: true
 position: 1
@@ -25,11 +25,10 @@ See [Build extension assemblies to run in both Fiddler Classic versions 2 and 4]
 Debugging
 ---------
 
-+ To ensure that exceptions and other extension-related errors are not silently caught: [set][1] the [fiddler.debug.extensions.showerrors][2] preference to **True**. 
-+ To output logging information to the **Log** tab: [set][1] the [fiddler.debug.extensions.verbose][2]
++ To ensure that exceptions and other extension-related errors are not silently caught: [set][1] the `fiddler.debug.extensions.showerrors` preference to **True**. 
++ To output logging information to the **Log** tab: [set][1] the `fiddler.debug.extensions.verbose`
 
 [1]: http://fiddler.wikidot.com/prefsaction
-[2]: http://fiddler.wikidot.com/prefslist
 
 Direct Fiddler Classic to load extension assemblies
 -------------------------------------------

@@ -34,19 +34,13 @@ Date the response expires and should no longer be used by a cache.  See [http://
 
 Note that the O'Reilly book (and many other places, including IE) implement this incorrectly! See [http://www.mnot.net/cache_docs/][6] or [RFC2616][7].
 
-
-
 **P3P**	
 
-Compact P3P Privacy statement.  See [http://www.p3pwriter.com/LRN_111.asp][8] for a description of the token meanings.  See also [Info on IE6's Privacy features and impact on HTTP Cookies][9].
-
-
+Compact P3P Privacy statement.  For more information refer to [IE6's Privacy features and impact on HTTP Cookies][8].
 
 **Set-Cookie**	 
 
 Info on IE's Privacy features and impact on HTTP Cookies
-
-
 
 [1]: https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
 [2]: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
@@ -55,6 +49,5 @@ Info on IE's Privacy features and impact on HTTP Cookies
 [5]: http://www.cs.tut.fi/~jkorpela/http.html
 [6]: http://www.mnot.net/cache_docs/
 [7]: http://www.faqs.org/rfcs/rfc2616.html
-[8]: http://www.p3pwriter.com/LRN_111.asp
-[9]: https://msdn.microsoft.com/en-us/library/ms537343.aspx
+[8]: https://msdn.microsoft.com/en-us/library/ms537343.aspx
 

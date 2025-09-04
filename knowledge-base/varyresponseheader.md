@@ -1,5 +1,6 @@
 ---
 title: Vary Response Header
+description: "Modify response headers via FiddlerScript in Fiddler Classic - learn how to dynamically change headers based on conditions."
 slug: VaryResponseHeader
 publish: true
 position: 7

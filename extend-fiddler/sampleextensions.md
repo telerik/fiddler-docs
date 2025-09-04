@@ -1,5 +1,6 @@
 ---
 title: Sample Extensions
+description: "Guide on building sample extensions for Fiddler Classic - learn how to extend functionality by creating plugins that customize the behavior and UI."
 slug: SampleExtensions
 publish: true
 position: 12

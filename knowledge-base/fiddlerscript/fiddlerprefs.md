@@ -1,5 +1,6 @@
 ---
 title: Preferences System
+description: "Overview of FiddlerScript preferences in Fiddler Classic - customize behavior via ui-languages, filters, editors, logging and performance tweaks."
 slug: FiddlerPrefs
 publish: true
 position: 8

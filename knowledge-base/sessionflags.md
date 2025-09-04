@@ -10,7 +10,7 @@ res_type: kb
 Fiddler Classic SessionFlags
 ====================
 
-Each Session object in Fiddler Classic contains a collection of string flags, in the **Session.oFlags[]** collection.  The flags control how the session is processed and displayed in the Fiddler Classic Web Session List.  Flags can be set by [FiddlerScript][({%slug AddRules%}) or an [IFiddlerExtension]({slug Interfaces}).
+Each Session object in Fiddler Classic contains a collection of string flags, in the **Session.oFlags[]** collection.  The flags control how the session is processed and displayed in the Fiddler Classic Web Session List.  Flags can be set by [FiddlerScript][({%slug AddRules%}) or an [IFiddlerExtension]({%slug Interfaces%}).
 
 
 Using SessionFlags

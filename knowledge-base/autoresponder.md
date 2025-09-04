@@ -31,34 +31,40 @@ On the AutoResponder tab, you enter a **match rule** and an **action string**, a
 Fiddler Classic will match string literals (case insensitively)
 
 #### **\*** matches
-* **http://www.example.com/Path1/query=example**
-* **http://www.example.com/SomethingCompletelyDifferent**
+
+* `http://www.example.com/Path1/query=example`
+* `http://www.example.com/SomethingCompletelyDifferent`
 
 #### **EXAMPLE** matches
-* http://www.**example**.com/Path1/
-* http://www.something.com/Path1/query=**Example**
+
+* `http://www.**example**.com/Path1/`
+* `http://www.something.com/Path1/query=**Example**`
 
 #### **path1/** matches
-* http://www.example.com/**Path1/**query=example
-* http://www.example.com/returnUrl=**Path1/**OtherPlace
+
+* `http://www.example.com/**Path1/**query=example`
+* `http://www.example.com/returnUrl=**Path1/**OtherPlace`
 
 #### **query** matches
 
-* http://www.example.com/Path1/q=**Query**
-* http://www.example.com/Path1/**query**=hello
+* `http://www.example.com/Path1/q=**Query**`
+* `http://www.example.com/Path1/**query**=hello`
 
 ### NOT: rules for String Literals
 
 Introduced in version 2.3.2.5 similar to the previous, but the rule is applied only if the string does not match
 
 #### **NOT:EXAMPLE** matches
-* http://www.test.com/Path1/query=test
+
+* `http://www.test.com/Path1/query=test`
 
 #### **NOT:path1/** matches
-* http://www.example.com/Path2/query=example
+
+* `http://www.example.com/Path2/query=example`
 
 #### **NOT:query** matches
-* http://www.example.com/Path1/q
+
+* `http://www.example.com/Path1/q`
 
 
 ### Exact Match
@@ -66,19 +72,19 @@ Introduced in version 2.3.2.5 similar to the previous, but the rule is applied o
 Fiddler Classic supports an exact, case-sensitive match syntax for expressions which begin with exact
 
 #### **EXACT:http://www.example.com/path** matches
-* http://www.example.com/path
+* `http://www.example.com/path`
 
 #### **EXACT:http://www.example.com/path** matches
-* http://www.example.com/Path (No Match - mismatched case)
+* `http://www.example.com/Path` (No Match - mismatched case)
 
 #### **EXACT:http://www.example.com/path** matches
-* http://www.example.com/path/q=Query** (No Match - substring different)
+* `http://www.example.com/path/q=Query` (No Match - substring different)
 
 
 ### Method Match
 
 #### **METHOD:GET EXACT:http://example.com/path**
-* Matches only **GET** requests to http://example.com/path
+* Matches only **GET** requests to `http://example.com/path`
 
 
 ### Regular Expressions
@@ -86,27 +92,27 @@ Fiddler Classic supports an exact, case-sensitive match syntax for expressions w
 Fiddler Classic supports regular expression syntax for expressions which begin with **regex**. The regular expression will be used to replace the inbound URL with the string in the Actions column. Use .+ to match a sequence of one or more characters, or .* to match zero or more characters. Use ^ at the front of your regex to mean "Start of the URL" and use $ at the tail of the regex to mean "End of the URL."
 
 #### **regex:.+** matches
-* **http://www.example.com/Path1/query=example**
+* `http://www.example.com/Path1/query=example`
 
 #### **regex:.+\.jpg.** matches
-* **http://www.example.com/Path1/query=foo.jpg**&bar
-* **http://www.example.com/Path1/query=example.jpg**
+* `http://www.example.com/Path1/query=foo.jpg**&bar`
+* `http://www.example.com/Path1/query=example.jpg`
 
 #### **regex:.+\.jpg$** matches
-* http://www.example.com/Path1/query=foo.jpg&bar (No Match - improper ending)
-* **http://www.example.com/Path1/query=example.jpg**
+* `http://www.example.com/Path1/query=foo.jpg&bar` (No Match - improper ending)
+* `http://www.example.com/Path1/query=example.jpg`
 
 #### **regex:.+\.(jpg|gif|bmp)$** matches
-* http://www.example.com/Path1/query=foo.bmp&bar (No Match  - improper ending)
-* **http://www.example.com/Path1/query=example.gif**
-* http://www.example.com/Path1/query=example.Gif  (No Match - mismatched case)
-* **http://www.example.com/Path1/query=example.bmp**
+* `http://www.example.com/Path1/query=foo.bmp&bar` (No Match  - improper ending)
+* `http://www.example.com/Path1/query=example.gif`
+* `http://www.example.com/Path1/query=example.Gif`  (No Match - mismatched case)
+* `http://www.example.com/Path1/query=example.bmp`
 
 #### **regex:(?insx).+\.(jpg|gif|bmp)$**	matches
-* http://www.example.com/Path1/query=foo.bmp&bar (No Match - improper ending)
-* **http://www.example.com/Path1/query=example.gif**
-* **http://www.example.com/Path1/query=example.Gif**
-* **http://www.example.com/Path1/query=example.bmp**
+* `http://www.example.com/Path1/query=foo.bmp&bar` (No Match - improper ending)
+* `http://www.example.com/Path1/query=example.gif`
+* `http://www.example.com/Path1/query=example.Gif`
+* `http://www.example.com/Path1/query=example.bmp`
 
 Got a great regular expression to share?  Please send it to me using the "Contact" link at the top-right side of this page!
 You can learn more about regular expressions [here](http://www.regular-expressions.info/quickstart.html).
@@ -153,7 +159,7 @@ Close the client connection immediately without sending a response.
 ### *exit
 Stop processing rules at this point.
 
-For rules whose match action is a regular expression, you can use Regular Expression Replacement Group expressions in the Action string to copy content from the Inbound URL to the action string. [Learn more...](https://blogs.msdn.com/b/fiddler/archive/2012/01/09/fiddler-2.3.8.2-beta-views-woff-mp3-h264-datauris-and-autoresponder-supports-regular-expression-groups.aspx)
+For rules whose match action is a regular expression, you can use Regular Expression Replacement Group expressions in the Action string to copy content from the Inbound URL to the action string.
 
 Rules with Non-final actions will allow the request to match multiple AutoResponder rules. As soon a rule specifying a final action is reached, the matching process exits and no further rules are processed for that session.
 
