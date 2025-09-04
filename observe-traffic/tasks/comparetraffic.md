@@ -1,6 +1,6 @@
 ---
 title: Compare Traffic
-decription: "Use Fiddler Classic to compare traffic sessions - steps for side-by-side analysis of requests/responses to diagnose behavior changes."
+description: "Use Fiddler Classic to compare traffic sessions - steps for side-by-side analysis of requests/responses to diagnose behavior changes."
 slug: CompareTraffic
 publish: true
 position: 11
