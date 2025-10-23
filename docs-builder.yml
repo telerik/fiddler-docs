@@ -28,7 +28,7 @@ center-images: false
 
 meta:
     '*':
-        hideCta: false #consult if we want to hide the CTA on all pages
+        hideCta: true #consult if we want to hide the CTA on all pages
     installation-and-setup:
         title: Installation & Setup
         position: 20
@@ -62,4 +62,4 @@ meta:
         
 redirects: 
 - from: ^/$
-  to: /configure-fiddler/configurefiddler
+  to: /introduction

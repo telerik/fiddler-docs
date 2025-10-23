@@ -5,23 +5,18 @@ publish: true
 position: 7
 ---
 
-Problem: Website running on local machine with Fiddler Classic running rejects credentials
+# Problem: Website running on local machine with Fiddler Classic running rejects credentials
 ----------------------------------------------------------------------------------
 
-Solution 1:
------------
+## Solution 1:
 
-[Configure Fiddler Classic to Authenticate to Server][1]
+[Configure Fiddler Classic to Authenticate to Server](slug://AuthenticateWithCBT)
 
-Solution 2: 
------------
+## Solution 2: 
 
-[Create the Local Security Authority host name that can be referenced in an NTLM authentication request][2]
+[Create the Local Security Authority host name that can be referenced in an NTLM authentication request](https://learn.microsoft.com/bg-bg/troubleshoot/windows-server/networking/accessing-server-locally-with-fqdn-cname-alias-denied)
 
-Solution 3:
------------
+## Solution 3:
 
-[Disable the authentication loopback check][2]
+[Disable the authentication loopback check](https://learn.microsoft.com/bg-bg/troubleshoot/windows-server/networking/accessing-server-locally-with-fqdn-cname-alias-denied)
 
-[1]: ../Tasks/AuthenticateWithCBT
-[2]: http://support.microsoft.com/kb/926642
