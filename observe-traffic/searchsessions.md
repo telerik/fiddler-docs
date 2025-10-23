@@ -7,16 +7,10 @@ position: 6
 previous_url: /tasks/searchsessions
 ---
 
-Search and Filter Sessions
-==========================
+# Search and Filter Sessions
 
 To search through captured requests and responses:
 
 + Click **Edit > Find Sessions...** and specify search options in the dialog.
-
- ![Find Sessions][1]
-
-+ Enter a [command][2] in the QuickExec box.
-
-[1]: ../../images/SearchSessions/FindSessions.png
-[2]: ../../KnowledgeBase/QuickExec
+    ![Find Sessions](./images/FindSessions.png)
++ Enter a [command](slug://QuickExec) in the QuickExec box.

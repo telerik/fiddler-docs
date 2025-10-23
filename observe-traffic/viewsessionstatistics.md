@@ -12,12 +12,6 @@ View Web Session Statistics
 To view performance statistics for a web sesion:
 
 1. Click on a web session in the **Web Sessions List**.
-
- ![Web Session List][1]
-
+    ![Web Session List](./images/SessionsList.png)
 2. Click the **Statistics** tab.
-
- ![Statistics Tab][2]
-
-[1]: ../../images/ViewSessionStatistics/SessionsList.png
-[2]: ../../images/ViewSessionStatistics/Statistics.png
+    ![Statistics Tab](./images/Statistics.png)
