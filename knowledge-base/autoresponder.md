@@ -145,7 +145,7 @@ Delay sending request to the server by #### of milliseconds. Non-final action.
 Set the Request header with the given Name to the specfied value. If no header of that name exists, a new header will be created. Non-final action.
 
 ###*flag:Name=Value
-Set the [Session Flag]({%slug SessionFlags%}) with the given Name to the specfied value. If no header of that name exists, a new header will be created. Non-final action.
+Set the [Session Flag](slug://slug SessionFlags) with the given Name to the specfied value. If no header of that name exists, a new header will be created. Non-final action.
 
 ### *CORSPreflightAllow
 Returns a response that indicates that [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) is allowed.

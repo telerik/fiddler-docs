@@ -30,7 +30,7 @@ Certain key information is available in this list, including:
 + Caching - Values from the Response's Expires or Cache-Control headers
 + Process - The local Windows Process from which the traffic originated
 + Content-Type - The Content-Type header from the Response
-+ Custom - A text field you can set [via scripting]({%slug AddColumns%}).
++ Custom - A text field you can set [via scripting](slug://slug AddColumns).
 + Comments - A text field you can set from scripting or the session's context menu
 
 In Fiddler Classic v2.2.0.5 and later, you can add new columns of your choice.
@@ -45,7 +45,7 @@ Each session is marked with an icon for quick reference:
 + ![Response Paused](../images/UIGuide/ResponsePaused.png) Response is paused at a breakpoint
 + ![Request Used HEAD](../images/UIGuide/RequestUsedHEAD.png) Request used HTTP HEAD method; response should have no body
 + ![Request Used POST](../images/UIGuide/RequestUsedPost.png) Request used HTTP POST method
-+ ![Request Used CONNECT](../images/UIGuide/RequestUsedCONNECT.png) Request used HTTP CONNECT method; this establishes a tunnel used for [HTTPS traffic]({%slug DecryptHTTPS%})
++ ![Request Used CONNECT](../images/UIGuide/RequestUsedCONNECT.png) Request used HTTP CONNECT method; this establishes a tunnel used for [HTTPS traffic](slug://slug DecryptHTTPS)
 + ![HTML](../images/UIGuide/HTML.png) Response was HTML
 + ![Image](../images/UIGuide/Image.png) Response was an image
 + ![Script](../images/UIGuide/Script.PNG) Response was a script
@@ -71,7 +71,7 @@ If you right-click one or more sessions, a context-menu appears:
 
 ![Context Menu](../images/UIGuide/ContextMenu.png)
 
-Tip: You can add to this menu using the [ContextAction feature of FiddlerScript]({%slug PerfTesting%}).  
+Tip: You can add to this menu using the [ContextAction feature of FiddlerScript](slug://slug PerfTesting).  
 
 On the **Copy** menu:
 
@@ -125,6 +125,6 @@ The QuickExec box below the session list allows you to execute commands and sear
 Request Composer
 ----------------
 
-The [Request Composer]({%slug CreateNewRequest%}) allows you to craft custom requests to send to the server.  You can either create a new request manually, or you can drag and drop a session from the Web Sessions list to create a new request based on the existing request. Learn more...
+The [Request Composer](slug://slug CreateNewRequest) allows you to craft custom requests to send to the server.  You can either create a new request manually, or you can drag and drop a session from the Web Sessions list to create a new request based on the existing request. Learn more...
 
 

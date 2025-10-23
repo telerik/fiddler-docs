@@ -234,5 +234,5 @@ Below is the code for the Fiddler Classic [Privacy Scanner add-on](https://www.t
 See Also
 --------
 
-+ [View Cookie Information]({%slug CookieScanning%})
-+ [Rename Invalid P3P Headers]({%slug RenameInvalidP3P%})
++ [View Cookie Information](slug://slug CookieScanning)
++ [Rename Invalid P3P Headers](slug://slug RenameInvalidP3P)

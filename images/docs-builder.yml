@@ -1,0 +1,65 @@
+top-navigation-product: fiddler-classic
+path-prefix: /fiddler/fiddler-classic/documentation
+default-title-prefix: Fiddler Classic
+
+primary-color: "#27c106" # Fiddler Classic green
+
+product-id: 1392
+product-code: FIDDLER
+product-name: Progress Telerik Fiddler Classic
+product-url: https://www.telerik.com/fiddler/fiddler-classic
+product-trial-url: https://www.telerik.com/download/fiddler
+
+contribute-url: https://github.com/telerik/fiddler-docs/edit/master
+search-engine-id: 001595215763381649090:dyayucp6jmq # TODO get a new one for Fiddler Classic
+# where should we add the google analytics and tag manager codes (refer to _config.yml)?
+avatar-path: ./images/common/avatar-ninja.svg # TODO get a Fiddler  Classic NINJA
+no-results-image-path: ./images/common/no-results.svg # TODO get a Fiddler  Classic no-results.png
+table-layout: fixed
+enable-tabbed-code-blocks: true
+gitLastCommitDateEnabled: false
+
+cta-overview: '@ProductLink is a powerful web debugging tool that helps developers inspect, modify, and analyze HTTP and HTTPS traffic.'
+cta-intro: '@ProductLink is a web debugging proxy for Windows. It allows you to inspect and modify HTTP and HTTPS traffic from any application that supports a proxy.'
+
+img-max-width: 100%
+
+center-images: false
+
+meta:
+    '*':
+        hideCta: false #consult if we want to hide the CTA on all pages
+    installation-and-setup:
+        title: Installation & Setup
+        position: 20
+    configure-fiddler:
+        title: Configure Fiddler Classic
+        position: 10
+    observe-traffic:
+        title: Observe Traffic
+        position: 20
+    modify-traffic:
+        title: Modify Traffic
+        position: 30
+    generate-traffic:
+        title: Generate Traffic
+        position: 40
+    save-and-load-traffic:
+        title: Save & Load Traffic
+        position: 50
+    extend-fiddler:
+        title: Extend Fiddler Classic
+        position: 60
+    troubleshooting-fiddler:
+        title: Troubleshooting
+        position: 70
+    knowledge-base:
+        title: Knowledge Base
+        position: 1000
+        relativeUrl: /knowledge-base
+        hideChildren: true
+        res_type: kb
+
+redirects: 
+- from: ^/$
+  to: /introduction
