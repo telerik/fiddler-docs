@@ -47,4 +47,4 @@ To import traffic from **HTTP Archive JSON**, **HTTP Archive XML** (exported fro
 
 Create Custom Importers and Exporters
 ------------------------------------------
-[Create Custom Importers and Exporters](slug://slug BuildImporterExporter) with Fiddler Classic Extensions.
+[Create Custom Importers and Exporters](slug://BuildImporterExporter) with Fiddler Classic Extensions.

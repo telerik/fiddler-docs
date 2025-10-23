@@ -59,7 +59,7 @@ meta:
         relativeUrl: /knowledge-base
         hideChildren: true
         res_type: kb
-
+        
 redirects: 
 - from: ^/$
-  to: /introduction
+  to: /configure-fiddler/configurefiddler

@@ -23,5 +23,5 @@ See Also
 --------
 
 + [Cookie Test Page](http://www.enhanceie.com/test/cookie/)
-+ [View Cookie Information](slug://slug CookieScanning)
++ [View Cookie Information](slug://CookieScanning)
 

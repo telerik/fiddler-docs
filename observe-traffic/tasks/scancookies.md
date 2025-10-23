@@ -30,5 +30,5 @@ Evaluation of any P3P statements that come along with those cookies will change 
 See Also
 --------
 
-+ [Rename Invalid P3P Headers](slug://slug RenameInvalidP3P)
++ [Rename Invalid P3P Headers](slug://RenameInvalidP3P)
 
