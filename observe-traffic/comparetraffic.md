@@ -44,4 +44,4 @@ In the [QuickExec box](slug://QuickExec):
 
 ## Compare multiple sessions at once
 
-The [Traffic Differ Extension](http://fiddler2.com/add-ons) allows you to compare multiple sessions at a time.
+The [Traffic Differ Extension](https://www.telerik.com/fiddler/add-ons) allows you to compare multiple sessions at a time.

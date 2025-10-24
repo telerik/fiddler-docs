@@ -56,9 +56,6 @@ Second, while understanding what class of Element initiated a request is useful,
 
 This information, by default, is not sent to the network, but you may set a Feature Control Key to emit the information as a custom HTTP request header that Fiddler Classic will see. Most Feature Control Keys, including this one, are simple flags stored in the registry that change the behavior of the Web Browser when set.
 
-+ [Enable FEATURE_DOWNLOAD_INITIATOR_HTTP_HEADER][7]
-+ [Disable FEATURE_DOWNLOAD_INITIATOR_HTTP_HEADER][8]
-
 You can display this information in Fiddler Classic using the same technique described previously:
 
 		cols add @request.X-Download-Initiator
@@ -79,5 +76,3 @@ Interpretation of these tokens is as follows. First, there's a token (e.g. image
 [4]: ./QuickExec
 [5]: ../images/Download-Initiator/Download-Initiator.png
 [6]: https://blogs.msdn.com/b/ieinternals/archive/2010/04/01/ie8-lookahead-downloader-fixed.aspx
-[7]: https://www.fiddler2.com/dl/EnableDownloadInitiator.reg
-[8]: http://www.fiddlerbook.com/dl/DisableDownloadInitiator.reg

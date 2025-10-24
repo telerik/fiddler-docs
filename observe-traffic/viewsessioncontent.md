@@ -7,7 +7,6 @@ previous_url: /tasks/viewsessioncontent
 ---
 
 # View Web Session Content
-========================
 
 To view the content of a web session in a variety of formats:
 

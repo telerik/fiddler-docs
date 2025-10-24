@@ -4,10 +4,10 @@ description: "lern how to modify invalid P3P headers through the privacy scanner
 slug: RenameInvalidP3P
 publish: true
 position: 4
+previous_url: /tasks/renameinvalidp3p
 ---
 
-Rename Invalid P3P Headers
-==========================
+# Rename Invalid P3P Headers
 
 1. Install the [Privacy Scanner Fiddler Classic add-on](https://www.telerik.com/fiddler/add-ons).
 
@@ -19,8 +19,7 @@ Rename Invalid P3P Headers
 
 Now, if a session presents a P3P statement that is malformed, that P3P header will be renamed to **Malformed-P3P** to prevent the browser from interpreting it as the P3P 1.0 specification suggested (for example, ignoring the unknown tokens).
 
-See Also
---------
+## See Also
 
 + [Cookie Test Page](http://www.enhanceie.com/test/cookie/)
 + [View Cookie Information](slug://CookieScanning)

@@ -17,21 +17,17 @@ avatar-path: ./images/common/avatar-ninja.svg # TODO get a Fiddler  Classic NINJ
 no-results-image-path: ./images/common/no-results.svg # TODO get a Fiddler  Classic no-results.png
 table-layout: fixed
 enable-tabbed-code-blocks: true
-gitLastCommitDateEnabled: false
+gitLastCommitDateEnabled: true
 
 cta-overview: '@ProductLink is a powerful web debugging tool that helps developers inspect, modify, and analyze HTTP and HTTPS traffic.'
 cta-intro: '@ProductLink is a web debugging proxy for Windows. It allows you to inspect and modify HTTP and HTTPS traffic from any application that supports a proxy.'
 
 img-max-width: 100%
-
 center-images: false
 
 meta:
     '*':
         hideCta: true #consult if we want to hide the CTA on all pages
-    installation-and-setup:
-        title: Installation & Setup
-        position: 20
     configure-fiddler:
         title: Configure Fiddler Classic
         position: 10

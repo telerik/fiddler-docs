@@ -7,8 +7,8 @@ position: 3
 previous_url: /tasks/viewsessionstatistics
 ---
 
-View Web Session Statistics
-===========================
+# View Web Session Statistics
+
 To view performance statistics for a web sesion:
 
 1. Click on a web session in the **Web Sessions List**.

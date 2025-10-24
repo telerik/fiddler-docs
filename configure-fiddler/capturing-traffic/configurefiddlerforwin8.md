@@ -54,7 +54,7 @@ Place Fiddler Root Certificate in the machine's Trusted Root store
  ![TrustCert Confirmation][9]
 
 
-[1]: http://fiddler2.com/add-ons
+[1]: https://www.telerik.com/fiddler/add-ons
 [2]: ../../images/ModelDoc/ToolsMenuLoopbackExemptions.png "Fiddler Classic Tools menu"
 [3]: ../../images/ModelDoc/AppContainerLoopbackExemptionUtility.png "AppContainer Loopback Exemption Utility"
 [4]: https://stackoverflow.com/questions/13360309/using-fiddler-with-windows-store-unit-test

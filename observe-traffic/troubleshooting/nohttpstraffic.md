@@ -6,12 +6,10 @@ publish: true
 position: 4
 ---
 
-Problem
--------
+# Problem
 
 I don't see any HTTPS traffic-- I only see a "CONNECT" tunnel.
 
-Solution
---------
+## Solution
 
 HTTPS Traffic decryption is disabled by default. Learn more about [decrypting HTTPS traffic with Fiddler2.](../../Configure-Fiddler/Tasks/DecryptHTTPS)

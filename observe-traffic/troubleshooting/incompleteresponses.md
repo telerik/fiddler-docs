@@ -6,13 +6,11 @@ publish: true
 position: 6
 ---
 
-Problem
--------
+# Problem
 
 Fiddler Classic captures incomplete HTTP Responses
 
-Solution
---------
+## Solution
 
 Ensure "Use HTTP1.1 through proxy servers" is checked on IE's **Tools > Internet Options > Advanced** tab, or similar settings in your browser of choice.
 

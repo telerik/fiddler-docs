@@ -7,8 +7,7 @@ position: 5
 previous_url: /tasks/viewsessionstimeline
 ---
 
-Visualize Sessions Transfer Timeline
-====================================
+# Visualize Sessions Transfer Timeline
 
 To view a waterfall diagram of the transfer timeline for one or more web sessions:
 
