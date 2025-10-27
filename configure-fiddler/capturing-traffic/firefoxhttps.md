@@ -4,10 +4,10 @@ description: "Learn how to explicitly set Firefox to trust the Fiddler certifica
 slug: FirefoxHTTPS
 publish: true
 position: 24
+previous_url: /configure-fiddler/tasks/firefoxhttps
 ---
 
 # Capture HTTPS traffic from Firefox
-
 
 ## Configure Fiddler Classic 
 
@@ -17,14 +17,13 @@ position: 24
 
 3. Click the **Export Fiddler Root Certificate to Desktop** button.
 
-  ![Export Root Certificate to Desktop](../../images/ConfigureBrowsers/ExportRootCertificateToDesktop.png)
-
+  ![Export Root Certificate to Desktop](./images/ExportRootCertificateToDesktop.png)
 
 ## Configure Firefox
 
 - Open **Firefox > Settings > Network Settings**, choose **Manual Proxy Configuration** and enter the Fiddler proxy address as HTTP and HTTP(S) proxy.
 
-  ![Setting Fiddler proxy explicitly through the manual proxy configuration](../../images/FirefoxHTTPS/firefox-manual-proxy-settings.png)
+  ![Setting Fiddler proxy explicitly through the manual proxy configuration](./images/firefox-manual-proxy-settings.png)
 
   >tip Note that newer Firefox versions already respect the system proxy by default (**Use system proxy settings** is selected by default). Use the manual configuration only if you need to capture Firefox traffic only and you would like to avoid polluting the captured sessions with system traffic.
 
@@ -46,6 +45,6 @@ position: 24
 
     1. Fully trust the Fiddler CA.
 
-      ![Fully trusting the Fiddler CA in the Firefox certificate manager](../../images/FirefoxHTTPS/firefox-certificate-manager-trust.png)
+      ![Fully trusting the Fiddler CA in the Firefox certificate manager](./images/firefox-certificate-manager-trust.png)
 
 
