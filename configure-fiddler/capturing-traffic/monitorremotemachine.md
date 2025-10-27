@@ -9,8 +9,7 @@ previous_url: /configure-fiddler/tasks/mointorremotemachine
 
 # Capture Traffic from Another Machine (Any OS)
 
-Set Remote Machine Proxy Settings
----------------------------------
+## Set Remote Machine Proxy Settings
 
 1. Start Fiddler Classic on the Fiddler server (the machine that will capture the traffic).
 
@@ -22,7 +21,6 @@ Set Remote Machine Proxy Settings
 
  ![Set proxy address](./images/SetProxyAddress.jpg)
 
-Decrypt HTTPS traffic from the Remote Machine
----------------------------------------------
+## Decrypt HTTPS traffic from the Remote Machine
 
 Configure the remote machine to [trust the FiddlerRoot certificate](slug://TrustFiddlerRootCert)

@@ -6,9 +6,22 @@ position: 9
 res_type: kb
 ---
 
-<!-- http://fiddler2.com/Fiddler2/help/AutoResponder.asp -->
+## Environment
 
-# AutoResponder Reference
+<table>
+	<tbody>
+		<tr>
+			<td>Product Version</td>
+			<td>5.0.20253</td>
+		</tr>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® Fiddler Classic </td>
+		</tr>
+	</tbody>
+</table>
+
+<!-- http://fiddler2.com/Fiddler2/help/AutoResponder.asp -->
 
 Fiddler's AutoResponder tab allows you to return files from your local disk instead of transmitting the request to the server.
 

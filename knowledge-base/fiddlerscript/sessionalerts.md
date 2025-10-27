@@ -6,26 +6,21 @@ position: 6
 res_type: kb
 ---
 
-Session Alerts
-==============
+To create alerts for specific sessions, [add rules](slug://AddRules) using FiddlerScript. For example:
 
-To create alerts for specific sessions, [add rules][1] using FiddlerScript. For example:
+**Play a sound when a file is missing.** (in `OnBeforeResponse`)
 
+```c#
+if (oSession.responseCode == 404){
+        FiddlerObject.playSound("C:\\windows\\media\\ding.wav");
+        oSession["ui-strikeout"]="true"; 
+}
+```
 
+**Show HTTP POST bodies in a messagebox** (in `OnBeforeRequest`)
 
-**Play a sound when a file is missing.**
-(in **OnBeforeResponse**)
+```c#
+var oBodyString = oSession.GetRequestBodyAsString();
 
-        if (oSession.responseCode == 404){
-            FiddlerObject.playSound("C:\\windows\\media\\ding.wav");
-            oSession["ui-strikeout"]="true"; 
-        }
-
-**Show HTTP POST bodies in a messagebox**
-(in **OnBeforeRequest**)
-
-        var oBodyString = oSession.GetRequestBodyAsString();
-
-        if (oBodyString.Length > 0) FiddlerObject.alert(oBodyString);
-
-[1]: ../../Extend-Fiddler/AddRules
+if (oBodyString.Length > 0) FiddlerObject.alert(oBodyString);
+```

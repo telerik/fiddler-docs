@@ -4,7 +4,7 @@ description: "Convert sessions to Data URI format in Fiddler Classic - embed HTT
 slug: DataURI
 publish: true
 position: 15
-previous_url: /tasks/datauri
+previous_url: /observe-traffic/tasks/datauri
 ---
 
 # Inspect DataURI Object

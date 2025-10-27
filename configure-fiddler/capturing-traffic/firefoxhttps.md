@@ -17,8 +17,6 @@ previous_url: /configure-fiddler/tasks/firefoxhttps
 
 3. Click the **Export Fiddler Root Certificate to Desktop** button.
 
-  ![Export Root Certificate to Desktop](./images/ExportRootCertificateToDesktop.png)
-
 ## Configure Firefox
 
 - Open **Firefox > Settings > Network Settings**, choose **Manual Proxy Configuration** and enter the Fiddler proxy address as HTTP and HTTP(S) proxy.

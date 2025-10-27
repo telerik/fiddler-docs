@@ -3,7 +3,7 @@ title: Select Parent or Child Session
 slug: ParentChild
 publish: true
 position: 8
-previous_url: /tasks/parentchild
+previous_url: /observe-traffic/tasks/parentchild
 ---
 
 # Select Parent or Child Session

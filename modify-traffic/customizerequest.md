@@ -4,7 +4,7 @@ description: Options in FIddler Classic for customizing a request
 slug: CustomizeRequest
 publish: true
 position: 1
-previous_url: /tasks/customizerequest
+previous_url: /modify-traffic/tasks/customizerequest
 ---
 
 # Customize a Request

@@ -4,7 +4,7 @@ description: Reduce delays from 'Expect 100-continue headers'
 slug: ContinueRequestHeaders
 publish: true
 position: 3
-previous_url: /tasks/continuerequestheaders
+previous_url: /modify-traffic/tasks/continuerequestheaders
 ---
 
 # Reduce Delays from Expect: 100-continue headers

@@ -6,16 +6,29 @@ position: 2
 res_type: kb
 ---
 
-Keyboard Reference
-==================
+## Environment
 
-System-wide
------------
+<table>
+	<tbody>
+		<tr>
+			<td>Product Version</td>
+			<td>5.0.20253</td>
+		</tr>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® Fiddler Classic </td>
+		</tr>
+	</tbody>
+</table>
+
+## Keyboard Reference
+
+### System-wide
 
 + CTRL+ALT+F - Bring Fiddler Classic to the foreground.  Hotkey may be adjusted using **Tools > Options**.
 
-App-wide
---------
+### App-wide
+
 + Alt+S - Focus the Web Sessions List
 + Alt+Q - Activate the [QuickExec command line][1], allowing access to many more functions from the keyboard.
 + CTRL+F - Find sessions
@@ -24,8 +37,7 @@ App-wide
 + CTRL+Up - Select prior session
 + CTRL+Down - Select next session
 
-Session List
-------------
+### Session List
 
 + CTRL+A - Select all sessions
 + CTRL+I - Invert selection of sessions
@@ -47,22 +59,19 @@ Session List
 + Shift+Delete - Delete unselected sessions
 + Spacebar - Scroll selected session into view
 
-Header Inspector
-----------------
+### Header Inspector
 
 + CTRL+C - Copy the active header to the clipboard
 + ENTER - Edit the active header.  (When the a session is paused, the headers are editable (note the white background)
 + Delete - Remove the active header
 + INSERT - Add a new header.  Note that it doesn't matter what grouping you put the header under; the groupings are for reading convenience only.
 
-TextView Inspector
-------------------
+### TextView Inspector
 
 + CTRL+G - Goto line #. (Disables word wrap)
 + F3 - Find next
 
-HexView Inspector
------------------
+### HexView Inspector
 
 + CTRL+G - Goto byte
 

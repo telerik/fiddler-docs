@@ -16,7 +16,7 @@ res_type: kb
 		</tr>
 		<tr>
 			<td>Product</td>
-			<td>Progress® Telerik® Fiddler™ </td>
+			<td>Progress® Telerik® Fiddler Classic </td>
 		</tr>
 	</tbody>
 </table>
@@ -33,24 +33,24 @@ In some cases, when using Fiddler Classic it may be necessary to allow traffic t
 
 2. Use a catch in the PAC file. 
 
-    ```JavaScript
-    function FindProxyForURL(url,host){
+```JavaScript
+function FindProxyForURL(url,host){
 
-        // Catch specific URL
-        if (shExpMatch(url,"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")){
-            return "PROXY xxxxxxxxxxxxxx";
-        }
-
-        // Let other URLs use fiddler
-        return "PROXY localhost:8888";
+    // Catch specific URL
+    if (shExpMatch(url,"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")){
+        return "PROXY xxxxxxxxxxxxxx";
     }
-    ```
+
+    // Let other URLs use fiddler
+    return "PROXY localhost:8888";
+}
+```
 
 3. Start Fiddler Classic with -noattach flag.
 
-    ```CMD
-    fiddler.exe -noattach
-    ```
+```bash
+fiddler.exe -noattach
+```
 
 4. Set Fiddler Classic Gateway Options to No Proxy to prevent infinite loop.
 

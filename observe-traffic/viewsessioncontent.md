@@ -3,7 +3,7 @@ title: View Web Session Content
 slug: ViewSessionContent
 publish: true
 position: 4
-previous_url: /tasks/viewsessioncontent
+previous_url: /observe-traffic/tasks/viewsessioncontent
 ---
 
 # View Web Session Content

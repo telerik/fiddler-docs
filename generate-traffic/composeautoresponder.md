@@ -22,7 +22,3 @@ At the bottom of the **Autoresponder** tab, under the **Rule Editor**:
 
 When **Enable automatic responses** is checked, Fiddler Classic will undertake the action if a captured request URI matches the match rule.
 
-## See Also
-
-+ [Autoresponder Reference](slug://AutoResponder)
-

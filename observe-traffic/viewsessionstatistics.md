@@ -4,7 +4,7 @@ description: "View session statistics in Fiddler Classic - analyze count, size, 
 slug: ViewSessionStatistics
 publish: true
 position: 3
-previous_url: /tasks/viewsessionstatistics
+previous_url: /observe-traffic/tasks/viewsessionstatistics
 ---
 
 # View Web Session Statistics

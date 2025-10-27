@@ -4,7 +4,7 @@ description: "Modify HTTP requests on the fly in Fiddler Classic - edit headers,
 slug: ModifyRequest
 publish: true
 position: 2
-previous_url: /tasks/modifyrequest
+previous_url: /modify-traffic/tasks/modifyrequest
 ---
 
 # Modify a Request

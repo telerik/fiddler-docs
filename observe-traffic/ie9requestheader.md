@@ -3,7 +3,7 @@ title: Find why IE9 made a web request
 slug: IE9RequestHeader
 publish: true
 position: 8
-previous_url: /tasks/ie9requestheader
+previous_url: /observe-traffic/tasks/ie9requestheader
 ---
 
 # Find why IE9 made a web request

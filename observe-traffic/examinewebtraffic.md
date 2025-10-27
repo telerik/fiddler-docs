@@ -4,7 +4,7 @@ description: "learno how to inspect the web traffic"
 slug: ExamineWebTraffic
 publish: true
 position: 2
-previous_url: /tasks/examinewebtraffic
+previous_url: /observe-traffic/tasks/examinewebtraffic
 ---
 
 # Examine Web Traffic

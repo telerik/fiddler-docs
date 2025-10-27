@@ -7,22 +7,33 @@ position: 1
 res_type: kb
 ---
 
-Using QuickExec
-===============
+## Environment
+
+<table>
+	<tbody>
+		<tr>
+			<td>Product Version</td>
+			<td>5.0.20253</td>
+		</tr>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® Fiddler Classic </td>
+		</tr>
+	</tbody>
+</table>
+
+## Using QuickExec
 
 Fiddler Classic's QuickExec box allows you to launch script-commands quickly.
 
- ![QuickExec Box][1]
+ ![QuickExec Box](./images/QuickExecBox.png)
 Keyboard Shortcuts
 ------------------
 
 + Hit ALT+Q to quickly set focus to the QuickExec box.  If Fiddler Classic isn't active, hit CTRL+ALT+F first to activate Fiddler.
 + In the QuickExec box, hit CTRL+I to insert the URL of the currently selected session in the session list.
 
-
-
-Default commands
-----------------
+## Default commands
 
 **?sometext**	
 
@@ -214,7 +225,3 @@ Set up an additional listener on another port, optionally secured by a HTTPS cer
 	!listen 8889
 	!listen 4443 localhost
 	!listen 444 secure.example.com
-
-
-
-[1]: ../images/QuickExecReference/QuickExecBox.png

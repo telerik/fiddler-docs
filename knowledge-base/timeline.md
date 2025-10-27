@@ -7,20 +7,32 @@ position: 4
 res_type: kb
 ---
 
-Timeline View
-=============
+## Environment
 
-Introduction
-------------
+<table>
+	<tbody>
+		<tr>
+			<td>Product Version</td>
+			<td>5.0.20253</td>
+		</tr>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® Fiddler Classic </td>
+		</tr>
+	</tbody>
+</table>
+
+## Timeline View
+
+## Introduction
 
 The Fiddler Classic **Timeline View** allows you to visualize the HTTP(S) traffic on a "waterfall" diagram.
 
 Hovering over any entry will show more information about the entry. Double-clicking the entry will inspect that session.
 
-![Transfer Timeline][1]
+![Transfer Timeline](./images/TransferTimeline.png)
 
-How is the diagram interpreted
-------------------------------
+## How is the diagram interpreted
 
 + The abbreviated URL at the left of each Transfer Bar is green if the request was a Conditional Request, or Black if the request was unconditional. The full URL is shown in the status bar on hover.
 
@@ -42,12 +54,8 @@ How is the diagram interpreted
 
 + The gray arrow icon indicates that the server's response was a redirect (302).  The red ! icon indicates that the server returned an error code (4xx, 5xx).
 
-What is streaming mode?
------------------------
+## What is streaming mode?
 
 Streaming mode ensures that HTTP responses are not buffered by Fiddler.  Buffering alters the waterfall diagram, as you can see below, where none of the images begin to download until their containing page completes. Learn more...
 
-![Buffering Mode vs. Streaming Mode][2]
-
-[1]: ../images/Timeline/TransferTimeline.png
-[2]: ../images/Timeline/BufferingMode.png
+![Buffering Mode vs. Streaming Mode](./images/BufferingMode.png)

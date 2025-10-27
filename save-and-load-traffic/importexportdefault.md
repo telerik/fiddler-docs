@@ -3,7 +3,7 @@ title: Import and Export Traffic
 slug: ImportExport
 publish: true
 position: 3
-previous_url: /tasks/importexportdefault
+previous_url: /save-and-load-traffic/tasks/importexportdefault
 ---
 
 # Export to Default Formats

@@ -3,7 +3,7 @@ title: Get Fiddler traces from your users
 slug: GetTraces
 publish: true
 position: 7
-previous_url: /tasks/gettraces
+previous_url: /observe-traffic/tasks/gettraces
 ---
 
 ## Try the Cross-Platform Fiddler Everywhere

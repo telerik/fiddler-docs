@@ -8,7 +8,6 @@ position: 4
 
 # Problem: Unexpected 400 Bad Request Error from IIS Express
 
-
 When requesting **http://ipv4.fiddler:2468** from an IIS Express instance, the server returns the following unexpected error message:
 
 ```HTTP

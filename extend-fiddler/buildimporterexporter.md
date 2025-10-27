@@ -135,11 +135,4 @@ public class CSVTranscoder: ISessionExporter  // Ensure class is public, or Fidd
 }
 ```
 
-
 3. [Compile and load your extension in Fiddler](slug://LoadExtension).
-
-## See Also
-
-[Build extension assemblies to run in both Fiddler Classic versions 2 and 4](slug://ExtensionsForv2Adv4)
-
-

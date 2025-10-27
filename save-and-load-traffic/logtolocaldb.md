@@ -3,7 +3,7 @@ title: Log Sessions to Local Database
 slug: LogToLocalDB
 publish: true
 position: 4
-previous_url: /tasks/logtolocaldb
+previous_url: /save-and-load-traffic/tasks/logtolocaldb
 ---
 
 # Log Sessions to Local Database

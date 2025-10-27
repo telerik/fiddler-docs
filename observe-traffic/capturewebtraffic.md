@@ -4,7 +4,7 @@ description: Learn how to start capturing web traffic with Fiddler Classic.
 slug: ViewWebTraffic
 publish: true
 position: 1
-previous_url: /tasks/capturewebtraffic
+previous_url: /observe-traffic/tasks/capturewebtraffic
 ---
 
 # Capture Web Traffic

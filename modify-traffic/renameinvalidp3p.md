@@ -4,7 +4,7 @@ description: "lern how to modify invalid P3P headers through the privacy scanner
 slug: RenameInvalidP3P
 publish: true
 position: 4
-previous_url: /tasks/renameinvalidp3p
+previous_url: /modify-traffic/tasks/renameinvalidp3p
 ---
 
 # Rename Invalid P3P Headers
@@ -13,7 +13,7 @@ previous_url: /tasks/renameinvalidp3p
 
  Fiddler Classic will gain a new top-level menu named **Privacy**.
 
- ![Privacy menu](../../images/CookieScanning/PrivacyMenu.png)
+ ![Privacy menu](./images/PrivacyMenu.png)
 
 2. Ensure **Privacy > Enabled** and **Privacy > Rename P3P header if invalid** are checked.
 

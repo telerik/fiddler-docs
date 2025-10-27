@@ -3,7 +3,7 @@ title: View Cookie Information
 slug: CookieScanning
 publish: true
 position: 10
-previous_url: /tasks/scancookies
+previous_url: /observe-traffic/tasks/scancookies
 ---
 
 # View Cookie Information

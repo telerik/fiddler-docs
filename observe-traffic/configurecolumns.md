@@ -3,7 +3,7 @@ title: Configure Columns
 slug: ConfigureColumns
 publish: true
 position: 9
-previous_url: /tasks/configurecolumns
+previous_url: /observe-traffic/tasks/configurecolumns
 ---
 
 # Configure Columns

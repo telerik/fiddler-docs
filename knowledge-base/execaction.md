@@ -7,8 +7,23 @@ position: 10
 res_type: kb
 ---
 
-Controlling Fiddler Classic with Test Automation
-========================================
+
+## Environment
+
+<table>
+	<tbody>
+		<tr>
+			<td>Product Version</td>
+			<td>5.0.20253</td>
+		</tr>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® Fiddler Classic </td>
+		</tr>
+	</tbody>
+</table>
+
+## Controlling Fiddler Classic with Test Automation
 
 ExecAction.exe is a command line executable which is suitable for calling from batch files or unit tests.  It passes its command line into FiddlerScript's **OnExecAction** function for processing, just like Fiddler's [QuickExec box][1].  The ExecAction commands can be handled by FiddlerScript or FiddlerExtensions.
 

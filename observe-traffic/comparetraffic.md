@@ -4,7 +4,7 @@ description: "Use Fiddler Classic to compare traffic sessions - steps for side-b
 slug: CompareTraffic
 publish: true
 position: 11
-previous_url: /tasks/comparetraffic
+previous_url: /observe-traffic/tasks/comparetraffic
 ---
 
 # Compare Web Traffic

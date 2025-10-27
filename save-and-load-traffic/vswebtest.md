@@ -3,7 +3,7 @@ title: Capture traffic for Visual Studio WebTest playback
 slug: VSWebTest
 publish: true
 position: 2
-previous_url: /tasks/vswebtest
+previous_url: /save-and-load-traffic/tasks/vswebtest
 ---
 
 # Visual Studio WebTest

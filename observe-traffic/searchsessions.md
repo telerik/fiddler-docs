@@ -4,7 +4,7 @@ description: "Search sessions in Fiddler Classic - use filters, regex, or column
 slug: SearchSessions
 publish: true
 position: 6
-previous_url: /tasks/searchsessions
+previous_url: /observe-traffic/tasks/searchsessions
 ---
 
 # Search and Filter Sessions

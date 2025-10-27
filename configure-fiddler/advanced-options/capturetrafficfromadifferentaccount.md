@@ -13,5 +13,5 @@ To capture traffic from accounts other than the current user (for example, ASP.N
 
 For example:
 
-[Configure .NET Applications](slug://ConfigureDotNETApp)
+[Configure .NET Applications](slug://DotNETConfig)
 [Configure WinHTTP Applications](slug://ConfigureWinHTTPApp)
