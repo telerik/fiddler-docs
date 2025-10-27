@@ -4,7 +4,7 @@ description: "Instructions for monitoring traffic via dial-up and VPN in Fiddler
 slug: MonitorDialupAndVPN
 publish: true
 position: 10
-previous_url: /tasks/monitordialupandvpn
+previous_url: /configure-fiddler/tasks/monitordialupandvpn
 ---
 
 # Monitor RAS, VPN or Dialup Connections

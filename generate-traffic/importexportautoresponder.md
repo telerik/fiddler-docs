@@ -3,7 +3,7 @@ title: Import or Export Matching Rules
 slug: ImportExportAutoresponder
 publish: true
 position: 5
-previous_url: /tasks/importexportautoresponder
+previous_url: /generate-traffic/tasks/importexportautoresponder
 ---
 
 # Import or Export Matching Rules

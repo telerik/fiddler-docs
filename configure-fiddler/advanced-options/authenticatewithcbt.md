@@ -4,7 +4,7 @@ description: Configure Fiddler Classic to Authenticate to CBT-Protected Server
 slug: AuthenticateWithCBT
 publish: true
 position: 21
-previous_url: /tasks/authenticatewithcbt
+previous_url: /configure-fiddler/tasks/authenticatewithcbt
 ---
 
 # Configure Fiddler Classic to Authenticate to CBT-Protected Server

@@ -3,7 +3,7 @@ title: Replay Captured Traffic
 slug: ReplayAutoresponder
 publish: true
 position: 3
-previous_url: /tasks/replayautoresponder
+previous_url: /generate-traffic/tasks/replayautoresponder
 ---
 
 # Replay Captured Traffic

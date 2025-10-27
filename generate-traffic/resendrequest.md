@@ -4,7 +4,7 @@ description: "Learn to resend captured HTTP requests in Fiddler Classic - modify
 slug: ResendRequest
 publish: true
 position: 8
-previous_url: /tasks/resendrequest
+previous_url: /generate-traffic/tasks/resendrequest
 ---
 
 # Resend a Request

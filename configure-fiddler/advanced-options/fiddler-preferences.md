@@ -4,7 +4,7 @@ description: List of Fiddler CLassic configurable preferences
 slug: fiddler-classic-preferences
 publish: true
 position: 30
-previous_url: /tasks/fiddler-preferences
+previous_url: /configure-fiddler/tasks/fiddler-preferences
 ---
 
 # Preferences in Fiddler Classic

@@ -4,13 +4,12 @@ description: The configuration steps needed to setup the classic Fiddler Classic
 slug: ConfigureForiOS
 publish: true
 position: 17
+previous_url: /configure-fiddler/tasks/configureforios
 ---
 
-Capture Traffic from iOS Device
-===============================
+# Capture Traffic from iOS Device
 
-Configure Fiddler Classic
------------------
+## Configure Fiddler Classic
 
 1. Open Fiddler Classic and stop capturing.
 
@@ -38,9 +37,7 @@ Configure Fiddler Classic
 
 1. For iPhone: Disable the 3g/4g connection.
 
-
-Set the iOS Device Proxy
-------------------------
+## Set the iOS Device Proxy
 
 1. On the iOS device open **_Settings > General > VPN & Device Management_** and remove all **DO_NOT_TRUST_FiddlerRoot** profiles. You must remove them (not disabling them).
 
@@ -66,9 +63,7 @@ Set the iOS Device Proxy
 
 1. (iOS 10.3+) Go to **_General > About > Certificate Trust Settings_** and **enable full trust** for the **DO_NOT_TRUST_FiddlerRoot** certificate. Note that you will see the **DO_NOT_TRUST_FiddlerRoot** certificate only after completing the previous step. 
 
-
-Uninstall FiddlerRoot Certificate
----------------------------------
+## Uninstall FiddlerRoot Certificate
 
 If you decide to uninstall the root certificate:
 

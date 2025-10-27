@@ -4,7 +4,7 @@ description: Configuration for setting Fiddler Classic on PocketPC
 slug: MonitorPocketPC
 publish: true
 position: 20
-previous_url: /tasks/monitorpocketpc
+previous_url: /configure-fiddler/tasks/monitorpocketpc
 ---
 
 # Monitor PocketPC

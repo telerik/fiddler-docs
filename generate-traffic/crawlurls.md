@@ -4,7 +4,7 @@ description: Create Fiddler Classic rule for crawling sequential URLs
 slug: CrawlURLs
 publish: true
 position: 7
-previous_url: /tasks/crawlurls
+previous_url: /generate-traffic/tasks/crawlurls
 ---
 
 # Crawl Sequential URLs

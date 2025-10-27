@@ -3,6 +3,7 @@ title: Use Fiddler as a Reverse Proxy
 slug: UseFiddlerAsReverseProxy
 publish: true
 position: 13
+previous_url: /configure-fiddler/tasks/usefiddlerasreverseproxy
 ---
 
 # Use Fiddler Classic as a Reverse Proxy

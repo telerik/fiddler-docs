@@ -4,7 +4,7 @@ description: Configure Fiddler Classic to send and receive web traffic to and fr
 slug: ChainToUpstreamProxy
 publish: true
 position: 12
-previous_url: /tasks/chaintoupstreamproxy
+previous_url: /configure-fiddler/tasks/chaintoupstreamproxy
 ---
 
 # Chain Fiddler Classic to an Upstream Proxy

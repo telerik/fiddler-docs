@@ -4,7 +4,7 @@ description: Use Fiddler Classic to capture Traffic from an ASP.NET on IIS or fr
 slug: CaptureTrafficFromDifferentAccount
 publish: true
 position: 14
-previous_url: /tasks/capturetrafficfromadifferentaccount
+previous_url: /configure-fiddler/tasks/capturetrafficfromadifferentaccount
 ---
 
 # Capture Traffic from a Different Account

@@ -21,11 +21,11 @@ Create a Loopback Exemption
 
 1.	(Fiddler2 Only:) Install and launch the [EnableLoopback Utility](https://www.telerik.com/fiddler/add-ons) by clicking the **Win8 Config** button.
 
-      ![Win8 Config Button](./images/Win8Config.png)
+      ![Win8 Config Button][10]
 
 2.    Check the box next to each application that will send traffic to Fiddler Classic.  This requires Administrator privileges.
 
-      ![AppContainer Loopback Exemption Utility](./images/AppContainerLoopbackExemptionUtility.png)
+      ![AppContainer Loopback Exemption Utility][3].
 
 Now these applications can send traffic to Fiddler Classic.
 
@@ -38,16 +38,27 @@ Place Fiddler Root Certificate in the machine's Trusted Root store
 
 1.	Enable Fiddler Classic HTTPS-decryption feature. A **Warning** dialog appears. Click **Yes** to trust the Fiddler Root certificate.
 
- ![Warning dialog](./images/WarningDialogTrustFiddlerRootCert.png)
+ ![Warning dialog][6]
 
 2.	A Security Warning dialog appears. Click **Yes** to install the Fiddler Root certificate.
 
- ![Security warning](./images/SecurityWarningInstallFiddlerRootCert.png)
+ ![Security warning][7]
 
 3.	The User Account Control dialog appears. Click **Yes** to place the Fiddler Root Certificate into the machine-wide Trusted Root Certification Authorities store.
 
- ![User Account Control dialog](./images/UACDialog.png)
+ ![User Account Control dialog][8]
 
 4.	The TrustCert Confirmation dialog appears. Click **Yes**.
 
- ![TrustCert Confirmation](./images/TrustCertConfirmDialog.png)
+ ![TrustCert Confirmation][9]
+
+
+
+[2]: ../../images/ModelDoc/ToolsMenuLoopbackExemptions.png "Fiddler Classic Tools menu"
+[3]: ../../images/ModelDoc/AppContainerLoopbackExemptionUtility.png "AppContainer Loopback Exemption Utility"
+
+[6]: ../../images/ModelDoc/WarningDialogTrustFiddlerRootCert.png "Trust Fiddler Root certificate warning dialog"
+[7]: ../../images/ModelDoc/SecurityWarningInstallFiddlerRootCert.png "Install Fiddler Root certificate security warning dialog"
+[8]: ../../images/ModelDoc/UACDialog.png "User Account Control dialog"
+[9]: ../../images/ModelDoc/TrustCertConfirmDialog.png "TrustCert Confirmation dialog"
+[10]: ../../images/ConfigureForWin8/Win8Config.png "Win8 Config Button"

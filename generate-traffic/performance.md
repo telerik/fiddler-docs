@@ -4,7 +4,7 @@ description: "Use Fiddler Classic for performance testing - generate traffic, me
 slug: Performance
 publish: true
 position: 6
-previous_url: /tasks/performance
+previous_url: /generate-traffic/tasks/performance
 ---
 
 # Test Performance

@@ -3,7 +3,7 @@ title: Search Sequential Pages for Target String
 slug: SearchSequentialPages
 publish: true
 position: 8
-previous_url: /tasks/searchsequentialpages
+previous_url: /generate-traffic/tasks/searchsequentialpages
 ---
 
 # Search Sequential Pages for Target String

@@ -4,7 +4,7 @@ description: Specific configuration steps for enabling capture on Opera, Firefox
 slug: ConfigureBrowsers
 publish: true
 position: 10
-previous_url: /tasks/configurebrowsers
+previous_url: /configure-fiddler/tasks/configurebrowsers
 ---
 
 # Configure Browsers

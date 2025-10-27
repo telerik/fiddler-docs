@@ -4,7 +4,7 @@ description: Configure Fiddler Classic to log specific data with FiddlerScript
 slug: fiddler-logging-fiddlerscript
 publish: true
 position: 35
-previous_url: /tasks/fiddler-logging
+previous_url: /configure-fiddler/tasks/fiddler-logging
 ---
 
 # Logging in Fiddler Classic

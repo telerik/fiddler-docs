@@ -3,7 +3,7 @@ title: Create traffic with Custom Matching Rules
 slug: ComposeAutoresponder
 publish: true
 position: 2
-previous_url: /tasks/composeautoresponder
+previous_url: /generate-traffic/tasks/composeautoresponder
 ---
 
 # Create traffic with custom matching rules

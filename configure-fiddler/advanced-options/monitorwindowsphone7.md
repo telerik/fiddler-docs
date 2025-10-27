@@ -3,7 +3,7 @@ title: Monitor Windows Phone
 slug: MonitorWindowsPhone7
 publish: true
 position: 19
-previous_url: /tasks/monitorwindowsphone7
+previous_url: /configure-fiddler/tasks/monitorwindowsphone7
 ---
 
 # Monitor Windows Phone

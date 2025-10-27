@@ -3,7 +3,7 @@ title: Modify Matching Rules
 slug: ModifyAutoresponder
 publish: true
 position: 4
-previous_url: /tasks/modifyautoresponder
+previous_url: /generate-traffic/tasks/modifyautoresponder
 ---
 
 # Modify Matching Rules

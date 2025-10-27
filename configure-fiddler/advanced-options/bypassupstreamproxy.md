@@ -4,7 +4,7 @@ description: Configuration code to bypass the upstream proxy for all requests to
 slug: BypassUpstreamProxy
 publish: true
 position: 23
-previous_url: /tasks/bypassupstreamproxy
+previous_url: /configure-fiddler/tasks/bypassupstreamproxy
 ---
 
 # Bypass the Upstream Proxy

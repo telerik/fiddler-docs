@@ -3,7 +3,7 @@ title: Create a new request
 slug: CreateNewRequest
 publish: true
 position: 1
-previous_url: /tasks/createnewrequest
+previous_url: /generate-traffic/tasks/createnewrequest
 ---
 
 # Create a New Request
