@@ -12,7 +12,7 @@ To add menu actions to the **Tools** menu or context menus or add options to the
 
 1. Create and execute a .REG file as follows:
 
-	```
+	```txt
 	[HKEY_CURRENT_USER\Software\Microsoft\Fiddler2\MenuExt\&YourMenuItemName]
 	"Command"="YourExeName.exe"
 	"Parameters"="Your Parameters To Pass To The EXE"

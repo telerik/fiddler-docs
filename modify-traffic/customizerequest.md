@@ -32,7 +32,7 @@ The Options tab exposes options that allow you to customize the behavior of the 
 
 For instance, if you have the URL `http://www.example.com/#/?a=#`, and enter the Start At value as 08 and the End At value as 11, the Composer will request the following URLs:
 
-```
+```txt
 http://www.example.com/08/?a=08
 http://www.example.com/09/?a=09
 http://www.example.com/10/?a=10

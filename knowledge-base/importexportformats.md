@@ -44,7 +44,9 @@ Fiddler Classic supports the following formats by default:
 
    This format supports storage of non-textual response bodies. Because these .har files are not compressed, Fiddler Classic will only store non-textual content smaller than 32kb by default. This limit can be increased by setting a [Fiddler Classic Preference][5]: 
    
-        fiddler.importexport.HTTPArchiveJSON.MaxBinaryBodyLength
+```txt
+fiddler.importexport.HTTPArchiveJSON.MaxBinaryBodyLength
+```
 
 + **Visual Studio Web Test XML**
 

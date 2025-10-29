@@ -18,18 +18,17 @@ Internet Explorer and the .NET Framework are hardcoded not to send requests for 
 
 The simplest workaround is to use your machine name as the hostname instead of **Localhost** or **127.0.0.1**. For example, rather than hitting:
 
-```
+```sh
 http://localhost:8081/mytestpage.aspx
 ```
 	
 Instead visit:
 
-```
+```sh
 http://machinename:8081/mytestpage.aspx
 ```
 
 ## Solution 2: Use http://ipv4.fiddler
-
 
 Use `http://ipv4.fiddler` to hit localhost on the IPv4 adapter. This works especially well with the Visual Studio test webserver (codename: Cassini) because the test server only listens on the IPv4 loopback adapter. Use `http://ipv6.fiddler` to hit localhost on the IPv6 adapter, or use `http://localhost.fiddler` to hit localhost using `localhost` in the Host header. This last option should work best with IIS Express.
 

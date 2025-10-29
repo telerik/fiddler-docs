@@ -23,28 +23,26 @@ See [Build extension assemblies to run in both Fiddler Classic versions 2 and 4]
 ## Debugging
 
 + To ensure that exceptions and other extension-related errors are not silently caught: [set](slug://ExtensionsForv2Andv4) the `fiddler.debug.extensions.showerrors` preference to **True**. 
-+ To output logging information to the **Log** tab: [set][1] the `fiddler.debug.extensions.verbose`
-
-[1]: http://fiddler.wikidot.com/prefsaction
++ To output logging information to the **Log** tab: set the `fiddler.debug.extensions.verbose`
 
 ## Direct Fiddler Classic to load extension assemblies
 
 + To make the extensions available to the current user, install extension assembly DLLs to:
 
-	```
-	%localappdata%\Programs\Fiddler\Scripts
-	OR
-	%userprofile%\Documents\Fiddler2\Scripts
-	```
+```txt
+%localappdata%\Programs\Fiddler\Scripts
+OR
+%userprofile%\Documents\Fiddler2\Scripts
+```
 
 + Set the **Fiddler.RequiredVersion** attribute in your **AssemblyInfo.cs** file (or elsewhere in your code) as follows:
 
-	```c#
-	using Fiddler;
+```c#
+using Fiddler;
 
-	// Extension requires Fiddler Classic 2.2.8.6+ because it uses types introduced in v2.2.8...
-	[assembly: Fiddler.RequiredVersion("2.2.8.6")]
-	```
+// Extension requires Fiddler Classic 2.2.8.6+ because it uses types introduced in v2.2.8...
+[assembly: Fiddler.RequiredVersion("2.2.8.6")]
+```
 
 ## Sample Extension: Step by Step
 
@@ -66,41 +64,41 @@ See [Build extension assemblies to run in both Fiddler Classic versions 2 and 4]
  + In the Solution Explorer, right click the project.  Choose Properties.
  + On the Build Events tab, add the following to the Post-build event command line:
 
-	```c#
-	copy "$(TargetPath)" "%userprofile%\Documents\Fiddler2\Scripts\$(TargetFilename)"
-	```
+```c#
+copy "$(TargetPath)" "%userprofile%\Documents\Fiddler2\Scripts\$(TargetFilename)"
+```
 
 Modify the default class1.cs (or create a new class) in your project as follows:
 
-	```c#
-	using System;
-	using System.Windows.Forms;
-	using Fiddler;
+```c#
+using System;
+using System.Windows.Forms;
+using Fiddler;
 
-	[assembly: Fiddler.RequiredVersion("2.3.5.0")]
+[assembly: Fiddler.RequiredVersion("2.3.5.0")]
 
-	public class Violin : IAutoTamper    // Ensure class is public, or Fiddler won't see it!
-	{
-		string sUserAgent = "";
+public class Violin : IAutoTamper    // Ensure class is public, or Fiddler won't see it!
+{
+	string sUserAgent = "";
 
-		public Violin(){
-		/* NOTE: It's possible that Fiddler Classic UI isn't fully loaded yet, so don't add any UI in the constructor.
+	public Violin(){
+	/* NOTE: It's possible that Fiddler Classic UI isn't fully loaded yet, so don't add any UI in the constructor.
 
-			But it's also possible that AutoTamper* methods are called before OnLoad (below), so be
-			sure any needed data structures are initialized to safe values here in this constructor */
-		
-			sUserAgent = "Violin";
-		}
-
-		public void OnLoad(){ /* Load your UI here */ }
-		public void OnBeforeUnload() { }
-
-		public void AutoTamperRequestBefore(Session oSession){
-		oSession.oRequest["User-Agent"] = sUserAgent;
-		}
-		public void AutoTamperRequestAfter(Session oSession){}
-		public void AutoTamperResponseBefore(Session oSession){}
-		public void AutoTamperResponseAfter(Session oSession){}
-		public void OnBeforeReturningError(Session oSession){}
+		But it's also possible that AutoTamper* methods are called before OnLoad (below), so be
+		sure any needed data structures are initialized to safe values here in this constructor */
+	
+		sUserAgent = "Violin";
 	}
-	```
+
+	public void OnLoad(){ /* Load your UI here */ }
+	public void OnBeforeUnload() { }
+
+	public void AutoTamperRequestBefore(Session oSession){
+	oSession.oRequest["User-Agent"] = sUserAgent;
+	}
+	public void AutoTamperRequestAfter(Session oSession){}
+	public void AutoTamperResponseBefore(Session oSession){}
+	public void AutoTamperResponseAfter(Session oSession){}
+	public void OnBeforeReturningError(Session oSession){}
+}
+```
