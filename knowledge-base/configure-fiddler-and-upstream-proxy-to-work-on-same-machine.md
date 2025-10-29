@@ -21,7 +21,6 @@ res_type: kb
 	</tbody>
 </table>
 
-
 ## Description
 In some cases, when using Fiddler Classic it may be necessary to allow traffic through to an upstream proxy. If this is needed, follow the below solution.
 
