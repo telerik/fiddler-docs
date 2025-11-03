@@ -4,6 +4,7 @@ description: Install and trust Fiddler Root CA certificate on Windows
 slug: TrustFiddlerRootCert
 publish: true
 position: 30
+previous_url: /configure-fiddler/tasks/trustfiddlerrootcert
 ---
 
 # Configure Windows Client App to trust Fiddler Root Certificate
