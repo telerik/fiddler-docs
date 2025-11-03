@@ -4,6 +4,7 @@ description: Respond to a HTTP requests that require the usage of specific clien
 slug: RespondWithClientCert
 publish: true
 position: 35
+previous_url: /configure-fiddler/tasks/respondwithclientcert
 ---
 
 # Using Client Certificates

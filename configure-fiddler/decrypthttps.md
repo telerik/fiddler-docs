@@ -4,6 +4,7 @@ description: Configure Fiddler Classic to decrypt HTTPS traffic
 slug: DecryptHTTPS
 publish: true
 position: 20
+previous_url: /configure-fiddler/tasks/decrypthttps
 ---
 
 # Configure Fiddler Classic to Decrypt HTTPS Traffic

@@ -4,7 +4,7 @@ description: Instructions for installing the Fiddler Classic proxy tool
 slug: UsingFiddler
 publish: true
 position: 10
-previous_url: /tasks/installfiddler
+previous_url: /configure-fiddler/tasks/installfiddler
 ---
 
 # Using Fiddler 
