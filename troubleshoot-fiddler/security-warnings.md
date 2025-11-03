@@ -16,7 +16,7 @@ The Fiddler Classic application loads a list of add-ons and extensions on startu
 
 **Always Allow**: When chosen, the action is executed immediately. The consent dialog will not appear in the future.
 
-![security dialogs in Fiddler Classic](../images/security-dialogs.png)
+![security dialogs in Fiddler Classic](./images/security-dialogs.png)
 
 The consent dialogs in Fiddler Classic are triggered upon the following actions or user interactions:
 
@@ -40,6 +40,6 @@ The consent dialogs in Fiddler Classic are triggered upon the following actions 
 
 All consent dialogs in Fiddler Classic can be explicitly reset through the **Tools > Options > Extensions > Reset Allow Security Exceptions**
 
-![Reset security dialogs in Fiddler Classic](../images/security-dialogs-reset.png)
+![Reset security dialogs in Fiddler Classic](./images/security-dialogs-reset.png)
 
 

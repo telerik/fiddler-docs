@@ -16,7 +16,7 @@ res_type: kb
 		</tr>
 		<tr>
 			<td>Product</td>
-			<td>Progress® Telerik® Fiddler™ </td>
+			<td>Progress® Telerik® Fiddler Classic </td>
 		</tr>
 	</tbody>
 </table>

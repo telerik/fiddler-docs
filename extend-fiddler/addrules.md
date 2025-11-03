@@ -5,11 +5,9 @@ publish: true
 position: 13
 ---
 
-Add Rules to Fiddler
-====================
+# Add Rules to Fiddler
 
-Customize Rules
----------------
+## Customize Rules
 
 To add custom columns to the Fiddler Classic UI, modify requests or responses, test application performance, and a variety of other custom tasks, add rules to Fiddler's JScript.NET CustomRules.js file in **FiddlerScript**.
 
@@ -21,8 +19,7 @@ To add custom columns to the Fiddler Classic UI, modify requests or responses, t
 
 Fiddler Classic will automatically reload the rules.
 
-Use Additional .NET Assemblies
-------------------------------
+## Use Additional .NET Assemblies
 
 To use additional .NET assemblies in your script:
 
@@ -40,29 +37,16 @@ To use additional .NET assemblies in your script:
 
 To use the new assembly's functions without fully-qualifying them, update the **#import** clause at the top of the script.
 
-Change the JScript Editor Launched from the **Rules** Menu
-----------------------------------------------------------
+## Change the JScript Editor Launched from the **Rules** Menu
 
 1. Click **Tools > Options**.
 
 2. Edit the **Editor** string.
 
-Restore Default Rules
----------------------
+## Restore Default Rules
 
 1. Delete the **CustomRules.js** file in **%userprofile%\Documents\Fiddler2\Scripts**.
 
 2. Restart Fiddler.
 
 Note: Fiddler's default rules are stored in **%localappdata%\Programs\Fiddler\Scripts\SampleRules.js**.
-
-See Also
---------
-
-+ [FiddlerScript Reference][1]
-+ [FiddlerScript Editor][2]
-+ [Fiddler Classic SessionFlags][3]
-
-[1]: ../KnowledgeBase/FiddlerScript/
-[2]: http://fiddler2.com/add-ons
-[3]: ../KnowledgeBase/SessionFlags

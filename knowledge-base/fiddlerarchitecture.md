@@ -6,75 +6,92 @@ res_type: kb
 position: 12
 ---
 
-<!-- http://fiddler2.com/Fiddler/dev/FiddlerArchitecture.asp -->
+## Environment
 
-# Fiddler Classic Architecture Info
+<table>
+	<tbody>
+		<tr>
+			<td>Product Version</td>
+			<td>5.0.20253</td>
+		</tr>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® Fiddler Classic </td>
+		</tr>
+	</tbody>
+</table>
+
+## Fiddler Classic Architecture Info
 
 This page contains information about Fiddler's internal architecture which may be of interest for advanced users of Fiddler. Note that all information presented here is subject to change; expect that you will need to maintain your code if you use the functionality on this page.
 
 ## Session State
 The Session.state property exposes information about the current request
 
-		public enum SessionStates
-		{
-		  Created,                   // Object created but nothing's happening yet
-		  ReadingRequest,            // Thread is reading the HTTP Request
-		  AutoTamperRequestBefore,   // AutoTamperRequest pass 1 (Only used by IAutoTamper)
-		  HandTamperRequest,         // User can tamper using Fiddler Classic Inspectors
-		  AutoTamperRequestAfter,    // AutoTamperRequest pass 2 (Only used by IAutoTamper)
-		  SendingRequest,            // Thread is sending the Request to the server
-		  ReadingResponse,           // Thread is reading the HTTP Response
-		  AutoTamperResponseBefore,  // AutoTamperResponse pass 1 (Only used by IAutoTamper)
-		  HandTamperResponse,        // User can tamper using Fiddler Classic Inspectors
-		  AutoTamperResponseAfter,   // AutoTamperResponse pass 2 (Only used by IAutoTamper)
-		  SendingResponse,           // Sending response to client application
-		  Done,                      // Session is for archival purposes only
-		  Aborted                    // Session was aborted (client didn't want response, fatal error, etc)
-		};
+```c#
+public enum SessionStates
+{
+	Created,                   // Object created but nothing's happening yet
+	ReadingRequest,            // Thread is reading the HTTP Request
+	AutoTamperRequestBefore,   // AutoTamperRequest pass 1 (Only used by IAutoTamper)
+	HandTamperRequest,         // User can tamper using Fiddler Classic Inspectors
+	AutoTamperRequestAfter,    // AutoTamperRequest pass 2 (Only used by IAutoTamper)
+	SendingRequest,            // Thread is sending the Request to the server
+	ReadingResponse,           // Thread is reading the HTTP Response
+	AutoTamperResponseBefore,  // AutoTamperResponse pass 1 (Only used by IAutoTamper)
+	HandTamperResponse,        // User can tamper using Fiddler Classic Inspectors
+	AutoTamperResponseAfter,   // AutoTamperResponse pass 2 (Only used by IAutoTamper)
+	SendingResponse,           // Sending response to client application
+	Done,                      // Session is for archival purposes only
+	Aborted                    // Session was aborted (client didn't want response, fatal error, etc)
+};
+```
 
 ## FiddlerApplication
 The static **FiddlerApplication** object collects interesting objects and event handlers useful for building extensions.
 
-		public delegate void SimpleEventHandler();
-		public delegate void CalculateReportHandler(Session[] _arrSessions);
+```c#
+public delegate void SimpleEventHandler();
+public delegate void CalculateReportHandler(Session[] _arrSessions);
 
-		public class FiddlerApplication
-		{
-		  [CodeDescription("Fiddler's main form.")]
-		  public static frmViewer UI;
+public class FiddlerApplication
+{
+	[CodeDescription("Fiddler's main form.")]
+	public static frmViewer UI;
 
-		  public static Proxy oProxy;
-		  public static AutoResponder oAutoResponder;
-		  public static FiddlerExtensions oExtensions;
-		  public static FiddlerScript scriptRules;
+	public static Proxy oProxy;
+	public static AutoResponder oAutoResponder;
+	public static FiddlerExtensions oExtensions;
+	public static FiddlerScript scriptRules;
 
-		  [CodeDescription("Fiddler's core proxy engine.")]
-		  public static Proxy oProxy;
+	[CodeDescription("Fiddler's core proxy engine.")]
+	public static Proxy oProxy;
 
-		  [CodeDescription("Fiddler's AutoResponder object.")]  REMOVED in v2.1.8
-		  public static AutoResponder oAutoResponder;
+	[CodeDescription("Fiddler's AutoResponder object.")]  REMOVED in v2.1.8
+	public static AutoResponder oAutoResponder;
 
-		  [CodeDescription("Fiddler's loaded extensions.")]
-		  public static FiddlerExtensions oExtensions;
+	[CodeDescription("Fiddler's loaded extensions.")]
+	public static FiddlerExtensions oExtensions;
 
-		  [CodeDescription("FiddlerScript scripting engine.")]   Likely to be removed
-		  public static FiddlerScript scriptRules;
+	[CodeDescription("FiddlerScript scripting engine.")]   Likely to be removed
+	public static FiddlerScript scriptRules;
 
-		  [CodeDescription("Sync this event to be notified when Fiddler Classic has completed startup.")]
-		  public static event SimpleEventHandler FiddlerBoot;
+	[CodeDescription("Sync this event to be notified when Fiddler Classic has completed startup.")]
+	public static event SimpleEventHandler FiddlerBoot;
 
-		  [CodeDescription("Sync this event to be notified when Fiddler Classic has attached as the system proxy.")]
-		  public static event SimpleEventHandler FiddlerAttach;
+	[CodeDescription("Sync this event to be notified when Fiddler Classic has attached as the system proxy.")]
+	public static event SimpleEventHandler FiddlerAttach;
 
-		  [CodeDescription("Sync this event to be notified when Fiddler Classic has detached as the system proxy.")]
-		  public static event SimpleEventHandler FiddlerDetach;
+	[CodeDescription("Sync this event to be notified when Fiddler Classic has detached as the system proxy.")]
+	public static event SimpleEventHandler FiddlerDetach;
 
-		  [CodeDescription("Sync this event to be notified when Fiddler Classic shuts down.")]
-		  public static event SimpleEventHandler FiddlerShutdown;
+	[CodeDescription("Sync this event to be notified when Fiddler Classic shuts down.")]
+	public static event SimpleEventHandler FiddlerShutdown;
 
-		  [CodeDescription("Sync this event to capture the CalculateReport event, summarizing the selected sessions.")]
-		  public static event CalculateReportHandler CalculateReport;
-		}
+	[CodeDescription("Sync this event to capture the CalculateReport event, summarizing the selected sessions.")]
+	public static event CalculateReportHandler CalculateReport;
+}
+```
 
 ## Fiddler SessionFlags
 Each Session object in Fiddler Classic contains a collection of string flags, in the Session.oFlags[] collection.  The flags control how the session is processed and displayed in Session List. See [Fiddler Classic Session Flags](http://fiddler2.com/Fiddler/dev/SessionFlags.asp) for more information.
@@ -97,4 +114,4 @@ Note that this may be different than if Fiddler Classic were not intercepting th
 Learn more about [HTTPS Decryption](../Configure-Fiddler/Tasks/DecryptHTTPS).
 
 ## Silent Installation
-Want a silent / unattended install?  Use the setup command line: **FiddlerSetup.exe /S**
+Want a silent / unattended install?  Use the setup command line: `FiddlerSetup.exe /S`

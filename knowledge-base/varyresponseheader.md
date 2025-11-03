@@ -7,8 +7,22 @@ position: 7
 res_type: kb
 ---
 
-About the Vary Response Header
-==============================
+## Environment
+
+<table>
+	<tbody>
+		<tr>
+			<td>Product Version</td>
+			<td>5.0.20253</td>
+		</tr>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® Fiddler Classic </td>
+		</tr>
+	</tbody>
+</table>
+
+## About the Vary Response Header
 
 As described in the HTTP/1.1 specification (RFC2616), the Vary response header allows a cache to determine if a cached (still fresh) response may be returned for a subsequent request, based on whether or not the new request's headers match those that were sent when the the previously response was originally cached.
 
@@ -19,22 +33,19 @@ As described in the HTTP/1.1 specification (RFC2616), the Vary response header a
   field value advises the user agent about the criteria that were used
   to select the representation.
 
-The Problem
------------
+## The Problem
 
 Unfortunately, the WinINET caching engine (below Internet Explorer and other applications) does not cache outbound request headers.  This limitation makes it impossible for WinINET to perform the request-header matching algorithm. 
 
 Hence, Internet Explorer is conservative and generally will refuse to return a cached Vary response for a new request, except under special circumstances, as detailed below.
 
-Internet Explorer 6
--------------------
+## Internet Explorer 6
 
 Internet Explorer 6 will treat a response with a Vary header as completely uncacheable, unless the Vary header contains only the token User-Agent.  Hence, a subsequent request will be made unconditionally, resulting in a full re-delivery of the unchanged response. This results in a significant performance problem when Internet Explorer 6 encounters Vary headers.
 
 Note: IE6 will ignore the Vary header entirely if the response was delivered with HTTP Compression; the header is dropped when URLMon decompresses the cache file on WinINET's behalf.
 
-Internet Explorer 7
--------------------
+## Internet Explorer 7
 
 For Internet Explorer 7, the problem was not eliminated, but its impact was mitigated in some common cases. 
 
@@ -46,8 +57,7 @@ Even though revalidation of cache response will require one round trip to server
 
 Note, WinINET will remove the Vary: Accept-Encoding header if it decompressed the response.  Therefore, you should only send a Vary: Accept-Encoding header when you have compressed the content (e.g. Content-Encoding: gzip).
 
-Best Practices
---------------
+## Best Practices
 
 Never send Vary: Host.  All responses implicitly vary by hostname, because the hostname is a part of the URI, and all requests vary by URI.
 Only send a Vary: Accept-Encoding header when you have compressed the content (e.g. Content-Encoding: gzip).

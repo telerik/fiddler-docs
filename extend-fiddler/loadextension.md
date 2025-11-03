@@ -6,8 +6,7 @@ publish: true
 position: 4
 ---
 
-Load Extension in Fiddler
--------------------------
+# Load Extension in Fiddler
 
 1. Compile your project.
 

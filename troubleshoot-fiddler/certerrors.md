@@ -7,9 +7,6 @@ position: 20
 
 # Certificate errors or .NET security exceptions while capturing traffic
 
-Solution: 
----------
+## Solution: 
 
-[Configure Fiddler Classic to Decrypt HTTPS][1]
-
-[1]: ../Configure-Fiddler/Tasks/DecryptHTTPS
+[Configure Fiddler Classic to Decrypt HTTPS](slug://DecryptHTTPS)

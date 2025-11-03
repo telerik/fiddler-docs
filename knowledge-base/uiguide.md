@@ -6,16 +6,26 @@ position: 3
 res_type: kb
 ---
 
-User Interface Guide
-====================
+## Environment
 
-Overview
---------
+<table>
+	<tbody>
+		<tr>
+			<td>Product Version</td>
+			<td>5.0.20253</td>
+		</tr>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® Fiddler Classic </td>
+		</tr>
+	</tbody>
+</table>
 
-![UI Overview](../images/UIGuide/UIOverview.png)
+## User Interface Guide
 
-The Web Sessions List
----------------------
+![UI Overview](./images/UIOverview.png)
+
+## The Web Sessions List
 
 The Web Sessions list contains the list of HTTP Requests that are sent by your computer.  You can resize and reorder the columns in this list for your convenience.  You can also sort this list by clicking on the column header.
 
@@ -30,7 +40,7 @@ Certain key information is available in this list, including:
 + Caching - Values from the Response's Expires or Cache-Control headers
 + Process - The local Windows Process from which the traffic originated
 + Content-Type - The Content-Type header from the Response
-+ Custom - A text field you can set [via scripting]({%slug AddColumns%}).
++ Custom - A text field you can set [via scripting](slug://AddColumns).
 + Comments - A text field you can set from scripting or the session's context menu
 
 In Fiddler Classic v2.2.0.5 and later, you can add new columns of your choice.
@@ -39,43 +49,42 @@ The default text coloring of the Session entries derives from the HTTP Status (r
 
 Each session is marked with an icon for quick reference:
 
-+ ![Request Being Sent](../images/UIGuide/RequestBeingSent.png) 	Request is being sent to the server
-+ ![Response Being Read](../images/UIGuide/RequestBeingRead.png) Response is being read from the server
-+ ![Request Paused](../images/UIGuide/RequestPaused.png) Request is paused at a breakpoint
-+ ![Response Paused](../images/UIGuide/ResponsePaused.png) Response is paused at a breakpoint
-+ ![Request Used HEAD](../images/UIGuide/RequestUsedHEAD.png) Request used HTTP HEAD method; response should have no body
-+ ![Request Used POST](../images/UIGuide/RequestUsedPost.png) Request used HTTP POST method
-+ ![Request Used CONNECT](../images/UIGuide/RequestUsedCONNECT.png) Request used HTTP CONNECT method; this establishes a tunnel used for [HTTPS traffic]({%slug DecryptHTTPS%})
-+ ![HTML](../images/UIGuide/HTML.png) Response was HTML
-+ ![Image](../images/UIGuide/Image.png) Response was an image
-+ ![Script](../images/UIGuide/Script.PNG) Response was a script
-+ ![CSS](../images/UIGuide/CSS.png) Response was Cascading Style Sheet
-+ ![XML](../images/UIGuide/XML.png) Response was XML
-+ ![JSON](../images/UIGuide/JSON.png) Response was JSON
-+ ![Audio](../images/UIGuide/Audio.png) Response was an audio file
-+ ![Video](../images/UIGuide/Video.png) Response was a video file
-+ ![Silverlight](../images/UIGuide/Silverlight.png) Response was a Silverlight applet
-+ ![Flash](../images/UIGuide/Flash.png) Response was a Flash applet
-+ ![Font](../images/UIGuide/Font.png) Response was a font
-+ ![Successful](../images/UIGuide/Successful.png) Generic successful response
-+ ![Redirect](../images/UIGuide/300.png) Response was HTTP/300,301,302,303 or 307 redirect
-+ ![Use Cached](../images/UIGuide/304.png) Response was HTTP/304: Use cached version
-+ ![Request Client Credentials](../images/UIGuide/RequestClientCredentials.png) Response was a request for client credentials
-+ ![Server Error](../images/UIGuide/ServerError.png) Response was a server error
-+ ![Session Aborted](../images/UIGuide/SessionAborted.png) Session was aborted by the client, Fiddler, or the Server.
++ ![Request Being Sent](./images/RequestBeingSent.png) 	Request is being sent to the server
++ ![Response Being Read](./images/RequestBeingRead.png) Response is being read from the server
++ ![Request Paused](./images/RequestPaused.png) Request is paused at a breakpoint
++ ![Response Paused](./images/ResponsePaused.png) Response is paused at a breakpoint
++ ![Request Used HEAD](./images/RequestUsedHEAD.png) Request used HTTP HEAD method; response should have no body
++ ![Request Used POST](./images/RequestUsedPost.png) Request used HTTP POST method
++ ![Request Used CONNECT](./images/RequestUsedCONNECT.png) Request used HTTP CONNECT method; this establishes a tunnel used for [HTTPS traffic](slug://DecryptHTTPS)
++ ![HTML](./images/HTML.png) Response was HTML
++ ![Image](./images/Image.png) Response was an image
++ ![Script](./images/Script.PNG) Response was a script
++ ![CSS](./images/CSS.png) Response was Cascading Style Sheet
++ ![XML](./images/XML.png) Response was XML
++ ![JSON](./images/JSON.png) Response was JSON
++ ![Audio](./images/Audio.png) Response was an audio file
++ ![Video](./images/Video.png) Response was a video file
++ ![Silverlight](./images/Silverlight.png) Response was a Silverlight applet
++ ![Flash](./images/Flash.png) Response was a Flash applet
++ ![Font](./images/Font.png) Response was a font
++ ![Successful](./images/Successful.png) Generic successful response
++ ![Redirect](./images/300.png) Response was HTTP/300,301,302,303 or 307 redirect
++ ![Use Cached](./images/304.png) Response was HTTP/304: Use cached version
++ ![Request Client Credentials](./images/RequestClientCredentials.png) Response was a request for client credentials
++ ![Server Error](./images/ServerError.png) Response was a server error
++ ![Session Aborted](./images/SessionAborted.png) Session was aborted by the client, Fiddler, or the Server.
 
-Interacting with Sessions
--------------------------
+## Interacting with Sessions
 
 If you right-click one or more sessions, a context-menu appears:
 
-![Context Menu](../images/UIGuide/ContextMenu.png)
+![Context Menu](./images/ContextMenu.png)
 
-Tip: You can add to this menu using the [ContextAction feature of FiddlerScript]({%slug PerfTesting%}).  
+Tip: You can add to this menu using the [ContextAction feature of FiddlerScript](slug://PerfTesting).  
 
 On the **Copy** menu:
 
-![Copy Menu](../images/UIGuide/CopyMenu.png)
+![Copy Menu](./images/CopyMenu.png)
 
 + Session - Copy the raw session(s) to the clipboard in plaintext and colorized HTML format
 + Just URL - Copy the hostname + URL path
@@ -85,7 +94,7 @@ On the **Copy** menu:
 
 On the **Save** menu:
 
-![Save Menu](../images/UIGuide/SaveMenu.png)
+![Save Menu](./images/SaveMenu.png)
 
 + **Session > In ArchiveZIP** - Creates a .SAZ archive containing all selected requests & responses, plus an index page. 
 + **Session** - Create a text file containing the request followed by the response
@@ -95,36 +104,28 @@ On the **Save** menu:
 + **Full Response** - Create a text file containing the response headers and response body
 + **Response Body** - Create a file contain the body of the response (often HTML or an image)
 
-AutoResponder
--------------
+## AutoResponder
 
 The [AutoResponder tab][34] allows you to return locally stored content instead of forwarding requests to the server.  Learn more...
 
-Inspectors
-----------
+## Inspectors
 
 The Inspectors tab allows you to view the contents of each request and response, in a variety of different formats.  You can develop custom Inspectors using .NET.
 
-Filters
--------
+## Filters
 
 The Filters tab enables you to quickly filter out traffic that is not of interest. 
 
-Timeline
---------
+## Timeline
 
 The Timeline Tab shows the transfer timeline of selected HTTP Sessions.
 
-QuickExec
----------
+## QuickExec
 
 The QuickExec box below the session list allows you to execute commands and search your traffic. Learn more...
 
-![QuickExec Box](../images/UIGuide/QuickExec.png)
+![QuickExec Box](./images/QuickExec.png)
 
-Request Composer
-----------------
+## Request Composer
 
-The [Request Composer]({%slug CreateNewRequest%}) allows you to craft custom requests to send to the server.  You can either create a new request manually, or you can drag and drop a session from the Web Sessions list to create a new request based on the existing request. Learn more...
-
-
+The [Request Composer](slug://CreateNewRequest) allows you to craft custom requests to send to the server.  You can either create a new request manually, or you can drag and drop a session from the Web Sessions list to create a new request based on the existing request. Learn more...

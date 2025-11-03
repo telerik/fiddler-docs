@@ -5,28 +5,22 @@ slug: SAZClipboard
 publish: true
 position: 1
 res_type: kb
+previous_url: /knowledge-base/scancookies
 ---
 
-SAZClipboard
-============
-
-Introduction
-------------
+## Introduction
 
 The SAZClipboard is a simple extension that allows you to open a .SAZ file outside of the main Fiddler Classic UI.  You can then drag sessions between this clipboard from the Fiddler Classic UI.
 
-Why would I want to do this?
-----------------------------
+## Why would I want to do this?
 
 This may be useful if you're using the Fiddler Classic Request Builder or AutoResponder features, both of which accept drops of Fiddler Classic sessions for reuse.
 
-Download
---------
+## Download
 
 Install SAZClipboard from here (43 kb). Last update 4/16/2010
 
-Usage Instructions
-------------------
+## Usage Instructions
 
 Open the SAZClipboard Window from the **Tools Menu**.
 
@@ -36,5 +30,5 @@ You can drag and drop from the Fiddler Classic session list to the SAZ clipboard
 
 ![Clipboard Window][2]
 
-[1]: ../../images/SAZClipboard/ToolsMenuItem.png
-[2]: ../../images/SAZClipboard/ClipboardWindow.png
+[1]: ./images/ToolsMenuItem.png
+[2]: ./images/ClipboardWindow.png

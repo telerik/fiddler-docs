@@ -10,7 +10,7 @@ position: 10
 
 Sometimes, Fiddler Classic may show a dialog containing the following text:
 
-```
+```txt
 Exception of type 'System.OutOfMemoryException' was thrown.
 at System.IO.MemoryStream.set_Capacity(Int32 value)
 at System.IO.MemoryStream.EnsureCapacity(Int32 value)

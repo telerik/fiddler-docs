@@ -9,7 +9,7 @@ position: 40
 
 This folowing error message indicates that one of the .NET Framework's configuration files is corrupt. The most common fix for this is to trigger the Windows OS update and install all available .NET Framework updates. If that doesn't work, try re-installing the .NET Framework. If that doesn't work, try editing the file specified in the error message to correct whatever the error message is complaining about.
 
-```
+```txt
 Sorry, you may have found a bug...
 
 Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
@@ -23,6 +23,6 @@ System.Configuration.ConfigurationErrorsException: Unrecognized configuration se
 
 or
 
-```
+```txt
 System.Configuration.ConfigurationErrorsException: Unrecognized configuration section runtime. (C:\Program Files (x86)\Fiddler2\Fiddler.exe.Config line 2)
 ```

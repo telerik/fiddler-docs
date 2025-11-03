@@ -6,9 +6,22 @@ position: 9
 res_type: kb
 ---
 
-<!-- http://fiddler2.com/Fiddler2/help/AutoResponder.asp -->
+## Environment
 
-# AutoResponder Reference
+<table>
+	<tbody>
+		<tr>
+			<td>Product Version</td>
+			<td>5.0.20253</td>
+		</tr>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® Fiddler Classic </td>
+		</tr>
+	</tbody>
+</table>
+
+<!-- http://fiddler2.com/Fiddler2/help/AutoResponder.asp -->
 
 Fiddler's AutoResponder tab allows you to return files from your local disk instead of transmitting the request to the server.
 
@@ -145,7 +158,7 @@ Delay sending request to the server by #### of milliseconds. Non-final action.
 Set the Request header with the given Name to the specfied value. If no header of that name exists, a new header will be created. Non-final action.
 
 ###*flag:Name=Value
-Set the [Session Flag]({%slug SessionFlags%}) with the given Name to the specfied value. If no header of that name exists, a new header will be created. Non-final action.
+Set the [Session Flag](slug://SessionFlags) with the given Name to the specfied value. If no header of that name exists, a new header will be created. Non-final action.
 
 ### *CORSPreflightAllow
 Returns a response that indicates that [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) is allowed.

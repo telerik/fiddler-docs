@@ -7,214 +7,248 @@ position: 1
 res_type: kb
 ---
 
-Using QuickExec
-===============
+## Environment
+
+<table>
+	<tbody>
+		<tr>
+			<td>Product Version</td>
+			<td>5.0.20253</td>
+		</tr>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® Fiddler Classic </td>
+		</tr>
+	</tbody>
+</table>
+
+## Using QuickExec
 
 Fiddler Classic's QuickExec box allows you to launch script-commands quickly.
 
- ![QuickExec Box][1]
+ ![QuickExec Box](./images/QuickExecBox.png)
 Keyboard Shortcuts
 ------------------
 
 + Hit ALT+Q to quickly set focus to the QuickExec box.  If Fiddler Classic isn't active, hit CTRL+ALT+F first to activate Fiddler.
 + In the QuickExec box, hit CTRL+I to insert the URL of the currently selected session in the session list.
 
+## Default commands
 
-
-Default commands
-----------------
-
-**?sometext**	
+- **?sometext**	
 
 As you type sometext, Fiddler Classic will highlight sessions where the URL contains sometext.  Hit Enter to set focus to the selected matches.	
 
-	?searchtext
+```sh
+?searchtext
+```
 
-**>size**	
+- **>size**	
 
 Select sessions where response size is greater than size bytes.	
 
-	>40000 <-- Select responses over 40kb
+```sh
+>40000 # Select responses over 40kb
+```
 
-Also:
-
-	<size
+- **<size**
 
 Select sessions where response size is less than size bytes.	
 
-	<5k <-- Select responses under 5kb
+```sh
+<5k # Select responses under 5kb
+```
 
+- **=status**
 
-**=status**
-
-**=method**	
+- **=method**	
 
 Select sessions where response status = status or request method = method.	
 
-	=301 <-- Select 301 redirect responses
-	=POST <-- Select POST requests
+```sh
+=301 # Select 301 redirect responses
+=POST # Select POST requests
+```
 
-
-**@host**
+- **@host**
 
 Select sessions where the request host contains host.  Hit Enter to set focus to the selected matches.	
 
-	@msn.com <-- Select www.msn.com, login.msn.com, etc
+```sh
+@msn.com # Select www.msn.com, login.msn.com, etc
+```
 
-
-**bold**	
+- **bold**	
 
 Mark any future sessions in bold if the url contains the target string	
 
-	bold /bar.aspx
-	bold        <-- Call with no parameter to clear
+```sh
+bold /bar.aspx
+bold  # Call with no parameter to clear
+```
 
-
-**bpafter**	
+- **bpafter**	
 
 Break any response where the RequestURI contains the specified string	
 
-	bpafter /favicon.ico 
-	bpafter        <-- Call with no parameter to clear
+```sh
+bpafter /favicon.ico 
+bpafter # Call with no parameter to clear
+```
 
-
-**bps**	
+- **bps**	
 
 Break any response where the status code matches	
 
-	bps 404
-	bps        <-- Call with no parameter to clear
+```sh
+bps 404
+bps        # Call with no parameter to clear
+```
 
 
-**bpv** or **bpm**
+- **bpv** or **bpm**
 
 Create a request breakpoint for the specified HTTP method.  Setting this command will clear any previous value for the command; calling it with no parameter will disable the breakpoint.	
 
-	bpv POST
-	bpv        <-- Call with no parameter to clear
+```sh
+bpv POST
+bpv        # Call with no parameter to clear
+```
 
-
-**bpu**	
+- **bpu**	
 
 Create a request breakpoint for URIs containing the specified string.  Setting this command will clear any previous value for the command; calling it with no parameter will disable the breakpoint.	
 
-	bpu /myservice.asmx
-	bpu        <-- Call with no parameter to clear
+```sh
+bpu /myservice.asmx
+bpu        # Call with no parameter to clear
+```
 
-
-**cls** or **clear**	
+- **cls** or **clear**	
 
 clear the session list	
 
-	cls
+```sh
+cls
+```
 
-
-**dump**	
+- **dump**	
 
 dump all sessions to a zip archive in C:\	
 
-	dump
+```sh
+dump
+```
 
-
-**g** or **go**	
+- **g** or **go**	
 
 Resume all breakpointed sessions	
 
-	g
+```sh
+g
+```
 
-
-**help**	
+- **help**	
 
 Show this page	
 
-	help
+```sh
+help
+```
 
+- **hide**	Hide Fiddler in System tray	
 
-**hide**	Hide Fiddler in System tray	
+```sh
+hide
+```
 
-	hide
-
-
-**urlreplace**	
+- **urlreplace**	
 
 Replace any string in URLs with a different string.  Setting this command will clear any previous value for the command; calling it with no parameter will cancel the replacement.	
 
-	urlreplace SeekStr ReplaceWithStr
-	urlreplace        <-- Call with no parameters to clear
+```sh
+urlreplace SeekStr ReplaceWithStr
+urlreplace        # Call with no parameters to clear
+```
 
-
-**start**	
+- **start**	
 
 Register as the system proxy	
 
-	start
+```sh
+start
+```
 
-
-**stop**	
+- **stop**	
 
 Unregister as the system proxy	
 
-	stop
+```sh
+stop
+```
 
-
-**show**	
+- **show**	
 
 Restore Fiddler Classic from system tray -- more useful when triggering rules from ExecAction.exe (see below)	
 
-	show
+```sh
+show
+```
 
-
-**select *MIME***	
+- **select *MIME***	
 
 Select any session where the response Content-Type header contains the specified string.	
 
-	select image
-	select css
-	select htm
+```sh
+select image
+select css
+select htm
+```
 
-
-**select *HeaderOrFlag PartialValue***
+- **select *HeaderOrFlag PartialValue***
 
 Select any session where the named Header or SessionFlag contains the specified string.	
 
-	select ui-comments slow
-	select ui-bold *     <-- unless preceded by a slash, * means any value
-	select ui-comments \*     <-- Find comments with a *
-	select @Request.Accept html     <-- Find requests with Accept: html
-	select @Response.Set-Cookie domain <- Find responses that Set-Cookie on a domain
+```sh
+select ui-comments slow
+select ui-bold *     # unless preceded by a slash, * means any value
+select ui-comments \*     # Find comments with a *
+select @Request.Accept html     # Find requests with Accept: html
+select @Response.Set-Cookie domain <- Find responses that Set-Cookie on a domain
+```
 
-
-**allbut** or **keeponly**	
+- **allbut** or **keeponly**	
 
 Hide all sessions except those where Content-Type header contains the specified string.	
 
-	allbut xml
-	allbut java
+```sh
+allbut xml
+allbut java
+```
 
-
-**quit**	
+- **quit**	
 
 Shutdown Fiddler.	
 
-	quit
+```sh
+quit
+```
 
-
-**!dns hostname**
+- *!dns hostname**
 
 Perform a DNS lookup of the target host and show the results on the LOG tab	
 
-	!dns www.example.com
-	!nslookup www.example.com
+```sh
+!dns www.example.com
+!nslookup www.example.com
+```
 
-
-**!listen *PORT [CERTHOSTNAME]***	
+- **!listen *PORT [CERTHOSTNAME]***	
 
 Set up an additional listener on another port, optionally secured by a HTTPS certificate	
 
-	!listen 8889
-	!listen 4443 localhost
-	!listen 444 secure.example.com
-
-
-
-[1]: ../images/QuickExecReference/QuickExecBox.png
+```sh
+!listen 8889
+!listen 4443 localhost
+!listen 444 secure.example.com
+```

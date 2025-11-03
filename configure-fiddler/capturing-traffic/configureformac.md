@@ -1,0 +1,61 @@
+---
+title: Configuring Mac
+description: Configure Fiddler Classic for Mac
+slug: ConfigureForMac
+publish: true
+position: 16
+previous_url: /configure-fiddler/tasks/configureformac
+---
+
+# Configure Fiddler Classic for Mac
+
+>tip Update: If you're looking for Fiddler for macOS, check out the new [Fiddler Everywhere](https://www.telerik.com/fiddler/fiddler-everywhere)! Check this [blog post](https://www.telerik.com/blogs/new-release-fiddler-everywhere-3) to learn more about it or directly see how easy is it to [setup and use Fiddler Everywhere on macOS](http://docs.telerik.com/fiddler-everywhere/get-started/quickstart-macos.html).
+
+
+Virtualization products like VMWare Fusion or Parallels Desktop permit Fiddler to run in a virtual machine on your Mac.
+
+## Configure the Virtual Machine
+
+1. Install Parallels.
+
+2. Set the Windows Virtual Machine **Hardware > Network 1 Type** to **Bridged Network** mode.
+
+3. Restart the Virtual Machine.
+
+## Configure Fiddler Classic
+
+1. Install Fiddler Classic on the Virtual Machine.
+
+2. Open Fiddler.
+
+3. Click **Tools > Options > Connections**.
+
+4. Click the checkbox by **Allow remote computers to connect**. 
+
+ ![Allow remote computers to connect](./images/AllowRemoteComputersToConnect.png)
+
+5. Restart Fiddler.
+
+6. Ensure your firewall allows incoming connections to the Fiddler Classic process. 
+
+## Configure Mac 
+
+1. Hover over the **Online indicator** at the far right of the Fiddler Classic toolbar to display the IP addresses assigned to the virtual machine.
+
+ ![Online Tooltip](./images/OnlineTooltip.png)
+
+2. Click the **Apple Menu**.
+
+3. Click **System Preferences**. 
+
+4. Click the **Network** icon.
+
+5. Click the **Advanced** button. 
+
+6. Click the **Proxies** tab. 
+
+7. Enable the **Web Proxy** (HTTP) and **Secure Web Proxy** (HTTPS) options to point to the IPv4 address of the virtual machine using port 8888.
+
+## Disable After Use
+
+After using Fiddler, return to the **OSX System Preferences** and disable the proxy settings.

@@ -6,8 +6,22 @@ position: 8
 res_type: kb
 ---
 
-Headers References
---------------
+## Environment
+
+<table>
+	<tbody>
+		<tr>
+			<td>Product Version</td>
+			<td>5.0.20253</td>
+		</tr>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® Fiddler Classic </td>
+		</tr>
+	</tbody>
+</table>
+
+## Headers References
 
 This article lists several popular references for HTTP headers. We also explain some of the [frequently misinterpreted HTTP headers](#additional-Information).
 
@@ -17,18 +31,13 @@ References for HTTP Response Status codes:
 + [IANA Header Registrations][4]
 + [Jukka Korpela's list of HTTP Headers][5]
 
-Additional Information
-----------------------
+## Additional Information
 
 Following are some remarks on a few of the HTTP headers that are often misunderstood.
-
-
 
 **Expires**
 
 Date the response expires and should no longer be used by a cache.  See [http://www.mnot.net/cache_docs/][6] or pg 183.  Note that this header should be overruled by the Cache-Control header in a HTTP1.1 client.
-
-
 
 **Cache-Control: must-revalidate**	
 

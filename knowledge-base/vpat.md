@@ -6,44 +6,48 @@ publish: true
 res_type: kb
 ---
 
+## Environment
 
-### Date:
-9/15/2012
+<table>
+	<tbody>
+		<tr>
+			<td>Product Version</td>
+			<td>5.0.20253</td>
+		</tr>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® Fiddler Classic </td>
+		</tr>
+	</tbody>
+</table>
 
-### Name of Product:
-Fiddler Classic Web Debugger
-
-### Contact for more Information:
-[https://www.telerik.com/fiddler](https://www.telerik.com/fiddler)
-
-# Summary
 ## Voluntary Product Accessibility Template
 
-### Section 1194.21 Software Applications and Operating Systems
+#### Section 1194.21 Software Applications and Operating Systems
 Please refer to the attached VPAT
 
-### Section 1194.22 Web-based Internet Information and Applications
+#### Section 1194.22 Web-based Internet Information and Applications
 Not Applicable - Fiddler Classic is not considered a web-based internet information application
 
-### Section 1194.23 Telecommunications Products
+#### Section 1194.23 Telecommunications Products
 Not Applicable - Fiddler Classic is not considered a telecommunications product
 
-### Section 1194.24 Video and Multi-media Products
+#### Section 1194.24 Video and Multi-media Products
 Not Applicable - Fiddler Classic is not considered a video or multi-media product
 
-### Section 1194.25 Self-Contained, Closed Products
+#### Section 1194.25 Self-Contained, Closed Products
 Not Applicable - Fiddler Classic is not considered a self-contained, closed product
 
-### Section 1194.26 Desktop and Portable Computers
+#### Section 1194.26 Desktop and Portable Computers
 Not Applicable - Fiddler Classic is not considered a desktop or portable computer
 
-### Section 1194.31 Functional Performance Criteria
+#### Section 1194.31 Functional Performance Criteria
 Please refer to the attached VPAT
 
-### Section 1194.41 Information, Documentation, and Support
+#### Section 1194.41 Information, Documentation, and Support
 Please refer to the attached VPAT
 
-# Section 1194.21 Software Applications and Operating Systems - Detail
+##  Section 1194.21 Software Applications and Operating Systems - Detail
 ## Voluntary Product Accessibility Template
 
 ### (a) When software is designed to run on a system that has a keyboard, product functions shall be executable from a keyboard where the function itself or the result of performing a function can be discerned textually.
@@ -118,7 +122,7 @@ Not Applicable
 
 * Fiddler Classic does not use electronic forms.
 
-# Section 1194.22 Web-based Internet Information and Applications - Detail
+### Section 1194.22 Web-based Internet Information and Applications - Detail
 ## Voluntary Product Accessibility Template
 
 ### (a) A text equivalent for every non-text element shall be provided (e.g., via "alt", "longdesc", or in element content).
@@ -169,7 +173,7 @@ Not Applicable
 ### (p) When a timed response is required, the user shall be alerted and given sufficient time to indicate more time is required.
 Not Applicable
 
-# Section 1194.23 Telecommunications Products - Detail
+### Section 1194.23 Telecommunications Products - Detail
 ## Voluntary Product Accessibility Template
 
 ### (a) Telecommunications products or systems which provide a function allowing voice communication and which do not themselves provide a TTY functionality shall provide a standard non-acoustic connection point for TTYs. Microphones shall be capable of being turned on and off to allow the user to intermix speech with TTY use.
@@ -214,7 +218,7 @@ Not Applicable
 ### (k)(4) Products which have mechanically operated controls or keys shall comply with the following: The status of all locking or toggle controls or keys shall be visually discernible, and discernible either through touch or sound.
 Not Applicable
 
-# Section 1194.24 Video and Multimedia Products
+## Section 1194.24 Video and Multimedia Products
 ## Voluntary Product Accessibility Template
 
 ### (a) All analog television displays 13 inches and larger, and computer equipment that includes analog television receiver or display circuitry, shall be equipped with caption decoder circuitry which appropriately receives, decodes, and displays closed captions from broadcast, cable, videotape, and DVD signals. As soon as practicable, but not later than July 1, 2002, widescreen digital television (DTV) displays measuring at least 7.8 inches vertically, DTV sets with conventional displays measuring at least 13 inches vertically, and stand-alone DTV tuners, whether or not they are marketed with display screens, and computer equipment that includes DTV receiver or display circuitry, shall be equipped with caption decoder circuitry which appropriately receives, decodes, and displays closed captions from broadcast, cable, videotape, and DVD signals.
@@ -241,7 +245,7 @@ Does Not Support
 ### (e) Display or presentation of alternate text presentation or audio descriptions shall be user-selectable unless permanent.
 Not Applicable
 
-# Section 1194.25 Self-Contained, Closed Products - Detail
+## Section 1194.25 Self-Contained, Closed Products - Detail
 ## Voluntary Product Accessibility Template
 
 ### (a) Self contained products shall be usable by people with disabilities without requiring an end-user to attach Assistive Technology to the product. Personal headsets for private listening are not Assistive Technology.
@@ -283,7 +287,7 @@ Not Applicable
 ### (j)(4) Products which are freestanding, non-portable, and intended to be used in one location and which have operable controls shall comply with the following: Operable controls shall not be more than 24 inches behind the reference plane.
 Not Applicable
 
-# Section 1194.26 Desktop and Portable Computers - Detail
+## Section 1194.26 Desktop and Portable Computers - Detail
 ## Voluntary Product Accessibility Template
 
 ### (a) All mechanically operated controls and keys shall comply with §1194.23 (k) (1) through (4).
@@ -298,7 +302,7 @@ Not Applicable
 ### (d) Where provided, at least one of each type of expansion slots, ports and connectors shall comply with publicly available industry standards
 Not Applicable
 
-# Section 1194.31 Functional Performance Criteria - Detail
+## Section 1194.31 Functional Performance Criteria - Detail
 ## Voluntary Product Accessibility Template
 
 ### (a) At least one mode of operation and information retrieval that does not require user vision shall be provided, or support for Assistive Technology used by people who are blind or visually impaired shall be provided.
@@ -344,13 +348,13 @@ Exceptions
 
 * Fiddlers support for voice recognition and alternative input devices can be limited as reason stated in section 1194.21 (a)
 
-# Section 1194.41 Information, Documentation, and Support - Detail
+## Section 1194.41 Information, Documentation, and Support - Detail
 ## Voluntary Product Accessibility Template
 
-### Section 1194.41 (a) Product Support Documentation provided to end-users shall be made available in alternate formats upon request, at no additional charge.
+#### Section 1194.41 (a) Product Support Documentation provided to end-users shall be made available in alternate formats upon request, at no additional charge.
 Supported - [http://www.fiddler2.com/fiddler/help/](http://www.fiddler2.com/fiddler/help/)
 
-### Section 1194.41 (b) End-users shall have access to a description of the accessibility and compatibility features of products in alternate formats or alternate methods upon request, at no additional charge.
+#### Section 1194.41 (b) End-users shall have access to a description of the accessibility and compatibility features of products in alternate formats or alternate methods upon request, at no additional charge.
 Supports with Exceptions - [http://www.fiddler2.com/fiddler/help/keyboard.asp](http://www.fiddler2.com/fiddler/help/keyboard.asp) provides keyboard reference
 
 ### 1194.41 (c) Support services for products shall accommodate the communication needs of end-users with disabilities.

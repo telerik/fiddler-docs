@@ -5,25 +5,16 @@ publish: true
 position: 1
 ---
 
-Problem: No sessions appear in the Web Sessions List.
------------------------------------------------------
+# Problem: No sessions appear in the Web Sessions List.
 
-Solution: Review your Fiddler Classic Configuration
--------------------------------------------
+## Solution: Review your Fiddler Classic Configuration
 
-+ Review the [Configuring Clients][1] section.
++ Review the [Configuring Clients](slug://ConfigureFiddler) section.
 
-+ If appropriate, review the [Configure Browser][2] or [Configure .NET app][3] pages.
++ If appropriate, review the [Configure Browser](slug://ViewWebTraffic) or [Configure .NET app](slug://DotNETConfig) pages.
  
-+ If appropriate, review the [Monitoring traffic to localhost][5] page.
++ If appropriate, review the [Monitoring traffic to localhost](slug://MonitorDialupAndVPN) page.
 
-+ Ensure traffic is not blocked by one or more [filters][6].
++ Ensure traffic is not blocked by one or more [filters](slug://MonitorLocalTraffic).
 
-+ If appropriate, review the [Monitor Dialup or VPN connection][4] page.
-
-[1]: ../../Configure-Fiddler/Tasks/ConfigureFiddler
-[2]: ../../Configure-Fiddler/Tasks/ConfigureBrowsers
-[3]: ../../Configure-Fiddler/Tasks/ConfigureDotNETApp
-[4]: ../../Configure-Fiddler/Tasks/MonitorDialupAndVPN
-[5]: ../../Configure-Fiddler/Tasks/MonitorLocalTraffic
-[6]: ../../KnowledgeBase/Filters
++ If appropriate, review the [Monitor Dialup or VPN connection](slug://MonitorDialupAndVPN) page.

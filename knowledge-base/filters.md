@@ -7,15 +7,29 @@ position: 5
 res_type: kb
 ---
 
-Filters Reference
-=================
+
+## Environment
+
+<table>
+	<tbody>
+		<tr>
+			<td>Product Version</td>
+			<td>5.0.20253</td>
+		</tr>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® Fiddler Classic </td>
+		</tr>
+	</tbody>
+</table>
+
+## Filters Reference
 
 Fiddler's Filters tab allows you to easily filter and flag traffic displayed in the Fiddler Classic UI, as well as perform some lightweight modifications.
 
 This article describes the available filtering options and their usage.
 
-Hosts
------
+## Hosts
 
 The **Zone Filter** dropdown at the top of the dialog allows you to show traffic only to your Intranet (e.g. dotless hostnames) or only to the Internet (e.g. dotted hostnames). This is a useful option when debugging a site in one zone while referencing web-based documentation from the other zone.
 
@@ -51,10 +65,8 @@ The following table summarizes the filters that we used to demonstrate how to di
 
 When configured to hide traffic to certain hosts, Fiddler Classic will still proxy traffic to those hosts, but that traffic will be hidden from the Fiddler Classic Session List. List multiple hosts using a semi-colon.
 
-![Filter to Hosts][1]
-
-Client Process
---------------
+![Filter to Hosts](./images/FilterToHosts.png)
+## Client Process
 
 The process filter allows you to control which processes' traffic is shown within Fiddler. 
 
@@ -63,13 +75,11 @@ The **Hide traffic from Service Host** option will hide traffic from svchost.exe
 >Fiddler Classic can only determine the process name/PID owner of a request when the client application is running on the same computer as Fiddler Classic itself.
 >When configured to hide traffic from certain processes, Fiddler Classic will still proxy their traffic, but that traffic will be hidden from the Fiddler Classic Session List.
 
-Breakpoints
------------
+## Breakpoints
 
 The breakpoints enable you to break requests or responses that contain the specified attributes.
 
-Request Headers
----------------
+## Request Headers
 
 Using these options, you can add or remove HTTP request headers, and flag responses that contain certain headers.
 
@@ -83,23 +93,20 @@ or you can use regular expressions, so you can use:
 ```sh
 REGEX:(?insx).*\.(gif|png|jpg)$ #only show requests for img types
 ```
-Response Status Code
---------------------
+
+## Response Status Code
 
 Using these options, you can filter display of responses based on the Response Status Code.
 
 You can set the boxes to hide sessions whose responses code match target values [HTTP errors, redirects, authentication challenges and cache-reuse].
 
-Response Type and Size
-----------------------
+## Response Type and Size
 
 Using these options, you can control what types of responses appear within the session list.
 
 The list of "Block" checkboxes enables blocking responses of the specified types, returning a HTTP/404 error to the client instead of the target resource.
 
-Response Headers
-----------------
+## Response Headers
 
 Using these options, you can add or remove HTTP response headers, and flag responses that contain certain headers.
 
-[1]: ../images/Filters/FilterToHosts.png

@@ -9,7 +9,7 @@ position: 60
 
 On some occasions, Fiddler Classic crashes on startup complaining about the Tahoma font with the following error message:
 
-```	
+```txt
 Sorry, you may have found a bug...
 
 Fiddler has encountered an unexpected problem. 
@@ -21,14 +21,14 @@ at System.Drawing.Font.CreateNativeFont()
 
 This can happen if you have the Microsoft Word 97 viewer installed. That tool sets the registry key HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts\Tahoma (TrueType) to tahoma.FOT. To fix the issue, change the following registry key from:
 
-```	
+```txt	
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts
 "Tahoma (TrueType)"="tahoma.FOT"
 ```	
 
 *to*
 
-```	
+```txt	
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts
 "Tahoma (TrueType)"="TAHOMA.TTF"
 ```	

@@ -7,13 +7,26 @@ position: 18
 res_type: kb
 ---
 
-Fiddler Classic Import and Export Formats
-=================================
+## Environment
+
+<table>
+	<tbody>
+		<tr>
+			<td>Product Version</td>
+			<td>5.0.20253</td>
+		</tr>
+		<tr>
+			<td>Product</td>
+			<td>Progress® Telerik® Fiddler Classic </td>
+		</tr>
+	</tbody>
+</table>
+
+## Fiddler Classic Import and Export Formats
 
 Fiddler Classic supports the following formats by default:
 
-Import
-------
+### Import
 
 + **HTTP Archive JSON**
 
@@ -21,8 +34,7 @@ Import
   
    These files are exported from the [IE9 Developer Tools Network Tab][1].
 
-Export
-------
+## Export
 
 + **[HTTP Archive JSON v1.1][2]** (*.har)
 
@@ -32,7 +44,9 @@ Export
 
    This format supports storage of non-textual response bodies. Because these .har files are not compressed, Fiddler Classic will only store non-textual content smaller than 32kb by default. This limit can be increased by setting a [Fiddler Classic Preference][5]: 
    
-        fiddler.importexport.HTTPArchiveJSON.MaxBinaryBodyLength
+```txt
+fiddler.importexport.HTTPArchiveJSON.MaxBinaryBodyLength
+```
 
 + **Visual Studio Web Test XML**
 
@@ -46,8 +60,7 @@ Export
 
 + **HTML5 AppCache Manifests**
 
-Custom Import and Export Classes
---------------------------------
+## Custom Import and Export Classes
 
 Beyond these default formats, developers can create their own Import and Export classes by implementing the [ISessionImporter and ISessionExporter][6] interfaces using any .NET language. There is no particular requirement that the classes store data in a file. You could build a class that saves or loads traffic from a local database or a data store in the cloud.
 
