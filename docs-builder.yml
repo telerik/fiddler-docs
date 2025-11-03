@@ -11,8 +11,7 @@ product-url: https://www.telerik.com/fiddler/fiddler-classic
 product-trial-url: https://www.telerik.com/download/fiddler
 
 contribute-url: https://github.com/telerik/fiddler-docs/edit/master
-search-engine-id: 001595215763381649090:dyayucp6jmq # TODO get a new one for Fiddler Classic
-# where should we add the google analytics and tag manager codes (refer to _config.yml)?
+search-engine-id: 96dcfc6da23d54ce5
 avatar-path: ./images/common/avatar-ninja.svg # TODO get a Fiddler  Classic NINJA
 no-results-image-path: ./images/common/no-results.svg # TODO get a Fiddler  Classic no-results.png
 table-layout: fixed
