@@ -13,7 +13,7 @@ product-trial-url: https://www.telerik.com/download/fiddler
 contribute-url: https://github.com/telerik/fiddler-docs/edit/master
 search-engine-id: 96dcfc6da23d54ce5
 avatar-path: ./images/common/avatar-ninja.svg # TODO get a Fiddler  Classic NINJA
-no-results-image-path: ./images/common/no-results.svg # TODO get a Fiddler  Classic no-results.png
+no-results-image-path: ./images/common/ninja-no-results.svg # TODO get a Fiddler  Classic no-results.png
 table-layout: fixed
 enable-tabbed-code-blocks: true
 gitLastCommitDateEnabled: true
