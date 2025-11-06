@@ -31,8 +31,6 @@ previous_url: /configure-fiddler/tasks/configureforios
 
 1. Hover over the **Online indicator** at the Fiddler Classic toolbar's far-right to display the IP addresses assigned to Fiddler's machine. Use this address on your iOS device (see the 5th step in the iOS device setup steps below).
 
- ![Online Tooltip][2]
-
 1. Verify client iOS device can reach Fiddler Classic by navigating in the browser to **http://FiddlerMachineIP:8888**. This address should return the **Fiddler Echo Service** page.
 
 1. For iPhone: Disable the 3g/4g connection.

@@ -29,7 +29,7 @@ Use on of these methods:
     ```txt
     cols add [Title] FlagName 
     ```
-  ![QuickExec Command][./images/QuickExecCommand.png]
+  ![QuickExec Command](./images/QuickExecCommand.png)
 Columns added using QuickExec will be removed the next time Fiddler Classic starts. For more QuickExec column commands, see the [QuickExec Reference](slug://QuickExec).
 * [Customize rules with FiddlerScript](slug://AddColumns)
 * **Call the AddBoundColumn method from an IFiddlerExtension**
