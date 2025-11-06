@@ -4,7 +4,7 @@ description: Learn how to install, configure and capture traffic Fiddler Classic
 slug: ConfigureFiddler
 publish: true
 position: 0
-previous_url: /tasks/configurefiddler
+previous_url: /tasks/configurefiddler, /configure-fiddler/tasks/configurefiddler
 ---
 
 # Introduction

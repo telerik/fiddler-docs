@@ -4,7 +4,7 @@ description: "Learn how to resolve missing traffic in Fiddler Classic by checkin
 slug: SpecificTrafficMissing
 publish: true
 position: 3
-previous_url: /observe-traffic/tasks/specifictrafficmissing
+previous_url: /observe-traffic/tasks/specifictrafficmissing, /observe-traffic/troubleshooting/specifictrafficmissing
 ---
 
 # Problem: Specific Traffic is Missing

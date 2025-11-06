@@ -4,7 +4,7 @@ description: "Configure Fiddler Classic to capture traffic from a remote machine
 slug: MonitorRemoteMachine
 publish: true
 position: 11
-previous_url: /configure-fiddler/tasks/mointorremotemachine
+previous_url: /configure-fiddler/tasks/monitorremotemachine
 ---
 
 # Capture Traffic from Another Machine (Any OS)
