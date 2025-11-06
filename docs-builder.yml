@@ -45,7 +45,7 @@ meta:
     extend-fiddler:
         title: Extend Fiddler Classic
         position: 60
-    troubleshooting-fiddler:
+    troubleshoot-fiddler:
         title: Troubleshooting
         position: 70
     knowledge-base:

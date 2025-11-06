@@ -39,7 +39,7 @@ To import traffic from **HTTP Archive JSON**, **HTTP Archive XML** (exported fro
 
 2. Select the import format from the drop-down menu.
 
- ![Select Import Format][./images/SelectImportFormat.png]
+ ![Select Import Format](./images/SelectImportFormat.png)
 
 3. Click **Next**.
 
