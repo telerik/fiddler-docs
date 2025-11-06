@@ -4,7 +4,7 @@ description: "Configure Fiddler Classic to capture local machine traffic - manag
 slug: MonitorLocalTraffic
 publish: true
 position: 22
-previous_url: /configure-fiddler/tasks/mointorlocaltraffic
+previous_url: /configure-fiddler/tasks/monitorlocaltraffic
 ---
 
 # Monitor traffic to localhost from IE or .NET
