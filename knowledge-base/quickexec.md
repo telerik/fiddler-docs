@@ -5,6 +5,7 @@ slug: QuickExec
 publish: true
 position: 1
 res_type: kb
+previous_url: /knowledgebase/quickexec
 ---
 
 ## Environment
