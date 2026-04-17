@@ -1,5 +1,7 @@
 ---
 title: Import or Export Matching Rules
+meta_title: Import or Export Matching Rules - Fiddler Classic Documentation
+description: Learn how to import and export AutoResponder matching rules in Fiddler Classic to share or back up traffic manipulation configurations.
 slug: ImportExportAutoresponder
 publish: true
 position: 5

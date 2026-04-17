@@ -1,6 +1,7 @@
 ---
 title: VPAT
-description: "Learn about VPAT in Fiddler Classic - check accessibility compliance and compatibility per Voluntary Product Accessibility Template."
+meta_title: VPAT Accessibility Compliance - Fiddler Classic Documentation
+description: Learn about the Voluntary Product Accessibility Template (VPAT) for Fiddler Classic and review accessibility compliance details.
 slug: vpat
 publish: true
 res_type: kb

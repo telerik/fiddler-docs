@@ -1,5 +1,7 @@
 ---
 title: Implement Interfaces
+meta_title: Implement Fiddler Interfaces - Fiddler Classic Documentation
+description: Learn how to implement Fiddler Classic interfaces to load your assembly during Fiddler Classic execution and extend its functionality.
 slug: Interfaces
 publish: true
 position: 2

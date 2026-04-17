@@ -1,6 +1,7 @@
 ---
 title: Import and Export Formats
-description: "Learn how to import and export sessions in different formats through the Fiddler Classic UI."
+meta_title: Import and Export Formats - Fiddler Classic Documentation
+description: Learn how to import and export sessions in different formats through the Fiddler Classic UI, including SAZ, HAR, and other supported formats.
 slug: ImportExportFormats
 publish: true
 position: 18

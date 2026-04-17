@@ -1,6 +1,7 @@
 ---
 title: Vary Response Header
-description: "Modify response headers via FiddlerScript in Fiddler Classic - learn how to dynamically change headers based on conditions."
+meta_title: Vary Response Header - Fiddler Classic Documentation
+description: Learn how to modify response headers through FiddlerScript in Fiddler Classic by dynamically changing headers based on conditions.
 slug: VaryResponseHeader
 publish: true
 position: 7

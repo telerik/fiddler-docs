@@ -1,6 +1,7 @@
 ---
 title: QuickExec Reference
-description: "Learn how to use the QuickExec console commands in Fiddler Classic"
+meta_title: QuickExec Console Reference - Fiddler Classic Documentation
+description: Learn how to use the QuickExec console commands in Fiddler Classic for fast session filtering, selection, and debugging.
 slug: QuickExec
 publish: true
 position: 1

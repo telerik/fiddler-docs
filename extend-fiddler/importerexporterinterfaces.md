@@ -1,5 +1,7 @@
 ---
 title: Importer and Exporter Interfaces
+meta_title: Importer and Exporter Interfaces - Fiddler Classic Documentation
+description: Explore the Fiddler Classic importer and exporter interfaces and learn about thread safety considerations for FiddlerCore.
 slug: ImporterExporterInterfaces
 publish: true
 position: 7

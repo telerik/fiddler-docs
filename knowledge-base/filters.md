@@ -1,6 +1,7 @@
 ---
 title: Filters
-description: L"earn how to use Fiddler Classic filters and to apply Regex to achieve complex filtering results."
+meta_title: Filters Reference - Fiddler Classic Documentation
+description: Learn how to use Fiddler Classic filters and apply regular expressions to achieve complex filtering results for captured traffic.
 slug: Filters
 publish: true
 position: 5

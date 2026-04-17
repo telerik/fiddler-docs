@@ -1,5 +1,7 @@
 ---
 title: HTTP References
+meta_title: HTTP References - Fiddler Classic Documentation
+description: Explore the HTTP protocol references in Fiddler Classic, including status codes, methods, and common header fields.
 slug: http-references
 publish: true
 position: 11

@@ -1,6 +1,7 @@
 ---
 title: Fiddler Classic SessionFlags
-description: "Learn more about the FiddlerScript's sessioon flags in Fiddler Classic"
+meta_title: SessionFlags Reference - Fiddler Classic Documentation
+description: Learn about FiddlerScript session flags in Fiddler Classic and how to use them for advanced traffic manipulation and filtering.
 slug: SessionFlags
 publish: true
 position: 4

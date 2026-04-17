@@ -1,6 +1,7 @@
 ---
 title: Crawl Sequential URLs
-description: Create Fiddler Classic rule for crawling sequential URLs
+meta_title: Crawl Sequential URLs - Fiddler Classic Documentation
+description: Learn how to create a Fiddler Classic rule for crawling sequential URLs and automating repetitive web request patterns.
 slug: CrawlURLs
 publish: true
 position: 7

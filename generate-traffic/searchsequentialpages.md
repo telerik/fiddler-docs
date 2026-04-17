@@ -1,7 +1,7 @@
 ---
 title: Search Sequential Pages for Target String 
-slug: SearchSequentialPages
-publish: true
+meta_title: Search Sequential Pages - Fiddler Classic Documentation
+description: Learn how to search sequential web pages for a target string in Fiddler Classic by using FiddlerScript to automate the process.
 position: 8
 previous_url: /generate-traffic/tasks/searchsequentialpages
 ---

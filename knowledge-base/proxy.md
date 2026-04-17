@@ -1,6 +1,7 @@
 ---
 title: The Fiddler Classic Proxy
-description: "Learn the basics of the Fiddler Classic proxy"
+meta_title: Fiddler Proxy Overview - Fiddler Classic Documentation
+description: Learn the basics of the Fiddler Classic proxy, including how it intercepts HTTP and HTTPS traffic on Windows machines.
 slug: Proxy
 publish: true
 position: 8

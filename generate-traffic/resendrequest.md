@@ -1,6 +1,7 @@
 ---
 title: Resend a Request
-description: "Learn to resend captured HTTP requests in Fiddler Classic - modify and replay traffic to test endpoints or reproduce bugs."
+meta_title: Resend a Request - Fiddler Classic Documentation
+description: Learn how to resend captured HTTP requests in Fiddler Classic by modifying and replaying traffic to test endpoints or reproduce bugs.
 slug: ResendRequest
 publish: true
 position: 8

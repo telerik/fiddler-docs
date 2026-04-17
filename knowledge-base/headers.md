@@ -1,5 +1,7 @@
 ---
 title: Headers Reference
+meta_title: Headers Reference - Fiddler Classic Documentation
+description: Explore the HTTP headers reference in Fiddler Classic and learn how to inspect and modify request and response headers.
 slug: Headers
 publish: true
 position: 8

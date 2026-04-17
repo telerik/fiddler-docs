@@ -1,5 +1,7 @@
 ---
 title: User Interface Guide
+meta_title: User Interface Guide - Fiddler Classic Documentation
+description: Explore the Fiddler Classic user interface and learn about the main panels, tabs, and layout for effective web debugging.
 slug: UIGuide
 publish: true
 position: 3

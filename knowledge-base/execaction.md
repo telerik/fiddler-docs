@@ -1,6 +1,7 @@
 ---
 title: Run from Command Line with ExecAction
-description: "Fiddler Classic execAction guide - automate tasks like clearing traffic, saving sessions, or running external tools with custom actions."
+meta_title: ExecAction Command Line - Fiddler Classic Documentation
+description: Learn how to use ExecAction in Fiddler Classic to automate tasks like clearing traffic, saving sessions, or running external tools.
 slug: ExecAction
 publish: true
 position: 10

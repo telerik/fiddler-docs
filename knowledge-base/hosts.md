@@ -1,5 +1,7 @@
 ---
 title: Override Windows HOSTS file
+meta_title: Override HOSTS File - Fiddler Classic Documentation
+description: Learn how to use Fiddler Classic to override the Windows HOSTS file and remap hostnames for web debugging purposes.
 slug: HOSTS
 publish: true
 position: 9

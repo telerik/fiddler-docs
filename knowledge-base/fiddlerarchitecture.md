@@ -1,5 +1,7 @@
 ---
 title: Fiddler Classic Architecture Info
+meta_title: Architecture Overview - Fiddler Classic Documentation
+description: Explore the architecture of Fiddler Classic and learn how its proxy-based design intercepts and inspects web traffic.
 slug: fiddler-architecture-info
 publish: true
 res_type: kb

@@ -1,6 +1,7 @@
 ---
 title: Load Extensions
-description: Load Extension in Fiddler Classic
+meta_title: Load Extensions - Fiddler Classic Documentation
+description: Learn how to load custom extension assemblies in Fiddler Classic by placing them in the correct directory for automatic discovery.
 slug: LoadExtension
 publish: true
 position: 4

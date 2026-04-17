@@ -1,12 +1,11 @@
 ---
 title: Capture WCF Service with localhost Filter 
-description: Follow along to learn how to capture WCF on localhost
-type: how-to
+meta_title: Capture WCF on Localhost - Fiddler Classic Documentation
+description: Learn how to capture WCF service traffic on localhost by configuring Fiddler Classic with proper proxy and filter settings.
 slug: capture-wcf-services-with-localhost-filter
 ticketid: 1445633
 res_type: kb
----
-
+type: how-to
 ## Environment
 <table>
 	<tbody>

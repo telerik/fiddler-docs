@@ -1,5 +1,7 @@
 ---
 title: Create a new request
+meta_title: Create New Request - Fiddler Classic Documentation
+description: Learn how to compose and create a new HTTP request in Fiddler Classic by using the Composer tab for custom traffic generation.
 slug: CreateNewRequest
 publish: true
 position: 1

@@ -1,5 +1,7 @@
 ---
 title: Customize Web Sessions List
+meta_title: Customize Sessions List - Fiddler Classic Documentation
+description: Learn how to customize the Fiddler Classic Web Sessions List by applying conditional formatting and icons through FiddlerScript.
 slug: CustomizeSessionsList
 publish: true
 position: 4

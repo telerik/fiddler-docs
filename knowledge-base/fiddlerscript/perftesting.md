@@ -1,5 +1,7 @@
 ---
 title: Performance Testing
+meta_title: Performance Testing - Fiddler Classic Documentation
+description: Learn how to test application performance in Fiddler Classic by adding FiddlerScript rules to the OnBeforeResponse function.
 slug: PerfTesting
 publish: true
 position: 2

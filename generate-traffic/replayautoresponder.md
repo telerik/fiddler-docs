@@ -1,5 +1,7 @@
 ---
 title: Replay Captured Traffic
+meta_title: Replay Captured Traffic - Fiddler Classic Documentation
+description: Learn how to replay previously captured traffic sessions in Fiddler Classic to reproduce scenarios and test server responses.
 slug: ReplayAutoresponder
 publish: true
 position: 3

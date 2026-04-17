@@ -1,5 +1,7 @@
 ---
 title: Build a Custom Inspector
+meta_title: Build Custom Inspector - Fiddler Classic Documentation
+description: Learn how to build a custom inspector for Fiddler Classic by creating an extension project and implementing the inspector interface.
 slug: CustomInspector
 publish: true
 position: 5

@@ -1,5 +1,7 @@
 ---
 title: Build Cookie Scanning Extension
+meta_title: Build Cookie Scanning Extension - Fiddler Classic Documentation
+description: Learn how to build a cookie scanning extension for Fiddler Classic by using the Privacy Scanner add-on as a reference implementation.
 slug: CookieExtension
 publish: true
 position: 16

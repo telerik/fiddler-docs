@@ -1,5 +1,7 @@
 ---
 title: Build Extension Assemblies for Fiddler Classic v2 and v4.
+meta_title: Build Extensions for Fiddler v2 and v4 - Fiddler Classic Documentation
+description: Learn how to build extension assemblies that run in both Fiddler Classic v2 and v4 by targeting .NET Framework v2.
 slug: ExtensionsForv2Andv4
 publish: true
 position: 11

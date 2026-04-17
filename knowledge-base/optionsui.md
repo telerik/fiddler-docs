@@ -1,5 +1,7 @@
 ---
 title: Options UI
+meta_title: Options UI - Fiddler Classic Documentation
+description: Explore the Fiddler Classic Options dialog and learn how to configure general, HTTPS, connections, and gateway settings.
 slug: options-ui
 publish: true
 position: 6

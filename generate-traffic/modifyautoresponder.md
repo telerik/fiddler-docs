@@ -1,5 +1,7 @@
 ---
 title: Modify Matching Rules
+meta_title: Modify Matching Rules - Fiddler Classic Documentation
+description: Learn how to modify AutoResponder matching rules in Fiddler Classic to customize traffic interception and response behavior.
 slug: ModifyAutoresponder
 publish: true
 position: 4

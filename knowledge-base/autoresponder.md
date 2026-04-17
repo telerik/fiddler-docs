@@ -1,5 +1,7 @@
 ---
 title: AutoResponder Reference
+meta_title: AutoResponder Reference - Fiddler Classic Documentation
+description: Explore the Fiddler Classic AutoResponder feature reference, including matching rules, actions, and latency configuration options.
 slug: autoresponder-reference
 publish: true
 position: 9

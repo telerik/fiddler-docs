@@ -1,5 +1,7 @@
 ---
 title: FiddlerHook Help
+meta_title: FiddlerHook Help - Fiddler Classic Documentation
+description: Learn about the FiddlerHook browser helper object and how it integrates with Fiddler Classic for automatic traffic interception.
 slug: fiddlerhook-help
 publish: true
 position: 6

@@ -1,6 +1,7 @@
 ---
 title: Build a Custom Importer or Exporter
-description: "Detailed guide to building importer/exporter extensions for Fiddler Classic to automate session import/export workflows."
+meta_title: Build Custom Importer or Exporter - Fiddler Classic Documentation
+description: Learn how to build custom importer and exporter extensions for Fiddler Classic to automate session import and export workflows.
 slug: BuildImporterExporter
 publish: true
 position: 8

@@ -1,6 +1,7 @@
 ---
 title: Timeline View
-description: "Use the Fiddler Classic's Timeline view to visualise captured traffic in diagrams"
+meta_title: Timeline View - Fiddler Classic Documentation
+description: Learn how to use the Fiddler Classic Timeline view to visualize captured traffic sessions in diagrams for performance analysis.
 slug: Timeline
 publish: true
 position: 4

@@ -1,5 +1,7 @@
 ---
 title: Create traffic with Custom Matching Rules
+meta_title: Create Custom Matching Rules - Fiddler Classic Documentation
+description: Learn how to create web traffic with custom matching rules in Fiddler Classic to test specific request and response scenarios.
 slug: ComposeAutoresponder
 publish: true
 position: 2

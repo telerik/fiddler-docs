@@ -1,6 +1,7 @@
 ---
 title: SAZ Clipboard
-description: "Learn more about the Fiddler Classic's SAZClipboard extension"
+meta_title: SAZ Clipboard Extension - Fiddler Classic Documentation
+description: Learn about the Fiddler Classic SAZClipboard extension and how it enables clipboard-based session archive operations.
 slug: SAZClipboard
 publish: true
 position: 1

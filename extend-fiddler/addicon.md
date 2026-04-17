@@ -1,5 +1,7 @@
 ---
 title: Add an Icon to Your Extension's Tab
+meta_title: Add Extension Tab Icon - Fiddler Classic Documentation
+description: Learn how to add a custom icon to your Fiddler Classic extension tab by using an existing icon or creating a new one.
 slug: AddIcon
 publish: true
 position: 4

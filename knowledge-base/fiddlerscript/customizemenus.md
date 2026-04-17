@@ -1,5 +1,7 @@
 ---
 title: Customize Menus
+meta_title: Customize Menus with FiddlerScript - Fiddler Classic Documentation
+description: Learn how to customize Fiddler Classic menus by adding rules through FiddlerScript with global scope for custom functionality.
 slug: CustomizeMenus
 publish: true
 position: 3

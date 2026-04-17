@@ -1,5 +1,7 @@
 ---
 title: Create Extension project
+meta_title: Create Extension Project - Fiddler Classic Documentation
+description: Learn how to create a Fiddler Classic extension project that modifies the User-Agent string of all outbound requests.
 slug: CreateExtension
 publish: true
 position: 3

@@ -1,5 +1,7 @@
 ---
 title: Modifying a Request or Response
+meta_title: Modify Requests or Responses - Fiddler Classic Documentation
+description: Learn how to use FiddlerScript to modify web requests and responses in Fiddler Classic through OnBeforeRequest and OnBeforeResponse functions.
 slug: ModifyRequestOrResponse
 publish: true
 position: 1

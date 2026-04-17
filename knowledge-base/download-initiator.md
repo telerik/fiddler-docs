@@ -1,5 +1,7 @@
 ---
 title: Understanding Download-Initiator
+meta_title: Download-Initiator - Fiddler Classic Documentation
+description: Learn how the Download-Initiator feature in Fiddler Classic helps trace back the origin of HTTP requests during debugging.
 slug: Download-Initiator
 publish: true
 position: 13
