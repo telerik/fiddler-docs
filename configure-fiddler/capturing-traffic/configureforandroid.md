@@ -11,7 +11,7 @@ previous_url: /configure-fiddler/tasks/configureforandroid
 # Configure Fiddler Classic for Android Devices
 
 
->tip Update: If you're looking for Fiddler for Android, check out the new [Fiddler Everywhere](https://www.telerik.com/fiddler/fiddler-everywhere)! Check this [blog post](https://www.telerik.com/blogs/new-release-fiddler-everywhere-3) to learn more about it or directly see how easy it is to [setup and use Fiddler Everywhere alongside Android device](https://docs.telerik.com/fiddler-everywhere/traffic/configure-android).
+>tip Update: If you are looking for Fiddler for Android, check out the new [Fiddler Everywhere](https://www.telerik.com/fiddler/fiddler-everywhere)! Check this [blog post](https://www.telerik.com/blogs/new-release-fiddler-everywhere-3) to learn more about it or directly see how easy it is to [setup and use Fiddler Everywhere alongside Android device](https://docs.telerik.com/fiddler-everywhere/traffic/configure-android).
 
 ## Configure Fiddler Classic
 

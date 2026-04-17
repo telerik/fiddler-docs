@@ -8,6 +8,6 @@ position: 8
 res_type: kb
 ---
 
-To learn how to simply the storage and reloading of user-preferences, read [this article][1].
+To learn how to simplify the storage and reloading of user-preferences, read [this article][1].
 
 [1]: http://fiddler.wikidot.com/preflist

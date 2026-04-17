@@ -24,7 +24,7 @@ This machine-wide proxy setting can only be changed by code running as an Admins
 
 This will adjust the proxy setting.
 
-If you cannot run Fiddler Classic as Admin (because, for example, you're not an Administrator) you will need to request that your system or domain administrator disable this policy:
+If you cannot run Fiddler Classic as Admin (because, for example, you are not an Administrator) you will need to request that your system or domain administrator disable this policy:
 
 ```txt
 HKLM\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ProxySettingsPerUser is 0.

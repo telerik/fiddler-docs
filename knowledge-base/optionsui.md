@@ -58,7 +58,7 @@ res_type: kb
 * **Reuse connections to servers** controls whether Fiddler Classic will reuse HTTP server connections (keep-alive).
 * The **Chain to upstream gateway proxy** controls whether or not Fiddler Classic will use the system proxy as an upstream gateway proxy.
 
-By unchecking this checkbox, you're telling Fiddler Classic *"ignore my browser's normal proxy settings, and just send requests directly to web servers."*
+By unchecking this checkbox, you are telling Fiddler Classic *"ignore my browser's normal proxy settings, and just send requests directly to web servers."*
 
 * The **Show Gateway Info** link shows information about any known upstream gateway proxy.
 * The **Act as System Proxy on startup** controls whether or not Fiddler Classic registers as the System proxy on startup.  Internet Explorer and many other applications use the system proxy by default and are notified when it changes.  [Learn more...](http://www.fiddler2.com/redir/?id=HOOKUP)

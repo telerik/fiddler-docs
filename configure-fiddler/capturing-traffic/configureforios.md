@@ -28,7 +28,7 @@ previous_url: /configure-fiddler/tasks/configureforios
 
 1. Restart Fiddler.
 
-1. Ensure your firewall allows incoming connections to the Fiddler Classic process and that it's not blocking all incoming connections, including those in the list of allowed apps.
+1. Ensure your firewall allows incoming connections to the Fiddler Classic process and that it is not blocking all incoming connections, including those in the list of allowed apps.
 
 1. Hover over the **Online indicator** at the Fiddler Classic toolbar's far-right to display the IP addresses assigned to Fiddler's machine. Use this address on your iOS device (see the 5th step in the iOS device setup steps below).
 
@@ -48,13 +48,13 @@ previous_url: /configure-fiddler/tasks/configureforios
 
 1. Type your Fiddler Classic machine IP address in the **Server** field.
 
-1. Type the Fiddler Classic listening port (8888 by default) in the **Port** field and finally tap on **Save**.
+1. Type the Fiddler Classic listening port (8888 by default) in the **Port** field and finally tap **Save**.
 
-    >tip With the current setup, you should be able to capture non-secure HTTP traffic. However, if you try to open any **HTTPS** website, you'll get the _This site's security certificate is not trusted!_ error. To fix this, proceed with the steps that follow below.
+    >tip With the current setup, you should be able to capture non-secure HTTP traffic. However, if you try to open any **HTTPS** website, you will get the _This site's security certificate is not trusted!_ error. To fix this, proceed with the steps that follow below.
 
 1. Open a browser on the iOS device and type the Fiddler Classic echo service address: **http://ipv4.fiddler:8888**
 
-1. Click on the Fiddler Classic root certificate link to download it.
+1. Click the Fiddler Classic root certificate link to download it.
 
  >important Ensure that the Fiddler Classic certificate is generated through the BouncyCastle certificate generator.[Learn more about certificate generators and how to install and enable BouncyCastle here...](https://www.telerik.com/blogs/understanding-fiddler-certificate-generators).
 

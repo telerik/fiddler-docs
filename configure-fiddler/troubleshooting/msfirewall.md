@@ -13,7 +13,7 @@ Microsoft Firewall client for Microsoft ISA 2004 has an option to automatically 
 
 ## Solution: Disable Web browser automatic configuration in the Microsoft Firewall client
 
-* If there's a Firewall Client icon ![Firewall Client](./images/FirewallIcon.png)  in your system tray:
+* If there is a Firewall Client icon ![Firewall Client](./images/FirewallIcon.png)  in your system tray:
 	1. Right click the Firewall Client icon in the system tray.
 	2. Click **Configure...** from the context menu.
 

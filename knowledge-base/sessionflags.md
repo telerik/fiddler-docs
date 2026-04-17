@@ -44,11 +44,11 @@ Each Session object in Fiddler Classic contains a collection of string flags, in
   + Calling: **oFlags.Remove("flagname")** or 
   + Setting **oSession["flagname"] = null**
 
-+ The value of most flags is not important; simply adding the flag is enough.  So **oSession["ui-hide"]="no"** does the same thing as **oSession["ui-hide"] = "true"** (hides the session).
++ The value of most flags is not important; adding the flag is enough. So **oSession["ui-hide"]="no"** does the same thing as **oSession["ui-hide"] = "true"** (hides the session).
 
-+ While you can call **oFlags.Add("flagname")**, this will throw an exception if the flag already exists.  It's better to just set the value: **oFlags["flagname"] = "value";**
++ While you can call **oFlags.Add("flagname")**, this will throw an exception if the flag already exists. It is better to just set the value: **oFlags["flagname"] = "value";**
 
-+ You can create new flags that attach metadata to a given session. To avoid naming conflicts, it's recommended that you choose distinctive flagnames. For example: **addon.acme.loggingFlag**.
++ You can create new flags that attach metadata to a given session. To avoid naming conflicts, it is recommended that you choose distinctive flagnames. For example: **addon.acme.loggingFlag**.
 
 ### UI Flags
 
@@ -102,7 +102,7 @@ If present, execution of this session will pause after the response is received.
 
 **x-overrideHost**
 
-Provide the Host:Port combination which should be used for DNS resolution purposes. Note that this mechanism does not change the HOST header on the request, and thus is not useful if there's an upstream gateway.
+Provide the Host:Port combination which should be used for DNS resolution purposes. Note that this mechanism does not change the HOST header on the request, and thus is not useful if there is an upstream gateway.
 
 **x-hostIP**
 
@@ -144,7 +144,7 @@ If set on a CONNECT tunnel, the traffic in the tunnel will not be decrypted.  Re
 
 **https-Client-Certificate**
 
-Filename of client certificate (e.g. .CER) that should be attached to this secure request.  Requires Fiddler Classic v2.1.0.3 or later.
+Filename of client certificate (for example, .CER) that should be attached to this secure request.  Requires Fiddler Classic v2.1.0.3 or later.
 
 **x-OverrideCertCN**
 

@@ -32,7 +32,7 @@ This article describes the available filtering options and their usage.
 
 ## Hosts
 
-The **Zone Filter** dropdown at the top of the dialog allows you to show traffic only to your Intranet (e.g. dotless hostnames) or only to the Internet (e.g. dotted hostnames). This is a useful option when debugging a site in one zone while referencing web-based documentation from the other zone.
+The **Zone Filter** dropdown at the top of the dialog allows you to show traffic only to your Intranet (for example, dotless hostnames) or only to the Internet (for example, dotted hostnames). This is a useful option when debugging a site in one zone while referencing web-based documentation from the other zone.
 
 The **Host Filter** dropdown enables you to flag or exclude displaying of traffic to specified domain names. Use the wildcard symbol to adjust your filter, for example:
 

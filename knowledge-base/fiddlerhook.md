@@ -41,7 +41,7 @@ Click **Monitor with Fiddler** on Firefox's **Tools** menu (or in the status bar
 
 ![FiddlerHookOptions](./images/FiddlerHookOptions.png)  
 
-The option "Force Traffic to Fiddler" will attempt to send traffic to Fiddler Classic regardless of whether or not it's even running. The Use Fiddler Classic Automatically option will emulate IE's behavior: traffic will be sent to Fiddler Classic only when Fiddler Classic is running and is in "capturing" mode.
+The option "Force Traffic to Fiddler" will attempt to send traffic to Fiddler Classic regardless of whether or not it is even running. The Use Fiddler Classic Automatically option will emulate IE's behavior: traffic will be sent to Fiddler Classic only when Fiddler Classic is running and is in "capturing" mode.
 
 To add the **Launch Fiddler** button to your toolbar, right-click the Firefox toolbar and choose **Customize.**  
 
@@ -51,9 +51,9 @@ In the dialog that appears, drag the Fiddler Classic icon to the toolbar locatio
 
 ![fiddlerhook2](./images/fiddlerhook2.png)
 
-FiddlerHook also introduces a simple way to clear your Firefox cache (memory and disk) and all cookies (persistent and session).  Simply click on the FiddlerHook status bar item and use the menu:  
+FiddlerHook also introduces a simple way to clear your Firefox cache (memory and disk) and all cookies (persistent and session). Click the FiddlerHook status bar item and use the menu:
 
 ![FiddlerHookMenu](./images/fhmenu.png)
 
 Removal Instructions
-You can use Firefox's Add-on Manager (on the tools menu) to disable the FiddlerHook addon.  If you would like to remove the FiddlerHook add-on altogether, you can simply delete the `%localappdata%\Programs\Fiddler\FiddlerHook` folder.
+You can use Firefox's Add-on Manager (on the tools menu) to disable the FiddlerHook addon. If you would like to remove the FiddlerHook add-on altogether, you can delete the `%localappdata%\Programs\Fiddler\FiddlerHook` folder.

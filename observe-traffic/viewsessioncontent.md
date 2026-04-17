@@ -12,7 +12,7 @@ previous_url: /observe-traffic/tasks/viewsessioncontent
 
 To view the content of a web session in a variety of formats:
 
-1. Click on a web session in the **Web Sessions List**.
+1. Click a web session in the **Web Sessions List**.
     ![Web Session List](./images/SessionsList.png)
 2. Click the **Inspectors** tab.
     ![Inspectors Tab](./images/Inspectors.png)

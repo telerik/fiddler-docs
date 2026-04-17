@@ -136,7 +136,7 @@ You can specify regular expression options (like case-sensitivity) by leading th
 
 ## Actions
 
-Beyond simply returning files, the AutoResponder can also perform special actions...
+Beyond returning files, the AutoResponder can also perform special actions...
 
 ### filename
 Return contents of filename as the response.
@@ -180,4 +180,4 @@ Rules with Non-final actions will allow the request to match multiple AutoRespon
 
 ## Latency
 
-You can optionally induce a delay (latency) before a response is returned. To enable Latency, click the **Enable Latency** checkbox. Right-click one or more rules and choose **Set Latency** to set the desired number of milliseconds. If you wish to adjust the existing latency, simply type a plus or minus before the number of milliseconds. For instance, to reduce the latency for all of the selected sessions by 5 milliseconds, enter **-5** in the prompt.
+You can optionally induce a delay (latency) before a response is returned. To enable Latency, click the **Enable Latency** checkbox. Right-click one or more rules and choose **Set Latency** to set the desired number of milliseconds. If you wish to adjust the existing latency, type a plus or minus before the number of milliseconds. For instance, to reduce the latency for all of the selected sessions by 5 milliseconds, enter **-5** in the prompt.

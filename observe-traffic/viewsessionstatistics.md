@@ -12,7 +12,7 @@ previous_url: /observe-traffic/tasks/viewsessionstatistics
 
 To view performance statistics for a web sesion:
 
-1. Click on a web session in the **Web Sessions List**.
+1. Click a web session in the **Web Sessions List**.
     ![Web Session List](./images/SessionsList.png)
 2. Click the **Statistics** tab.
     ![Statistics Tab](./images/Statistics.png)

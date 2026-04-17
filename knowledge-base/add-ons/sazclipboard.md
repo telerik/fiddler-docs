@@ -15,7 +15,7 @@ The SAZClipboard is a simple extension that allows you to open a .SAZ file outsi
 
 ## Why would I want to do this?
 
-This may be useful if you're using the Fiddler Classic Request Builder or AutoResponder features, both of which accept drops of Fiddler Classic sessions for reuse.
+This may be useful if you are using the Fiddler Classic Request Builder or AutoResponder features, both of which accept drops of Fiddler Classic sessions for reuse.
 
 ## Download
 
