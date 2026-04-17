@@ -2,6 +2,7 @@
 title: Authentication to CBT-Protected Server
 meta_title: Authenticate to CBT-Protected Server - Fiddler Classic Documentation
 description: Learn how to configure Fiddler Classic to authenticate to servers protected by channel-binding tokens (CBT).
+slug: configure-fiddler-authenticatewithcbt
 position: 21
 previous_url: /configure-fiddler/tasks/authenticatewithcbt
 ---
