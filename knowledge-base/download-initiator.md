@@ -63,7 +63,7 @@ This will add a column labelled **@request.Accept** and as each session is logge
 FiddlerObject.UI.lvSessions.AddBoundColumn("Accept", 50, "@request.Accept");
 ```
 
-Second, while understanding what class of Element initiated a request is useful, IE9 includes an even more valuable feature that conveys contextual information about why a request was made. You can see this feature at work in the Internet Explorer F12 Developer Tools, which you can open by pressing (you guessed it) the F12 key. On the Network tab, you'll see the **Initiator** column that provides more information about the context in which a request was made:
+Second, while understanding what class of Element initiated a request is useful, IE9 includes an even more valuable feature that conveys contextual information about why a request was made. You can see this feature at work in the Internet Explorer F12 Developer Tools, which you can open by pressing (you guessed it) the F12 key. On the Network tab, you will see the **Initiator** column that provides more information about the context in which a request was made:
 
 
 This information, by default, is not sent to the network, but you may set a Feature Control Key to emit the information as a custom HTTP request header that Fiddler Classic will see. Most Feature Control Keys, including this one, are simple flags stored in the registry that change the behavior of the Web Browser when set.
@@ -84,4 +84,4 @@ Then, when you load a page, you will see the initiator information:
 
 ![Reason Column](./images/Download-Initiator.png)
 
-Interpretation of these tokens is as follows. First, there's a token (e.g. image, script, html) indicating what type of content is being downloaded. Next, an indicator of which document object "owns" the download. Information about what element made the request is present, and in some cases, information about what the exact download trigger was. For instance "html tokenizer" means that the download request occurred during the parsing of HTML. "html lookahead" indicates that the [Lookahead parser] is making the request. On the other hand, "src property change" means that the download occurred because script changed the SRC property of an **img** tag.
+Interpretation of these tokens is as follows. First, there is a token (for example, image, script, html) indicating what type of content is being downloaded. Next, an indicator of which document object "owns" the download. Information about what element made the request is present, and in some cases, information about what the exact download trigger was. For instance "html tokenizer" means that the download request occurred during the parsing of HTML. "html lookahead" indicates that the [Lookahead parser] is making the request. On the other hand, "src property change" means that the download occurred because script changed the SRC property of an **img** tag.
