@@ -23,14 +23,14 @@ position: 9
 + A transcoder extension may collect these options as follows:
 
 	```c#
-	public bool ExportSessions(string sFormat, Session[] oSessions, 
+	public bool ExportSessions(string sFormat, Session[] oSessions,
 		Dictionary<string, object> dictOptions, EventHandler<ProgressCallbackEventArgs> evtProgressNotifications)
 	{
 
 	//...
 
 		if (null != dictOptions)
-		{ 
+		{
 		if (dictOptions.ContainsKey("Filename"))
 		{
 		sFilename = dictOptions["Filename"] as string;

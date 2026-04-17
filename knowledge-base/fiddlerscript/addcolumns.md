@@ -8,7 +8,7 @@ res_type: kb
 position: 7
 ---
 
-To add custom columns to the **Web Sessions List**, [add rules](slug://AddRules) using FiddlerScript. 
+To add custom columns to the **Web Sessions List**, [add rules](slug://AddRules) using FiddlerScript.
 
 ## The BindUIColumn Attribute
 
@@ -19,7 +19,7 @@ To fill a custom column, add a method labeled with the **BindUIColumn** attribut
 ```c#
 public static BindUIColumn("HTTPMethod")
 function CalcMethodCol(oS: Session){
-		if (null != oS.oRequest) return oS.oRequest.headers.HTTPMethod; else return String.Empty; 
+		if (null != oS.oRequest) return oS.oRequest.headers.HTTPMethod; else return String.Empty;
 }
 
 ```
@@ -52,7 +52,7 @@ public BindUIColumn(string colName, int iColWidth, int iDisplayOrder)
 
 ## The AddBoundColumn method
 
-Alternatively, you can call the **AddBoundColumn()** method.  The first parameter is the name with which the column should be named, and the second parameter is the default width of the column. The third parameter is either a Fiddler Classic Session Flag string, an @-prefixed-header name, or a JavaScript function that returns a string. 
+Alternatively, you can call the **AddBoundColumn()** method.  The first parameter is the name with which the column should be named, and the second parameter is the default width of the column. The third parameter is either a Fiddler Classic Session Flag string, an @-prefixed-header name, or a JavaScript function that returns a string.
 
 ```c#
 static function Main()

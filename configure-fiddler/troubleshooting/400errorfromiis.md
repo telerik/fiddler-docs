@@ -26,7 +26,7 @@ Content-Length: 334
 <hr><p>HTTP Error 400. The request hostname is invalid.</p></BODY></HTML>
 ```
 
-## Solution: 
+## Solution:
 
 Replace **http://ipv.fiddler:2468** with **http://localhost.fiddler:2468**.
 

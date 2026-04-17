@@ -35,6 +35,6 @@ position: 5
 
 5. Use the **Toolbox** to add controls to your user control. These will show the data about the HTTP message under inspection.
 
-6. In the **body{ set }** and **headers{ set }** properties, you should update your control's visual representation of the request or response. 
+6. In the **body{ set }** and **headers{ set }** properties, you should update your control's visual representation of the request or response.
 
 7. [Compile and load your extension in Fiddler](slug://LoadExtension).

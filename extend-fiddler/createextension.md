@@ -19,7 +19,7 @@ Follow these steps to create a sample Fiddler Classic Extension that modifies th
 
 3. Right-click the project's **References** folder in the **Solution Explorer**.
 
-4. Click the **Browse** tab and select **Fiddler.exe** in the **%localappdata%\Programs\Fiddler** folder. 
+4. Click the **Browse** tab and select **Fiddler.exe** in the **%localappdata%\Programs\Fiddler** folder.
 
 5. Click **Ok** to add the reference.
 
@@ -35,11 +35,11 @@ If your extension modifies Fiddler's UI:
 
 ## Add Build Event
 
-1. In the **Solution Explorer**, right click the project. 
+1. In the **Solution Explorer**, right click the project.
 
 2. Click **Properties**.
 
-3. Click the **Build Events** tab. 
+3. Click the **Build Events** tab.
 
 4. Add the following to the **Post-build event command line**:
 

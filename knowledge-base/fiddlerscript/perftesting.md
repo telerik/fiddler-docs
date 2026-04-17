@@ -10,7 +10,7 @@ res_type: kb
 
 To test application performance, [add rules](slug://AddRules) using FiddlerScript to the **OnBeforeResponse** function (except where noted). For example:
 
-**Simulate modem uploads** 
+**Simulate modem uploads**
 (add to **OnBeforeRequest** function)
 
 ```c#
@@ -28,12 +28,12 @@ oSession["response-trickle-delay"] = "150";
 **Flag content which isn't set to cache on the client.**
 
 ```c#
-if (!(oSession.oResponse.headers.Exists("Expires") 
+if (!(oSession.oResponse.headers.Exists("Expires")
 || (oSession.oResponse.headers.ExistsAndContains("Cache-Control", "age")))
 || (oSession.oResponse.headers.Exists("Vary"))){
 {
 oSession["ui-color"]="brown"; // Use C# color strings here.
-oSession["ui-italic"]="true"; 
+oSession["ui-italic"]="true";
 }
 ```
 

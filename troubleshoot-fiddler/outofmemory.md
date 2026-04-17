@@ -33,10 +33,10 @@ If you are on a 32-bit machine, you can avoid out-of-memory errors when download
 	{
 	  var sLen = oSession.oResponse["Content-Length"];
 	  var iLen: Int32 = 0;
-	  if (!isNaN(sLen)){ 
-		iLen = parseInt(sLen); 
+	  if (!isNaN(sLen)){
+		iLen = parseInt(sLen);
 		if (iLen > 5120000) {
-		  oSession.bBufferResponse = false; 
+		  oSession.bBufferResponse = false;
 		  oSession["ui-color"] = "yellow";
 		  oSession["log-drop-response-body"] = "save memory";
 		}

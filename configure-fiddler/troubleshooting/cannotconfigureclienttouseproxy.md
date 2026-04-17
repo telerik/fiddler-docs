@@ -11,6 +11,6 @@ position: 2
 
 The client device, application or platform has no option to use a proxy server like Fiddler. This is preventing capture of web traffic from the application.
 
-## Solution: 
+## Solution:
 
 [Configure Fiddler Classic as a Reverse Proxy](slug://UseFiddlerAsReverseProxy)

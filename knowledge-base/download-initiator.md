@@ -12,32 +12,32 @@ Proxy-based debuggers have a few key strengths -- chief among them is the abilit
 
 Having said that, Fiddler Classic includes a number of features to help you understand context. First, Fiddler Classic attempts to map inbound requests back to the process that issued them. For browsers like Internet Explorer 8, with its loosely-coupled process architecture, this often means that each browser tab sends traffic from an individual process. The process information is shown in the Process column in the [Web Sessions List](slug://ViewSessionSummary), and FiddlerScript and extensions may access the Process Name and instance ID (PID) using the Session object flag named **X-PROCESSINFO**.
 
-Fiddler Classic also uses the HTTP **Referer** header to help you [associate traffic](slug://ParentChild). Fiddler Classic assumes that the parent session is the session is the most recent request to the URL specified in the selected session's Referer header. "Child requests" are those requests after the current request that have a Referer of the currently selected session's URL. 
+Fiddler Classic also uses the HTTP **Referer** header to help you [associate traffic](slug://ParentChild). Fiddler Classic assumes that the parent session is the session is the most recent request to the URL specified in the selected session's Referer header. "Child requests" are those requests after the current request that have a Referer of the currently selected session's URL.
 
 Internet Explorer 9 includes two new features that help add more context.
 
 First, the Web Browser now sends a meaningful Accept header for most types of downloads. Previously, IE sent a long, registry-generated string for document downloads and Accept: */* for everything else. This limitation made it impossible to reliably distinguish between a request initiated by a **LINK REL=STYLESHEET** element and one initiated by **SCRIPT** element. IE9 RC will send the following Accept headers, depending on context:
 
 
-+ **Frame/markup** 
++ **Frame/markup**
 
 ```txt
 text/html, application/xhtml+xml, */*
 ```
 
-+ **CSS** 
++ **CSS**
 
 ```txt
 text/css
 ```
 
-+ **Script** 
++ **Script**
 
 ```txt
 application/javascript, */*;q=0.8
 ```
 
-+ **Image**	
++ **Image**
 
 ```txt
 image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5

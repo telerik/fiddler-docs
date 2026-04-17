@@ -16,7 +16,7 @@ previous_url: /save-and-load-traffic/tasks/logtolocaldb
 
 // Log the currently selected sessions in the list to a database.
 // Note: The DB must already exist and you must have permissions to write to it.
-public static ToolsAction("Log Selected Sessions") 
+public static ToolsAction("Log Selected Sessions")
 function DoLogSessions(oSessions: Fiddler.Session[]){
 if (null == oSessions || oSessions.Length < 1){
 	MessageBox.Show("Please select some sessions first!");
@@ -35,7 +35,7 @@ try
 	cmd.Connection = cnn;
 
 	for (var x = 0; x < oSessions.Length; x++){
-	var strSQL = "INSERT into tblSessions ([ResponseCode],[URL]) Values (" + 
+	var strSQL = "INSERT into tblSessions ([ResponseCode],[URL]) Values (" +
 	oSessions[x].responseCode + ", '" + oSessions[x].url + "')";
 	cmd.CommandText = strSQL;
 	cmd.ExecuteNonQuery();

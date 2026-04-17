@@ -31,12 +31,12 @@ If you want to get copies of log messages, write the following code in your exte
 and implement an event handler to capture log events. Because logging may occur from background threads, you should use Invoke or BeginInvoke to marshal any UI updates to the UI thread:
 ```c#
 public delegate void LogAString(string Str);
- 
+
 void YourEventHandler(object sender, LogEventArgs e)
 {
     FiddlerApplication.UI.BeginInvoke(new LogAString(LogOnMainThread), new object[] { e.LogString });
 }
- 
+
 void LogOnMainThread(string sMsg]
 {
     oLogUI.txtLog.AppendText(String.Format("{0} {1} \r\n", DateTime.Now.ToString("HH:mm:ss:ffff"), sMsg));

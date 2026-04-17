@@ -19,10 +19,10 @@ This issue occurs on Windows Vista or later.
 2. Add this code to the **OnBeforeRequest** method (where "HTTPSsite.com" is the hostname of the destination server):
 
 ```c#
-if (oSession.HTTPMethodIs("CONNECT") && oSession.HostnameIs("HTTPSSite.com")) 
-{ 
-	oSession["x-OverrideSslProtocols"] = "ssl3"; 
-	FiddlerApplication.Log.LogString("Legacy compat applied for inbound request to HTTPSSite.com"); 
+if (oSession.HTTPMethodIs("CONNECT") && oSession.HostnameIs("HTTPSSite.com"))
+{
+	oSession["x-OverrideSslProtocols"] = "ssl3";
+	FiddlerApplication.Log.LogString("Legacy compat applied for inbound request to HTTPSSite.com");
 }
 ```
 
@@ -32,7 +32,7 @@ Use this code in your .NET application:
 
 ```c#
 ServicePointManager.SecurityProtocol = SecurityProtocolType.Ssl3;
-```		
+```
 
 ## See Also
 

@@ -14,7 +14,7 @@ position: 7
 
 [Configure Fiddler Classic to Authenticate to Server](slug://AuthenticateWithCBT)
 
-## Solution 2: 
+## Solution 2:
 
 [Create the Local Security Authority host name that can be referenced in an NTLM authentication request](https://learn.microsoft.com/bg-bg/troubleshoot/windows-server/networking/accessing-server-locally-with-fqdn-cname-alias-denied)
 

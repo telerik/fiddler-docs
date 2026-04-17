@@ -31,7 +31,7 @@ oSession["x-breakrequest"] = "keyword";
 
 ```c#
 if (oSession.url.toLowerCase().indexOf(".xml")>-1){
-	oSession["x-breakrequest"]="reason_XML"; 
+	oSession["x-breakrequest"]="reason_XML";
 }
 ```
 
@@ -39,6 +39,6 @@ if (oSession.url.toLowerCase().indexOf(".xml")>-1){
 
 ```c#
 if (oSession.oResponse.headers.ExistsAndContains("Content-Type", "javascript")){
-	oSession["x-breakresponse"]="reason is JScript"; 
+	oSession["x-breakresponse"]="reason is JScript";
 }
 ```

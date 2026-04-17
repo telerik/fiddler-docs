@@ -11,8 +11,8 @@ res_type: kb
 
 To make custom changes to web requests and responses, use FiddlerScript to [add rules](slug://AddRules) to Fiddler's **OnBeforeRequest** or **OnBeforeResponse** function. Which function is appropriate depends on the objects your code uses: **OnBeforeRequest** is called before each request, and **OnBeforeResponse** is called before each response. Note:
 
-+ It *is not possible* to access the response objects inside **OnBeforeRequest** as they have not yet been created. 
-+ It *is possible* to use objects from the request inside **OnBeforeResponse**; however, any changes you make to those objects will not be seen by the server, as it has already received the request. 
++ It *is not possible* to access the response objects inside **OnBeforeRequest** as they have not yet been created.
++ It *is possible* to use objects from the request inside **OnBeforeResponse**; however, any changes you make to those objects will not be seen by the server, as it has already received the request.
 
 
 **Add a request header**
@@ -55,11 +55,11 @@ if (oSession.host=="www.bayden.com:8080") {
 
 ```c#
 // Redirect traffic, including HTTPS tunnels
-if (oSession.HTTPMethodIs("CONNECT") && (oSession.PathAndQuery == "www.example.com:443")) { 
-	oSession.PathAndQuery = "beta.example.com:443"; 
+if (oSession.HTTPMethodIs("CONNECT") && (oSession.PathAndQuery == "www.example.com:443")) {
+	oSession.PathAndQuery = "beta.example.com:443";
 }
 
-if (oSession.HostnameIs("www.example.com")) oSession.hostname = "beta.example.com"; 
+if (oSession.HostnameIs("www.example.com")) oSession.hostname = "beta.example.com";
 ```
 
 **Simulate the Windows HOSTS file, by pointing one Hostname to a different IP address.**
@@ -126,7 +126,7 @@ if (oSession.oResponse.headers.ExistsAndContains("Content-Type", "html")){
 	oBody = oBody.replace(oRegEx, "");
 
 	// Set the response body to the div-less string
-	oSession.utilSetResponseBody(oBody); 
+	oSession.utilSetResponseBody(oBody);
 }
 ```
 
@@ -146,7 +146,7 @@ oSession.oRequest["Accept-Language"]="he";
 
 ```c#
 if (oSession.uriContains(".css")){
-	oSession["ui-color"]="orange"; 
+	oSession["ui-color"]="orange";
 	oSession["ui-bold"]="true";
 	oSession.oRequest.FailSession(404, "Blocked", "Fiddler Classic blocked CSS file");
 }
@@ -155,12 +155,12 @@ if (oSession.uriContains(".css")){
 **Simulate HTTP Basic authentication  (Requires user to enter a password before displaying web content.)**
 
 ```c#
-if ((oSession.HostnameIs("www.example.com")) && 
-	!oSession.oRequest.headers.Exists("Authorization")) 
+if ((oSession.HostnameIs("www.example.com")) &&
+	!oSession.oRequest.headers.Exists("Authorization"))
 {
 // Prevent IE's "Friendly Errors Messages" from hiding the error message by making response body longer than 512 chars.
 var oBody = "<html><body>[Fiddler] Authentication Required.<BR>".PadRight(512, ' ') + "</body></html>";
-oSession.utilSetResponseBody(oBody); 
+oSession.utilSetResponseBody(oBody);
 // Build up the headers
 oSession.oResponse.headers.HTTPResponseCode = 401;
 oSession.oResponse.headers.HTTPResponseStatus = "401 Auth Required";

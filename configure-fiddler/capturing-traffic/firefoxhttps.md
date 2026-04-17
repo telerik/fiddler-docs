@@ -10,11 +10,11 @@ previous_url: /configure-fiddler/tasks/firefoxhttps
 
 # Capture HTTPS traffic from Firefox
 
-## Configure Fiddler Classic 
+## Configure Fiddler Classic
 
-1. Click **Tools > Options**. 
+1. Click **Tools > Options**.
 
-2. Click the **HTTPS** tab. Ensure the **Decrypt HTTPS traffic** checkbox is checked. 
+2. Click the **HTTPS** tab. Ensure the **Decrypt HTTPS traffic** checkbox is checked.
 
 3. Click the **Export Fiddler Root Certificate to Desktop** button.
 
@@ -30,7 +30,7 @@ previous_url: /configure-fiddler/tasks/firefoxhttps
 
   - Option 1. Instruct Firefox to trust added CA (Windows only).
 
-    1. Open Firefox and type `about:config` 
+    1. Open Firefox and type `about:config`
 
     1. Toggle the `security.enterprise_roots.enabled` setting to `true`.
 

@@ -28,7 +28,7 @@ oSession["ui-customcolumn"] = oSession.oResponse["Set-Cookie"];
 **Mark any requests which send cookies in red, and show the value in the Custom column. Otherwise, mark request in green.**
 
 ```c#
-if (oSession.oRequest.headers.Exists("Cookie")) 
+if (oSession.oRequest.headers.Exists("Cookie"))
 {
 oSession["ui-color"]="red";
 oSession["ui-customcolumn"] = oSession.oRequest["Cookie"];
@@ -76,7 +76,7 @@ if (oSession.oResponse.headers.Exists("Set-Cookie") {
 	oSession.utilDecodeResponse();
 	if (oSession.utilFindInResponse("document.cookie", false)>-1 ||
 		oSession.utilFindInResponse('HTTP-EQUIV="Set-Cookie"', false)>-1) {
-		oSession["ui-color"]="purple"; 
+		oSession["ui-color"]="purple";
 }
 ```
 
@@ -84,7 +84,7 @@ if (oSession.oResponse.headers.Exists("Set-Cookie") {
 **Show redirection target Location in Session List** (In `OnBeforeResponse`)
 
 ```c#
-if ((oSession.responseCode > 299) && (oSession.responseCode < 308)){ 
+if ((oSession.responseCode > 299) && (oSession.responseCode < 308)){
 	oSession["ui-customcolumn"] = oSession.oResponse["Location"];
 }
 ```
@@ -125,9 +125,9 @@ var iEach=0;
 oSession["ui-customcolumn"]=String.Empty;
 
 for (iEach; iEach<oFindStrings.length; iEach++){
-	if (oSession.utilFindInResponse(oFindStrings[iEach], false)>0) { 
-		oSession["ui-color"]="purple"; 
-		oSession["ui-customcolumn"] += oFindStrings[iEach]+"; "; 
+	if (oSession.utilFindInResponse(oFindStrings[iEach], false)>0) {
+		oSession["ui-color"]="purple";
+		oSession["ui-customcolumn"] += oFindStrings[iEach]+"; ";
 	}
 }
 ```

@@ -12,27 +12,27 @@ previous_url: /configure-fiddler/tasks/authenticatewithcbt
 2. Scroll to the **OnPeekAtResponseHeaders** function.
 3. Add the following code:
 	```c#
-	static function OnPeekAtResponseHeaders(oSession: Session) 
-	{         
-		// To avoid problems with Channel-Binding-Tokens, this block allows Fiddler Classic 
-		// itself to respond to Authentication challenges from HTTPS Intranet sites. 
-		if (oSession.isHTTPS && 
-			(oSession.responseCode == 401) && 
-			// Only permit auto-auth for local apps (e.g. not devices or remote PCs) 
-			(oSession.LocalProcessID > 0) && 
-			// Only permit auth to sites we trust 
-			(Utilities.isPlainHostName(oSession.hostname) 
+	static function OnPeekAtResponseHeaders(oSession: Session)
+	{
+		// To avoid problems with Channel-Binding-Tokens, this block allows Fiddler Classic
+		// itself to respond to Authentication challenges from HTTPS Intranet sites.
+		if (oSession.isHTTPS &&
+			(oSession.responseCode == 401) &&
+			// Only permit auto-auth for local apps (e.g. not devices or remote PCs)
+			(oSession.LocalProcessID > 0) &&
+			// Only permit auth to sites we trust
+			(Utilities.isPlainHostName(oSession.hostname)
 			// Replace telerik.com with whatever servers Fiddler Classic should release credentials to.
-			|| oSession.host.EndsWith("telerik.com"))  
-			) 
-		{ 
-			// To use creds other than your Windows login credentials, 
-			// set X-AutoAuth to "domain\\username:password" 
+			|| oSession.host.EndsWith("telerik.com"))
+			)
+		{
+			// To use creds other than your Windows login credentials,
+			// set X-AutoAuth to "domain\\username:password"
 			// Replace default with specific credentials in this format:
-			// domain\\username:password. 
-			oSession["X-AutoAuth"] = "(default)";    
-			oSession["ui-backcolor"] = "pink"; 
-		} 
+			// domain\\username:password.
+			oSession["X-AutoAuth"] = "(default)";
+			oSession["ui-backcolor"] = "pink";
+		}
 
 	//... function continues
 	```
@@ -43,6 +43,6 @@ previous_url: /configure-fiddler/tasks/authenticatewithcbt
 
 		```txt
 		domain\\username:password
-		```	 
+		```
 
 	* If you specify "(default)", Fiddler Classic will attempt to use the login credentials of whatever user-account that it is running under.

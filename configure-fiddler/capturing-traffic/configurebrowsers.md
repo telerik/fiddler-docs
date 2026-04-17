@@ -16,14 +16,14 @@ To ensure all requests are sent and captured, clear your browser's cache before 
 
 ## Chrome, Edge, and Brave
 
-* To capture traffic from most browsers, enable **File > Capture Traffic**. 
+* To capture traffic from most browsers, enable **File > Capture Traffic**.
 * Record traffic sent to **http://localhost** or **htp://127.0.0.1** from the targeted browser.
 
 ## Firefox
 
 * To capture HTTP traffic from **Firefox 4+**, either:
     * Click **Tools > Monitor with Fiddler > Use Fiddler automatically** to configure with [FiddlerHook][8], or
-    * Click **Tools > Options > Advanced > Network > Settings > Use System Proxy Settings**. 
+    * Click **Tools > Options > Advanced > Network > Settings > Use System Proxy Settings**.
     ![Use System Proxy Settings](./images/UseSystemProxySettings.png)
 * [Capture HTTPS traffic from Firefox](slug://FirefoxHTTPS)
 

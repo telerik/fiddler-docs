@@ -12,7 +12,7 @@ previous_url: /observe-traffic/tasks/ie9requestheader
 
 ## Add Accept header and Download Initiator columns to **Web Sessions List**
 
-1. Enable the Feature Control Key. 
+1. Enable the Feature Control Key.
 	```bash
 	FEATURE_DOWNLOAD_INITIATOR_HTTP_HEADER
 	```

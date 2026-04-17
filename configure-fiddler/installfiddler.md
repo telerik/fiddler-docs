@@ -8,7 +8,7 @@ position: 10
 previous_url: /configure-fiddler/tasks/installfiddler
 ---
 
-# Using Fiddler 
+# Using Fiddler
 
 This article describes how to download and install the Fiddler Classic web debugging proxy tool on Windows.
 

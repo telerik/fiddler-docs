@@ -9,7 +9,7 @@ position: 16
 
 # Build Cookie Scanning Extension
 
-Below is the code for the Fiddler Classic [Privacy Scanner add-on](https://www.telerik.com/fiddler/add-ons). 
+Below is the code for the Fiddler Classic [Privacy Scanner add-on](https://www.telerik.com/fiddler/add-ons).
 
 ```c#
 using System;
@@ -180,7 +180,7 @@ public class TagCookies : IAutoTamper2
 		P3PMalformed
 	}
 
-	public void OnPeekAtResponseHeaders(Session oSession) 
+	public void OnPeekAtResponseHeaders(Session oSession)
 	{
 		if (!bEnabled) return;
 

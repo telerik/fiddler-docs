@@ -11,7 +11,7 @@ position: 7
 
 ## Thread Safety and FiddlerCore
 
-+ Currently, the `ISessionImporter` and `ISessionExporter` interfaces are called on the **MAIN** UI thread. This is almost certain to change in the future, so you should ensure that your classes are thread safe and that they do not attempt to directly manipulate the Fiddler Classic UI. 
++ Currently, the `ISessionImporter` and `ISessionExporter` interfaces are called on the **MAIN** UI thread. This is almost certain to change in the future, so you should ensure that your classes are thread safe and that they do not attempt to directly manipulate the Fiddler Classic UI.
 
 + Manipulation of the Fiddler Classic UI is further ill-advised because Fiddler Classic itself may not be loaded; FiddlerCore may be hosting your Importer/Exporter directly. In order to support FiddlerCore, it is advised that you support the Filename key (with string value of a fully-qualified path) in the dictOptions parameter, and consider supporting a Silent key (value as boolean) as well.
 

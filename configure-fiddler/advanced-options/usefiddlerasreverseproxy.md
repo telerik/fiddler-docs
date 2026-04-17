@@ -14,7 +14,7 @@ previous_url: /configure-fiddler/tasks/usefiddlerasreverseproxy
 
 To use this method, the hostname for the request to reroute must be  **127.0.0.1:8888**, **localhost:8888**, **[::1]:8888**, or the machine's NETBIOS hostname on port **8888**.
 
-1. Click **Tools > Options**. Ensure **Allow remote clients to connect** is checked. 
+1. Click **Tools > Options**. Ensure **Allow remote clients to connect** is checked.
  ![Allow remote clients to connect](./images/AllowRemoteComputersToConnect.png)
 2. Close Fiddler Classic.
 3. Start **REGEDIT**.
@@ -25,9 +25,9 @@ To use this method, the hostname for the request to reroute must be  **127.0.0.1
 
 ## Write a FiddlerScript Rule
 
-1. Click **Tools > Options**. Ensure **Allow remote clients to connect** is checked. 
+1. Click **Tools > Options**. Ensure **Allow remote clients to connect** is checked.
  ![Allow remote clients to connect](./images/AllowRemoteComputersToConnect.png)
-2. Click **Tools > Options**, and ensure the "Allow remote clients to connect" checkbox is checked. 
+2. Click **Tools > Options**, and ensure the "Allow remote clients to connect" checkbox is checked.
 3. Restart Fiddler Classic if prompted.
 3. Click **Rules > Customize Rules**.
 4. Inside the OnBeforeRequest handler*, add a new line of code:
@@ -39,7 +39,7 @@ To use this method, the hostname for the request to reroute must be  **127.0.0.1
 ## Configure Fiddler Classic to Listen to Client Application Target Port
 
 
-1. Reconfigure your target server to listen on a different port. For example, if a web server runs on port 80, reconfigure it to run on port 81.  
+1. Reconfigure your target server to listen on a different port. For example, if a web server runs on port 80, reconfigure it to run on port 81.
 2. Click **Tools > Options...**.
 3. Click **Connections**.
 4. Type the client's target port number next to **Fiddler listens to port:**

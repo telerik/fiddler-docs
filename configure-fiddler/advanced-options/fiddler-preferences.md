@@ -70,7 +70,7 @@ Set to "True" to cause Fiddler to abort a download if streaming the response to 
 fiddler.network.streaming.abortifclientaborts = "False"
 ```
 
-Set to "True" to cause Fiddler to "forget" received bytes if they are streamed to the client. Similar to the SessionFlag 
+Set to "True" to cause Fiddler to "forget" received bytes if they are streamed to the client. Similar to the SessionFlag
 log-drop-response-body, but forgetting occurs during streaming rather than upon response completion:
 ```bash
 fiddler.network.streaming.ForgetStreamedData = "False"

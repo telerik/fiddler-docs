@@ -27,7 +27,7 @@ res_type: kb
 
 This article lists several popular references for HTTP headers. We also explain some of the [frequently misinterpreted HTTP headers](#additional-Information).
 
-References for HTTP Response Status codes: 
+References for HTTP Response Status codes:
 + [RFC 2616 List][1] or [Expanded Wikipedia List][2]
 + [HTTP RFC Header Definitions][3]
 + [IANA Header Registrations][4]
@@ -41,15 +41,15 @@ Following are some remarks on a few of the HTTP headers that are often misunders
 
 Date the response expires and should no longer be used by a cache.  See [http://www.mnot.net/cache_docs/][6] or pg 183.  Note that this header should be overruled by the Cache-Control header in a HTTP1.1 client.
 
-**Cache-Control: must-revalidate**	
+**Cache-Control: must-revalidate**
 
 Note that the O'Reilly book (and many other places, including IE) implement this incorrectly! See [http://www.mnot.net/cache_docs/][6] or [RFC2616][7].
 
-**P3P**	
+**P3P**
 
 Compact P3P Privacy statement.  For more information refer to [IE6's Privacy features and impact on HTTP Cookies][8].
 
-**Set-Cookie**	 
+**Set-Cookie**
 
 Info on IE's Privacy features and impact on HTTP Cookies
 

@@ -14,17 +14,17 @@ I see some traffic in the Web Sessions List, but some traffic (for example, from
 
 ## Solution: Check for Traffic Filters
 
-Check to see if any Traffic Filters are enabled.  
+Check to see if any Traffic Filters are enabled.
 
 + Check in the **status bar**
 
- ![SBFilter](./images/SBFilter.png) 
+ ![SBFilter](./images/SBFilter.png)
 
 + Check the **Process Filter** in the toolbar.
 
-![TBFilter](./images/TBFilter.png)  
+![TBFilter](./images/TBFilter.png)
 
-+ Check the **Filters tab**. 
++ Check the **Filters tab**.
 
 ![FiltersTab](./images/filterstab.png)
 

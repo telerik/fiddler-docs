@@ -54,25 +54,25 @@ objRequest.Proxy= new WebProxy("127.0.0.1", 8888);
 
 **Note:** Important: Regardless of other settings, .NET will always bypass the Fiddler Classic proxy for URLs containing localhost.  So, rather than using localhost, change your code to refer to the machine name.  For instance:
 
-+ This URL will not appear in Fiddler: 
++ This URL will not appear in Fiddler:
 `http://localhost/X509SignCodeService/X509SigningService.asmx`
 
-+ This URL will appear in Fiddler: 
++ This URL will appear in Fiddler:
 `http://mymachine/X509SignCodeService/X509SigningService.asmx`
 
 
 ## Configure .NET Core Applications
 
-Setup the proxy via netsh tool in commmand line the following way 
+Setup the proxy via netsh tool in commmand line the following way
 
 see [Netsh Docs](https://docs.microsoft.com/en-us/windows-server/networking/technologies/netsh/netsh-contexts) for more info on this topic
 
 ```bash
 netsh winhttp set proxy 127.0.0.1:8888
 ```
- 
-To remove the proxy use the following 
- 
+
+To remove the proxy use the following
+
 ```bash
 netsh winhttp reset proxy
 ```

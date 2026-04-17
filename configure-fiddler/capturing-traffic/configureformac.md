@@ -31,15 +31,15 @@ Virtualization products like VMWare Fusion or Parallels Desktop permit Fiddler t
 
 3. Click **Tools > Options > Connections**.
 
-4. Click the checkbox by **Allow remote computers to connect**. 
+4. Click the checkbox by **Allow remote computers to connect**.
 
  ![Allow remote computers to connect](./images/AllowRemoteComputersToConnect.png)
 
 5. Restart Fiddler.
 
-6. Ensure your firewall allows incoming connections to the Fiddler Classic process. 
+6. Ensure your firewall allows incoming connections to the Fiddler Classic process.
 
-## Configure Mac 
+## Configure Mac
 
 1. Hover over the **Online indicator** at the far right of the Fiddler Classic toolbar to display the IP addresses assigned to the virtual machine.
 
@@ -47,13 +47,13 @@ Virtualization products like VMWare Fusion or Parallels Desktop permit Fiddler t
 
 2. Click the **Apple Menu**.
 
-3. Click **System Preferences**. 
+3. Click **System Preferences**.
 
 4. Click the **Network** icon.
 
-5. Click the **Advanced** button. 
+5. Click the **Advanced** button.
 
-6. Click the **Proxies** tab. 
+6. Click the **Proxies** tab.
 
 7. Enable the **Web Proxy** (HTTP) and **Secure Web Proxy** (HTTPS) options to point to the IPv4 address of the virtual machine using port 8888.
 

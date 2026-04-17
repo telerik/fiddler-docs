@@ -12,7 +12,7 @@ previous_url: /observe-traffic/tasks/configurecolumns
 
 ## Rearrange Columns
 
-* To reorder the columns, drag a column header to the left or the right. 
+* To reorder the columns, drag a column header to the left or the right.
  ![Reorder Columns](./images/ReorderColumns.png)
 * To resize a column, drag the edge of a column header.
  ![Resize Columns](./images/ResizeColumns.png)
@@ -29,7 +29,7 @@ Use on of these methods:
     3. Enter the name of the collection member that will populate the column and the title of the column.
 * **Use QuickExec to add a temporary column**
     ```txt
-    cols add [Title] FlagName 
+    cols add [Title] FlagName
     ```
   ![QuickExec Command](./images/QuickExecCommand.png)
 Columns added using QuickExec will be removed the next time Fiddler Classic starts. For more QuickExec column commands, see the [QuickExec Reference](slug://QuickExec).

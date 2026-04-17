@@ -13,7 +13,7 @@ previous_url: /generate-traffic/tasks/importexportautoresponder
 ## Import a matching ruleset
 
 
-From the **Autoresponder** tab: 
+From the **Autoresponder** tab:
 
 1. Click the **Import** button.
 2. Select a **.saz** or **.farx** file.

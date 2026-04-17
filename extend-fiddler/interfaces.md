@@ -26,13 +26,13 @@ public interface IFiddlerExtension
 }
 ```
 
-+ The **OnLoad** function will be called when Fiddler Classic has finished loading and its UI is fully available.  At this point, you can safely add menu items, tabbed pages, or other elements to the Fiddler Classic UI. 
++ The **OnLoad** function will be called when Fiddler Classic has finished loading and its UI is fully available.  At this point, you can safely add menu items, tabbed pages, or other elements to the Fiddler Classic UI.
 
 + The **OnBeforeUnload** function will be called when Fiddler Classic is shutting down and unloading all extensions.
 
 ## Call Extension for Each Web Request
 
-+ Extensions that implement the **IAutoTamper** interface (which extends **IFiddlerExtension**) are called for each HTTP/HTTPS request and response, enabling modifications, logging, or other operations. 
++ Extensions that implement the **IAutoTamper** interface (which extends **IFiddlerExtension**) are called for each HTTP/HTTPS request and response, enabling modifications, logging, or other operations.
 
  >important: Functions in this interface are called on background, non-UI threads. To update UI, use **Invoke** or **BeginInvoke** to update the UI. Also, note that the IAutoTamper::* functions may be called before the **OnLoad** event is called-- Fiddler Classic allows traffic to flow before the UI is fully available.
 
@@ -95,14 +95,14 @@ void OnPeekAtRequestHeaders(Session oSession);
 ```c#
 public interface IHandleExecAction
 {
-	// return TRUE if handled. 
-	bool OnExecAction(string sCommand); 
+	// return TRUE if handled.
+	bool OnExecAction(string sCommand);
 }
 ```
 
 + The Fiddler.Utilities class includes a helper function **Parameterize()** which helps to interpret the sCommand parameter.
 
 ```c#
-[CodeDescription("Tokenize a string into tokens. Delimits on whitespace; Quotation marks are dropped unless preceded by a \ character.")] 
+[CodeDescription("Tokenize a string into tokens. Delimits on whitespace; Quotation marks are dropped unless preceded by a \ character.")]
 public static string[] Parameterize(string sCommand)
 ```

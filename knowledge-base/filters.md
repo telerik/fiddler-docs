@@ -69,7 +69,7 @@ When configured to hide traffic to certain hosts, Fiddler Classic will still pro
 ![Filter to Hosts](./images/FilterToHosts.png)
 ## Client Process
 
-The process filter allows you to control which processes' traffic is shown within Fiddler. 
+The process filter allows you to control which processes' traffic is shown within Fiddler.
 
 The **Hide traffic from Service Host** option will hide traffic from svchost.exe, a system process that synchronizes RSS Feeds and performs other background network activity.
 
@@ -87,7 +87,7 @@ Using these options, you can add or remove HTTP request headers, and flag respon
 You can also filter displayed traffic down to specific URLs with the **Show only if url contains** box. You can demand case-sensitivity with the **EXACT** directive
 
 ```sh
-EXACT://example.com/q=Case+Sensitive+String 
+EXACT://example.com/q=Case+Sensitive+String
 ```
 or you can use regular expressions, so you can use:
 

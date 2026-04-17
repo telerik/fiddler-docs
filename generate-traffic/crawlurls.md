@@ -14,8 +14,8 @@ previous_url: /generate-traffic/tasks/crawlurls
 [Add a rule to Fiddler](slug://AddRules) with Global scope as follows:
 
 ```c#
-public static ToolsAction("Crawl Sequential URLs") 
-function doCrawl(){ 
+public static ToolsAction("Crawl Sequential URLs")
+function doCrawl(){
 	var sBase: String;
 	var sInt: String;
 
@@ -28,8 +28,8 @@ function doCrawl(){
 	for (var x=iFirst; x<=iLast; x++)
 	{
 	//Replace 's' with your HTTP Request. Note: \ is a special character in JScript
-	// If you want to represent a backslash in a string constant, double it like \\ 
-	var s = "GET " + sBase.Replace("##", x.ToString()) + " HTTP/1.0\r\n\r\n"; 
+	// If you want to represent a backslash in a string constant, double it like \\
+	var s = "GET " + sBase.Replace("##", x.ToString()) + " HTTP/1.0\r\n\r\n";
 	var b=false;
 	while(!b){
 	try{
@@ -40,7 +40,7 @@ function doCrawl(){
 		var iT = Environment.TickCount + 10000;
 		FiddlerObject.StatusText = "Waiting 10 sec because we have too many requests outstanding...";
 		while (iT > Environment.TickCount){ Application.DoEvents(); }
-		} 
+		}
 	}
 	}
 }

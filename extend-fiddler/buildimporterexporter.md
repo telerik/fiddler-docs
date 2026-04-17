@@ -28,7 +28,7 @@ using System.Reflection;
 
 
 [ProfferFormat("TAB-Separated Values", "Session List in Tab-Delimited Format")]
-[ProfferFormat("Comma-Separated Values", 
+[ProfferFormat("Comma-Separated Values",
 	"Session List in Comma-Delimited Format; import into Excel or other tools")]
 
 public class CSVTranscoder: ISessionExporter  // Ensure class is public, or Fiddler Classic won't see it!
@@ -36,7 +36,7 @@ public class CSVTranscoder: ISessionExporter  // Ensure class is public, or Fidd
 	public bool ExportSessions(string sFormat, Session[] oSessions, Dictionary<string, object> dictOptions,
 		EventHandler<ProgressCallbackEventArgs> evtProgressNotifications)
 	{
-	bool bResult = false; 
+	bool bResult = false;
 	string chSplit;
 
 	// Determine if we already have a filename from the dictOptions collection
@@ -100,7 +100,7 @@ public class CSVTranscoder: ISessionExporter  // Ensure class is public, or Fidd
 		else
 		{
 			bFirstCol = false;
-		} 
+		}
 
 			swOutput.Write(oLVC.Text.Replace(chSplit, ""));
 		}

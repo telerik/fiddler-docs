@@ -23,7 +23,7 @@ See [Build extension assemblies to run in both Fiddler Classic versions 2 and 4]
 
 ## Debugging
 
-+ To ensure that exceptions and other extension-related errors are not silently caught: [set](slug://ExtensionsForv2Andv4) the `fiddler.debug.extensions.showerrors` preference to **True**. 
++ To ensure that exceptions and other extension-related errors are not silently caught: [set](slug://ExtensionsForv2Andv4) the `fiddler.debug.extensions.showerrors` preference to **True**.
 + To output logging information to the **Log** tab: set the `fiddler.debug.extensions.verbose`
 
 ## Direct Fiddler Classic to load extension assemblies
@@ -53,7 +53,7 @@ using Fiddler;
 
 3. Right-click the project's **References** folder in the **Solution Explorer**.
 
-4. Click the **Browse** tab and select **Fiddler.exe** in the **%localappdata%\Programs\Fiddler** folder. 
+4. Click the **Browse** tab and select **Fiddler.exe** in the **%localappdata%\Programs\Fiddler** folder.
 
 5. Click **Ok** to add the reference.
 
@@ -87,7 +87,7 @@ public class Violin : IAutoTamper    // Ensure class is public, or Fiddler won't
 
 		But it's also possible that AutoTamper* methods are called before OnLoad (below), so be
 		sure any needed data structures are initialized to safe values here in this constructor */
-	
+
 		sUserAgent = "Violin";
 	}
 

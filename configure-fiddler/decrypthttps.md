@@ -33,21 +33,21 @@ To skip traffic decryption for a specific application or to decrypt HTTPS traffi
 Add a rule like this inside the [OnBeforeRequest function](https://docs.telerik.com/fiddler/knowledge-base/fiddlerscript/modifyrequestorresponse):
 
 ```C#
-if (oSession.HTTPMethodIs("CONNECT") && oSession["X-PROCESSINFO"] && oSession["X-PROCESSINFO"].StartsWith("outlook")) 
-{ 
+if (oSession.HTTPMethodIs("CONNECT") && oSession["X-PROCESSINFO"] && oSession["X-PROCESSINFO"].StartsWith("outlook"))
+{
 	oSession["x-no-decrypt"] = "boring process";
-}    
-```  
+}
+```
 
 ## Decrypt traffic from one hostname only
 
 Add a rule like this inside the [OnBeforeRequest function](https://docs.telerik.com/fiddler/knowledge-base/fiddlerscript/modifyrequestorresponse):
 
 ```c#
-if (oSession.HTTPMethodIs("CONNECT") && 
+if (oSession.HTTPMethodIs("CONNECT") &&
 	!oSession.HostnameIs("SiteICareAbout.com"))
-{ 
-	oSession["x-no-decrypt"] = "do not care."; 
+{
+	oSession["x-no-decrypt"] = "do not care.";
 }
 ```
 

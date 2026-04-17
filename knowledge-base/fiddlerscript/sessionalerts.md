@@ -15,7 +15,7 @@ To create alerts for specific sessions, [add rules](slug://AddRules) using Fiddl
 ```c#
 if (oSession.responseCode == 404){
         FiddlerObject.playSound("C:\\windows\\media\\ding.wav");
-        oSession["ui-strikeout"]="true"; 
+        oSession["ui-strikeout"]="true";
 }
 ```
 

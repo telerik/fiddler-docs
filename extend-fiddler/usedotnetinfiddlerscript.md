@@ -79,7 +79,7 @@ class Handlers{
 
 	static function Main(){
 
-		var today: Date = new Date();      
+		var today: Date = new Date();
 
 		FiddlerObject.StatusText = " CustomRules.js was loaded at: " + today;
 

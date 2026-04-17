@@ -13,7 +13,7 @@ previous_url: /configure-fiddler/tasks/monitorwindowsphone7
 ## Configure Fiddler
 
 1. Start Fiddler Classic on the Fiddler server (the machine that will capture the traffic).
-2. Click **Tools > Options**. Click **Allow remote clients to connect**. 
+2. Click **Tools > Options**. Click **Allow remote clients to connect**.
  ![Allow remote clients to connect](./images/AllowRemoteComputersToConnect.png)
 3. Restart Fiddler.
 4. In the Windows Security Alert dialog, check all three checkboxes and click the **Allow Access** button.

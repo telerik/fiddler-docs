@@ -17,7 +17,7 @@ previous_url: /configure-fiddler/tasks/configureforandroid
 
 1. Click **Tools > Fiddler Options > Connections**.
 
-1. Ensure that the checkbox by **Allow remote computers to connect** is checked. 
+1. Ensure that the checkbox by **Allow remote computers to connect** is checked.
 
 1. If you check the box, restart Fiddler.
 
@@ -68,13 +68,13 @@ After using Fiddler, return to the **Proxy Settings** screen above and remove th
 
 1. If the download doesn't open automatically, swipe down from the top and tap the **Settings** icon.
 
-1. Tap **Personal > Security.** 
+1. Tap **Personal > Security.**
 
-1. Under **Credential Storage**, tap **Install from storage**. 
+1. Under **Credential Storage**, tap **Install from storage**.
 
  ![Install from storage](./images/InstallFromStorage.png)
 
-5. Tap the **FiddlerRoot.cer** file. 
+5. Tap the **FiddlerRoot.cer** file.
 
 6. (Optional) Type a name for the certificate.
 

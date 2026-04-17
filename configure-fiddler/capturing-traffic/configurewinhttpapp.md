@@ -20,7 +20,7 @@ netsh winhttp set proxy 127.0.0.1:8888
 
 On Windows 7 or earlier, run the above command in 32bit NETSH to configure 32bit WinHTTP hosts, and run the command in 64bit NETSH to configure 64bit WinHTTP hosts.
 
-**Windows XP or below**: 
+**Windows XP or below**:
 
 ```bash
 proxycfg -p http=127.0.0.1:8888;https=127.0.0.1:8888

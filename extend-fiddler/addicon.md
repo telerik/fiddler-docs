@@ -21,7 +21,7 @@ public void OnLoad()
 	oView = new TimelineView();
 	oPage.Controls.Add(oView);
 	oView.Dock = DockStyle.Fill;
-	FiddlerApplication.UI.tabsViews.TabPages.Add(oPage); 
+	FiddlerApplication.UI.tabsViews.TabPages.Add(oPage);
 }
 ```
 
@@ -39,7 +39,7 @@ public void OnLoad()
 	oView = new TimelineView();
 	oPage.Controls.Add(oView);
 	oView.Dock = DockStyle.Fill;
-	FiddlerApplication.UI.tabsViews.TabPages.Add(oPage); 
+	FiddlerApplication.UI.tabsViews.TabPages.Add(oPage);
 }
 
 ```

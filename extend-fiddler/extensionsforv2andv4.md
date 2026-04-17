@@ -46,7 +46,7 @@ else
 
 ```txt
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fiddler2
-``` 
+```
 
  The .NET2 version of Fiddler Classic is much more popular than the .NETv4 version at present. When the .NET Framework v4.5 is released, I may move the v4 project over to v4.5. Among other things, that would allow me to take advantage of the new built-in .ZIP classes in that later framework.
 

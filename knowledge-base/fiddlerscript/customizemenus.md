@@ -15,7 +15,7 @@ To customize menus in Fiddler, [add rules](slug://AddRules) using FiddlerScript 
 
 ```c#
 public static ContextAction("Open in Firefox")
-function DoOpenInIE(oSessions: Fiddler.Session[]){ 
+function DoOpenInIE(oSessions: Fiddler.Session[]){
 	if (null == oSessions){
 	MessageBox.Show("Please choose at least 1 session."); return;
 	}
@@ -30,20 +30,20 @@ function DoOpenInIE(oSessions: Fiddler.Session[]){
 **Add a submenu to the Rules menu and create an option in it**
 
 ```c#
-public static RulesOption("Non-Exclusive-Test", "User-Agent") 
-var m_UANONRad: boolean = true; 
+public static RulesOption("Non-Exclusive-Test", "User-Agent")
+var m_UANONRad: boolean = true;
 ```
 
 **To build submenus with mutually exclusive radio options**
 
 ```c#
-public static RulesOption("Spoof Netscape &3.0", "User-Agent", true) 
-var m_NS3: boolean = false; 
+public static RulesOption("Spoof Netscape &3.0", "User-Agent", true)
+var m_NS3: boolean = false;
 
-public static RulesOption("Spoof IE &6.0", "User-Agent", true) 
-var m_IE6: boolean = false; 
+public static RulesOption("Spoof IE &6.0", "User-Agent", true)
+var m_IE6: boolean = false;
 
-public static RulesOption("Spoof nothing", "User-Agent", true) 
+public static RulesOption("Spoof nothing", "User-Agent", true)
 var m_UANONE: boolean = true;
 ```
 
@@ -51,7 +51,7 @@ var m_UANONE: boolean = true;
 (Offers a more compact syntax than the previous alternative)
 
 ```c#
-RulesString("&SubMenuName", true) 
+RulesString("&SubMenuName", true)
 RulesStringValue(0,"Option1Name", "Option1Value")
 RulesStringValue(1,"Option2Name", "Option2Value")
 RulesStringValue(2,"&Custom...", "%CUSTOM%")
@@ -61,7 +61,7 @@ public static var sTheOptionValue: String = null;
 **Same as previous, but with a default option pre-selected**
 
 ```c#
-RulesString("&SubMenuName", true) 
+RulesString("&SubMenuName", true)
 RulesStringValue(0,"Option1Name", "Option1Value")
 RulesStringValue(1,"Option2NameDEFAULT", "DefaultVal", true)
 RulesStringValue(2,"&Custom...", "%CUSTOM%")
@@ -74,7 +74,7 @@ public static var sTheOptionValue: String = null;
 // Force a manual reload of the script file. Resets all
 // RulesOption variables to their defaults.
 public static ToolsAction("Reset Script")
-function DoManualReload(){ 
+function DoManualReload(){
 	FiddlerObject.ReloadScript();
 }
 
@@ -85,6 +85,6 @@ function DoManualReload(){
 ```c#
 public static ToolsAction("Reset IE"){
 	FiddlerObject.UI.actClearWinINETCache();
-	FiddlerObject.UI.actClearWinINETCookies(); 
+	FiddlerObject.UI.actClearWinINETCookies();
 }
 ```

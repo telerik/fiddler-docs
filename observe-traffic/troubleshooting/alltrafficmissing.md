@@ -14,7 +14,7 @@ position: 1
 + Review the [Configuring Clients](slug://ConfigureFiddler) section.
 
 + If appropriate, review the [Configure Browser](slug://ViewWebTraffic) or [Configure .NET app](slug://DotNETConfig) pages.
- 
+
 + If appropriate, review the [Monitoring traffic to localhost](slug://MonitorDialupAndVPN) page.
 
 + Ensure traffic is not blocked by one or more [filters](slug://MonitorLocalTraffic).

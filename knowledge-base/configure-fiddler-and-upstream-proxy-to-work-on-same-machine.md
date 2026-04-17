@@ -32,7 +32,7 @@ In some cases, when using Fiddler Classic it may be necessary to allow traffic t
 
     ![System OS Auto Proxy Settings with Fiddler Classic](images/system_auto_proxy_with_fiddler.png)
 
-2. Use a catch in the PAC file. 
+2. Use a catch in the PAC file.
 
 ```JavaScript
 function FindProxyForURL(url,host){

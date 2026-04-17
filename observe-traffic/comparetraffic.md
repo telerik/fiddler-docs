@@ -14,7 +14,7 @@ previous_url: /observe-traffic/tasks/comparetraffic
 
 1. Select two sessions in the **Web Sessions List**.
 2. Right-click one of the sessions.
-3. Click **Compare** from the context menu. 
+3. Click **Compare** from the context menu.
 By default, this will attempt to launch **WinDiff** or **WinMerge** to compare the traffic.
 
 **Tips:**

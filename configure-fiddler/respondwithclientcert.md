@@ -22,7 +22,7 @@ To specify a .CER file for Fiddler Classic to return otherwise, place that .CER 
 
 ```bash
 %USERPROFILE%\My Documents\Fiddler2\ClientCertificate.cer
-```		
+```
 
 To generate a .CER file:
 

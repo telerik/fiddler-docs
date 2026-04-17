@@ -22,7 +22,7 @@ To export traffic to **WCAT Script**, **VS Web Test Script**, [**Meddler Script*
  ![Select Export Format](./images/SelectExportFormat.png)
 
 4. Click **Next** to select the export file location.
- 
+
 5. If exporting to **HTML5 AppCache Manifest**: Check any resources you wish to exclude from the CACHE section of the Manifest. These will be added to the NETWORK section of the Manifest.
 
  ![Adjust AppCache Manifest](./images/AdjustAppCacheManifest.png)

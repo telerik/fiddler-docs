@@ -39,7 +39,7 @@ When you close Fiddler, it unregisters itself as the system proxy before shuttin
 
 All current versions of Fiddler Classic support chaining to upstream proxies (either autodetected or manually specified).
 
-The result is an architecture like this: 
+The result is an architecture like this:
 
  ![Upstream Proxy Architecture](./images/UpstreamProxy.png)
 

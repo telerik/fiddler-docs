@@ -30,9 +30,9 @@ System.setProperty("https.proxyHost", "127.0.0.1");
 System.setProperty("http.proxyPort", "8888");
 System.setProperty("https.proxyPort", "8888");
 ```
-		
+
 For the seamless experience in Windows you may consider adding
-        	
+
 ```c#
 System.setProperty("javax.net.ssl.trustStoreType","Windows-ROOT");
 ```

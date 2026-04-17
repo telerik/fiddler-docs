@@ -14,7 +14,7 @@ previous_url: /configure-fiddler/tasks/monitorremotemachine
 
 1. Start Fiddler Classic on the Fiddler server (the machine that will capture the traffic).
 
-2. Click **Tools > Options**. Ensure **Allow remote clients to connect** is checked. 
+2. Click **Tools > Options**. Ensure **Allow remote clients to connect** is checked.
 
  ![Allow remote clients to connect](./images/AllowRemoteComputersToConnect.png)
 

@@ -37,17 +37,17 @@ Keyboard Shortcuts
 
 ## Default commands
 
-- **?sometext**	
+- **?sometext**
 
-As you type sometext, Fiddler Classic will highlight sessions where the URL contains sometext.  Hit Enter to set focus to the selected matches.	
+As you type sometext, Fiddler Classic will highlight sessions where the URL contains sometext.  Hit Enter to set focus to the selected matches.
 
 ```sh
 ?searchtext
 ```
 
-- **>size**	
+- **>size**
 
-Select sessions where response size is greater than size bytes.	
+Select sessions where response size is greater than size bytes.
 
 ```sh
 >40000 # Select responses over 40kb
@@ -55,7 +55,7 @@ Select sessions where response size is greater than size bytes.
 
 - **<size**
 
-Select sessions where response size is less than size bytes.	
+Select sessions where response size is less than size bytes.
 
 ```sh
 <5k # Select responses under 5kb
@@ -63,9 +63,9 @@ Select sessions where response size is less than size bytes.
 
 - **=status**
 
-- **=method**	
+- **=method**
 
-Select sessions where response status = status or request method = method.	
+Select sessions where response status = status or request method = method.
 
 ```sh
 =301 # Select 301 redirect responses
@@ -74,33 +74,33 @@ Select sessions where response status = status or request method = method.
 
 - **@host**
 
-Select sessions where the request host contains host.  Hit Enter to set focus to the selected matches.	
+Select sessions where the request host contains host.  Hit Enter to set focus to the selected matches.
 
 ```sh
 @msn.com # Select www.msn.com, login.msn.com, etc
 ```
 
-- **bold**	
+- **bold**
 
-Mark any future sessions in bold if the url contains the target string	
+Mark any future sessions in bold if the url contains the target string
 
 ```sh
 bold /bar.aspx
 bold  # Call with no parameter to clear
 ```
 
-- **bpafter**	
+- **bpafter**
 
-Break any response where the RequestURI contains the specified string	
+Break any response where the RequestURI contains the specified string
 
 ```sh
-bpafter /favicon.ico 
+bpafter /favicon.ico
 bpafter # Call with no parameter to clear
 ```
 
-- **bps**	
+- **bps**
 
-Break any response where the status code matches	
+Break any response where the status code matches
 
 ```sh
 bps 404
@@ -110,96 +110,96 @@ bps        # Call with no parameter to clear
 
 - **bpv** or **bpm**
 
-Create a request breakpoint for the specified HTTP method.  Setting this command will clear any previous value for the command; calling it with no parameter will disable the breakpoint.	
+Create a request breakpoint for the specified HTTP method.  Setting this command will clear any previous value for the command; calling it with no parameter will disable the breakpoint.
 
 ```sh
 bpv POST
 bpv        # Call with no parameter to clear
 ```
 
-- **bpu**	
+- **bpu**
 
-Create a request breakpoint for URIs containing the specified string.  Setting this command will clear any previous value for the command; calling it with no parameter will disable the breakpoint.	
+Create a request breakpoint for URIs containing the specified string.  Setting this command will clear any previous value for the command; calling it with no parameter will disable the breakpoint.
 
 ```sh
 bpu /myservice.asmx
 bpu        # Call with no parameter to clear
 ```
 
-- **cls** or **clear**	
+- **cls** or **clear**
 
-clear the session list	
+clear the session list
 
 ```sh
 cls
 ```
 
-- **dump**	
+- **dump**
 
-dump all sessions to a zip archive in C:\	
+dump all sessions to a zip archive in C:\
 
 ```sh
 dump
 ```
 
-- **g** or **go**	
+- **g** or **go**
 
-Resume all breakpointed sessions	
+Resume all breakpointed sessions
 
 ```sh
 g
 ```
 
-- **help**	
+- **help**
 
-Show this page	
+Show this page
 
 ```sh
 help
 ```
 
-- **hide**	Hide Fiddler in System tray	
+- **hide**	Hide Fiddler in System tray
 
 ```sh
 hide
 ```
 
-- **urlreplace**	
+- **urlreplace**
 
-Replace any string in URLs with a different string.  Setting this command will clear any previous value for the command; calling it with no parameter will cancel the replacement.	
+Replace any string in URLs with a different string.  Setting this command will clear any previous value for the command; calling it with no parameter will cancel the replacement.
 
 ```sh
 urlreplace SeekStr ReplaceWithStr
 urlreplace        # Call with no parameters to clear
 ```
 
-- **start**	
+- **start**
 
-Register as the system proxy	
+Register as the system proxy
 
 ```sh
 start
 ```
 
-- **stop**	
+- **stop**
 
-Unregister as the system proxy	
+Unregister as the system proxy
 
 ```sh
 stop
 ```
 
-- **show**	
+- **show**
 
-Restore Fiddler Classic from system tray -- more useful when triggering rules from ExecAction.exe (see below)	
+Restore Fiddler Classic from system tray -- more useful when triggering rules from ExecAction.exe (see below)
 
 ```sh
 show
 ```
 
-- **select *MIME***	
+- **select *MIME***
 
-Select any session where the response Content-Type header contains the specified string.	
+Select any session where the response Content-Type header contains the specified string.
 
 ```sh
 select image
@@ -209,7 +209,7 @@ select htm
 
 - **select *HeaderOrFlag PartialValue***
 
-Select any session where the named Header or SessionFlag contains the specified string.	
+Select any session where the named Header or SessionFlag contains the specified string.
 
 ```sh
 select ui-comments slow
@@ -219,18 +219,18 @@ select @Request.Accept html     # Find requests with Accept: html
 select @Response.Set-Cookie domain <- Find responses that Set-Cookie on a domain
 ```
 
-- **allbut** or **keeponly**	
+- **allbut** or **keeponly**
 
-Hide all sessions except those where Content-Type header contains the specified string.	
+Hide all sessions except those where Content-Type header contains the specified string.
 
 ```sh
 allbut xml
 allbut java
 ```
 
-- **quit**	
+- **quit**
 
-Shutdown Fiddler.	
+Shutdown Fiddler.
 
 ```sh
 quit
@@ -238,16 +238,16 @@ quit
 
 - *!dns hostname**
 
-Perform a DNS lookup of the target host and show the results on the LOG tab	
+Perform a DNS lookup of the target host and show the results on the LOG tab
 
 ```sh
 !dns www.example.com
 !nslookup www.example.com
 ```
 
-- **!listen *PORT [CERTHOSTNAME]***	
+- **!listen *PORT [CERTHOSTNAME]***
 
-Set up an additional listener on another port, optionally secured by a HTTPS certificate	
+Set up an additional listener on another port, optionally secured by a HTTPS certificate
 
 ```sh
 !listen 8889

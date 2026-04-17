@@ -46,7 +46,7 @@ http://www.example.com/11/?a=11
 
 5. Add a dummy header **Fiddler-Host: targettesthost** if you would like Fiddler Classic to send your request to the specified server (`http://targettesthost`, in this case) while retaining the URL and host header specified elsewhere in the request. This is a convenience method that setS the X-OverrideHost, X-IgnoreCertCNMismatch and X-OverrideGateway flags on the new Session, removing the dummy header before contacting the specified server.
 
-6. Click the **Upload File** link to have the composer inject one or more local files into the request body as it is sent to the server. 
+6. Click the **Upload File** link to have the composer inject one or more local files into the request body as it is sent to the server.
 
 If you would like the uploaded file to be sent as base64 (as you might in an XML post body) insert the token base64 into the string. For instance:
 
@@ -56,4 +56,4 @@ If you would like the uploaded file to be sent as base64 (as you might in an XML
 	</mybody>
 </xml>
 ```
- 
+

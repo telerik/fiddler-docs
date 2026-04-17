@@ -30,18 +30,18 @@ Each Session object in Fiddler Classic contains a collection of string flags, in
 
 ### Using SessionFlags
 
-+ Flag names are not case-sensitive.  
++ Flag names are not case-sensitive.
 
 + Flag values are always strings.
 
 + If you examine **oFlags["non-existent-flag"]**, the result will be **null**.
 
 + The **oFlags** collection is the "indexer" for the **Session** object, so **oSession.oFlags["flagname"]** can be written as:
-  + **oSession["flagname"]** or 
+  + **oSession["flagname"]** or
   + **oSession["SESSION", "flagname"]**
 
 + You can remove a flag from the list by:
-  + Calling: **oFlags.Remove("flagname")** or 
+  + Calling: **oFlags.Remove("flagname")** or
   + Setting **oSession["flagname"] = null**
 
 + The value of most flags is not important; adding the flag is enough. So **oSession["ui-hide"]="no"** does the same thing as **oSession["ui-hide"] = "true"** (hides the session).
@@ -54,9 +54,9 @@ Each Session object in Fiddler Classic contains a collection of string flags, in
 
 **ui-hide**
 
-Hide the session from the Session List.   
+Hide the session from the Session List.
 
-+ The session will continue to run.  
++ The session will continue to run.
 + Breakpoints on hidden sessions are ignored.
 + Note: hiding a session will free up the memory that would otherwise be used to hold the session data in memory.
 

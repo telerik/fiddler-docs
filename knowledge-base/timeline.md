@@ -47,7 +47,7 @@ Hovering over any entry will show more information about the entry. Double-click
 
 + The vertical line indicates the time to first byte of the server's response (**Timers.ServerBeginResponse**).
 
-+ The green circle before the bar shows that a connection was reused; a red circle means that the connection was newly created. 
++ The green circle before the bar shows that a connection was reused; a red circle means that the connection was newly created.
 
 + The top circle represents the client's connection to Fiddler; the bottom circle represents Fiddler's connection to the server.
 

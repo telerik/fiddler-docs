@@ -36,7 +36,7 @@ As described in the HTTP/1.1 specification (RFC2616), the Vary response header a
 
 ## The Problem
 
-Unfortunately, the WinINET caching engine (below Internet Explorer and other applications) does not cache outbound request headers.  This limitation makes it impossible for WinINET to perform the request-header matching algorithm. 
+Unfortunately, the WinINET caching engine (below Internet Explorer and other applications) does not cache outbound request headers.  This limitation makes it impossible for WinINET to perform the request-header matching algorithm.
 
 Hence, Internet Explorer is conservative and generally will refuse to return a cached Vary response for a new request, except under special circumstances, as detailed below.
 
@@ -48,7 +48,7 @@ Note: IE6 will ignore the Vary header entirely if the response was delivered wit
 
 ## Internet Explorer 7
 
-For Internet Explorer 7, the problem was not eliminated, but its impact was mitigated in some common cases. 
+For Internet Explorer 7, the problem was not eliminated, but its impact was mitigated in some common cases.
 
 When evaluating a cached response that has a Vary, IE7 can make a conditional request (for example, If-Modified-Since) rather than an unconditional request.
 

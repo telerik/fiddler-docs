@@ -14,21 +14,21 @@ To monitor traffic sent to **http://localhost** or **http://127.0.0.1** from IE8
 
 + Use your machine name as the hostname instead of **Localhost** or **127.0.0.1**
 
- For example, instead of 
-	
+ For example, instead of
+
 ```txt
 http://localhost:8081/mytestpage.aspx
 ```
- 
- Go to: 
- 
+
+ Go to:
+
 ```txt
 http://machinename:8081/mytestpage.aspx
 ```
 
 + Use one of these addresses:
 
-  -To use the IPv4 adapter (recommended for the Visual Studio test webserver, codename: Cassini): 
+  -To use the IPv4 adapter (recommended for the Visual Studio test webserver, codename: Cassini):
 
 	`http://ipv4.fiddler`
 
