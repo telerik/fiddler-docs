@@ -1,5 +1,7 @@
 ---
 title: Use Fiddler as a Reverse Proxy
+meta_title: Use Fiddler as Reverse Proxy - Fiddler Classic Documentation
+description: Learn how to configure Fiddler Classic as a reverse proxy to intercept and inspect incoming traffic on a specific port.
 slug: UseFiddlerAsReverseProxy
 publish: true
 position: 13

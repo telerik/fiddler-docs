@@ -1,6 +1,7 @@
 ---
 title: 400 Bad Request Error from IIS Express
-description: Instructions for resolving IIS Express unexpected error message
+meta_title: 400 Bad Request from IIS Express - Fiddler Classic Documentation
+description: Learn how to resolve an unexpected 400 Bad Request error from IIS Express when using Fiddler Classic as a web debugging proxy.
 slug: 400ErrorFromIIS
 publish: true
 position: 4

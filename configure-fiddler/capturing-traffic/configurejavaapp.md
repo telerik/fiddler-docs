@@ -1,6 +1,7 @@
 ---
 title: Configure a Java application
-description: Configure a Java Application alongside Fiddler Classic proxy
+meta_title: Configure Java Application - Fiddler Classic Documentation
+description: Learn how to configure a Java application to route its traffic through the Fiddler Classic web debugging proxy.
 slug: ConfigureJavaApp
 publish: true
 position: 8

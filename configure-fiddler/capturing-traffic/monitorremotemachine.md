@@ -1,6 +1,7 @@
 ---
 title: Capture traffic from another machine
-description: "Configure Fiddler Classic to capture traffic from a remote machine - set up reverse proxy or network settings for remote session debugging."
+meta_title: Capture Remote Machine Traffic - Fiddler Classic Documentation
+description: Learn how to configure Fiddler Classic to capture traffic from a remote machine by setting up proxy or network settings for remote debugging.
 slug: MonitorRemoteMachine
 publish: true
 position: 11

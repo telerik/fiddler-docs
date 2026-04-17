@@ -1,6 +1,7 @@
 ---
 title: Using Fiddler
-description: Instructions for installing the Fiddler Classic proxy tool
+meta_title: Install and Use Fiddler - Fiddler Classic Documentation
+description: Discover how to download, install, and set up the Fiddler Classic web debugging proxy tool on Windows.
 slug: UsingFiddler
 publish: true
 position: 10

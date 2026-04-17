@@ -1,6 +1,7 @@
 ---
 title: No Windows Phone Traffic
-description: Creating an IPSEC Boundary Computer Exception
+meta_title: No Windows Phone Traffic - Fiddler Classic Documentation
+description: Learn how to create an IPSEC boundary computer exception to resolve issues with Windows Phone not exchanging traffic with Fiddler Classic.
 slug: NoWindowsPhone7Traffic
 publish: true
 position: 5

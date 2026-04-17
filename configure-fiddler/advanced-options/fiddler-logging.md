@@ -1,6 +1,7 @@
 ---
 title: Logging in Fiddler Application
-description: Configure Fiddler Classic to log specific data with FiddlerScript
+meta_title: Logging in Fiddler Application - Fiddler Classic Documentation
+description: Learn how to configure Fiddler Classic to log specific data by using the built-in lightweight logging mechanism with FiddlerScript.
 slug: fiddler-logging-fiddlerscript
 publish: true
 position: 35

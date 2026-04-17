@@ -1,5 +1,7 @@
 ---
 title: Office clients don't authenticate
+meta_title: Office Clients Authentication Issue - Fiddler Classic Documentation
+description: Learn how to resolve authentication issues with Office clients that use WinHTTP and fail to authenticate while Fiddler Classic runs.
 slug: NoOfficeWinHTTPAuth
 publish: true
 position: 6

@@ -1,6 +1,7 @@
 ---
 title: Chain to Upstream Proxy
-description: Configure Fiddler Classic to send and receive web traffic to and from another proxy between Fiddler Classic and the destination serve
+meta_title: Chain to Upstream Proxy - Fiddler Classic Documentation
+description: Learn how to configure Fiddler Classic to send and receive web traffic through another proxy between Fiddler and the destination server.
 slug: ChainToUpstreamProxy
 publish: true
 position: 12

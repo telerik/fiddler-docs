@@ -1,6 +1,7 @@
 ---
 title: Capture traffic from Windows Metro-style applications
-description: Configure Fiddler Classic for Windows 8 Metro-style applications
+meta_title: Capture Windows Metro App Traffic - Fiddler Classic Documentation
+description: Learn how to configure Fiddler Classic to capture and inspect traffic from Windows 8 and later Metro-style applications.
 slug: Windows8Config
 publish: true
 position: 15

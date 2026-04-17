@@ -1,6 +1,7 @@
 ---
 title: Introduction
-description: Learn how to install, configure and capture traffic Fiddler Classic.
+meta_title: Introduction - Fiddler Classic Documentation
+description: Learn how to install, configure, and capture HTTP and HTTPS web traffic with Progress Telerik Fiddler Classic on Windows.
 slug: ConfigureFiddler
 publish: true
 position: 0

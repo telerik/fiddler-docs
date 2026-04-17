@@ -1,5 +1,7 @@
 ---
 title: Run Fiddler Classic as Administrator
+meta_title: Run Fiddler as Administrator - Fiddler Classic Documentation
+description: Learn how to capture traffic when the ProxySettingsPerUser Group Policy setting is set to 0 by running Fiddler Classic as an administrator.
 slug: ProxySettingsPerUser
 publish: true
 position: 10

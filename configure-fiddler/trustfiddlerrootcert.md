@@ -1,6 +1,7 @@
 ---
 title: Using the Fiddler Root CA Certificate
-description: Install and trust Fiddler Root CA certificate on Windows
+meta_title: Trust Fiddler Root Certificate - Fiddler Classic Documentation
+description: Learn how to install and trust the Fiddler Classic root CA certificate on Windows client applications.
 slug: TrustFiddlerRootCert
 publish: true
 position: 30

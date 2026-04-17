@@ -1,5 +1,7 @@
 ---
 title: Site on local machine rejects credentials
+meta_title: Local Site Rejects Credentials - Fiddler Classic Documentation
+description: Learn how to troubleshoot a website running on a local machine that rejects credentials when Fiddler Classic is running.
 slug: NoAuthToLocalMachine
 publish: true
 position: 7

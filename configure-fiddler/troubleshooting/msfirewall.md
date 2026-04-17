@@ -1,6 +1,7 @@
 ---
 title: Fiddler Classic and Microsoft Firewall Client
-description: Disabling Web browser automatic configuration in the Microsoft Firewall client
+meta_title: Fiddler and Microsoft Firewall Client - Fiddler Classic Documentation
+description: Learn how to prevent Fiddler Classic from detaching randomly by disabling web browser automatic configuration in the Microsoft Firewall client.
 slug: MSFirewall
 publish: true
 position: 9

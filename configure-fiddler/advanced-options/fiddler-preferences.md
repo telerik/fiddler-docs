@@ -1,6 +1,7 @@
 ---
 title: Configurable Preferences
-description: List of Fiddler CLassic configurable preferences
+meta_title: Configurable Preferences - Fiddler Classic Documentation
+description: Explore the list of Fiddler Classic configurable preferences and learn how to view and alter configuration settings.
 slug: fiddler-classic-preferences
 publish: true
 position: 30

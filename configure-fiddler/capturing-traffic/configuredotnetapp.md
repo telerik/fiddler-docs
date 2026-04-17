@@ -1,6 +1,7 @@
 ---
 title: Configure .NET applications
-description: Configfure .NET Framework to automatically connect to Fiddler Classic
+meta_title: Configure .NET Applications - Fiddler Classic Documentation
+description: Learn how to configure .NET Framework applications to automatically connect to the Fiddler Classic web debugging proxy.
 slug: DotNETConfig
 publish: true
 position: 6

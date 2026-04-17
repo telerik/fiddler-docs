@@ -1,6 +1,7 @@
 ---
 title: Capturing iOS Traffic
-description: The configuration steps needed to setup the classic Fiddler Classic to capture traffic from iOS devices.
+meta_title: Capture iOS Traffic - Fiddler Classic Documentation
+description: Learn about the configuration steps to set up Fiddler Classic to capture and inspect traffic from iOS devices.
 slug: ConfigureForiOS
 publish: true
 position: 17

@@ -1,6 +1,7 @@
 ---
 title: Using Client Certificates
-description: Respond to a HTTP requests that require the usage of specific client certificates.
+meta_title: Use Client Certificates - Fiddler Classic Documentation
+description: Learn how to configure Fiddler Classic to respond to HTTP requests that require specific client certificates.
 slug: RespondWithClientCert
 publish: true
 position: 35

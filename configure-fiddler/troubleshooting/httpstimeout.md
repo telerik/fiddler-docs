@@ -1,6 +1,7 @@
 ---
 title: HTTPS Connections Timeout with Decryption Enabled
-description: Customize Fiddler Rules to force SSLv3 handshake
+meta_title: HTTPS Timeout with Decryption - Fiddler Classic Documentation
+description: Learn how to customize Fiddler Classic rules to force an SSLv3 handshake and resolve HTTPS connection timeout issues.
 slug: HTTPSTimeout
 publish: true
 position: 8

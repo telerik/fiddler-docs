@@ -1,6 +1,7 @@
 ---
 title: Capturing Android Traffic
-description: Configure Fiddler Classic for Android Mobile Operating System
+meta_title: Capture Android Traffic - Fiddler Classic Documentation
+description: Learn how to configure Fiddler Classic to capture and inspect web traffic from Android mobile devices.
 slug: ConfigureForAndroid
 publish: true
 position: 18

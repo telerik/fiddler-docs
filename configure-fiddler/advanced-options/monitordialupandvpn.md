@@ -1,6 +1,7 @@
 ---
 title: Monitor RAS, VPN, or Dialup Connections
-description: "Instructions for monitoring traffic via dial-up and VPN in Fiddler Classic - set up proxy capture for varying network scenarios."
+meta_title: Monitor RAS, VPN, or Dialup Connections - Fiddler Classic Documentation
+description: Learn how to monitor traffic through dial-up and VPN connections in Fiddler Classic by setting up proxy capture for varying network scenarios.
 slug: MonitorDialupAndVPN
 publish: true
 position: 10

@@ -1,6 +1,7 @@
 ---
 title: Monitor PocketPC
-description: Configuration for setting Fiddler Classic on PocketPC
+meta_title: Monitor PocketPC Traffic - Fiddler Classic Documentation
+description: Learn how to configure Fiddler Classic to capture and monitor web traffic from a PocketPC device.
 slug: MonitorPocketPC
 publish: true
 position: 20

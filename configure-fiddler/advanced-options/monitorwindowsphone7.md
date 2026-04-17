@@ -1,5 +1,7 @@
 ---
 title: Monitor Windows Phone
+meta_title: Monitor Windows Phone Traffic - Fiddler Classic Documentation
+description: Learn how to configure Fiddler Classic to capture and monitor web traffic from a Windows Phone device.
 slug: MonitorWindowsPhone7
 publish: true
 position: 19

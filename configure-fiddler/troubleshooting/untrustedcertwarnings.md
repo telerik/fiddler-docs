@@ -1,5 +1,7 @@
 ---
 title: Untrusted Root Certificate Warnings
+meta_title: Untrusted Certificate Warnings - Fiddler Classic Documentation
+description: Learn how to resolve untrusted root certificate warnings that browsers display when using Fiddler Classic for HTTPS traffic decryption.
 slug: UntrustedRootCertWarnings
 publish: true
 position: 1

@@ -1,6 +1,7 @@
 ---
 title: Configuring Mac
-description: Configure Fiddler Classic for Mac
+meta_title: Configure Fiddler Classic for Mac - Fiddler Classic Documentation
+description: Learn how to configure Fiddler Classic to capture and monitor web traffic on macOS through a remote connection.
 slug: ConfigureForMac
 publish: true
 position: 16
