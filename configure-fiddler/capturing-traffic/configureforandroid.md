@@ -1,6 +1,7 @@
 ---
 title: Capturing Android Traffic
-description: Configure Fiddler Classic for Android Mobile Operating System
+page_title: Capturing Android Device Traffic - Fiddler Classic
+description: Configure Fiddler Classic to capture and inspect HTTP traffic from Android devices.
 slug: ConfigureForAndroid
 publish: true
 position: 18

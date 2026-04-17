@@ -1,6 +1,7 @@
 ---
 title: Capture traffic from Windows Metro-style applications
-description: Configure Fiddler Classic for Windows 8 Metro-style applications
+page_title: Capturing Windows Metro-Style App Traffic - Fiddler Classic
+description: Configure Fiddler Classic to capture HTTP traffic from Windows 8 and later Metro-style applications.
 slug: Windows8Config
 publish: true
 position: 15
@@ -16,8 +17,7 @@ Follow two steps to configure Fiddler Classic for Windows 8:
 + Create a Loopback Exemption
 + Place Fiddler Root Certificate in the Machine's Trusted Root Store
 
-Create a Loopback Exemption
----------------------------
+## Create a Loopback Exemption
 
 1.	(Fiddler2 Only:) Install and launch the [EnableLoopback Utility](https://www.telerik.com/fiddler/add-ons) by clicking the **Win8 Config** button.
 
@@ -33,8 +33,7 @@ Now these applications can send traffic to Fiddler Classic.
 
 * An alternative to using the AppContainer Loopback Exemption Utility is to [declare the privateNetworkClientServer permission](https://msdn.microsoft.com/en-us/library/windows/apps/br211380).
 
-Place Fiddler Root Certificate in the machine's Trusted Root store
---------------------------------------------------------------------
+## Place Fiddler Root Certificate in the Machine's Trusted Root Store
 
 1.	Enable Fiddler Classic HTTPS-decryption feature. A **Warning** dialog appears. Click **Yes** to trust the Fiddler Root certificate.
 

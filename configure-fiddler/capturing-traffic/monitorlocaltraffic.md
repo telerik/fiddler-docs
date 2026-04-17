@@ -1,6 +1,7 @@
 ---
 title: Monitor traffic to localhost from IE or .NET
-description: "Configure Fiddler Classic to capture local machine traffic - manage local proxy rules and network interfaces for loopback debugging."
+page_title: Monitoring Local Traffic from IE or .NET - Fiddler Classic
+description: Configure Fiddler Classic to capture local machine traffic and manage local proxy rules for loopback debugging.
 slug: MonitorLocalTraffic
 publish: true
 position: 22

@@ -1,6 +1,7 @@
 ---
 title: Vary Response Header
-description: "Modify response headers via FiddlerScript in Fiddler Classic - learn how to dynamically change headers based on conditions."
+page_title: Varying Response Headers - Fiddler Classic
+description: Modify response headers dynamically with FiddlerScript in Fiddler Classic based on conditions.
 slug: VaryResponseHeader
 publish: true
 position: 7
@@ -49,16 +50,16 @@ Note: IE6 will ignore the Vary header entirely if the response was delivered wit
 
 For Internet Explorer 7, the problem was not eliminated, but its impact was mitigated in some common cases. 
 
-When evaluating a cached response that has a Vary, IE7 can make a conditional request (e.g. If-Modified-Since) rather than an unconditional request.
+When evaluating a cached response that has a Vary, IE7 can make a conditional request (for example, If-Modified-Since) rather than an unconditional request.
 
 In order to take advantage of this improvement, the original response must contain an ETag.
 
 Even though revalidation of cache response will require one round trip to server, it is still a significant improvement if server responds with a HTTP/304, because the response body is not transmitted.
 
-Note, WinINET will remove the Vary: Accept-Encoding header if it decompressed the response.  Therefore, you should only send a Vary: Accept-Encoding header when you have compressed the content (e.g. Content-Encoding: gzip).
+Note, WinINET will remove the Vary: Accept-Encoding header if it decompressed the response. Therefore, you should only send a Vary: Accept-Encoding header when you have compressed the content (for example, Content-Encoding: gzip).
 
 ## Best Practices
 
-Never send Vary: Host.  All responses implicitly vary by hostname, because the hostname is a part of the URI, and all requests vary by URI.
-Only send a Vary: Accept-Encoding header when you have compressed the content (e.g. Content-Encoding: gzip).
+Never send Vary: Host. All responses implicitly vary by hostname, because the hostname is a part of the URI, and all requests vary by URI.
+Only send a Vary: Accept-Encoding header when you have compressed the content (for example, Content-Encoding: gzip).
  

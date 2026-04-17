@@ -1,5 +1,7 @@
 ---
 title: Performance Testing
+page_title: Performance Testing with FiddlerScript - Fiddler Classic
+description: Test application performance in Fiddler Classic by using FiddlerScript rules to simulate conditions.
 slug: PerfTesting
 publish: true
 position: 2

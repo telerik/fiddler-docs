@@ -1,5 +1,7 @@
 ---
 title: Override Windows HOSTS file
+page_title: Overriding the Windows HOSTS File - Fiddler Classic
+description: Learn how to use Fiddler Classic to override the Windows HOSTS file for custom domain-to-IP mappings.
 slug: HOSTS
 publish: true
 position: 9
@@ -25,8 +27,7 @@ res_type: kb
 
 The **HOSTS...** command on the **Tools** menu allows you to easily retarget requests from one host to another.
 
-How does it work?
------------------
+## How Does It Work?
 
 In the box, enter a list of overrides, one per line. The new hostname or IP address should be placed in the first column, followed by the corresponding original host name to override. The override and original hostname should be separated by at least one whitespace character.
 

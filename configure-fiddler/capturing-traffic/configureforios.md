@@ -1,6 +1,7 @@
 ---
 title: Capturing iOS Traffic
-description: The configuration steps needed to setup the classic Fiddler Classic to capture traffic from iOS devices.
+page_title: Capturing iOS Device Traffic - Fiddler Classic
+description: Configure Fiddler Classic to capture and inspect HTTP traffic from iOS devices.
 slug: ConfigureForiOS
 publish: true
 position: 17
@@ -47,13 +48,13 @@ previous_url: /configure-fiddler/tasks/configureforios
 
 1. Type your Fiddler Classic machine IP address in the **Server** field.
 
-1. Type the Fiddler Classic listening port (8888 by default) in the **Port** field and finally tap on **Save**.
+1. Type the Fiddler Classic listening port (8888 by default) in the **Port** field and tap **Save**.
 
     >tip With the current setup, you should be able to capture non-secure HTTP traffic. However, if you try to open any **HTTPS** website, you'll get the _This site's security certificate is not trusted!_ error. To fix this, proceed with the steps that follow below.
 
 1. Open a browser on the iOS device and type the Fiddler Classic echo service address: **http://ipv4.fiddler:8888**
 
-1. Click on the Fiddler Classic root certificate link to download it.
+1. Click the Fiddler Classic root certificate link to download it.
 
  >important Ensure that the Fiddler Classic certificate is generated through the BouncyCastle certificate generator.[Learn more about certificate generators and how to install and enable BouncyCastle here...](https://www.telerik.com/blogs/understanding-fiddler-certificate-generators).
 

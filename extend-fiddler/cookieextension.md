@@ -1,5 +1,7 @@
 ---
 title: Build Cookie Scanning Extension
+page_title: Building a Cookie Scanning Extension - Fiddler Classic
+description: Create a cookie scanning extension for Fiddler Classic by using the Privacy Scanner add-on code.
 slug: CookieExtension
 publish: true
 position: 16
@@ -43,7 +45,7 @@ public class TagCookies : IAutoTamper2
 	{
 		/*
 	* NB: You might not get called here until ~after~ one of the AutoTamper methods was called.
-	* This is okay for us, because we created our mnuContentBlock in the constructor and its simply not
+	* This is okay for us, because we created our mnuContentBlock in the constructor and it is not
 	* visible anywhere until this method is called and we merge it onto the Fiddler Classic Main menu.
 	*/
 		FiddlerApplication.UI.mnuMain.MenuItems.Add(mnuCookieTag);

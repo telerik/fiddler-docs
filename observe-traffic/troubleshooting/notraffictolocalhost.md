@@ -1,7 +1,8 @@
 ---
 title: No Traffic to Localhost
+page_title: No Traffic to Localhost - Fiddler Classic
+description: Resolve missing localhost traffic in Fiddler Classic caused by IE and .NET Framework proxy bypass behavior.
 slug: NoTrafficToLocalhost
-tags: Observe Traffic, Troubleshooting, localhost, 127.0.0.1, Web Sessions List
 publish: true
 position: 2
 ---

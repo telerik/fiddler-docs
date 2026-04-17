@@ -1,6 +1,7 @@
 ---
 title: Modify a Request
-description: "Modify HTTP requests on the fly in Fiddler Classic - edit headers, body, URL, method for live testing and debugging."
+page_title: Modifying HTTP Requests - Fiddler Classic
+description: Modify HTTP requests and responses in real time by customizing Fiddler Classic rules with FiddlerScript.
 slug: ModifyRequest
 publish: true
 position: 2

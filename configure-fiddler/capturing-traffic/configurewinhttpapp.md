@@ -1,6 +1,7 @@
 ---
 title: Configure a WinHTTP Application
-description: Configure a WinHTTP application alongside the Fiddler Classic proxy
+page_title: Configuring a WinHTTP Application - Fiddler Classic
+description: Configure a WinHTTP application to route web traffic through the Fiddler Classic proxy.
 slug: ConfigureWinHTTPApp
 publish: true
 position: 9

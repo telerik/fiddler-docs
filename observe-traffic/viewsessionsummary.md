@@ -1,5 +1,7 @@
 ---
 title: View Web Session Summary
+page_title: Viewing Web Session Summary - Fiddler Classic
+description: View the session summary including ID, result code, protocol, hostname, and other details in Fiddler Classic.
 slug: ViewSessionSummary
 publish: true
 position: 2

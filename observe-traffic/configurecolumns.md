@@ -1,5 +1,7 @@
 ---
 title: Configure Columns
+page_title: Configuring Session List Columns - Fiddler Classic
+description: Rearrange, add, and customize columns in the Fiddler Classic Web Sessions list.
 slug: ConfigureColumns
 publish: true
 position: 9

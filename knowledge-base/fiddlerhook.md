@@ -1,5 +1,7 @@
 ---
 title: FiddlerHook Help
+page_title: FiddlerHook Help - Fiddler Classic
+description: Learn how the FiddlerHook browser extension integrates with Fiddler Classic to manage proxy settings.
 slug: fiddlerhook-help
 publish: true
 position: 6
@@ -49,9 +51,9 @@ In the dialog that appears, drag the Fiddler Classic icon to the toolbar locatio
 
 ![fiddlerhook2](./images/fiddlerhook2.png)
 
-FiddlerHook also introduces a simple way to clear your Firefox cache (memory and disk) and all cookies (persistent and session).  Simply click on the FiddlerHook status bar item and use the menu:  
+FiddlerHook also provides a way to clear your Firefox cache (memory and disk) and all cookies (persistent and session). Click the FiddlerHook status bar item and use the menu:  
 
 ![FiddlerHookMenu](./images/fhmenu.png)
 
 Removal Instructions
-You can use Firefox's Add-on Manager (on the tools menu) to disable the FiddlerHook addon.  If you would like to remove the FiddlerHook add-on altogether, you can simply delete the `%localappdata%\Programs\Fiddler\FiddlerHook` folder.
+You can use Firefox's Add-on Manager (on the tools menu) to disable the FiddlerHook addon. If you want to remove the FiddlerHook add-on altogether, delete the `%localappdata%\Programs\Fiddler\FiddlerHook` folder.

@@ -1,5 +1,7 @@
 ---
 title: Customize Web Sessions List
+page_title: Customizing the Web Sessions List - Fiddler Classic
+description: Customize the Fiddler Classic Web Sessions List by adding FiddlerScript rules to the OnBeforeRequest function.
 slug: CustomizeSessionsList
 publish: true
 position: 4

@@ -1,6 +1,7 @@
 ---
 title: Monitor RAS, VPN, or Dialup Connections
-description: "Instructions for monitoring traffic via dial-up and VPN in Fiddler Classic - set up proxy capture for varying network scenarios."
+page_title: Monitoring RAS, VPN, or Dialup Connections - Fiddler Classic
+description: Learn how to monitor traffic through dial-up and VPN connections by configuring Fiddler Classic proxy capture.
 slug: MonitorDialupAndVPN
 publish: true
 position: 10
@@ -9,7 +10,7 @@ previous_url: /configure-fiddler/tasks/monitordialupandvpn
 
 # Monitor RAS, VPN or Dialup Connections
 
-To monitor a dialup or VPN connection, open **Tools -> Options...** and click **Monitor all connections**.
+To monitor a dialup or VPN connection, open **Tools** > **Options** and click **Monitor all connections**.
 
 ![Monitor all connections](./images/MonitorAllConnections.png)
 

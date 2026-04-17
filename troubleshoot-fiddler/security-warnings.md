@@ -1,6 +1,7 @@
 ---
 title: Security Warnings and Consent Dialog
-description: Learn about the security warning that Fiddler can trigger upon different user interactions.
+page_title: Security Warnings and Consent Dialogs - Fiddler Classic
+description: Learn about the security warnings that Fiddler Classic triggers upon loading add-ons, extensions, or third-party tools.
 slug: fc-security-warnings
 publish: true
 position: 5

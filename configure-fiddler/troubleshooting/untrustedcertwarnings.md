@@ -1,5 +1,7 @@
 ---
 title: Untrusted Root Certificate Warnings
+page_title: Untrusted Certificate Warnings - Fiddler Classic
+description: Resolve untrusted root certificate warnings in browsers when Fiddler Classic is configured as a proxy.
 slug: UntrustedRootCertWarnings
 publish: true
 position: 1

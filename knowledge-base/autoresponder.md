@@ -1,5 +1,7 @@
 ---
 title: AutoResponder Reference
+page_title: AutoResponder Reference - Fiddler Classic
+description: Explore the Fiddler Classic AutoResponder feature for matching rules, response actions, and traffic simulation.
 slug: autoresponder-reference
 publish: true
 position: 9
@@ -127,14 +129,14 @@ Fiddler Classic supports regular expression syntax for expressions which begin w
 * `http://www.example.com/Path1/query=example.Gif`
 * `http://www.example.com/Path1/query=example.bmp`
 
-Got a great regular expression to share?  Please send it to me using the "Contact" link at the top-right side of this page!
-You can learn more about regular expressions [here](http://www.regular-expressions.info/quickstart.html).
+To share a useful regular expression, use the "Contact" link at the top-right side of this page.
+You can learn more about regular expressions from the [Regular Expressions Quick Start guide](http://www.regular-expressions.info/quickstart.html).
 
 You can specify regular expression options (like case-sensitivity) by leading the expression with an appropriate declaration.  (?insx) works well; it turns on case-insensitivity, requires explicit capture groups, enables single-line syntax, and enables comments after the #character. [Learn more on MSDN](https://msdn.microsoft.com/en-us/library/yd1hzczs(VS.80).aspx).
 
 ## Actions
 
-Beyond simply returning files, the AutoResponder can also perform special actions...
+Beyond returning files, the AutoResponder can also perform special actions...
 
 ### filename
 Return contents of filename as the response.
@@ -178,4 +180,4 @@ Rules with Non-final actions will allow the request to match multiple AutoRespon
 
 ## Latency
 
-You can optionally induce a delay (latency) before a response is returned. To enable Latency, click the **Enable Latency** checkbox. Right-click one or more rules and choose **Set Latency** to set the desired number of milliseconds. If you wish to adjust the existing latency, simply type a plus or minus before the number of milliseconds. For instance, to reduce the latency for all of the selected sessions by 5 milliseconds, enter **-5** in the prompt.
+You can optionally induce a delay (latency) before a response is returned. To enable Latency, click the **Enable Latency** checkbox. Right-click one or more rules and choose **Set Latency** to set the desired number of milliseconds. If you want to adjust the existing latency, type a plus or minus before the number of milliseconds. For instance, to reduce the latency for all of the selected sessions by 5 milliseconds, enter **-5** in the prompt.

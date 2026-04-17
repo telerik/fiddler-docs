@@ -1,6 +1,7 @@
 ---
 title: Monitor PocketPC
-description: Configuration for setting Fiddler Classic on PocketPC
+page_title: Monitoring PocketPC Traffic - Fiddler Classic
+description: Configure Fiddler Classic to capture and monitor HTTP traffic from a PocketPC device.
 slug: MonitorPocketPC
 publish: true
 position: 20
@@ -15,7 +16,7 @@ previous_url: /configure-fiddler/tasks/monitorpocketpc
 2. Open **ActiveSync > Connection Settings...**. 
 3. Under **This Computer is connected to:**, click **Work Network**.
 4. Start Fiddler.
-5. Click **Tools > Options...**.
+5. Click **Tools > Options**.
 6. Ensure "Allow remote clients to connect" is checked. 
 7. If you need to click the checkbox, restart Fiddler.
 

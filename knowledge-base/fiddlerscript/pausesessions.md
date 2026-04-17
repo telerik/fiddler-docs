@@ -1,5 +1,7 @@
 ---
 title: Pause Web Sessions
+page_title: Pausing Web Sessions - Fiddler Classic
+description: Pause specific web sessions in Fiddler Classic by adding FiddlerScript rules to the OnBeforeRequest function.
 slug: PauseSessions
 publish: true
 position: 5

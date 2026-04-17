@@ -1,5 +1,7 @@
 ---
 title: Modify Matching Rules
+page_title: Modifying AutoResponder Matching Rules - Fiddler Classic
+description: Edit, delete, and reorder AutoResponder matching rules in Fiddler Classic.
 slug: ModifyAutoresponder
 publish: true
 position: 4

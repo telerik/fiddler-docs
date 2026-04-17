@@ -1,6 +1,7 @@
 ---
 title: Examine Web Traffic
-description: "learno how to inspect the web traffic"
+page_title: Examining Web Traffic - Fiddler Classic
+description: Inspect and examine captured web traffic in Fiddler Classic by using the session Inspectors.
 slug: ExamineWebTraffic
 publish: true
 position: 2
@@ -19,16 +20,16 @@ To view the Fiddler Classic ID Number, result code, protocol, hostname, content 
 
 ## View Web Session Statistics
 
-To view performance statistics for a web sesion:
+To view performance statistics for a web session:
 
-1. Click on a web session in the **Web Sessions List**.
+1. Click a web session in the **Web Sessions List**.
 2. Click the **Statistics** tab.
     ![Statistics Tab](./images/Statistics.png)
 
 ## View Web Session Content
 
 To view the content of a web session in a variety of formats:
-1. Click on a web session in the **Web Sessions List**.
+1. Click a web session in the **Web Sessions List**.
 2. Click the **Inspectors** tab.
     ![Inspectors Tab](./images/Inspectors.png)
 

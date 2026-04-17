@@ -1,5 +1,7 @@
 ---
 title: Import and Export Traffic
+page_title: Importing and Exporting Traffic - Fiddler Classic
+description: Export captured traffic to WCAT Script, VS Web Test, HTTP Archive, and other formats in Fiddler Classic.
 slug: ImportExport
 publish: true
 position: 3

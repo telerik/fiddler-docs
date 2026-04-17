@@ -1,6 +1,7 @@
 ---
 title: Incomplete HTTP Responses
-description: "Troubleshoot incomplete HTTP responses in Fiddler Classic - check filters, buffering, client/server delays, and use diagnostic helpers."
+page_title: Troubleshooting Incomplete HTTP Responses - Fiddler Classic
+description: Troubleshoot incomplete HTTP responses in Fiddler Classic by checking filters, buffering, and client or server delays.
 slug: IncompleteResponses
 publish: true
 position: 6

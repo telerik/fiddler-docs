@@ -1,5 +1,7 @@
 ---
 title: Capture traffic for Visual Studio WebTest playback
+page_title: Capturing Traffic for VS WebTest Playback - Fiddler Classic
+description: Capture web traffic including AJAX requests in Fiddler Classic for playback with Visual Studio Web Test.
 slug: VSWebTest
 publish: true
 position: 2
@@ -29,7 +31,7 @@ To replay a WebTest:
 
 ## Troubleshooting Problems
 
-Please see [https://blogs.msdn.com/slumley/pages/how-to-debug-a-web-test.aspx](https://blogs.msdn.com/slumley/pages/how-to-debug-a-web-test.aspx) for information on how to troubleshoot problems with WebTests.
+For information on how to troubleshoot problems with WebTests, refer to the [debugging a web test guide](https://blogs.msdn.com/slumley/pages/how-to-debug-a-web-test.aspx).
 
 ## See Also
 

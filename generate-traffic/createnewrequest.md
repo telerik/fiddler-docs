@@ -1,5 +1,7 @@
 ---
 title: Create a new request
+page_title: Creating a New Request - Fiddler Classic
+description: Use the Fiddler Classic Composer to craft and send custom HTTP requests to a server.
 slug: CreateNewRequest
 publish: true
 position: 1

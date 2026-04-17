@@ -1,5 +1,7 @@
 ---
 title: Use Fiddler as a Reverse Proxy
+page_title: Using Fiddler Classic as a Reverse Proxy - Fiddler Classic
+description: Configure Fiddler Classic to function as a reverse proxy for rerouting incoming traffic.
 slug: UseFiddlerAsReverseProxy
 publish: true
 position: 13
@@ -38,7 +40,7 @@ To use this method, the hostname for the request to reroute must be  **127.0.0.1
 
 
 1. Reconfigure your target server to listen on a different port. For example, if a web server runs on port 80, reconfigure it to run on port 81.  
-2. Click **Tools > Options...**.
+2. Click **Tools > Options**.
 3. Click **Connections**.
 4. Type the client's target port number next to **Fiddler listens to port:**
  ![Fiddler Classic listens to port](./images/FiddlerListensOnPort.png)

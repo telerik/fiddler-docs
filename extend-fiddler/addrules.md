@@ -1,5 +1,7 @@
 ---
 title: Add Rules to Fiddler Classic
+page_title: Adding Rules to Fiddler Classic - Fiddler Classic
+description: Add custom rules to the Fiddler Classic CustomRules.js file to customize columns, modify traffic, and test performance.
 slug: AddRules
 publish: true
 position: 13

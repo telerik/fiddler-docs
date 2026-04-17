@@ -1,5 +1,7 @@
 ---
 title: Create Extension project
+page_title: Creating a Fiddler Classic Extension Project - Fiddler Classic
+description: Create a Fiddler Classic extension project in Visual Studio that modifies outbound request headers.
 slug: CreateExtension
 publish: true
 position: 3

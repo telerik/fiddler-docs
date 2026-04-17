@@ -1,6 +1,7 @@
 ---
 title: Configure .NET applications
-description: Configfure .NET Framework to automatically connect to Fiddler Classic
+page_title: Configuring .NET Applications - Fiddler Classic
+description: Configure the .NET Framework to automatically connect to Fiddler Classic for HTTP traffic capture.
 slug: DotNETConfig
 publish: true
 position: 6

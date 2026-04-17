@@ -1,5 +1,7 @@
 ---
 title: Font 'Tahoma' does not support style 'Regular'
+page_title: Tahoma Font Error on Startup - Fiddler Classic
+description: Fix Fiddler Classic startup crashes caused by a missing or corrupt Tahoma font installation.
 slug: TahomaError
 publish: true
 position: 60

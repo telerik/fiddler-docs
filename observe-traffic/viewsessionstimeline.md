@@ -1,6 +1,7 @@
 ---
 title: View Web Sessions Transfer Timeline
-description: "Use the sessions timeline in Fiddler Classic for traffic analysis - visualize session timing and sequence for debugging."
+page_title: Viewing the Sessions Transfer Timeline - Fiddler Classic
+description: Visualize session timing and transfer sequence in Fiddler Classic for traffic analysis and debugging.
 slug: ViewSessionsTimeline
 publish: true
 position: 5

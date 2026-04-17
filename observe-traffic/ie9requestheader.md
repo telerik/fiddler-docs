@@ -1,5 +1,7 @@
 ---
 title: Find why IE9 made a web request
+page_title: Finding IE9 Web Request Origin - Fiddler Classic
+description: Discover why Internet Explorer 9 made a specific web request by examining Accept and Download Initiator columns.
 slug: IE9RequestHeader
 publish: true
 position: 8

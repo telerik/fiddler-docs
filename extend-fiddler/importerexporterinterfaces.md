@@ -1,5 +1,7 @@
 ---
 title: Importer and Exporter Interfaces
+page_title: Importer and Exporter Interfaces - Fiddler Classic
+description: Explore the ISessionImporter and ISessionExporter interfaces for building Fiddler Classic extensions.
 slug: ImporterExporterInterfaces
 publish: true
 position: 7
@@ -38,7 +40,7 @@ dictOptions["Filename"] = "C:\\test.file"
 
 This class is defined by Fiddler Classic and allows you to report on the progress of an import or export operation.
 
-If the completion ratio cannot be determined, simply pass 0 or a "guess" between 0 and 1.0.
+If the completion ratio cannot be determined, pass 0 or a "guess" between 0 and 1.0.
 
 If the Cancel flag is set on the `ProgressCallbackEventArgs` object after being passed to the `evtProgressNotifications` callback, import or export should gracefully terminate as soon as possible.
 

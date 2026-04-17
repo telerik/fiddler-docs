@@ -1,5 +1,7 @@
 ---
 title: Select Parent or Child Session
+page_title: Selecting Parent or Child Sessions - Fiddler Classic
+description: Select the parent or child session in Fiddler Classic to trace request relationships.
 slug: ParentChild
 publish: true
 position: 8

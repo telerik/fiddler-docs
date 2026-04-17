@@ -1,5 +1,7 @@
 ---
 title: Fiddler Classic Architecture Info
+page_title: Fiddler Classic Architecture Overview - Fiddler Classic
+description: Learn how the Fiddler Classic proxy architecture works and how it intercepts HTTP and HTTPS traffic.
 slug: fiddler-architecture-info
 publish: true
 res_type: kb

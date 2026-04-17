@@ -1,5 +1,7 @@
 ---
 title: Fiddler exits unexpectedly on startup
+page_title: Fiddler Classic Crashes on Startup - Fiddler Classic
+description: Troubleshoot Fiddler Classic crashes on startup caused by corrupt configuration or extension conflicts.
 slug: CrashOnStartup
 publish: true
 position: 50

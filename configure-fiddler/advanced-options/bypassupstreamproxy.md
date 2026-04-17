@@ -1,6 +1,7 @@
 ---
 title: Bypass Upstream Proxy
-description: Configuration code to bypass the upstream proxy for all requests to a specific domain
+page_title: Bypassing the Upstream Proxy - Fiddler Classic
+description: Configure Fiddler Classic to bypass the upstream proxy for all requests to a specific domain.
 slug: BypassUpstreamProxy
 publish: true
 position: 23

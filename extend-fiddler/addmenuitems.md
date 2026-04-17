@@ -1,6 +1,7 @@
 ---
 title: Add Menu Items
-description: "Add custom menu items in Fiddler Classic via .NET extensions - integrate external features or tools into Fiddler UI."
+page_title: Adding Custom Menu Items - Fiddler Classic
+description: Add custom menu items to the Fiddler Classic Tools menu, context menus, or Rules menu through .NET extensions.
 slug: AddMenuItems
 publish: true
 position: 14

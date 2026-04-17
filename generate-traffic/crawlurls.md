@@ -1,6 +1,7 @@
 ---
 title: Crawl Sequential URLs
-description: Create Fiddler Classic rule for crawling sequential URLs
+page_title: Crawling Sequential URLs - Fiddler Classic
+description: Create Fiddler Classic rules for crawling sequential URLs to test web pages in a series.
 slug: CrawlURLs
 publish: true
 position: 7
@@ -8,7 +9,6 @@ previous_url: /generate-traffic/tasks/crawlurls
 ---
 
 # Crawl Sequential URLs
-=====================
 
 [Add a rule to Fiddler](slug://AddRules) with Global scope as follows:
 

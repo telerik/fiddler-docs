@@ -1,5 +1,7 @@
 ---
 title: Build Extension Assemblies for Fiddler Classic v2 and v4.
+page_title: Extension Assemblies for v2 and v4 - Fiddler Classic
+description: Build extension assemblies compatible with both Fiddler Classic v2 and v4 by targeting .NET Framework v2.
 slug: ExtensionsForv2Andv4
 publish: true
 position: 11
@@ -24,7 +26,7 @@ else
 
  All of the extensions from the Fiddler Classic website are compiled against Fiddler Classic v2.
 
-+ Alternatively, you can simply build two versions of your DLL, one version targeting .NET Framework v4 and one targeting .NET Framework v2.
++ Alternatively, you can build two versions of your DLL, one version targeting .NET Framework v4 and one targeting .NET Framework v2.
 
  This is how Fiddler Classic itself is built. Basically, just add a "clone" version of your v2-targeted Project to the same Solution. Use the **Add > Existing Item** context menu to add the .CS files from the v2-targeted project to the v4-targeted project, but when selecting the files, be very sure to use the split button on the file picker dialog and choose **Add as Link**. On the v4 Project's **Properties > Build** tab, add a **Conditional Compilation** symbol like DOTNET4. You can then put any .NETv4-specific code behind conditional compilation:
 

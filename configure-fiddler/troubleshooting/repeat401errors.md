@@ -1,5 +1,7 @@
 ---
 title: Repeat 401 Errors
+page_title: Resolving Repeat 401 Errors - Fiddler Classic
+description: Resolve repeated 401 errors and Windows Security prompts caused by channel-binding token authentication.
 slug: Repeat401Errors
 publish: true
 position: 3

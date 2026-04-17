@@ -1,6 +1,7 @@
 ---
 title: Capture Traffic from a Different Account
-description: Use Fiddler Classic to capture Traffic from an ASP.NET on IIS or from a Windows Service accounts
+page_title: Capturing Traffic from a Different Account - Fiddler Classic
+description: Configure Fiddler Classic to capture traffic from ASP.NET on IIS or Windows Service accounts.
 slug: CaptureTrafficFromDifferentAccount
 publish: true
 position: 14

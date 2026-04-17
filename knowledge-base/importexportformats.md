@@ -1,6 +1,7 @@
 ---
 title: Import and Export Formats
-description: "Learn how to import and export sessions in different formats through the Fiddler Classic UI."
+page_title: Import and Export Formats - Fiddler Classic
+description: Learn how to import and export sessions in different formats through the Fiddler Classic UI.
 slug: ImportExportFormats
 publish: true
 position: 18

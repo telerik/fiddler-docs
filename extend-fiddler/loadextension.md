@@ -1,6 +1,7 @@
 ---
 title: Load Extensions
-description: Load Extension in Fiddler Classic
+page_title: Loading Extensions - Fiddler Classic
+description: Load compiled extension assemblies into Fiddler Classic to extend its functionality.
 slug: LoadExtension
 publish: true
 position: 4

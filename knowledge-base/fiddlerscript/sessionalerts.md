@@ -1,5 +1,7 @@
 ---
 title: Session Alerts
+page_title: Creating Session Alerts - Fiddler Classic
+description: Create alerts for specific sessions in Fiddler Classic by adding custom FiddlerScript rules.
 slug: SessionAlerts
 publish: true
 position: 6

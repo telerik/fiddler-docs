@@ -1,6 +1,7 @@
 ---
 title: How to use a different proxy for some sites and fiddler Classic for others
-description: In some cases, when using Fiddler Classic it may be useful to not let Fiddler Classic Capture some traffic that needs to flow through an Upstream Proxy. This article describes how to do this.
+page_title: Using Different Proxies for Specific Sites - Fiddler Classic
+description: Configure Fiddler Classic to let certain traffic flow through an upstream proxy while capturing other traffic.
 type: how-to
 slug: configure-fiddler-and-upstream-proxy-to-work-on-same-machine
 ticketid: 1456948

@@ -1,5 +1,7 @@
 ---
 title: Build a Custom Inspector
+page_title: Building a Custom Inspector - Fiddler Classic
+description: Build a custom inspector for Fiddler Classic by deriving from the Inspector2 class and implementing an inspector interface.
 slug: CustomInspector
 publish: true
 position: 5
@@ -27,9 +29,9 @@ position: 5
 	}
 	```
 
-3. Inside the class, create a new method. By typing **public override**, you'll get an autocomplete list of the methods you need to write.
+3. Inside the class, create a new method. By typing **public override**, you will get an autocomplete list of the methods you need to write.
 
-4. In **Solution Explorer**, right-click on the project and click **Add > User Control**.
+4. In **Solution Explorer**, right-click the project and click **Add > User Control**.
 
 5. Use the **Toolbox** to add controls to your user control. These will show the data about the HTTP message under inspection.
 

@@ -1,6 +1,7 @@
 ---
 title: Configure a Java application
-description: Configure a Java Application alongside Fiddler Classic proxy
+page_title: Configuring a Java Application - Fiddler Classic
+description: Configure a Java application to route HTTP traffic through the Fiddler Classic proxy.
 slug: ConfigureJavaApp
 publish: true
 position: 8
@@ -8,7 +9,6 @@ previous_url: /configure-fiddler/tasks/configurejavaapp
 ---
 
 # Configure a Java Application to Use Fiddler
-===========================================
 
 To configure a Java application to send web traffic to Fiddler, set the proxy using **jre**:
 

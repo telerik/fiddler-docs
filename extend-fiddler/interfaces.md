@@ -1,5 +1,7 @@
 ---
 title: Implement Interfaces
+page_title: Implementing Fiddler Classic Interfaces - Fiddler Classic
+description: Implement Fiddler Classic interfaces to load your extension assembly during Fiddler Classic execution.
 slug: Interfaces
 publish: true
 position: 2

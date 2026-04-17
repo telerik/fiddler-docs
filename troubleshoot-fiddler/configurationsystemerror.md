@@ -1,5 +1,7 @@
 ---
 title: Configuration system failed to initialize
+page_title: Configuration System Initialization Error - Fiddler Classic
+description: Fix Fiddler Classic startup crashes caused by corrupt .NET Framework configuration files.
 slug: ConfigurationSystemError
 publish: true
 position: 40

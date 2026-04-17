@@ -1,5 +1,7 @@
 ---
 title: HTTP References
+page_title: HTTP Protocol Reference - Fiddler Classic
+description: Explore HTTP protocol reference information for understanding web traffic captured by Fiddler Classic.
 slug: http-references
 publish: true
 position: 11

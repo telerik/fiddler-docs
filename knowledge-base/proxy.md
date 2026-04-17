@@ -1,6 +1,7 @@
 ---
 title: The Fiddler Classic Proxy
-description: "Learn the basics of the Fiddler Classic proxy"
+page_title: Fiddler Classic Proxy Overview - Fiddler Classic
+description: Learn the fundamentals of the Fiddler Classic proxy and how it intercepts web traffic.
 slug: Proxy
 publish: true
 position: 8

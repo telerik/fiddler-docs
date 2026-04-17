@@ -1,5 +1,7 @@
 ---
 title: Options UI
+page_title: Options UI Reference - Fiddler Classic
+description: Explore the Fiddler Classic Options dialog settings for connections, HTTPS, performance, and extensions.
 slug: options-ui
 publish: true
 position: 6

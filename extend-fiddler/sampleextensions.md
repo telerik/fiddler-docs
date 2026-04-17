@@ -1,6 +1,7 @@
 ---
 title: Sample Extensions
-description: "Guide on building sample extensions for Fiddler Classic - learn how to extend functionality by creating plugins that customize the behavior and UI."
+page_title: Sample Fiddler Classic Extensions - Fiddler Classic
+description: Explore sample extensions and add-ons for Fiddler Classic to learn how to extend its functionality.
 slug: SampleExtensions
 publish: true
 position: 12

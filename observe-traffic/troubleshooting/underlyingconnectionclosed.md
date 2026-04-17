@@ -1,6 +1,7 @@
 ---
 title: "Exception: The underlying connection was closed"
-description: "Troubleshoot ‘Underlying connection closed’ errors in Fiddler Classic - check keep-alive, TLS, proxy, and network stability."
+page_title: Underlying Connection Closed Error - Fiddler Classic
+description: Troubleshoot System.NET.WebException underlying connection closed errors by checking keep-alive, TLS, and proxy settings.
 slug: UnderlyingConnectionClosed
 publish: true
 position: 5

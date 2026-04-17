@@ -1,5 +1,7 @@
 ---
 title: "Unable to bind to port [Localhost: 8888]"
+page_title: Unable to Bind to Port 8888 - Fiddler Classic
+description: Resolve the error when Fiddler Classic cannot bind to port 8888 due to ISA Firewall client or permissions.
 slug: BindToPortLocalhost8888
 publish: true
 position: 80

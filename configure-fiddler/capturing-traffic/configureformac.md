@@ -1,6 +1,7 @@
 ---
 title: Configuring Mac
-description: Configure Fiddler Classic for Mac
+page_title: Configuring Mac Traffic Capture - Fiddler Classic
+description: Configure Fiddler Classic to capture HTTP traffic from a Mac client machine.
 slug: ConfigureForMac
 publish: true
 position: 16

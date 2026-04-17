@@ -1,8 +1,7 @@
 ---
 title: Capture WCF Service with localhost Filter 
-description: Follow along to learn how to capture WCF on localhost
-type: how-to
-slug: capture-wcf-services-with-localhost-filter
+page_title: Capturing WCF Services with Localhost Filter - Fiddler Classic
+description: Follow along to learn how to capture WCF on localhost.
 ticketid: 1445633
 res_type: kb
 ---

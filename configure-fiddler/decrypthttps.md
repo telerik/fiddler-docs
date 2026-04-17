@@ -1,6 +1,7 @@
 ---
 title: Decrypt HTTPS traffic
-description: Configure Fiddler Classic to decrypt HTTPS traffic
+page_title: Decrypting HTTPS Traffic - Fiddler Classic
+description: Configure Fiddler Classic to decrypt HTTPS traffic by enabling HTTPS capture and installing the root certificate.
 slug: DecryptHTTPS
 publish: true
 position: 20
@@ -9,7 +10,7 @@ previous_url: /configure-fiddler/tasks/decrypthttps
 
 # Configure Fiddler Classic to Decrypt HTTPS Traffic
 
->tip Update: If you're looking for cross-platform HTTPS capturing and decrypting tool, check out the new [Fiddler Everywhere](https://www.telerik.com/fiddler/fiddler-everywhere)! Check this [blog post](https://www.telerik.com/blogs/new-release-fiddler-everywhere-3) to learn more about it or directly see how easy is to [capture](https://docs.telerik.com/fiddler-everywhere/traffic/capture-traffic) and [inspect](https://docs.telerik.com/fiddler-everywhere/traffic/inspect-traffic) HTTPS traffic with Fiddler Everywhere.
+>tip If you need a cross-platform HTTPS capturing and decrypting tool, try the new [Fiddler Everywhere](https://www.telerik.com/fiddler/fiddler-everywhere). Read the [Fiddler Everywhere 3 blog post](https://www.telerik.com/blogs/new-release-fiddler-everywhere-3) for more details, or learn how to [capture](https://docs.telerik.com/fiddler-everywhere/traffic/capture-traffic) and [inspect](https://docs.telerik.com/fiddler-everywhere/traffic/inspect-traffic) HTTPS traffic with Fiddler Everywhere.
 
 By default, Fiddler Classic does not capture and decrypt secure HTTPS traffic. To capture data sent through HTTPS, enable HTTPS traffic decryption.
 

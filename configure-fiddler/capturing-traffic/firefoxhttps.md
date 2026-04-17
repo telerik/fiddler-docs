@@ -1,6 +1,7 @@
 ---
 title: Capture HTTPS traffic from Firefox
-description: "Learn how to explicitly set Firefox to trust the Fiddler certificate and use the Fiddler proxy."
+page_title: Capturing HTTPS Traffic from Firefox - Fiddler Classic
+description: Learn how to set Firefox to trust the Fiddler root certificate and use the Fiddler Classic proxy for HTTPS capture.
 slug: FirefoxHTTPS
 publish: true
 position: 24

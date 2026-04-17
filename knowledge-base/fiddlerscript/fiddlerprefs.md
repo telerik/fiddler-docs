@@ -1,6 +1,7 @@
 ---
 title: Preferences System
-description: "Overview of FiddlerScript preferences in Fiddler Classic - customize behavior via ui-languages, filters, editors, logging and performance tweaks."
+page_title: FiddlerScript Preferences System - Fiddler Classic
+description: Explore the FiddlerScript preferences system in Fiddler Classic for customizing UI, filters, editors, and logging.
 slug: FiddlerPrefs
 publish: true
 position: 8

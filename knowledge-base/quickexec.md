@@ -1,6 +1,7 @@
 ---
 title: QuickExec Reference
-description: "Learn how to use the QuickExec console commands in Fiddler Classic"
+page_title: QuickExec Console Commands - Fiddler Classic
+description: Learn how to use the QuickExec console commands in Fiddler Classic for fast operations.
 slug: QuickExec
 publish: true
 position: 1
@@ -28,10 +29,10 @@ previous_url: /knowledgebase/quickexec
 Fiddler Classic's QuickExec box allows you to launch script-commands quickly.
 
  ![QuickExec Box](./images/QuickExecBox.png)
-Keyboard Shortcuts
-------------------
 
-+ Hit ALT+Q to quickly set focus to the QuickExec box.  If Fiddler Classic isn't active, hit CTRL+ALT+F first to activate Fiddler.
+## Keyboard Shortcuts
+
++ Hit ALT+Q to quickly set focus to the QuickExec box. If Fiddler Classic is not active, hit CTRL+ALT+F first to activate Fiddler.
 + In the QuickExec box, hit CTRL+I to insert the URL of the currently selected session in the session list.
 
 ## Default commands

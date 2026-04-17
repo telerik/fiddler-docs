@@ -1,6 +1,7 @@
 ---
 title: Resend a Request
-description: "Learn to resend captured HTTP requests in Fiddler Classic - modify and replay traffic to test endpoints or reproduce bugs."
+page_title: Resending HTTP Requests - Fiddler Classic
+description: Resend captured HTTP requests in Fiddler Classic directly from the Sessions List or through the Composer.
 slug: ResendRequest
 publish: true
 position: 8

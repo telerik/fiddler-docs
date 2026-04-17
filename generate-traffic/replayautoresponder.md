@@ -1,5 +1,7 @@
 ---
 title: Replay Captured Traffic
+page_title: Replaying Captured Traffic - Fiddler Classic
+description: Replay captured HTTP traffic in Fiddler Classic by enabling the AutoResponder with saved matching rules.
 slug: ReplayAutoresponder
 publish: true
 position: 3

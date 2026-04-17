@@ -1,5 +1,7 @@
 ---
 title: Headers Reference
+page_title: HTTP Headers Reference - Fiddler Classic
+description: Explore the HTTP headers reference for Fiddler Classic including common request and response headers.
 slug: Headers
 publish: true
 position: 8

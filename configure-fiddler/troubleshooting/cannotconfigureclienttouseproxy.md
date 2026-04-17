@@ -1,5 +1,7 @@
 ---
 title: Cannot Configure Client To Use Proxy Server
+page_title: Client Cannot Use Proxy Server - Fiddler Classic
+description: Troubleshoot scenarios where a client device or application has no option to configure a proxy server.
 slug: CannotConfigureClientToUseProxy
 publish: true
 position: 2

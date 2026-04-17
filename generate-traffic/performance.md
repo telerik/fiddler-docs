@@ -1,6 +1,7 @@
 ---
 title: Test performance
-description: "Use Fiddler Classic for performance testing - generate traffic, measure response times, and evaluate server behavior under load."
+page_title: Testing Performance - Fiddler Classic
+description: Use Fiddler Classic and FiddlerScript to simulate traffic and evaluate server performance.
 slug: Performance
 publish: true
 position: 6

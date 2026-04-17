@@ -1,7 +1,7 @@
 ---
 title: Search Sequential Pages for Target String 
-slug: SearchSequentialPages
-publish: true
+page_title: Searching Sequential Pages for a Target String - Fiddler Classic
+description: Search a series of sequential HTML pages for a target string by adding custom rules to Fiddler Classic.
 position: 8
 previous_url: /generate-traffic/tasks/searchsequentialpages
 ---

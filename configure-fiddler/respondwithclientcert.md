@@ -1,6 +1,7 @@
 ---
 title: Using Client Certificates
-description: Respond to a HTTP requests that require the usage of specific client certificates.
+page_title: Using Client Certificates - Fiddler Classic
+description: Respond to HTTP requests that require specific client certificates by configuring FiddlerScript.
 slug: RespondWithClientCert
 publish: true
 position: 35

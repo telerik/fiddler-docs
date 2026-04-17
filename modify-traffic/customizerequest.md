@@ -1,6 +1,7 @@
 ---
 title: Customize a Request
-description: Options in FIddler Classic for customizing a request
+page_title: Customizing Requests - Fiddler Classic
+description: Craft and customize HTTP requests in Fiddler Classic by using the Composer to modify headers, body, and URL.
 slug: CustomizeRequest
 publish: true
 position: 1

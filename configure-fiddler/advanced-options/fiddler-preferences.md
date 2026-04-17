@@ -1,6 +1,7 @@
 ---
 title: Configurable Preferences
-description: List of Fiddler CLassic configurable preferences
+page_title: Configurable Preferences - Fiddler Classic
+description: Explore the list of Fiddler Classic configurable preferences and their default values.
 slug: fiddler-classic-preferences
 publish: true
 position: 30
@@ -28,7 +29,7 @@ Controls whether the Fiddler Toolbar is visible:
 fiddler.ui.toolbar.visible = "True"
 ```
 
-Controls whether the Fiddler disables filters (e.g. Filters tab, Hide Images/Connects, process class filter) after restart (otherwise, the filter state from the last Fiddler session is restored):
+Controls whether the Fiddler disables filters (for example, Filters tab, Hide Images/Connects, process class filter) after restart (otherwise, the filter state from the last Fiddler session is restored):
 ```bash
 fiddler.filters.ResetOnRestart = "False"
 ```

@@ -1,5 +1,7 @@
 ---
 title: User Interface Guide
+page_title: User Interface Guide - Fiddler Classic
+description: Explore the Fiddler Classic user interface including panels, menus, inspectors, and session list features.
 slug: UIGuide
 publish: true
 position: 3

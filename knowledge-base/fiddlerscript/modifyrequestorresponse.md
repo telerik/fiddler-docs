@@ -1,5 +1,7 @@
 ---
 title: Modifying a Request or Response
+page_title: Modifying Requests or Responses - Fiddler Classic
+description: Modify web requests and responses in Fiddler Classic by using FiddlerScript in the OnBeforeRequest or OnBeforeResponse functions.
 slug: ModifyRequestOrResponse
 publish: true
 position: 1
@@ -71,7 +73,7 @@ oSession["x-overrideHost"] = "128.123.133.123";  // DNS name or IP address of ta
 }
 ```
 
-**Retarget requests for a single page to a different page, potentially on  a different server.**
+**Retarget requests for a single page to a different page, potentially on a different server.**
 (Retargets by changing the request's Host header)
 
 ```c#

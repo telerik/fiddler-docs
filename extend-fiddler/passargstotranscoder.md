@@ -1,5 +1,7 @@
 ---
 title: Pass Arguments to Exporter Extension
+page_title: Passing Arguments to Exporter Extensions - Fiddler Classic
+description: Pass custom arguments to Fiddler Classic importer and exporter extensions through a dictionary object.
 slug: PassArgsToTranscoder
 publish: true
 position: 9

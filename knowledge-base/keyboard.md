@@ -1,5 +1,7 @@
 ---
 title: Keyboard Reference
+page_title: Keyboard Shortcuts Reference - Fiddler Classic
+description: Explore the full list of keyboard shortcuts available in Fiddler Classic for faster navigation and actions.
 slug: Keyboard
 publish: true
 position: 2

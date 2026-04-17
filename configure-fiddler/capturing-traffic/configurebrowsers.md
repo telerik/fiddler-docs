@@ -1,6 +1,7 @@
 ---
 title: Capture Configuration for Browsers
-description: Specific configuration steps for enabling capture on Opera, Firefox, and other non-Chromium browsers.
+page_title: Configuring Browser Traffic Capture - Fiddler Classic
+description: Configure Opera, Firefox, and other non-Chromium browsers to route traffic through Fiddler Classic.
 slug: ConfigureBrowsers
 publish: true
 position: 10

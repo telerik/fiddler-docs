@@ -1,6 +1,7 @@
 ---
 title: Configure a PHP/cURL application
-description: Configure a PHP/cURL application alongside the Fiddler Classic proxy
+page_title: Configuring a PHP/cURL Application - Fiddler Classic
+description: Configure a PHP or cURL application to send web traffic through the Fiddler Classic proxy.
 slug: PHPcURL
 publish: true
 position: 7

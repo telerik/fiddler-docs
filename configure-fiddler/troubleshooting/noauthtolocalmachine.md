@@ -1,12 +1,13 @@
 ---
 title: Site on local machine rejects credentials
+page_title: Local Site Rejects Credentials - Fiddler Classic
+description: Troubleshoot credential rejection on a local website when Fiddler Classic is running as a proxy.
 slug: NoAuthToLocalMachine
 publish: true
 position: 7
 ---
 
 # Problem: Website running on local machine with Fiddler Classic running rejects credentials
-----------------------------------------------------------------------------------
 
 ## Solution 1:
 

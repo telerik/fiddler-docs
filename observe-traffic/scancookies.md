@@ -1,5 +1,7 @@
 ---
 title: View Cookie Information
+page_title: Viewing Cookie Information - Fiddler Classic
+description: View and scan cookie information in Fiddler Classic by using the Privacy Scanner add-on.
 slug: CookieScanning
 publish: true
 position: 10
