@@ -1,6 +1,7 @@
 ---
 title: Out-of-Memory exception
-description: "Address out-of-memory errors in Fiddler Classic - tips for buffer limits, memory settings, and large session handling."
+meta_title: Out-of-Memory Exception - Fiddler Classic Documentation
+description: Learn how to address out-of-memory errors in Fiddler Classic by adjusting buffer limits, memory settings, and large session handling.
 slug: OutOfMemory
 publish: true
 position: 10

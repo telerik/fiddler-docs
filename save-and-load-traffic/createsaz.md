@@ -1,5 +1,7 @@
 ---
 title: Create a Session Archive Zip (SAZ) Traffic Archive
+meta_title: Create SAZ Archive - Fiddler Classic Documentation
+description: Learn how to create a Session Archive Zip (SAZ) file in Fiddler Classic to save and share captured traffic sessions.
 slug: CreateSAZ
 publish: true
 position: 1

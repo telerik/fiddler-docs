@@ -1,5 +1,7 @@
 ---
 title: Configuration system failed to initialize
+meta_title: Configuration System Error - Fiddler Classic Documentation
+description: Learn how to fix the configuration system failed to initialize error in Fiddler Classic by updating or reinstalling .NET Framework.
 slug: ConfigurationSystemError
 publish: true
 position: 40

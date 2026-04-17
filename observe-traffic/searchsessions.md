@@ -1,6 +1,7 @@
 ---
 title: Search and filter sessions
-description: "Search sessions in Fiddler Classic - use filters, regex, or columns to quickly find requests/responses among captured traffic."
+meta_title: Search and Filter Sessions - Fiddler Classic Documentation
+description: Learn how to search sessions in Fiddler Classic by using filters, regular expressions, or columns to find specific traffic.
 slug: SearchSessions
 publish: true
 position: 6

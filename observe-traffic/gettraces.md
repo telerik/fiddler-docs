@@ -1,7 +1,7 @@
 ---
 title: Get Fiddler traces from your users 
-slug: GetTraces
-publish: true
+meta_title: Get Fiddler Traces from Users - Fiddler Classic Documentation
+description: Learn how to collect Fiddler Classic traffic traces from your users for remote debugging and issue reproduction.
 position: 7
 previous_url: /observe-traffic/tasks/gettraces
 ---

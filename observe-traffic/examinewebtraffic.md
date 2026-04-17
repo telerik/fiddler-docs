@@ -1,6 +1,7 @@
 ---
 title: Examine Web Traffic
-description: "learno how to inspect the web traffic"
+meta_title: Examine Web Traffic - Fiddler Classic Documentation
+description: Learn how to inspect and examine web traffic sessions in Fiddler Classic by using the Inspectors panel and session details.
 slug: ExamineWebTraffic
 publish: true
 position: 2

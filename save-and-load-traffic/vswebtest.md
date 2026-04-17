@@ -1,5 +1,7 @@
 ---
 title: Capture traffic for Visual Studio WebTest playback
+meta_title: Visual Studio WebTest Capture - Fiddler Classic Documentation
+description: Learn how to capture web traffic in Fiddler Classic and export it for Visual Studio WebTest playback and load testing.
 slug: VSWebTest
 publish: true
 position: 2

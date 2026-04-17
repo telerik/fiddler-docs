@@ -1,6 +1,7 @@
 ---
 title: Inspect DataURI Object
-description: "Convert sessions to Data URI format in Fiddler Classic - embed HTTP response content as inline URIs for sharing and testing."
+meta_title: Inspect DataURI Object - Fiddler Classic Documentation
+description: Learn how to convert sessions to Data URI format in Fiddler Classic and embed HTTP response content as inline URIs for sharing.
 slug: DataURI
 publish: true
 position: 15

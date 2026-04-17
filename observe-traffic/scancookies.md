@@ -1,5 +1,7 @@
 ---
 title: View Cookie Information
+meta_title: View Cookie Information - Fiddler Classic Documentation
+description: Learn how to view and inspect cookie information in Fiddler Classic by using the privacy scanner to analyze session cookies.
 slug: CookieScanning
 publish: true
 position: 10

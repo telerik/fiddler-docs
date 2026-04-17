@@ -1,5 +1,7 @@
 ---
 title: Fiddler exits unexpectedly on startup
+meta_title: Fiddler Crash on Startup - Fiddler Classic Documentation
+description: Learn how to troubleshoot Fiddler Classic when it exits unexpectedly on startup and displays an unhelpful error message.
 slug: CrashOnStartup
 publish: true
 position: 50

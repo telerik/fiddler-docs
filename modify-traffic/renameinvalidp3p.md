@@ -1,6 +1,7 @@
 ---
 title: Rename Invalid P3P Headers
-description: "lern how to modify invalid P3P headers through the privacy scanner add-on"
+meta_title: Rename Invalid P3P Headers - Fiddler Classic Documentation
+description: Learn how to modify invalid P3P headers through the Fiddler Classic privacy scanner add-on to resolve privacy policy issues.
 slug: RenameInvalidP3P
 publish: true
 position: 4

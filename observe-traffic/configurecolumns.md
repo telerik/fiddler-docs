@@ -1,5 +1,7 @@
 ---
 title: Configure Columns
+meta_title: Configure Columns - Fiddler Classic Documentation
+description: Learn how to configure and customize the columns in the Fiddler Classic Web Sessions List for tailored traffic inspection.
 slug: ConfigureColumns
 publish: true
 position: 9

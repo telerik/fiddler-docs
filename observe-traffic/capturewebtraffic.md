@@ -1,6 +1,7 @@
 ---
 title: View Web Traffic
-description: Learn how to start capturing web traffic with Fiddler Classic.
+meta_title: Capture Web Traffic - Fiddler Classic Documentation
+description: Learn how to start capturing web traffic with Fiddler Classic and inspect HTTP and HTTPS sessions in the Web Sessions List.
 slug: ViewWebTraffic
 publish: true
 position: 1

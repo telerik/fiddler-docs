@@ -1,5 +1,7 @@
 ---
 title: Import and Export Traffic
+meta_title: Import and Export Traffic - Fiddler Classic Documentation
+description: Learn how to import and export captured traffic sessions in Fiddler Classic by using the default supported file formats.
 slug: ImportExport
 publish: true
 position: 3

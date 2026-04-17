@@ -1,6 +1,7 @@
 ---
 title: No authentication when capturing traffic to local IIS server
-description: "Fix ‘No local auth’ issues in Fiddler Classic - ensure proper Windows authentication and proxy settings to capture local traffic."
+meta_title: No Local Auth with IIS - Fiddler Classic Documentation
+description: Learn how to fix authentication issues in Fiddler Classic when capturing traffic to a local IIS server by adjusting proxy settings.
 slug: NoLocalAuth
 publish: true
 position: 30

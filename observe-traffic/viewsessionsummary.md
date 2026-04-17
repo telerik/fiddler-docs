@@ -1,5 +1,7 @@
 ---
 title: View Web Session Summary
+meta_title: View Session Summary - Fiddler Classic Documentation
+description: Learn how to view the web session summary in Fiddler Classic and inspect key details about selected HTTP sessions.
 slug: ViewSessionSummary
 publish: true
 position: 2

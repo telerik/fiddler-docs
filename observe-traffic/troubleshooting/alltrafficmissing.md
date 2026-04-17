@@ -1,5 +1,7 @@
 ---
 title: Traffic missing in Session List
+meta_title: All Traffic Missing - Fiddler Classic Documentation
+description: Learn how to troubleshoot when no sessions appear in the Fiddler Classic Web Sessions List by reviewing configuration settings.
 slug: AllTrafficMissing
 publish: true
 position: 1

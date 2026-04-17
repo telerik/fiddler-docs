@@ -1,6 +1,7 @@
 ---
 title: Reduce delays from Expect header
-description: Reduce delays from 'Expect 100-continue headers'
+meta_title: Reduce Expect Header Delays - Fiddler Classic Documentation
+description: Learn how to reduce delays caused by Expect 100-continue headers in Fiddler Classic by configuring request handling behavior.
 slug: ContinueRequestHeaders
 publish: true
 position: 3

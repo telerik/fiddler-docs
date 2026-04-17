@@ -1,5 +1,7 @@
 ---
 title: Log Sessions to Local Database
+meta_title: Log Sessions to Local Database - Fiddler Classic Documentation
+description: Learn how to log captured traffic sessions to a local database in Fiddler Classic for persistent storage and analysis.
 slug: LogToLocalDB
 publish: true
 position: 4

@@ -1,5 +1,7 @@
 ---
 title: No Traffic to Localhost
+meta_title: No Traffic to Localhost - Fiddler Classic Documentation
+description: Learn how to troubleshoot when traffic sent to localhost or 127.0.0.1 is not captured by Fiddler Classic.
 slug: NoTrafficToLocalhost
 tags: Observe Traffic, Troubleshooting, localhost, 127.0.0.1, Web Sessions List
 publish: true

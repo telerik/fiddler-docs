@@ -1,6 +1,7 @@
 ---
 title: No HTTPS traffic
-description: "Fix issues when HTTPS traffic isn’t captured in Fiddler Classic - check certificate trust, decryption settings, and browser proxy configs."
+meta_title: No HTTPS Traffic Captured - Fiddler Classic Documentation
+description: Learn how to fix issues when HTTPS traffic is not captured in Fiddler Classic by checking certificate trust and decryption settings.
 slug: NoHTTPSTraffic
 publish: true
 position: 4

@@ -1,6 +1,7 @@
 ---
 title: View Web Session Statistics
-description: "View session statistics in Fiddler Classic - analyze count, size, duration, and performance data for captured traffic."
+meta_title: View Session Statistics - Fiddler Classic Documentation
+description: Learn how to view session statistics in Fiddler Classic and analyze count, size, duration, and performance data for captured traffic.
 slug: ViewSessionStatistics
 publish: true
 position: 3
