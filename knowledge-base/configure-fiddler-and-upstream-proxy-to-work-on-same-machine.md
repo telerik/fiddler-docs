@@ -5,7 +5,6 @@ description: Learn how to configure Fiddler Classic alongside an upstream proxy 
 slug: configure-fiddler-and-upstream-proxy-to-work-on-same-machine
 ticketid: 1456948
 res_type: kb
-type: how-to
 ---
 
 ## Environment
