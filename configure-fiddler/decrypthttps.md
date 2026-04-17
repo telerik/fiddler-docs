@@ -1,5 +1,5 @@
 ---
-title: Decrypt HTTPS traffic
+title: Configure Fiddler Classic to Decrypt HTTPS Traffic
 meta_title: Decrypt HTTPS Traffic - Fiddler Classic Documentation
 description: Learn how to configure Fiddler Classic to capture and decrypt HTTPS traffic by enabling HTTPS decryption options.
 slug: DecryptHTTPS

@@ -1,5 +1,5 @@
 ---
-title: Add Rules to Fiddler Classic
+title: Add Rules to Fiddler
 meta_title: Add Custom Rules - Fiddler Classic Documentation
 description: Learn how to add custom rules to Fiddler Classic by modifying FiddlerScript and customizing the rule set for traffic manipulation.
 slug: AddRules

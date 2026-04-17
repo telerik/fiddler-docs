@@ -1,5 +1,5 @@
 ---
-title: Test performance
+title: Test Performance
 meta_title: Test Performance - Fiddler Classic Documentation
 description: Learn how to use Fiddler Classic for performance testing by generating traffic, measuring response times, and evaluating server behavior.
 slug: Performance

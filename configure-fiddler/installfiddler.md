@@ -10,9 +10,11 @@ previous_url: /configure-fiddler/tasks/installfiddler
 
 # Using Fiddler 
 
+This article describes how to download and install the Fiddler Classic web debugging proxy tool on Windows.
+
 - Download the Fiddler product:
-    * Download the latest version of [Fiddler Classic (Windows only)](https://www.telerik.com/download/fiddler).
-    * Download the latest version of [Fiddler Everywhere supported on Windows, macOS, and Linux](https://www.telerik.com/download/fiddler-everywhere)
+    - Download the latest version of [Fiddler Classic (Windows only)](https://www.telerik.com/download/fiddler).
+    - Download the latest version of [Fiddler Everywhere supported on Windows, macOS, and Linux](https://www.telerik.com/download/fiddler-everywhere)
 - Install **Fiddler Classic**
     - Select **Run** from any Security Warning dialog.
         ![Setup Security Warning](./images/setupsecuritywarning.png)

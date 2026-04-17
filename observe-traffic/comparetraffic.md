@@ -1,5 +1,5 @@
 ---
-title: Compare Traffic
+title: Compare Web Traffic
 meta_title: Compare Traffic Sessions - Fiddler Classic Documentation
 description: Learn how to use Fiddler Classic to compare traffic sessions side by side and analyze request and response differences.
 slug: CompareTraffic

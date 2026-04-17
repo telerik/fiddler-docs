@@ -10,6 +10,8 @@ previous_url: /configure-fiddler/tasks/respondwithclientcert
 
 # Using Client Certificates
 
+Fiddler Classic can respond to HTTP requests that require specific client certificates. Use the following methods to configure how Fiddler Classic handles client certificate authentication.
+
 To specify the .CER file for Fiddler Classic to return for a given session, add this FiddlerScript*:
 
 ```c#

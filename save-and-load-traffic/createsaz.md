@@ -8,7 +8,7 @@ position: 1
 previous_url: /save-and-load-traffic/tasks/createsaz
 ---
 
-# Create a Session Archive Zip (SAZ) Traffic archive
+# Create a Session Archive Zip (SAZ) Traffic Archive
 
 1. Start Fiddler. 
 
