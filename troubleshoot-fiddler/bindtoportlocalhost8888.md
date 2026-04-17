@@ -18,5 +18,5 @@ Unable to bind to port [Localhost: 8888]. This is usually due to another running
 
 **Fix:**
 - Close the Fiddler Classic application.
-- Open **REGEDIT**
-- Add a new STRING under **HKCU\Software\Microsoft\Fiddler2** named **ExclusivePort** with value `False`.
+- Open `REGEDIT`
+- Add a new STRING under `HKCU\Software\Microsoft\Fiddler2` named `ExclusivePort` with value `False`.

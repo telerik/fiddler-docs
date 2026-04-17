@@ -2,6 +2,7 @@
 title: Search Sequential Pages for Target String 
 page_title: Searching Sequential Pages for a Target String - Fiddler Classic
 description: Search a series of sequential HTML pages for a target string by adding custom rules to Fiddler Classic.
+slug: SearchSequentialPages
 position: 8
 previous_url: /generate-traffic/tasks/searchsequentialpages
 ---
@@ -25,9 +26,9 @@ To search for a target string on a series of successively named HTML pages (for 
 	}
 	```
 
-  This will generate the first request. Note: Because the **utilIssueRequest** call is asynchronous, you don't get the response directly.
+  This generates the first request. Note: Because the `utilIssueRequest` call is asynchronous, you do not get the response directly.
 
-2. Add a rule to Fiddler Classic in the **OnBeforeResponse** function as follows:
+2. Add a rule to Fiddler Classic in the `OnBeforeResponse` function as follows:
 
 	```c#
 	if (oSession.oRequest.headers.Exists("X-My-Num")){ 

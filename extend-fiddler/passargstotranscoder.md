@@ -7,9 +7,9 @@ publish: true
 position: 9
 ---
 
-# Passing arguments to the Importer or Exporter Extension
+# Pass Arguments to Exporter Extension
 
-+ Transcoders (objects that implement an [importer or exporter interface](slug://ImporterExporterInterfaces)) may be passed arguments in a dictionary object.  For instance, FiddlerScript can invoke the **HTTPArchive** transcoder, passing in the filename string and maximum response size integers as follows:
++ Transcoders (objects that implement an [importer or exporter interface](slug://ImporterExporterInterfaces)) may be passed arguments in a dictionary object.  For instance, FiddlerScript can invoke the `HTTPArchive` transcoder, passing in the filename string and maximum response size integers as follows:
 
 	```c#
 	var oSessions = FiddlerApplication.UI.GetAllSessions();

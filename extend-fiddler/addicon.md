@@ -11,7 +11,7 @@ position: 4
 
 ## Use an Existing Icon
 
-Set the **.ImageIndex** property as follows:
+Set the `.ImageIndex` property as follows:
 
 ```c#
 public void OnLoad()

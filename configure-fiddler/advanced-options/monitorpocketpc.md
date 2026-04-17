@@ -12,12 +12,12 @@ previous_url: /configure-fiddler/tasks/monitorpocketpc
 
 ## Configure Fiddler Classic
 
-1. On the Fiddler Classic server (the machine where Fiddler Classic is installed), open port **8888** in Windows Firewall.
-2. Open **ActiveSync > Connection Settings...**. 
+1. On the Fiddler Classic server (the machine where Fiddler Classic is installed), open port `8888` in Windows Firewall.
+2. Open **ActiveSync** > **Connection Settings...**. 
 3. Under **This Computer is connected to:**, click **Work Network**.
 4. Start Fiddler.
-5. Click **Tools > Options**.
-6. Ensure "Allow remote clients to connect" is checked. 
+5. Click **Tools** > **Options**.
+6. Ensure **Allow remote clients to connect** is checked. 
 7. If you need to click the checkbox, restart Fiddler.
 
 ## Configure PocketPC

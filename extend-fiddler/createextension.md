@@ -19,7 +19,7 @@ Follow these steps to create a sample Fiddler Classic Extension that modifies th
 
 3. Right-click the project's **References** folder in the **Solution Explorer**.
 
-4. Click the **Browse** tab and select **Fiddler.exe** in the **%localappdata%\Programs\Fiddler** folder. 
+4. Click the **Browse** tab and select `Fiddler.exe` in the `%localappdata%\Programs\Fiddler` folder. 
 
 5. Click **Ok** to add the reference.
 
@@ -29,7 +29,7 @@ If your extension modifies Fiddler's UI:
 
 1. Right-click the project's **References** folder in the **Solution Explorer** again.
 
-2. On the **.NET** tab, choose **System.Windows.Forms**.
+2. On the **.NET** tab, choose `System.Windows.Forms`.
 
 3. Click **Ok** to add the reference.
 
@@ -49,7 +49,7 @@ copy "$(TargetPath)" "%userprofile%\Documents\Fiddler2\Scripts\$(TargetFilename)
 
 ## Implement a Fiddler Classic Interface
 
-Modify the default **class1.cs** (or create a new class) in your project as follows:
+Modify the default `class1.cs` (or create a new class) in your project as follows:
 
 ```c#
 using System;

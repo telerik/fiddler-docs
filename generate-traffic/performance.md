@@ -1,5 +1,5 @@
 ---
-title: Test performance
+title: Test Performance
 page_title: Testing Performance - Fiddler Classic
 description: Use Fiddler Classic and FiddlerScript to simulate traffic and evaluate server performance.
 slug: Performance

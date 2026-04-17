@@ -1,5 +1,5 @@
 ---
-title: View Web Traffic
+title: Capture Web Traffic
 page_title: Viewing and Capturing Web Traffic - Fiddler Classic
 description: Learn how to start capturing web traffic with Fiddler Classic and view HTTP sessions.
 slug: ViewWebTraffic

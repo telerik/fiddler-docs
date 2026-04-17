@@ -15,7 +15,7 @@ Fiddler2 includes the ability to capture web traffic (including AJAX requests) f
 ## Save a WebTest
 
 1. Capture traffic from your web application. 
-2. Click **File > Export Sessions > All Sessions**. 
+2. Click **File** > **Export Sessions** > **All Sessions**. 
 3. Click **Visual Studio WebTest.**
 
 ## Replaying a WebTest
@@ -24,7 +24,7 @@ Fiddler2 includes the ability to capture web traffic (including AJAX requests) f
 
 To replay a WebTest:
 
-1. Click **File > New project**.
+1. Click **File** > **New project**.
 2. Expand **Visual C#** or **Visual Basic**.
 3. Click the **Test** node.
 4. Click **Test Project** in the template pane.

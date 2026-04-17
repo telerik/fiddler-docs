@@ -27,54 +27,54 @@ res_type: kb
 
 ### System-wide
 
-+ CTRL+ALT+F - Bring Fiddler Classic to the foreground.  Hotkey may be adjusted using **Tools > Options**.
++ `Ctrl+Alt+F` - Bring Fiddler Classic to the foreground.  Hotkey may be adjusted using **Tools** > **Options**.
 
 ### App-wide
 
-+ Alt+S - Focus the Web Sessions List
-+ Alt+Q - Activate the [QuickExec command line][1], allowing access to many more functions from the keyboard.
-+ CTRL+F - Find sessions
-+ CTRL+H - View Header Inspector
-+ CTRL+T - View TextView Inspector
-+ CTRL+Up - Select prior session
-+ CTRL+Down - Select next session
++ `Alt+S` - Focus the Web Sessions List
++ `Alt+Q` - Activate the [QuickExec command line][1], allowing access to many more functions from the keyboard.
++ `Ctrl+F` - Find sessions
++ `Ctrl+H` - View Header Inspector
++ `Ctrl+T` - View TextView Inspector
++ `Ctrl+Up` - Select prior session
++ `Ctrl+Down` - Select next session
 
 ### Session List
 
-+ CTRL+A - Select all sessions
-+ CTRL+I - Invert selection of sessions
-+ CTRL+X - Clear Session List
-+ R - Reissue request (Hold Shift+R to reissue multiple times)
-+ U - Reissue request unconditionally (Hold Shift+U to reissue multiple times)
-+ P - Find parent of session (using referer)
-+ C - Find children of session (using referer)
-+ D - Find duplicates of session (based on URL)
-+ CTRL+1 or INS - Mark/tag session in red
-+ CTRL+2 - Mark/tag session in blue
-+ CTRL+3 - Mark/tag session in yellow
-+ CTRL+4 - Mark/tag session in green
-+ CTRL+5 - Mark/tag session in orange
-+ CTRL+6 - Mark/tag session in purple
-+ CTRL+0 - unmark session
-+ Backspace - Go to previously selected session
-+ Delete - Delete selected sessions
-+ Shift+Delete - Delete unselected sessions
-+ Spacebar - Scroll selected session into view
++ `Ctrl+A` - Select all sessions
++ `Ctrl+I` - Invert selection of sessions
++ `Ctrl+X` - Clear Session List
++ `R` - Reissue request (Hold `Shift+R` to reissue multiple times)
++ `U` - Reissue request unconditionally (Hold `Shift+U` to reissue multiple times)
++ `P` - Find parent of session (using referer)
++ `C` - Find children of session (using referer)
++ `D` - Find duplicates of session (based on URL)
++ `Ctrl+1` or `Ins` - Mark/tag session in red
++ `Ctrl+2` - Mark/tag session in blue
++ `Ctrl+3` - Mark/tag session in yellow
++ `Ctrl+4` - Mark/tag session in green
++ `Ctrl+5` - Mark/tag session in orange
++ `Ctrl+6` - Mark/tag session in purple
++ `Ctrl+0` - Unmark session
++ `Backspace` - Go to previously selected session
++ `Delete` - Delete selected sessions
++ `Shift+Delete` - Delete unselected sessions
++ `Spacebar` - Scroll selected session into view
 
 ### Header Inspector
 
-+ CTRL+C - Copy the active header to the clipboard
-+ ENTER - Edit the active header.  (When the a session is paused, the headers are editable (note the white background)
-+ Delete - Remove the active header
-+ INSERT - Add a new header.  Note that it doesn't matter what grouping you put the header under; the groupings are for reading convenience only.
++ `Ctrl+C` - Copy the active header to the clipboard
++ `Enter` - Edit the active header.  (When the a session is paused, the headers are editable (note the white background)
++ `Delete` - Remove the active header
++ `Ins` - Add a new header.  Note that it does not matter what grouping you put the header under; the groupings are for reading convenience only.
 
 ### TextView Inspector
 
-+ CTRL+G - Goto line #. (Disables word wrap)
-+ F3 - Find next
++ `Ctrl+G` - Go to line number. (Disables word wrap)
++ `F3` - Find next
 
 ### HexView Inspector
 
-+ CTRL+G - Goto byte
++ `Ctrl+G` - Go to byte
 
 [1]: ./QuickExec

@@ -10,7 +10,7 @@ res_type: kb
 
 
 
-To customize Fiddler's **Web Sessions List**, [add rules](slug://AddRules) using FiddlerScript to the **OnBeforeRequest** function (except where noted). For example:
+To customize Fiddler's **Web Sessions List**, [add rules](slug://AddRules) using FiddlerScript to the `OnBeforeRequest` function (except where noted). For example:
 
 **Display in the "Custom Column" the time of the original request**
 
@@ -19,7 +19,7 @@ oSession["ui-customcolumn"] += DateTime.Now.ToString("h:mm:ss.ffff ");
 ```
 
 **Show any Set-Cookie headers in Custom column in Session list.**
-(in **OnBeforeResponse**)
+(in `OnBeforeResponse`)
 
 ```c#
 oSession["ui-customcolumn"] = oSession.oResponse["Set-Cookie"];
@@ -90,7 +90,7 @@ if ((oSession.responseCode > 299) && (oSession.responseCode < 308)){
 ```
 
 **Add image size information in a column.** (**Global** scope)
-Note: you must add System.drawing.dll inside **Tools > Options > Extensions > References**.
+Note: you must add System.drawing.dll inside **Tools** > **Options** > **Extensions** > **References**.
 
 ```c#
 public static BindUIColumn("ImageSize", 60)

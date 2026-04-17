@@ -12,7 +12,7 @@ previous_url: /modify-traffic/tasks/continuerequestheaders
 
 To have Fiddler Classic return the 100-Continue header for a request:
 
-1. Click **Rules > Customize Rules...**.
+1. Click **Rules** > **Customize Rules...**.
 2. Add the following function inside the **Handlers** class:
 ```c#
 static function OnPeekAtRequestHeaders(oSession: Session) {

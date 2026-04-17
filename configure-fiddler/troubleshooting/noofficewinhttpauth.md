@@ -15,4 +15,4 @@ position: 6
 
 ## Solution 2: 
 
-[Change **AuthFowardServerList** with REGEDIT](http://support.microsoft.com/kb/956943)
+[Change `AuthForwardServerList` with REGEDIT](http://support.microsoft.com/kb/956943)

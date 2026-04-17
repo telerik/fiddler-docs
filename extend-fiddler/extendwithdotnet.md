@@ -13,11 +13,11 @@ Use Fiddler's extensibility mechanisms to add to Fiddler's UI, automatically mod
 
 ## Requirements
 
-+ **Visual Studio .NET 2005+** or the **free .NET Framework v2 command-line compilers**
-+ The most recent version of **Fiddler**
-+ For **Visual Studio 2010 or later**: Change the project to target the **.NET2.0/3.5 framework**.
-+ If targeting **.NET Framework 3.5**: Ensure user has **.NET Framework 3.5** installed.
-+ If extending **64bit Fiddler**: Target **AnyCPU**.
++ Visual Studio .NET 2005+ or the free .NET Framework v2 command-line compilers
++ The most recent version of Fiddler
++ For Visual Studio 2010 or later: Change the project to target the .NET 2.0/3.5 framework.
++ If targeting .NET Framework 3.5: Ensure user has .NET Framework 3.5 installed.
++ If extending 64-bit Fiddler: Target `AnyCPU`.
 
 See [Build extension assemblies to run in both Fiddler Classic versions 2 and 4](slug://ExtensionsForv2Andv4).
 

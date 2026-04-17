@@ -13,7 +13,7 @@ previous_url: /save-and-load-traffic/tasks/importexportdefault
 To export traffic to **WCAT Script**, **VS Web Test Script**, [**Meddler Script**](http://www.webdbg.com/meddler/), **HTML5 AppCache Manifest**, **HTTP Archive Format 1.1**, **HTTP Archive Format 1.2**
 ), or a **Raw File Dump**:
 
-1. Click **File > Export Sessions**.
+1. Click **File** > **Export Sessions**.
 
 2. Click either **All Sessions** or **Selected Sessions**.
 
@@ -37,7 +37,7 @@ To export traffic to **WCAT Script**, **VS Web Test Script**, [**Meddler Script*
 
 To import traffic from **HTTP Archive JSON**, **HTTP Archive XML** (exported from [IE9 Developer Tools Network Tab][12]), or **Test Studio Load Test**:
 
-1. Click **File > Import Sessions...**.
+1. Click **File** > **Import Sessions...**.
 
 2. Select the import format from the drop-down menu.
 

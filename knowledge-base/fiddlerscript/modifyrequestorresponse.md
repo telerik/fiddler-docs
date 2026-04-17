@@ -9,10 +9,10 @@ res_type: kb
 ---
 
 
-To make custom changes to web requests and responses, use FiddlerScript to [add rules](slug://AddRules) to Fiddler's **OnBeforeRequest** or **OnBeforeResponse** function. Which function is appropriate depends on the objects your code uses: **OnBeforeRequest** is called before each request, and **OnBeforeResponse** is called before each response. Note:
+To make custom changes to web requests and responses, use FiddlerScript to [add rules](slug://AddRules) to Fiddler's `OnBeforeRequest` or `OnBeforeResponse` function. Which function is appropriate depends on the objects your code uses: `OnBeforeRequest` is called before each request, and `OnBeforeResponse` is called before each response. Note:
 
-+ It *is not possible* to access the response objects inside **OnBeforeRequest** as they have not yet been created. 
-+ It *is possible* to use objects from the request inside **OnBeforeResponse**; however, any changes you make to those objects will not be seen by the server, as it has already received the request. 
++ It *is not possible* to access the response objects inside `OnBeforeRequest` as they have not yet been created. 
++ It *is possible* to use objects from the request inside `OnBeforeResponse`; however, any changes you make to those objects are not seen by the server, as it has already received the request. 
 
 
 **Add a request header**

@@ -11,7 +11,7 @@ position: 11
 
 + If you want your extension Assembly to run in both Fiddler2 and Fiddler4, build it for .NET Framework v2 and avoid taking any dependencies on any classes that were removed or moved in the later version of the Framework. (The only instance I'm aware of is the Microsoft JScript.NET code compiler, whose classes were moved around a bit).
 
- You'll also need to ensure that if you use any methods that are deprecated (for example, calling `Assembly.LoadFrom` with the overload that takes an `Evidence` parameter) you do so only conditionally. For example:
+ You also need to ensure that if you use any methods that are deprecated (for example, calling `Assembly.LoadFrom` with the overload that takes an `Evidence` parameter) you do so only conditionally. For example:
 
 ```c#
 if (CONFIG.bRunningOnCLRv4)
@@ -28,7 +28,7 @@ else
 
 + Alternatively, you can build two versions of your DLL, one version targeting .NET Framework v4 and one targeting .NET Framework v2.
 
- This is how Fiddler Classic itself is built. Basically, just add a "clone" version of your v2-targeted Project to the same Solution. Use the **Add > Existing Item** context menu to add the .CS files from the v2-targeted project to the v4-targeted project, but when selecting the files, be very sure to use the split button on the file picker dialog and choose **Add as Link**. On the v4 Project's **Properties > Build** tab, add a **Conditional Compilation** symbol like DOTNET4. You can then put any .NETv4-specific code behind conditional compilation:
+ This is how Fiddler Classic itself is built. Add a "clone" version of your v2-targeted Project to the same Solution. Use the **Add** > **Existing Item** context menu to add the `.cs` files from the v2-targeted project to the v4-targeted project, but when selecting the files, use the split button on the file picker dialog and choose **Add as Link**. On the v4 Project's **Properties** > **Build** tab, add a **Conditional Compilation** symbol like `DOTNET4`. You can then put any .NET v4-specific code behind conditional compilation:
 
 ```c#
 #if DOTNET4

@@ -15,7 +15,7 @@ You can resend a request directly from the **Sessions List**, or save requests t
 ## Resend a Request from the Sessions List
 
 1. Select one or more sessions in the Sessions List.
-2. Press **R** or right-click the session(s) and click **Replay > Reissue Requests**.
+2. Press `R` or right-click the session(s) and click **Replay** > **Reissue Requests**.
    ![Replay Menu](./images/ReplayMenu.png)
 
 ## Resend a Session from the Composer

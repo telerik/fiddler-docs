@@ -1,5 +1,5 @@
 ---
-title: Configure a PHP/cURL application
+title: Configure a PHP/cURL Application to Use Fiddler
 page_title: Configuring a PHP/cURL Application - Fiddler Classic
 description: Configure a PHP or cURL application to send web traffic through the Fiddler Classic proxy.
 slug: PHPcURL
@@ -10,9 +10,9 @@ previous_url: /configure-fiddler/tasks/configurephpcurl
 
 # Configure a PHP/cURL Application to Use Fiddler
 
-To configure a PHP/cURL application to send web traffic to Fiddler Classic, add this line of code before the application sends requests, where $ch is the handle returned by curl_init():
+To configure a PHP/cURL application to send web traffic to Fiddler Classic, add this line of code before the application sends requests, where `$ch` is the handle returned by `curl_init()`:
 
-```bash
+```php
 curl_setopt($ch, CURLOPT_PROXY, '127.0.0.1:8888');
 ```
 

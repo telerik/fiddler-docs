@@ -11,21 +11,21 @@ position: 13
 
 ## Customize Rules
 
-To add custom columns to the Fiddler Classic UI, modify requests or responses, test application performance, and a variety of other custom tasks, add rules to Fiddler's JScript.NET CustomRules.js file in **FiddlerScript**.
+To add custom columns to the Fiddler Classic UI, modify requests or responses, test application performance, and a variety of other custom tasks, add rules to Fiddler's JScript.NET `CustomRules.js` file in **FiddlerScript**.
 
-1. Click **Rules > Customize Rules...**.
+1. Click **Rules** > **Customize Rules...**.
 
 2. Enter FiddlerScript code inside the appropriate function.
 
 3. Save the file.
 
-Fiddler Classic will automatically reload the rules.
+Fiddler Classic automatically reloads the rules.
 
 ## Use Additional .NET Assemblies
 
 To use additional .NET assemblies in your script:
 
-1. Click **Tools > Options**.
+1. Click **Tools** > **Options**.
 
 2. Click the **Extensions** tab.
 
@@ -41,7 +41,7 @@ To use the new assembly's functions without fully-qualifying them, update the **
 
 ## Change the JScript Editor Launched from the **Rules** Menu
 
-1. Click **Tools > Options**.
+1. Click **Tools** > **Options**.
 
 2. Edit the **Editor** string.
 

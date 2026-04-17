@@ -13,7 +13,7 @@ Implement Fiddler Classic interfaces to load your assembly during Fiddler Classi
 
 ## Load Extension During Startup
 
-Public classes in your assembly that implement the **IFiddlerExtension** interface will be loaded by Fiddler Classic during startup.
+Public classes in your assembly that implement the `IFiddlerExtension` interface are loaded by Fiddler Classic during startup.
 
 ```c#
 public interface IFiddlerExtension
@@ -26,13 +26,13 @@ public interface IFiddlerExtension
 }
 ```
 
-+ The **OnLoad** function will be called when Fiddler Classic has finished loading and its UI is fully available.  At this point, you can safely add menu items, tabbed pages, or other elements to the Fiddler Classic UI. 
++ The `OnLoad` function is called when Fiddler Classic has finished loading and its UI is fully available.  At this point, you can safely add menu items, tabbed pages, or other elements to the Fiddler Classic UI. 
 
-+ The **OnBeforeUnload** function will be called when Fiddler Classic is shutting down and unloading all extensions.
++ The `OnBeforeUnload` function is called when Fiddler Classic is shutting down and unloading all extensions.
 
 ## Call Extension for Each Web Request
 
-+ Extensions that implement the **IAutoTamper** interface (which extends **IFiddlerExtension**) are called for each HTTP/HTTPS request and response, enabling modifications, logging, or other operations. 
++ Extensions that implement the `IAutoTamper` interface (which extends `IFiddlerExtension`) are called for each HTTP/HTTPS request and response, enabling modifications, logging, or other operations. 
 
  >important: Functions in this interface are called on background, non-UI threads. To update UI, use **Invoke** or **BeginInvoke** to update the UI. Also, note that the IAutoTamper::* functions may be called before the **OnLoad** event is called-- Fiddler Classic allows traffic to flow before the UI is fully available.
 
@@ -56,7 +56,7 @@ public interface IAutoTamper : IFiddlerExtension
 }
 ```
 
-+ Extensions that implement the **IAutoTamper2** interface (which extends **IAutoTamper**) are called when the response headers become available.
++ Extensions that implement the `IAutoTamper2` interface (which extends `IAutoTamper`) are called when the response headers become available.
 
 ```c#
 /// <summary>
@@ -72,7 +72,7 @@ void OnPeekAtResponseHeaders(Session oSession);
 }
 ```
 
-+ Extensions that implement the **IAutoTamper3** interface (which extends **IAutoTamper2**) are called when the request headers become available.
++ Extensions that implement the `IAutoTamper3` interface (which extends `IAutoTamper2`) are called when the request headers become available.
 
 ```c#
 /// <summary>
@@ -90,7 +90,7 @@ void OnPeekAtRequestHeaders(Session oSession);
 
 ## Call Extension When User Enters a QuickExec Command
 
-+ Extensions that implement the **IHandleExecAction** interface are called when the user has entered a command into the [QuickExec box](slug://QuickExec). To react to the command (and prevent further processing by other extensions and Fiddler Classic itself) return true from this method.
++ Extensions that implement the `IHandleExecAction` interface are called when the user has entered a command into the [QuickExec box](slug://QuickExec). To react to the command (and prevent further processing by other extensions and Fiddler Classic itself) return true from this method.
 
 ```c#
 public interface IHandleExecAction

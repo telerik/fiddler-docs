@@ -16,7 +16,7 @@ To monitor a dialup or VPN connection, open **Tools** > **Options** and click **
 
 Or, set [the "Use automatic configuration script" option](slug://ConfigureBrowsers) in your browser.
 
-To monitor a VPN or dialup connection that is always active (instead of a LAN connection), set the **HookConnectionNamed** registry value to the name of the connection from **Internet Options**. 
+To monitor a VPN or dialup connection that is always active (instead of a LAN connection), set the `HookConnectionNamed` registry value to the name of the connection from **Internet Options**. 
 
 ![Connection Name](./images/ConnectionName.png)
 

@@ -30,4 +30,4 @@ Check to see if any Traffic Filters are enabled.
 
 + If you've written or set any [Fiddler Classic Rules](slug://AddRules) check those too.
 
-+ Click **Help > Troubleshoot Filters...**. When you do so, traffic that would otherwise be hidden is instead shown in a strikethrough font. The **Comments** column will show which of Fiddler's filters was responsible for attempting to hide the traffic.
++ Click **Help** > **Troubleshoot Filters...**. When you do so, traffic that would otherwise be hidden is instead shown in a strikethrough font. The **Comments** column shows which of Fiddler's filters was responsible for attempting to hide the traffic.

@@ -14,7 +14,7 @@ To inspect a DataURI object:
 
 1. Copy a [DataURI](https://en.wikipedia.org/wiki/Data_URI_scheme) to your clipboard from Fiddler Classic or any other source.
     ![Copy DataURI](./images/CopyDataURI.png)
-2. Click **Edit > Paste Files as Sessions**. Fiddler Classic will parse the DataURI and create a new Session for it in the **Web Sessions List**.
+2. Click **Edit** > **Paste Files as Sessions**. Fiddler Classic parses the DataURI and creates a new Session for it in the **Web Sessions List**.
     ![Paste Files as Sessions](./images/PasteFiles.png)
 3. [Use Fiddler Classic inspectors](slug://ViewSessionContent) to examine the resulting object.
     ![Inspect Object](./images/InspectObject.png)

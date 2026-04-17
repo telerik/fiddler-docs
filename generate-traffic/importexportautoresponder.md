@@ -16,16 +16,16 @@ previous_url: /generate-traffic/tasks/importexportautoresponder
 From the **Autoresponder** tab: 
 
 1. Click the **Import** button.
-2. Select a **.saz** or **.farx** file.
+2. Select a `.saz` or `.farx` file.
 
 ![Import Ruleset](./images/ImportRuleset.png)
 
 From **Windows Explorer**:
 
-1. Select a **.saz** or **.farx** file.
+1. Select a `.saz` or `.farx` file.
 2. Drag and drop the selected file from **Windows Explorer** to the **Autoresponder** tab.
 
-The **Autoresponder** ruleset will now populate with rules that will replay the sessions from the archive.
+The **Autoresponder** ruleset now populates with rules that replay the sessions from the archive.
 
 ## Export a matching ruleset
 

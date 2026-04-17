@@ -12,11 +12,11 @@ previous_url: /modify-traffic/tasks/renameinvalidp3p
 
 1. Install the [Privacy Scanner Fiddler Classic add-on](https://www.telerik.com/fiddler/add-ons).
 
- Fiddler Classic will gain a new top-level menu named **Privacy**.
+ Fiddler Classic gains a new top-level menu named **Privacy**.
 
  ![Privacy menu](./images/PrivacyMenu.png)
 
-2. Ensure **Privacy > Enabled** and **Privacy > Rename P3P header if invalid** are checked.
+2. Ensure **Privacy** > **Enabled** and **Privacy** > **Rename P3P header if invalid** are checked.
 
 Now, if a session presents a P3P statement that is malformed, that P3P header will be renamed to **Malformed-P3P** to prevent the browser from interpreting it as the P3P 1.0 specification suggested (for example, ignoring the unknown tokens).
 

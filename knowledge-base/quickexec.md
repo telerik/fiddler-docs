@@ -32,14 +32,14 @@ Fiddler Classic's QuickExec box allows you to launch script-commands quickly.
 
 ## Keyboard Shortcuts
 
-+ Hit ALT+Q to quickly set focus to the QuickExec box. If Fiddler Classic is not active, hit CTRL+ALT+F first to activate Fiddler.
-+ In the QuickExec box, hit CTRL+I to insert the URL of the currently selected session in the session list.
++ Press `Alt+Q` to quickly set focus to the **QuickExec** box. If Fiddler Classic is not active, press `Ctrl+Alt+F` first to activate Fiddler.
++ In the **QuickExec** box, press `Ctrl+I` to insert the URL of the currently selected session in the session list.
 
 ## Default commands
 
 - **?sometext**	
 
-As you type sometext, Fiddler Classic will highlight sessions where the URL contains sometext.  Hit Enter to set focus to the selected matches.	
+As you type sometext, Fiddler Classic highlights sessions where the URL contains sometext.  Press `Enter` to set focus to the selected matches.	
 
 ```sh
 ?searchtext

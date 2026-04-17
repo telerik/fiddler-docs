@@ -1,5 +1,5 @@
 ---
-title: Capturing Android Traffic
+title: Configure Fiddler Classic for Android Devices
 page_title: Capturing Android Device Traffic - Fiddler Classic
 description: Configure Fiddler Classic to capture and inspect HTTP traffic from Android devices.
 slug: ConfigureForAndroid
@@ -11,11 +11,11 @@ previous_url: /configure-fiddler/tasks/configureforandroid
 # Configure Fiddler Classic for Android Devices
 
 
->tip Update: If you're looking for Fiddler for Android, check out the new [Fiddler Everywhere](https://www.telerik.com/fiddler/fiddler-everywhere)! Check this [blog post](https://www.telerik.com/blogs/new-release-fiddler-everywhere-3) to learn more about it or directly see how easy it is to [setup and use Fiddler Everywhere alongside Android device](https://docs.telerik.com/fiddler-everywhere/traffic/configure-android).
+>tip Update: If you are looking for Fiddler for Android, check out the new [Fiddler Everywhere](https://www.telerik.com/fiddler/fiddler-everywhere). Check this [blog post](https://www.telerik.com/blogs/new-release-fiddler-everywhere-3) to learn more about it or directly see how to [set up and use Fiddler Everywhere alongside Android device](https://docs.telerik.com/fiddler-everywhere/traffic/configure-android).
 
 ## Configure Fiddler Classic
 
-1. Click **Tools > Fiddler Options > Connections**.
+1. Click **Tools** > **Fiddler Options** > **Connections**.
 
 1. Ensure that the checkbox by **Allow remote computers to connect** is checked. 
 
@@ -25,7 +25,7 @@ previous_url: /configure-fiddler/tasks/configureforandroid
 
  ![Online Tooltip](./images/OnlineTooltip.png)
 
-1. Ensure that you have installed and using **BouncyCastle** as a certificate generator. Newer versions of Android will reject certificates with more than two years of validity, and currently, only the BouncyCastle generator will output a compatible certificate for Android devices. [Learn more about certificate generators and how to install and enable BouncyCastle here...](https://www.telerik.com/blogs/understanding-fiddler-certificate-generators).
+1. Ensure that you have installed and are using BouncyCastle as a certificate generator. Newer versions of Android reject certificates with more than two years of validity, and currently, only the BouncyCastle generator outputs a compatible certificate for Android devices. [Learn more about certificate generators and how to install and enable BouncyCastle...](https://www.telerik.com/blogs/understanding-fiddler-certificate-generators).
 
 
 ## Configure Android Device
@@ -52,7 +52,7 @@ previous_url: /configure-fiddler/tasks/configureforandroid
 
 1. Tap **Save**.
 
-To verify this configuration, go to **http://ipv4.fiddler:8888/**. Chrome should display the **Fiddler Echo Service** webpage, and the traffic should appear in Fiddler.
+To verify this configuration, go to `http://ipv4.fiddler:8888/`. Chrome displays the **Fiddler Echo Service** webpage, and the traffic appears in Fiddler.
 
 ## Disable the proxy
 
@@ -68,7 +68,7 @@ After using Fiddler, return to the **Proxy Settings** screen above and remove th
 
 1. If the download doesn't open automatically, swipe down from the top and tap the **Settings** icon.
 
-1. Tap **Personal > Security.** 
+1. Tap **Personal** > **Security**. 
 
 1. Under **Credential Storage**, tap **Install from storage**. 
 

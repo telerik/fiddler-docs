@@ -12,7 +12,7 @@ To add custom columns to the **Web Sessions List**, [add rules](slug://AddRules)
 
 ## The BindUIColumn Attribute
 
-To fill a custom column, add a method labeled with the **BindUIColumn** attribute. Fiddler Classic will run the method on each session to fill the custom column.  (To avoid exceptions, be sure that your method is robust and checks to ensure that objects exist before use!) For example:
+To fill a custom column, add a method labeled with the `BindUIColumn` attribute. Fiddler Classic runs the method on each session to fill the custom column.  (To avoid exceptions, ensure that your method is robust and checks that objects exist before use.) For example:
 
 **Fill custom column with session HTTP Method**
 

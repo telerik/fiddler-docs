@@ -20,7 +20,7 @@ In the **Autoresponder** tab, check **Enable automatic responses**.
 
 To replay captured responses to matching requests instead of transmitting the request to the destination server:
 
-1. Select sessions in the **Web Sessions List**. Press Control-click to select multiple sessions.
+1. Select sessions in the **Web Sessions List**. Press `Ctrl+Click` to select multiple sessions.
 
  ![Web Sessions List](./images/WebSessionsList.png)
 
@@ -32,4 +32,4 @@ To replay captured responses to matching requests instead of transmitting the re
 
  ![Drag Web Sessions](./images/DragWebSessions.png)
 
-The rules list will now populate with rules that respond to the captured requests with the corresponding captured responses.
+The rules list now populates with rules that respond to the captured requests with the corresponding captured responses.

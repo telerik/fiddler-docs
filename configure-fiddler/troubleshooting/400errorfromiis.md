@@ -9,7 +9,7 @@ position: 4
 
 # Problem: Unexpected 400 Bad Request Error from IIS Express
 
-When requesting **http://ipv4.fiddler:2468** from an IIS Express instance, the server returns the following unexpected error message:
+When requesting `http://ipv4.fiddler:2468` from an IIS Express instance, the server returns the following unexpected error message:
 
 ```HTTP
 HTTP/1.1 400 Bad Request
@@ -28,7 +28,7 @@ Content-Length: 334
 
 ## Solution: 
 
-Replace **http://ipv.fiddler:2468** with **http://localhost.fiddler:2468**.
+Replace `http://ipv4.fiddler:2468` with `http://localhost.fiddler:2468`.
 
 ## See also
 

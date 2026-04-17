@@ -9,7 +9,7 @@ position: 10
 
 # Problem: No Traffic is captured with ProxySettingsPerUser=0 Group Policy Setting
 
-Your system or domain Administrator has set the Group Policy setting **ProxySettingsPerUser** to **0**. This means that instead of the default Windows behavior (each user has their own proxy settings), instead all user accounts share one set of proxy settings. In this case, a value named ProxySettingsPerUser exists inside: 
+Your system or domain Administrator has set the Group Policy setting `ProxySettingsPerUser` to `0`. This means that instead of the default Windows behavior (each user has their own proxy settings), all user accounts share one set of proxy settings. In this case, a value named `ProxySettingsPerUser` exists inside: 
 
 ```txt
 HKLM\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ 
@@ -17,12 +17,12 @@ HKLM\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\
 
 ## Solution: Run Fiddler Classic as Administrator
 
-This machine-wide proxy setting can only be changed by code running as an Adminstrator, so Fiddler Classic must be started **Elevated**:
+This machine-wide proxy setting can only be changed by code running as an Administrator, so Fiddler Classic must be started elevated:
 
 1. Right-click the **Fiddler** icon in the Start menu.
 2. Choose **Run as Administrator**.
 
-This will adjust the proxy setting.
+This adjusts the proxy setting.
 
 If you cannot run Fiddler Classic as Admin (because, for example, you are not an Administrator) you will need to request that your system or domain administrator disable this policy:
 

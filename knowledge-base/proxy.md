@@ -25,7 +25,7 @@ res_type: kb
 
 ## The Fiddler Classic Proxy
 
-After you start Fiddler, the program registers itself as the system proxy for Microsoft Windows Internet Services (WinInet), the HTTP layer used by Internet Explorer, Microsoft Office, and many other products. You can verify that Fiddler Classic is correctly intercepting requests by checking the Proxy Settings dialog. From the Internet Explorer main menu, click **Tools > Internet Options > Connections > LAN Setting > Advanced**.
+After you start Fiddler, the program registers itself as the system proxy for Microsoft Windows Internet Services (WinInet), the HTTP layer used by Internet Explorer, Microsoft Office, and many other products. You can verify that Fiddler Classic is correctly intercepting requests by checking the Proxy Settings dialog. From the Internet Explorer main menu, click **Tools** > **Internet Options** > **Connections** > **LAN Setting** > **Advanced**.
 
 ![IE Proxy Settings](./images/IEProxySettings.png)
 

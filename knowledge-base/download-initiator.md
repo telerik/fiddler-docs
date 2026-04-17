@@ -63,7 +63,7 @@ This will add a column labelled **@request.Accept** and as each session is logge
 FiddlerObject.UI.lvSessions.AddBoundColumn("Accept", 50, "@request.Accept");
 ```
 
-Second, while understanding what class of Element initiated a request is useful, IE9 includes an even more valuable feature that conveys contextual information about why a request was made. You can see this feature at work in the Internet Explorer F12 Developer Tools, which you can open by pressing (you guessed it) the F12 key. On the Network tab, you'll see the **Initiator** column that provides more information about the context in which a request was made:
+Second, while understanding what class of Element initiated a request is useful, IE9 includes an even more valuable feature that conveys contextual information about why a request was made. You can see this feature at work in the Internet Explorer F12 Developer Tools, which you can open by pressing the `F12` key. On the **Network** tab, you see the **Initiator** column that provides more information about the context in which a request was made:
 
 
 This information, by default, is not sent to the network, but you may set a Feature Control Key to emit the information as a custom HTTP request header that Fiddler Classic will see. Most Feature Control Keys, including this one, are simple flags stored in the registry that change the behavior of the Web Browser when set.

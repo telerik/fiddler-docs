@@ -98,7 +98,7 @@ On the **Save** menu:
 
 ![Save Menu](./images/SaveMenu.png)
 
-+ **Session > In ArchiveZIP** - Creates a .SAZ archive containing all selected requests & responses, plus an index page. 
++ **Session** > **In ArchiveZIP** - Creates a `.saz` archive containing all selected requests and responses, plus an index page. 
 + **Session** - Create a text file containing the request followed by the response
 + **Headers Only** - Create a text file containing the request and response headers
 + **Full Request** - Create a text file containing the request headers and request body

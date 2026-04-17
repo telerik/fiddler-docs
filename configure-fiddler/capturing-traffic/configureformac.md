@@ -1,5 +1,5 @@
 ---
-title: Configuring Mac
+title: Configure Fiddler Classic for Mac
 page_title: Configuring Mac Traffic Capture - Fiddler Classic
 description: Configure Fiddler Classic to capture HTTP traffic from a Mac client machine.
 slug: ConfigureForMac
@@ -10,7 +10,7 @@ previous_url: /configure-fiddler/tasks/configureformac
 
 # Configure Fiddler Classic for Mac
 
->tip Update: If you're looking for Fiddler for macOS, check out the new [Fiddler Everywhere](https://www.telerik.com/fiddler/fiddler-everywhere)! Check this [blog post](https://www.telerik.com/blogs/new-release-fiddler-everywhere-3) to learn more about it or directly see how easy is it to [setup and use Fiddler Everywhere on macOS](http://docs.telerik.com/fiddler-everywhere/get-started/quickstart-macos.html).
+>tip Update: If you are looking for Fiddler for macOS, check out the new [Fiddler Everywhere](https://www.telerik.com/fiddler/fiddler-everywhere). Check this [blog post](https://www.telerik.com/blogs/new-release-fiddler-everywhere-3) to learn more about it or directly see how to [set up and use Fiddler Everywhere on macOS](http://docs.telerik.com/fiddler-everywhere/get-started/quickstart-macos.html).
 
 
 Virtualization products like VMWare Fusion or Parallels Desktop permit Fiddler to run in a virtual machine on your Mac.
@@ -19,7 +19,7 @@ Virtualization products like VMWare Fusion or Parallels Desktop permit Fiddler t
 
 1. Install Parallels.
 
-2. Set the Windows Virtual Machine **Hardware > Network 1 Type** to **Bridged Network** mode.
+2. Set the Windows Virtual Machine **Hardware** > **Network 1 Type** to **Bridged Network** mode.
 
 3. Restart the Virtual Machine.
 
@@ -29,7 +29,7 @@ Virtualization products like VMWare Fusion or Parallels Desktop permit Fiddler t
 
 2. Open Fiddler.
 
-3. Click **Tools > Options > Connections**.
+3. Click **Tools** > **Options** > **Connections**.
 
 4. Click the checkbox by **Allow remote computers to connect**. 
 

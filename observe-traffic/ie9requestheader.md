@@ -22,7 +22,7 @@ previous_url: /observe-traffic/tasks/ie9requestheader
 	cols add @request.Accept
 	cols add @request.X-Download-Initiator
 	```
-3. Click **Rules > Customize Rules**.
+3. Click **Rules** > **Customize Rules**.
 
 4. Scroll to the static function Main() block , and add the following line within:
 	```bash

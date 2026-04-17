@@ -13,7 +13,7 @@ position: 8
 
 1. Create a [Fiddler Classic extension project](slug://CreateExtension).
 
-2. Modify the default class1.cs (or create a new class) in your project as follows:
+2. Modify the default `class1.cs` (or create a new class) in your project as follows:
 
 ```c#
 using System;

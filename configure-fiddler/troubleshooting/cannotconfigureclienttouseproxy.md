@@ -9,7 +9,7 @@ position: 2
 
 # Problem: Cannot Configure Client to Use Proxy Server
 
-The client device, application or platform has no option to use a proxy server like Fiddler. This is preventing capture of web traffic from the application.
+The client device, application, or platform has no option to use a proxy server like Fiddler. This prevents capture of web traffic from the application.
 
 ## Solution: 
 

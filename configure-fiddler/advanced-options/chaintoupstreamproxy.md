@@ -19,4 +19,4 @@ To configure Fiddler Classic to send and receive web traffic to and from another
 4. Type the address and port number for the upstream proxy.
 5. Restart Fiddler Classic application.
 
-You should now see the upstream proxy listed in the Fiddler Classic **About** dialog.
+You can now see the upstream proxy listed in the Fiddler Classic **About** dialog.

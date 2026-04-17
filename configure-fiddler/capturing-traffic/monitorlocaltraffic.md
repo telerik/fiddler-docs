@@ -1,5 +1,5 @@
 ---
-title: Monitor traffic to localhost from IE or .NET
+title: Monitor Traffic to Localhost from IE or .NET
 page_title: Monitoring Local Traffic from IE or .NET - Fiddler Classic
 description: Configure Fiddler Classic to capture local machine traffic and manage local proxy rules for loopback debugging.
 slug: MonitorLocalTraffic
@@ -8,11 +8,11 @@ position: 22
 previous_url: /configure-fiddler/tasks/monitorlocaltraffic
 ---
 
-# Monitor traffic to localhost from IE or .NET
+# Monitor Traffic to Localhost from IE or .NET
 
-To monitor traffic sent to **http://localhost** or **http://127.0.0.1** from IE8 or below or the .NET Framework:
+To monitor traffic sent to `http://localhost` or `http://127.0.0.1` from IE8 or below or the .NET Framework:
 
-+ Use your machine name as the hostname instead of **Localhost** or **127.0.0.1**
++ Use your machine name as the hostname instead of `localhost` or `127.0.0.1`
 
  For example, instead of 
 	
@@ -40,7 +40,7 @@ http://machinename:8081/mytestpage.aspx
 
 	`http://localhost.fiddler`
 
-+ Click **Rules > Customize Rules...** and add this code to the Rules file:
++ Click **Rules** > **Customize Rules...** and add this code to the Rules file:
 
 ```c#
 static function OnBeforeRequest(oSession:Fiddler.Session){

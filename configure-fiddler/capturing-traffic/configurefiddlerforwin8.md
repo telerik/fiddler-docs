@@ -1,5 +1,5 @@
 ---
-title: Capture traffic from Windows Metro-style applications
+title: Configure Fiddler Classic for Windows 8 Metro-Style Applications
 page_title: Capturing Windows Metro-Style App Traffic - Fiddler Classic
 description: Configure Fiddler Classic to capture HTTP traffic from Windows 8 and later Metro-style applications.
 slug: Windows8Config
@@ -10,7 +10,7 @@ previous_url: /configure-fiddler/tasks/configurefiddlerforwin8
 
 <!-- http://fiddler2.com/Fiddler/help/AndroidNexus7.asp -->
 
-# Configure Fiddler Classic for Windows 8 Metro-style applications
+# Configure Fiddler Classic for Windows 8 Metro-Style Applications
 
 Follow two steps to configure Fiddler Classic for Windows 8:
 
@@ -23,7 +23,7 @@ Follow two steps to configure Fiddler Classic for Windows 8:
 
       ![Win8 Config Button](./images/Win8Config.png)
 
-2.    Check the box next to each application that will send traffic to Fiddler Classic.  This requires Administrator privileges.
+2.    Check the box next to each application that will send traffic to Fiddler Classic. Checking this box requires Administrator privileges.
 
       ![AppContainer Loopback Exemption Utility](./images/AppContainerLoopbackExemptionUtility.png)
 

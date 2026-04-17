@@ -10,8 +10,8 @@ previous_url: /configure-fiddler/tasks/authenticatewithcbt
 
 # Configure Fiddler Classic to Authenticate to CBT-Protected Server
 
-1. Click **Rules > Customize Rules**.
-2. Scroll to the **OnPeekAtResponseHeaders** function.
+1. Click **Rules** > **Customize Rules**.
+2. Scroll to the `OnPeekAtResponseHeaders` function.
 3. Add the following code:
 	```c#
 	static function OnPeekAtResponseHeaders(oSession: Session) 

@@ -25,7 +25,7 @@ For more details about this issue, refer to the [Out of Memory explanation](http
 
 **Update:** Fiddler2 now supports running on 64-bit computers. If you are on a 64-bit machine, you will not encounter this problem.
 
-If you are on a 32-bit machine, you can avoid out-of-memory errors when downloading huge files by adding the following code inside the **OnPeekAtResponseHeaders** function inside **Rules** > **Customize Rules**. The line in red will cause Fiddler Classic not to keep a copy of the large file:
+If you are on a 32-bit machine, you can avoid out-of-memory errors when downloading huge files by adding the following code inside the `OnPeekAtResponseHeaders` function inside **Rules** > **Customize Rules**. The line in red causes Fiddler Classic not to keep a copy of the large file:
 
 ```js
 	// This block enables streaming for files larger than 5mb

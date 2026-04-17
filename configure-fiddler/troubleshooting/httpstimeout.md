@@ -15,8 +15,8 @@ This issue occurs on Windows Vista or later.
 
 ## Solution 1: Customize Fiddler Classic Rules to force SSLv3 handshake
 
-1. Click **Rules > Customize Rules**.
-2. Add this code to the **OnBeforeRequest** method (where "HTTPSsite.com" is the hostname of the destination server):
+1. Click **Rules** > **Customize Rules**.
+2. Add this code to the `OnBeforeRequest` method (where `HTTPSsite.com` is the hostname of the destination server):
 
 ```c#
 if (oSession.HTTPMethodIs("CONNECT") && oSession.HostnameIs("HTTPSSite.com")) 

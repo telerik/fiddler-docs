@@ -13,5 +13,5 @@ Fiddler Classic captures incomplete HTTP Responses
 
 ## Solution
 
-Ensure "Use HTTP1.1 through proxy servers" is checked on IE's **Tools > Internet Options > Advanced** tab, or similar settings in your browser of choice.
+Ensure "Use HTTP1.1 through proxy servers" is checked on IE's **Tools** > **Internet Options** > **Advanced** tab, or similar settings in your browser of choice.
 

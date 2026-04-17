@@ -47,7 +47,7 @@ namespace FiddlerUtility{
 csc /target:library /out:c:\UASim.dll UASimulator.cs /reference:"%localappdata%\Programs\Fiddler\fiddler.exe"
 ```
 
-5. In Fiddler, click **Tools > Options**.
+5. In Fiddler, click **Tools** > **Options**.
 
 6. Click the **Extensions** tab.
 

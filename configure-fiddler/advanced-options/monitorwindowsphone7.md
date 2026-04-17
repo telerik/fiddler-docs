@@ -13,23 +13,23 @@ previous_url: /configure-fiddler/tasks/monitorwindowsphone7
 ## Configure Fiddler
 
 1. Start Fiddler Classic on the Fiddler server (the machine that will capture the traffic).
-2. Click **Tools > Options**. Click **Allow remote clients to connect**. 
+2. Click **Tools** > **Options**. Click **Allow remote clients to connect**. 
  ![Allow remote clients to connect](./images/AllowRemoteComputersToConnect.png)
 3. Restart Fiddler.
 4. In the Windows Security Alert dialog, check all three checkboxes and click the **Allow Access** button.
  ![Windows Security Alert](./images/WindowsSecurityAlert.png)
 
-To verify this configuration, enable your Windows Phone WiFi connection and visit **http://FIDDLERSERVER:8888**, where FIDDLERSERVER is the machine name for the machine running Fiddler. This should display the **Fiddler Echo Service** web site.
+To verify this configuration, enable your Windows Phone WiFi connection and visit `http://FIDDLERSERVER:8888`, where FIDDLERSERVER is the machine name for the machine running Fiddler. This displays the **Fiddler Echo Service** web site.
 
 ## Configure Windows Phone
 
-1. Tap **Settings > WiFi**.
+1. Tap **Settings** > **WiFi**.
  ![Settings](./images/Settings.png)
 2. Tap the active WiFi connection.
  ![WiFi](./images/Wifi.png)
 3. Slide the **Proxy Slider** to **On**.
 4. In the **Server/URL** field, type the machine name for the Fiddler server.
-5. In the **Port** field, type **8888**.
+5. In the **Port** field, type `8888`.
  ![EditNetwork.png](./images/EditNetwork.png)
 6. Tap the checkmark icon.
 
@@ -49,7 +49,7 @@ Note: There is no known resource containing steps to remove security certificate
 
 After Fiddler Classic monitoring is complete:
 
-1. Tap **Settings > WiFi**.
+1. Tap **Settings** > **WiFi**.
 2. Tap the active WiFi connection.
 3. Slide the **Proxy Slider** to **Off**.
 

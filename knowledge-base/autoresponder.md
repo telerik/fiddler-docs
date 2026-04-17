@@ -29,7 +29,7 @@ Fiddler's AutoResponder tab allows you to return files from your local disk inst
 
 ## Creating AutoResponder Rules
 
-On the AutoResponder tab, you enter a **match rule** and an **action string**, and Fiddler Classic will undertake the action if the request URI matches the match rule.
+On the AutoResponder tab, you enter a **match rule** and an **action string**, and Fiddler Classic undertakes the action if the request URI matches the match rule.
 
 ### Tips
 
@@ -43,7 +43,7 @@ On the AutoResponder tab, you enter a **match rule** and an **action string**, a
 
 ### String Literals
 
-Fiddler Classic will match string literals (case insensitively)
+Fiddler Classic matches string literals (case insensitively)
 
 #### **\*** matches
 

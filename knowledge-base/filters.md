@@ -64,7 +64,7 @@ The following table summarizes the filters that we used to demonstrate how to di
 
 >When the text box is yellow, your changes have not yet been applied. Click anywhere outside the box to save your changes to the list.
 
-When configured to hide traffic to certain hosts, Fiddler Classic will still proxy traffic to those hosts, but that traffic will be hidden from the Fiddler Classic Session List. List multiple hosts using a semi-colon.
+When configured to hide traffic to certain hosts, Fiddler Classic still proxies traffic to those hosts, but that traffic is hidden from the Fiddler Classic Session List. List multiple hosts using a semi-colon.
 
 ![Filter to Hosts](./images/FilterToHosts.png)
 ## Client Process
@@ -74,7 +74,7 @@ The process filter allows you to control which processes' traffic is shown withi
 The **Hide traffic from Service Host** option will hide traffic from svchost.exe, a system process that synchronizes RSS Feeds and performs other background network activity.
 
 >Fiddler Classic can only determine the process name/PID owner of a request when the client application is running on the same computer as Fiddler Classic itself.
->When configured to hide traffic from certain processes, Fiddler Classic will still proxy their traffic, but that traffic will be hidden from the Fiddler Classic Session List.
+>When configured to hide traffic from certain processes, Fiddler Classic still proxies their traffic, but that traffic is hidden from the Fiddler Classic Session List.
 
 ## Breakpoints
 

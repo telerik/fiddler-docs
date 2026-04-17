@@ -12,6 +12,6 @@ previous_url: /observe-traffic/tasks/searchsessions
 
 To search through captured requests and responses:
 
-+ Click **Edit > Find Sessions...** and specify search options in the dialog.
++ Click **Edit** > **Find Sessions...** and specify search options in the dialog.
     ![Find Sessions](./images/FindSessions.png)
 + Enter a [command](slug://QuickExec) in the QuickExec box.

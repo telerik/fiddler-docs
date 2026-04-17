@@ -1,5 +1,5 @@
 ---
-title: Compare Traffic
+title: Compare Web Traffic
 page_title: Comparing Traffic Sessions - Fiddler Classic
 description: Compare traffic sessions side by side in Fiddler Classic to diagnose behavior changes.
 slug: CompareTraffic
@@ -15,16 +15,16 @@ previous_url: /observe-traffic/tasks/comparetraffic
 1. Select two sessions in the **Web Sessions List**.
 2. Right-click one of the sessions.
 3. Click **Compare** from the context menu. 
-By default, this will attempt to launch **WinDiff** or **WinMerge** to compare the traffic.
+By default, this attempts to launch **WinDiff** or **WinMerge** to compare the traffic.
 
 **Tips:**
 
-* If you are using WinDiff, you can cause it to break each line on punctuation by holding ALT or SHIFT while clicking on the **Compare** menu item.
-*You can set the **fiddler.differ.ultradiff**  [preference][5] to **False** if you don't want Fiddler Classic to attempt to reorganize the headers and URL for simpler diffing when saving the files.
+* If you are using WinDiff, you can cause it to break each line on punctuation by holding `Alt` or `Shift` while clicking on the **Compare** menu item.
+*You can set the `fiddler.differ.ultradiff` [preference][5] to `False` if you do not want Fiddler Classic to attempt to reorganize the headers and URL for simpler diffing when saving the files.
 
 ## Change default text comparison tool
 
-1. Click **Tools > Options > Tools**.
+1. Click **Tools** > **Options** > **Tools**.
 2. Enter the location for the tool executable.
 
 ## Set custom command-line arguments
@@ -38,7 +38,7 @@ In the [QuickExec box](slug://QuickExec):
         ```
         PREFS SET fiddler.differ.Params "/diff \"{0}\" \"{1}\""
         ```
-3. (Optional) Set an alternate command line that will be invoked if you hold ALT or SHIFT while invoking the comparison:
+3. (Optional) Set an alternate command line that is invoked if you hold `Alt` or `Shift` while invoking the comparison:
         ```
         PREFS SET fiddler.differ.ParamsAlt "/diff /binary \"{0}\" \"{1}\""
         ```

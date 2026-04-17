@@ -43,7 +43,7 @@ Fiddler Classic supports the following formats by default:
 
 + **[HTTP Archive JSON v1.2][3]** (*.har)
 
-   This format supports storage of non-textual response bodies. Because these .har files are not compressed, Fiddler Classic will only store non-textual content smaller than 32kb by default. This limit can be increased by setting a [Fiddler Classic Preference][5]: 
+   This format supports storage of non-textual response bodies. Because these .har files are not compressed, Fiddler Classic only stores non-textual content smaller than 32kb by default. This limit can be increased by setting a [Fiddler Classic Preference][5]: 
    
 ```txt
 fiddler.importexport.HTTPArchiveJSON.MaxBinaryBodyLength

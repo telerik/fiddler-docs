@@ -1,5 +1,5 @@
 ---
-title: Capture traffic from another machine
+title: Capture Traffic from Another Machine
 page_title: Capturing Remote Machine Traffic - Fiddler Classic
 description: Configure Fiddler Classic to capture HTTP traffic from a remote machine by setting up proxy or network settings.
 slug: MonitorRemoteMachine
@@ -14,7 +14,7 @@ previous_url: /configure-fiddler/tasks/monitorremotemachine
 
 1. Start Fiddler Classic on the Fiddler server (the machine that will capture the traffic).
 
-2. Click **Tools > Options**. Ensure **Allow remote clients to connect** is checked. 
+2. Click **Tools** > **Options**. Ensure **Allow remote clients to connect** is checked. 
 
  ![Allow remote clients to connect](./images/AllowRemoteComputersToConnect.png)
 
@@ -22,6 +22,6 @@ previous_url: /configure-fiddler/tasks/monitorremotemachine
 
  ![Set proxy address](./images/SetProxyAddress.jpg)
 
-## Decrypt HTTPS traffic from the Remote Machine
+## Decrypt HTTPS Traffic from the Remote Machine
 
 Configure the remote machine to [trust the FiddlerRoot certificate](slug://TrustFiddlerRootCert)

@@ -35,4 +35,4 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts
 "Tahoma (TrueType)"="TAHOMA.TTF"
 ```	
 
-If that does not help, you may be missing the **Tahoma** font on your computer (it should be in **c:\windows\fonts**), or the .NET Framework installation is corrupt. If you see the Font file, then try reinstalling the .NET Framework and all updates from WindowsUpdate.
+If that does not help, you may be missing the `Tahoma` font on your computer (it is typically in `c:\windows\fonts`), or the .NET Framework installation is corrupt. If you see the Font file, then try reinstalling the .NET Framework and all updates from WindowsUpdate.

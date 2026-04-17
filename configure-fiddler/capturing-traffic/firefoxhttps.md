@@ -1,5 +1,5 @@
 ---
-title: Capture HTTPS traffic from Firefox
+title: Capture HTTPS Traffic from Firefox
 page_title: Capturing HTTPS Traffic from Firefox - Fiddler Classic
 description: Learn how to set Firefox to trust the Fiddler root certificate and use the Fiddler Classic proxy for HTTPS capture.
 slug: FirefoxHTTPS
@@ -8,11 +8,11 @@ position: 24
 previous_url: /configure-fiddler/tasks/firefoxhttps
 ---
 
-# Capture HTTPS traffic from Firefox
+# Capture HTTPS Traffic from Firefox
 
 ## Configure Fiddler Classic 
 
-1. Click **Tools > Options**. 
+1. Click **Tools** > **Options**. 
 
 2. Click the **HTTPS** tab. Ensure the **Decrypt HTTPS traffic** checkbox is checked. 
 
@@ -20,11 +20,11 @@ previous_url: /configure-fiddler/tasks/firefoxhttps
 
 ## Configure Firefox
 
-- Open **Firefox > Settings > Network Settings**, choose **Manual Proxy Configuration** and enter the Fiddler proxy address as HTTP and HTTP(S) proxy.
+- Open **Firefox** > **Settings** > **Network Settings**, choose **Manual Proxy Configuration** and enter the Fiddler proxy address as HTTP and HTTP(S) proxy.
 
   ![Setting Fiddler proxy explicitly through the manual proxy configuration](./images/firefox-manual-proxy-settings.png)
 
-  >tip Note that newer Firefox versions already respect the system proxy by default (**Use system proxy settings** is selected by default). Use the manual configuration only if you need to capture Firefox traffic only and you would like to avoid polluting the captured sessions with system traffic.
+  >tip Note that newer Firefox versions already respect the system proxy by default (**Use system proxy settings** is selected by default). Use the manual configuration only if you need to capture Firefox traffic only and you want to avoid polluting the captured sessions with system traffic.
 
 - Trust the Fiddler Root Certificate
 
@@ -36,7 +36,7 @@ previous_url: /configure-fiddler/tasks/firefoxhttps
 
   - Option 2. Add the Fiddler root certificate in the Firefox certificate manager.
 
-    1. Open Firefox and type `about:preferences
+    1. Open Firefox and type `about:preferences`
 
     1. Type `certificates` in the search box and open **View Certificates**. The Firefox certificate manager opens.
 

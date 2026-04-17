@@ -8,10 +8,10 @@ position: 2
 res_type: kb
 ---
 
-To test application performance, [add rules](slug://AddRules) using FiddlerScript to the **OnBeforeResponse** function (except where noted). For example:
+To test application performance, [add rules](slug://AddRules) using FiddlerScript to the `OnBeforeResponse` function (except where noted). For example:
 
 **Simulate modem uploads** 
-(add to **OnBeforeRequest** function)
+(add to `OnBeforeRequest` function)
 
 ```c#
 // Delay sends by 300ms per KB uploaded.

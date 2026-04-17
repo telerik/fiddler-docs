@@ -11,11 +11,11 @@ position: 5
 
 The Fiddler Classic application loads a list of add-ons and extensions on startup or upon user actions (for example, open diff tool in inspectors). Additionally, users can download or create extensions or change the default tools' settings. To guarantee that harmless third-party tools are not loaded, the application automatically checks them, informs the user, and asks for consent to operate. The security dialog has three applicable options as follows:
 
-**Do not allow**: The action will be terminated immediately when chosen. The consent dialog will re-appear upon consecutive interactions of the same type.
+**Do not allow**: The action is terminated immediately when chosen. The consent dialog re-appears upon consecutive interactions of the same type.
 
-**Allow**: When chosen, the action is executed immediately. The consent dialog will appear upon consecutive interactions of the same type.
+**Allow**: When chosen, the action is executed immediately. The consent dialog appears upon consecutive interactions of the same type.
 
-**Always Allow**: When chosen, the action is executed immediately. The consent dialog will not appear in the future.
+**Always Allow**: When chosen, the action is executed immediately. The consent dialog does not appear in the future.
 
 ![security dialogs in Fiddler Classic](./images/security-dialogs.png)
 
@@ -39,7 +39,7 @@ The consent dialogs in Fiddler Classic are triggered upon the following actions 
 
 ## Reset All Consent Dialogs
 
-All consent dialogs in Fiddler Classic can be explicitly reset through the **Tools > Options > Extensions > Reset Allow Security Exceptions**
+All consent dialogs in Fiddler Classic can be explicitly reset through the **Tools** > **Options** > **Extensions** > **Reset Allow Security Exceptions**
 
 ![Reset security dialogs in Fiddler Classic](./images/security-dialogs-reset.png)
 
