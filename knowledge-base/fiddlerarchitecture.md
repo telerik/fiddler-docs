@@ -113,7 +113,7 @@ This reflects how much functionality the .NET Framework provides per line of cod
 
 ## HTTPS Protocol Support
 
-By default, Fiddler2 accepts SSLv3, TLSv1.0, TLSv1.1, and TLSv1.2 from the client, and offers the same protocol versions to the server. The response for the CONNECT tunnel shows the cipher chosen by the remote server and information about the server's certificate.
+By default, Fiddler Classic accepts SSLv3, TLSv1.0, TLSv1.1, and TLSv1.2 from the client, and offers the same protocol versions to the server. The response for the CONNECT tunnel shows the cipher chosen by the remote server and information about the server's certificate.
 
 The supported protocols are configurable through **Options > HTTPS > Protocols**. The default values vary depending on the Windows version.
 
