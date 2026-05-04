@@ -131,7 +131,7 @@ The supported protocols are configurable through **Options > HTTPS > Protocols**
 
 > **Note:** The negotiated cipher may differ from what would be chosen without Fiddler Classic intercepting the connection. To see the unintercepted behavior, disable **Decrypt HTTPS Traffic** in **Tools > Fiddler Classic Options**.
 
-Learn more about [HTTPS Decryption](../Configure-Fiddler/DecryptHTTPS).
+Learn more about [HTTPS Decryption](slug://DecryptHTTPS).
 
 ## Silent Installation
 
