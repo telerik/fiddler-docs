@@ -23,10 +23,11 @@ position: 12
 
 ## Fiddler Classic Architecture Info
 
-This page contains information about Fiddler's internal architecture which may be of interest for advanced users of Fiddler. Note that all information presented here is subject to change; expect that you will need to maintain your code if you use the functionality on this page.
+This page describes Fiddler's internal architecture for advanced users. All information here is subject to change; plan to maintain your code accordingly if you rely on any of the functionality described.
 
 ## Session State
-The Session.state property exposes information about the current request
+
+The `Session.state` property exposes information about the current request:
 
 ```c#
 public enum SessionStates
@@ -48,7 +49,8 @@ public enum SessionStates
 ```
 
 ## FiddlerApplication
-The static **FiddlerApplication** object collects interesting objects and event handlers useful for building extensions.
+
+The static **FiddlerApplication** object exposes key objects and event handlers useful for building extensions.
 
 ```c#
 public delegate void SimpleEventHandler();
@@ -67,13 +69,13 @@ public class FiddlerApplication
 	[CodeDescription("Fiddler's core proxy engine.")]
 	public static Proxy oProxy;
 
-	[CodeDescription("Fiddler's AutoResponder object.")]  REMOVED in v2.1.8
+	[CodeDescription("Fiddler's AutoResponder object.")]  // REMOVED in v2.1.8
 	public static AutoResponder oAutoResponder;
 
 	[CodeDescription("Fiddler's loaded extensions.")]
 	public static FiddlerExtensions oExtensions;
 
-	[CodeDescription("FiddlerScript scripting engine.")]   Likely to be removed
+	[CodeDescription("FiddlerScript scripting engine.")]   // Likely to be removed
 	public static FiddlerScript scriptRules;
 
 	[CodeDescription("Sync this event to be notified when Fiddler Classic has completed startup.")]
@@ -94,24 +96,47 @@ public class FiddlerApplication
 ```
 
 ## Fiddler SessionFlags
-Each Session object in Fiddler Classic contains a collection of string flags, in the Session.oFlags[] collection.  The flags control how the session is processed and displayed in Session List. See [Fiddler Classic Session Flags](http://fiddler2.com/Fiddler/dev/SessionFlags.asp) for more information.
+
+Each Session object in Fiddler Classic contains a collection of string flags in the `Session.oFlags[]` collection. The flags control how the session is processed and displayed in the Session List. See [Fiddler Classic Session Flags](http://fiddler2.com/Fiddler/dev/SessionFlags.asp) for more information.
 
 ## SessionTimers
-As it processes each Session, Fiddler Classic keeps track of key events using the .Timers object on each session. You can learn more about [what each SessionTimer means](http://fiddler.wikidot.com/Timers).
+
+As it processes each session, Fiddler Classic tracks key events using the `.Timers` object on each session. See [what each SessionTimer means](http://fiddler.wikidot.com/Timers) for more information.
 
 ## About Fiddler's sources
-According to [this line count tool](http://www.codeproject.com/useritems/LineCountUtility.asp), the main Fiddler Classic project consists of ~23k lines of C# code, after many recent refactorings to simplify the code.
 
-The default Inspector objects contain ~6k lines of code, and the FiddlerExtensions (RulesTab, RulesTab2, GalleryView, TimelineView) contain ~2k lines of code.
+According to [this line count tool](http://www.codeproject.com/useritems/LineCountUtility.asp), the main Fiddler Classic project consists of approximately 23,000 lines of C# code.
 
-As you can see, coding against the .NET Framework offers a lot of power per line of code.
+The default Inspector objects contain approximately 6,000 lines of code, and the FiddlerExtensions (RulesTab, RulesTab2, GalleryView, TimelineView) contain approximately 2,000 lines of code.
+
+This reflects how much functionality the .NET Framework provides per line of code.
 
 ## HTTPS Protocol Support
-By default, Fiddler2 accepts SSLv2 SSLv3 and TLSv1 from the client, and offers SSLv3 and TLSv1 to the server. The text in the response for the CONNECT tunnel shows what cipher the remote server chose, and shows information about the server's certificate.
 
-Note that this may be different than if Fiddler Classic were not intercepting the connection.  If you want to see what algorithms would have been chosen had Fiddler Classic not been involved, disable the Decrypt HTTPS Traffic feature using the Tools | Fiddler Classic Options menu.
+By default, Fiddler Classic accepts SSLv3, TLSv1.0, TLSv1.1, and TLSv1.2 from the client, and offers the same protocol versions to the server. The response for the CONNECT tunnel shows the cipher chosen by the remote server and information about the server's certificate.
 
-Learn more about [HTTPS Decryption](../Configure-Fiddler/Tasks/DecryptHTTPS).
+The supported protocols are configurable through **Options > HTTPS > Protocols**. The default values vary depending on the Windows version.
+
+**Windows 10** — TLS 1.3 is not fully supported, so it is excluded from the defaults:
+
+```txt
+<client>;ssl3;tls1.0;tls1.1;tls1.2
+```
+
+**Windows 11** — TLS 1.3 is fully supported and included by default:
+
+```txt
+<client>;ssl3;tls1.0;tls1.1;tls1.2;tls1.3
+```
+
+> **Note:** The negotiated cipher may differ from what would be chosen without Fiddler Classic intercepting the connection. To see the unintercepted behavior, disable **Decrypt HTTPS Traffic** in **Tools > Fiddler Classic Options**.
+
+Learn more about [HTTPS Decryption](slug://DecryptHTTPS).
 
 ## Silent Installation
-Want a silent / unattended install?  Use the setup command line: `FiddlerSetup.exe /S`
+
+To perform a silent (unattended) install, use the following command line:
+
+```
+FiddlerSetup.exe /S
+```
