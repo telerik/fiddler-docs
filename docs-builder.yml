@@ -17,6 +17,7 @@ no-results-image-path: ./images/common/ninja-no-results.svg # TODO get a Fiddler
 table-layout: fixed
 enable-tabbed-code-blocks: true
 gitLastCommitDateEnabled: true
+search-provider: nuclia
 
 cta-overview: '@ProductLink is a powerful web debugging tool that helps developers inspect, modify, and analyze HTTP and HTTPS traffic.'
 cta-intro: '@ProductLink is a web debugging proxy for Windows. It allows you to inspect and modify HTTP and HTTPS traffic from any application that supports a proxy.'
