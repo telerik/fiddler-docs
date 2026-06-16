@@ -55,6 +55,7 @@ meta:
         relativeUrl: /knowledge-base
         hideChildren: true
         res_type: kb
+        hideCta: true
         
 redirects: 
 - from: ^/$
