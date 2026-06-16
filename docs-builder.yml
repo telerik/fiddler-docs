@@ -21,6 +21,7 @@ search-provider: nuclia
 
 cta-overview: '@ProductLink is a powerful web debugging tool that helps developers inspect, modify, and analyze HTTP and HTTPS traffic.'
 cta-intro: '@ProductLink is a web debugging proxy for Windows. It allows you to inspect and modify HTTP and HTTPS traffic from any application that supports a proxy.'
+cta-small: 'Fiddler Classic is a web debugging proxy for Windows. It allows you to inspect and modify HTTP and HTTPS traffic from any application that supports a proxy.'
 
 img-max-width: 100%
 center-images: false
@@ -55,7 +56,6 @@ meta:
         relativeUrl: /knowledge-base
         hideChildren: true
         res_type: kb
-        hideCta: true
         
 redirects: 
 - from: ^/$
