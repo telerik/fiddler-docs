@@ -22,4 +22,4 @@ Fiddler Classic automatically decompresses response bodies encoded with the foll
 * **gzip**
 * **deflate**
 * **br** (Brotli)
-* **zstd** (Zstandard) — supported in Fiddler Classic v5.0.20253 and later. Chrome and Edge advertise `zstd` in the `Accept-Encoding` request header by default; Fiddler Classic can transparently decompress such responses so the body is readable in the Inspectors tab.
+* **zstd** (Zstandard) — supported in Fiddler Classic v6.0.20261 and later. Chrome and Edge advertise `zstd` in the `Accept-Encoding` request header by default; Fiddler Classic can transparently decompress such responses so the body is readable in the Inspectors tab.
