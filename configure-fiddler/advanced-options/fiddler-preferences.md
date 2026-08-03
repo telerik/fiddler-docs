@@ -67,7 +67,7 @@ prefs remove fiddler.ui.toolbar.mdnsearchurl
 All preference names must follow these rules:
 
 * Names are **not case-sensitive** — `fiddler.UI.Toolbar.Visible` and `fiddler.ui.toolbar.visible` refer to the same preference.
-* Names may only contain ASCII letters (A–Z), digits, dots (`.`), and dashes (`-`).
+* Names may only contain ASCII letters (A–Z), digits, dots (`.`), dashes (`-`), and underscores (`_`).
 * Names must be between 1 and 255 characters long.
 * Preferences with **`ephemeral`** in the name are not saved to or loaded from the registry — they reset on every Fiddler Classic restart.
 * Preferences with **`internal`** in the name cannot be created or modified by extensions or FiddlerScript.
