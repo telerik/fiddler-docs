@@ -50,7 +50,7 @@ To include a quote character inside a value, escape it with a backslash:
 prefs set fiddler.welcomemsg "I said \"Hello!\""
 ```
 
-When setting a file path, either include trailing whitespace or omit the final backslash to prevent parsing ambiguity:
+When setting a file path, omit the final backslash to prevent parsing ambiguity:
 
 ```sh
 prefs set fiddler.config.path.captures "C:\Work\Captures"
