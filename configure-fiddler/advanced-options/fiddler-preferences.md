@@ -28,9 +28,24 @@ Controls whether the Fiddler Toolbar is visible:
 fiddler.ui.toolbar.visible = "True"
 ```
 
-Controls whether the Fiddler disables filters (e.g. Filters tab, Hide Images/Connects, process class filter) after restart (otherwise, the filter state from the last Fiddler session is restored):
+Controls the placeholder text shown in the toolbar search box (the MDN search cue):
 ```bash
-fiddler.filters.ResetOnRestart = "False"
+fiddler.ui.toolbar.mdnsearchcue = "Search MDN..."
+```
+
+Controls the URL that is opened when you perform a search from the toolbar search box. By default this points to MDN, but you can replace it with any search URL that accepts a query string:
+```bash
+fiddler.ui.toolbar.mdnsearchurl = "https://developer.mozilla.org/en-US/search?q="
+```
+
+For example, to redirect toolbar searches to a custom internal wiki:
+```bash
+fiddler.ui.toolbar.mdnsearchurl = "https://wiki.example.com/search?q="
+```
+
+Controls whether Fiddler disables filters (e.g. Filters tab, Hide Images/Connects, process class filter) after restart (otherwise, the filter state from the last Fiddler session is restored):
+```bash
+fiddler.filters.resetonrestart = "False"
 ```
 
 String indicating which egressIP to use:
@@ -40,7 +55,7 @@ fiddler.network.egress.IP 131.107.0.111
 
 String indicating what hostname to use when registering as the system proxy. Should be 127.0.0.1 (default), localhost, the machine's name, or the machine's IP address.
 ```bash
-fiddler.network.proxy.RegistrationHostName = "127.0.0.1"
+fiddler.network.proxy.registrationhostname = "127.0.0.1"
 ```
 
 Controls whether Fiddler will request a client certificate from the client application any time a HTTPS connection is made; this is mostly useful for testing whether the client can properly handle attaching such a certificate. Note: You must restart Fiddler after setting this option for the change to take effect.
@@ -72,7 +87,7 @@ fiddler.network.streaming.abortifclientaborts = "False"
 Set to "True" to cause Fiddler to "forget" received bytes if they are streamed to the client. Similar to the SessionFlag 
 log-drop-response-body, but forgetting occurs during streaming rather than upon response completion:
 ```bash
-fiddler.network.streaming.ForgetStreamedData = "False"
+fiddler.network.streaming.forgetstreameddata = "False"
 ```
 
 Number of milliseconds Fiddler should wait for a request from the client on a new client connection:
@@ -373,6 +388,8 @@ fiddler.ui.rules.keeponly
 fiddler.ui.rules.removeencoding
 fiddler.ui.sessionlist.updateinterval
 fiddler.ui.toolbar.BrowserList
+fiddler.ui.toolbar.mdnsearchcue
+fiddler.ui.toolbar.mdnsearchurl
 fiddler.ui.toolbar.ShowLabels
 fiddler.ui.toolbar.visible
 fiddler.ui.WizardColumnSet
