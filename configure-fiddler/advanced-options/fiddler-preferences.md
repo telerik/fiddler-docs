@@ -43,7 +43,7 @@ For example, to redirect toolbar searches to a custom internal wiki:
 fiddler.ui.toolbar.MDNSearchURL = "https://wiki.example.com/search?q="
 ```
 
-Controls whether the Fiddler disables filters (e.g. Filters tab, Hide Images/Connects, process class filter) after restart (otherwise, the filter state from the last Fiddler session is restored):
+Controls whether Fiddler disables filters (e.g. Filters tab, Hide Images/Connects, process class filter) after restart (otherwise, the filter state from the last Fiddler session is restored):
 ```bash
 fiddler.filters.ResetOnRestart = "False"
 ```
