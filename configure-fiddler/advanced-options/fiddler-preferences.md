@@ -28,6 +28,21 @@ Controls whether the Fiddler Toolbar is visible:
 fiddler.ui.toolbar.visible = "True"
 ```
 
+Controls the placeholder text shown in the toolbar search box (the MDN search cue):
+```bash
+fiddler.ui.toolbar.MDNSearchCue = "Search MDN..."
+```
+
+Controls the URL that is opened when you perform a search from the toolbar search box. By default this points to MDN, but you can replace it with any search URL that accepts a query string:
+```bash
+fiddler.ui.toolbar.MDNSearchURL = "https://developer.mozilla.org/en-US/search?q="
+```
+
+For example, to redirect toolbar searches to a custom internal wiki:
+```bash
+fiddler.ui.toolbar.MDNSearchURL = "https://wiki.example.com/search?q="
+```
+
 Controls whether the Fiddler disables filters (e.g. Filters tab, Hide Images/Connects, process class filter) after restart (otherwise, the filter state from the last Fiddler session is restored):
 ```bash
 fiddler.filters.ResetOnRestart = "False"
@@ -373,6 +388,8 @@ fiddler.ui.rules.keeponly
 fiddler.ui.rules.removeencoding
 fiddler.ui.sessionlist.updateinterval
 fiddler.ui.toolbar.BrowserList
+fiddler.ui.toolbar.MDNSearchCue
+fiddler.ui.toolbar.MDNSearchURL
 fiddler.ui.toolbar.ShowLabels
 fiddler.ui.toolbar.visible
 fiddler.ui.WizardColumnSet

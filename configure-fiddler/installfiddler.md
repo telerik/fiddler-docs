@@ -7,7 +7,9 @@ position: 10
 previous_url: /configure-fiddler/tasks/installfiddler
 ---
 
-# Using Fiddler 
+# Using Fiddler
+
+>important **Commercial Use Is Moving to Fiddler Everywhere (effective September 17, 2026).** As of August 3, 2026, Fiddler Classic is licensed for **non-commercial use only** — personal use and internal business operations. Commercial, business, organizational, or revenue-generating use requires [Fiddler Everywhere](https://telerik.com/fiddler/fiddler-everywhere). See the [Fiddler Classic License Agreement](https://www.telerik.com/purchase/license-agreement/fiddler) for full terms.
 
 - Download the Fiddler product:
     * Download the latest version of [Fiddler Classic (Windows only)](https://www.telerik.com/download/fiddler).

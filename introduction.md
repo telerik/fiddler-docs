@@ -11,7 +11,7 @@ previous_url: /tasks/configurefiddler, /configure-fiddler/tasks/configurefiddler
 
 Progress® Telerik® Fiddler Classic is a web-debugging tool that monitors, inspects, edits, and logs all HTTPS traffic on Windows. Fiddler Classic is the original product that laid the fondations for the modern-day Fiddler Everywhere application.
 
->important Please be aware that Fiddler Classic is not in active development and offers no commitments for releases, patches or tech support. By using this product, you assume all associated risks. We recommend upgrading to [Fiddler Everywhere](https://telerik.com/fiddler/fiddler-everywhere).
+>important **Commercial Use Is Moving to Fiddler Everywhere (effective September 17, 2026).** As of August 3, 2026, Fiddler Classic is licensed exclusively for **non-commercial use** — personal use and internal business operations only. Commercial, business, organizational, or revenue-generating use requires [Fiddler Everywhere](https://telerik.com/fiddler/fiddler-everywhere), the supported commercial Fiddler offering. See the [Fiddler Classic License Agreement](https://www.telerik.com/purchase/license-agreement/fiddler) for full terms. Fiddler Classic is not in active development and offers no commitments for releases, patches, or technical support. By using this product you assume all associated risks.
 
 ## Get Started with Fiddler Classic
 
