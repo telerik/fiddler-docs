@@ -388,8 +388,8 @@ fiddler.ui.rules.keeponly
 fiddler.ui.rules.removeencoding
 fiddler.ui.sessionlist.updateinterval
 fiddler.ui.toolbar.BrowserList
-fiddler.ui.toolbar.MDNSearchCue
-fiddler.ui.toolbar.MDNSearchURL
+fiddler.ui.toolbar.mdnsearchcue
+fiddler.ui.toolbar.mdnsearchurl
 fiddler.ui.toolbar.ShowLabels
 fiddler.ui.toolbar.visible
 fiddler.ui.WizardColumnSet
